@@ -3,6 +3,7 @@ require 'simple_html_dom.php';
 $andriod_url = "https://play.google.com/store/apps/category/GAME/collection/topselling_new_free?num=8";
 $ios_url = 'http://www.apple.com/tw/itunes/charts/free-apps/';
 
+
 getAndriod_top();
 getIOS_top();
 	
