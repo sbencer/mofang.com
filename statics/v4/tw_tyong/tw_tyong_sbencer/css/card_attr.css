@@ -1,0 +1,86 @@
+/*common*/
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.clearfix{zoom : 1;}
+.clearfix:after{content : ' ';  height : 0; display : block; overflow : hidden; clear : both; }
+:focus { outline: 0;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+.filter_form{border-bottom:1px solid #d9d9d9; padding:18px 0 10px; font-family:"微软雅黑"; background-color:#f1f1f1; overflow:hidden;}
+.filter_form .item{padding:5px 0 5px 30px; color:#9f9f9f; font-size:14px; overflow:hidden;}
+.filter_form .item label.fl{width:58px; text-align:left; line-height:26px; color:#000000; font-weight:700;}
+.filter_form .item ul{width:625px; float:left; overflow:hidden;}
+.filter_form .item ul li{float:left; margin:0 25px 5px 0; display:inline; font-weight:700;}
+.filter_form .item ul li a{height:26px; line-height:26px; display:block; padding:0 18px; color:#9f9f9f; overflow:hidden;}
+.filter_form .item ul li.hover a{background-color:#b30006; color:#fff;}
+.filter_form .item ul li a:hover{background-color:#dedede;}
+.filter_form .item ul li.curr a{background-color:#b30006; color:#fff;}
+.filter_form .item .input_text{width:102px; height:18px; padding:5px; line-height:18px; border:1px solid #c6c6c6; color:#9f9f9f; display:inline-block; margin:0 8px; display:inline;}
+.filter_form .item div.fl{margin-left:-8px;}
+.filter_form .item .input_btn{width:94px; height:32px; text-align:center; line-height:26px; color:#fff; border:2px solid #d7d7d7; float:left; margin:10px 22px 0 8px; display:inline-block; font-size:16px; font-weight:700; background-color:#b30006; cursor:pointer; border-radius:3px;}
+.filter_form .item .reset_btn{background-color:#535353; border-color:#8d8d8d;}
+.filter_content{padding:25px 20px; overflow:hidden; font-family:"微软雅黑";background-color: #f1f1f1}
+.filter_content .title{margin-bottom:20px; overflow:hidden;}
+.filter_content .title .fl_curr{float:left; line-height:28px; margin-left:10px; font-weight:700; font-size:16px;}
+.filter_content .title ul.fr{border:1px solid #c6c6c6; padding:1px; background-color:#f1f1f1; overflow:hidden;}
+.filter_content .title ul.fr li{float:left; font-weight:700;}
+.filter_content .title ul.fr li a{display:block; height:24px; padding:0 10px; line-height:24px; color:#9f9f9f;}
+.filter_content .title ul.fr li.curr a{background-color:#b30006; color:#fff;}
+.filter_content .title ul.fr li a:hover{background-color:#b30006; color:#fff;}
+.filter_content .title .total_result{font-size:14px; color:#818181; border-bottom:1px solid #ce141a; font-weight:700; margin-right:10px; display:inline;}
+/*result_list*/
+.result_list{padding-left:3px; overflow:hidden;}
+.result_list li{width:86px; float:left; margin:5px; display:inline; line-height:36px; text-align:center; white-space:nowrap; overflow:hidden;}
+.result_list li a{color:#0659a6; font-weight:700;}
+.result_list li a img{width:86px; height:86px; display:block; overflow:hidden;}
+.result_list li a:hover{text-decoration:underline;}
+
+/*pagin*/
+.t_align_c{text-align:center;}
+.pagin{padding:15px 0; font-family:"微软雅黑"; display:inline-block; overflow:hidden;}
+.pagin a{float:left; height:40px; line-height:40px; padding:0 16px; margin:5px; display:inline-block; background-color:#dfdfdf; color:#666; font-weight:700; overflow:hidden;}
+.pagin a.pagin_index,.pagin a.pagin_end{padding:0 25px; margin:5px 15px; border-radius:5px;} 
+.pagin a.curr,.pagin a.page-on{background-color:#b30006; color:#fff;}
+.pagin a:hover{background-color:#b30006; color:#fff;}
+.ignore{float:left; height:40px; line-height:40px; padding:0 16px; margin:5px; display:inline-block; background-color:#dfdfdf; color:#666; font-weight:700; overflow:hidden;}
+/*filter_table*/
+.filter_table{width:100%; padding-top:30px; color:#9f9f9f;}
+.filter_table td,.filter_table th{padding:20px 5px; text-align:center; vertical-align:middle;}
+.filter_table th{margin:10px 0; padding:10px 5px; background-color:#f1f1f1; border:none;}
+.filter_table td{border:none; border-bottom:1px solid #f1f1f1;}
+.filter_table .down,.filter_table .up{padding-right:12px; background:url(/statics/v4/tw_tyong/img/up_down.png) right 2px no-repeat; color:#9f9f9f;}
+.filter_table .up{background-position:right -16px;}
+.role_name{color:#9f9f9f; vertical-align:middle;}
+.role_name img{width:36px; height:36px; float:left; overflow:hidden;}
+.role_name strong{max-width:65px; line-height:36px; float:left; white-space:nowrap; margin-left:2px; display:inline; overflow:hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

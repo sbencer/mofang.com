@@ -1,0 +1,41 @@
+.nav_bott{
+	width: 100%;
+	height: 66px;
+	min-width:1000px;
+	background: url(/statics/v4/tw_tyong/img/brown/nav_bg_02.png) center no-repeat;
+	position: absolute;
+	z-index: 7;
+}
+
+.con_nav{
+	margin: auto;
+	width: 1000px;
+	height: 70px;
+	line-height: 70px;
+	background: url(/statics/v4/tw_tyong/img/brown/con_bg_03.jpg) no-repeat;
+}
+
+.ic_bg{
+	height: 50px;
+	line-height: 50px;
+	background: url(/statics/v4/tw_tyong/img/brown/icon_bg_03.png) no-repeat;
+	font-size: 16px;
+   padding-left: 90px;
+}
+
+.title1-bg{
+	background: url(/statics/v4/tw_tyong/img/brown/title1_bg.jpg) left center no-repeat;
+}
+
+.nav-com-list li.curr{
+	background: url(/statics/v4/tw_tyong/img/brown/tit_active.jpg) left center no-repeat;
+	background-size: cover;
+	-webkit-box-shadow: 0 0 20px #fcff00;
+	-moz-box-shadow: 0 0 20px #fcff00;
+	-o-box-shadow: 0 0 20px #fcff00;
+	box-shadow: 0 0 20px #fcff00;
+}
+
+.title2-bg{
+	background: url(/statics/v4/tw_tyong/img/brown/title2_bg.jpg) left center no-repeat;
+}

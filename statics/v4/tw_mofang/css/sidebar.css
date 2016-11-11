@@ -1,0 +1,42 @@
+.hw-sidebar{
+	width:80px;
+	overflow: hidden;
+	position: fixed;
+	left:50%;
+	margin-left:510px;
+	top: 302px;
+	z-index: 99;
+	background: #fff;
+}
+.hw-sidebar li a:hover{
+	color:#FD9814;
+}
+.hw-sidebar li a{
+	display: inline-block;
+	width:80px;
+	height: 73px;
+	padding-top: 7px;
+	color:#666666;
+	text-align: center;
+}
+.bg-grey{
+	background-color: #eaeaea;
+}
+.hw-sidebar li a img{
+	display: block;
+	margin:auto;
+	width:50px;
+	height:50px;
+	border-radius: 6px;
+}
+.go-top{
+	width:45px;
+	height:37px;
+	line-height: 37px;
+	color:#fff;
+	display: block;
+	padding-left:35px;
+	cursor: hand;
+	cursor: pointer;
+	background: url(/statics/v4/tw_mofang/img/go_top.png) #379FE8 7px center no-repeat;
+}

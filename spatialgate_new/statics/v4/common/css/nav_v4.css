@@ -1,0 +1,424 @@
+/*
+ * Mofang V4
+ *
+ */
+/* =Common
+-----------------------------------------------------------------------------*/
+/* Refactor Reset */
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+dl, menu, ol, ul, dd, p{
+    padding: 0;
+    margin: 0;
+}
+ol, ul{
+    list-style: none;
+}
+body{
+    font:12px/1.5 "Microsoft Yahei",Helvetica,Arial,sans-serif,"\5b8b\4f53";
+    color: #333;
+    background: #EEE;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    color:#FD9814;
+    text-decoration:underline;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*向左向右*/
+.mf-right{
+    float:right;
+}
+.mf-left{
+    float:left;
+}
+
+/*显示隐藏*/
+.mf-hide {
+    display:none;
+}
+.mf-show {
+    display:block;
+}
+.mf-invisible {
+    visibility:hidden;
+}
+.mf-affix {
+    position:fixed;
+    top:0;
+}
+
+/*省略号*/
+.mf-ell {
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;}
+
+/*内联块*/
+.mf-inb {
+    display:inline-block;
+    vertical-align:middle;
+    *display:inline;
+    *zoom:1;
+ }
+
+/*强制文本换行*/
+.mf-wrap {
+     word-wrap:break-word;
+     word-break:break-all;
+}
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+
+#header{
+    width: 100%;
+    background:#FAFAFA;
+    min-height: 110px;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+.mf-container{
+    width: 1000px;
+    margin: 0 auto;
+    background: #FFF;
+    position: relative;
+    z-index: 11;
+    padding: 0 0 40px;
+    box-shadow: 0 5px 10px rgba(153,153,153, 0.2);
+}
+.mf-row{
+    padding: 0 20px;
+}
+.column-one{
+    display: inline;
+    width: 400px;
+    min-height: 10px;
+}
+.column-two{
+    display: inline;
+    width: 260px;
+    margin: 0 20px;
+    min-height: 10px;
+}
+.column-three{
+    display: inline;
+    width: 260px;
+    min-height: 10px;
+}
+.column-four{
+    display: inline;
+    width:680px;
+}
+.mf-mb20{
+    margin-bottom: 20px;
+}
+
+.show-header-wrap {
+    background: #333;
+    width: 100%;
+}
+.show-header {
+    height: 42px;
+    line-height: 40px;
+    color:#ccc;
+    width: 1000px;
+    margin:0 auto;
+}
+.show-header-app {
+    margin-right: 40px;
+    float:left;
+    position:relative;
+}
+.show-header-app-down {
+    width:226px;
+    background: #1e1e1f;
+    position:absolute;
+    z-index:999;
+    font-size: 14px;
+    color:#ccc;
+    display:none;
+}
+.J_hd_active {
+    background: #353535;
+}
+.show-header-app-down img {
+    float:left;
+    margin-right: 10px;
+    display: inline;
+}
+.show-header-app-down li {
+    position:relative;
+}
+.show-header-app-down li a {
+    display:block;
+    padding: 15px;
+    _height:46px;
+    *height:46px;
+}
+.show-header-app-down li a:hover {
+    background:#353535;
+    text-decoration:none;
+}
+.show-header-app-down li a:hover .app-arrow {
+    background:url("/statics/v4/common/img/icon_b.png") no-repeat;
+}
+.show-header-app h2 {
+    width: 100px;
+    padding-left:5px;
+    font-size:12px;
+    position:relative;
+    border-top:2px solid #333;
+    font-weight: 700;
+}
+.show-down-icon {
+    background: url("/statics/v4/common/img/app_icon.png") right center no-repeat;
+    width: 10px;
+    height: 5px;
+    display:block;
+    right:12px;
+    top: 18px;
+    position:absolute;
+    -webkit-transition: .3s ease-in;
+    -moz-transition: .3s ease-in;
+    -o-transition: .3s ease-in;
+    transition: .3s ease-in;
+}
+.show-header-app .J_hoverdown {
+    background: #1e1e1f;
+    border-top:2px solid #fc9914;
+}
+.show-header-app .J_hoverdown a {
+    color:#fff;
+}
+.J_hoverdown .show-down-icon {
+    background: url("/statics/v4/common/img/icon_s.png") right center no-repeat;
+}
+.show-header-logo {
+    float:left;
+    margin-right: 35px;
+}
+.show-header-logo h1 {
+    background: url("/statics/v4/common/img/video_logo.png") left center no-repeat;
+    padding-left: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-top: 2px;
+}
+.show-header-info-wrap {
+    margin-top: 4px;
+}
+.show-header .app-down-icon, .show-header .and-down-icon {
+    background: url("/statics/v4/common/img/v_and.png") left center no-repeat;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    padding-left:15px;
+    color:#666;
+    font-size:12px;
+}
+.show-header .app-down-icon {
+    background: url("/statics/v4/common/img/v_app.png") left center no-repeat;
+}
+.app-arrow {
+    background: url("/statics/v4/common/img/icon_b2.png") no-repeat;
+    position:absolute;
+    width: 10px;
+    height: 19px;
+    right:8px;
+    top:25px;
+}
+.show-header-menu {
+    height:42px;
+    float:left;
+    display: inline;
+}
+.J_hover_app a:hover {
+    text-decoration:none;
+}
+.show-header-menu ul {
+    overflow:hidden;
+    padding-top: 2px;
+}
+.show-header a {
+    position: relative;
+    color:#ccc;
+    font-size: 12px;
+}
+.show-header a:hover {
+    color: #FC9914!important;
+}
+.show-header-info {
+    font-size: 14px;
+    line-height:normal;
+    overflow: hidden;
+    zoom: 1;
+    _display: inline;
+}
+.show-header-menu li {
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 9px;
+    background: url("/statics/v4/common/img/line.png") no-repeat left center;
+    margin-left: -1px;
+    zoom: 1;
+    *display: inline;
+    _display: inline;
+}
+.show-header-user {
+    float:right;
+    display: inline;
+    line-height: 40px;
+    padding-top: 2px;
+    _margin-top: 10px;
+}
+.show-header-user .user-img {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right:4px;
+}
+.show-header-user .show-header-user-name {
+    color: #fc991A;
+    background:url("/statics/v4/common/img/icon_r.png") no-repeat right center;
+    padding-right: 10px;
+}
+.user-line {
+    padding:0 4px;
+}
+.show-header-submenu {
+    position:relative;
+    height: 49px;
+    background: #fafafa;
+    width: 100%;
+    z-index:99;
+    border-bottom: 1px solid #E5E5E5;
+}
+.show-header-submenu-content {
+    width:1000px;
+    margin:0 auto;
+}
+.header-submenu-logo {
+    float:left;
+    margin-top:8px;
+    margin-right: 45px;
+}
+.show-header-submenu-list {
+    overflow: hidden;
+    float: left;
+    display: inline;
+    width: 780px;
+    font-family:"Microsoft Yahei", Helvetica;
+}
+.show-header-submenu-list li {
+    margin:0 10px 0 20px;
+    float: left;
+}
+.show-header-submenu-list li a {
+    font-size: 16px;
+    display:inline-block;
+    height: 48px;
+    line-height: 48px;
+    _position: relative;
+    _bottom: -1px;
+}
+.show-header-submenu-list li a:hover {
+    text-decoration: none;
+}
+.submenu_active {
+    border-bottom:2px solid #fd9814;
+    color:#fd9814;
+    font-weight:bold;
+}
+.show-header-submenu-search {
+    border:1px solid #e7e7e7;
+    border-radius: 30px;
+    background: #fff;
+    width:143px;
+    height: 30px;
+    float:right;
+    padding: 0 35px 0 20px;
+    position:relative;
+    margin-top: 11px;
+    overflow: hidden;
+    _display: inline;
+}
+.show-header-submenu .show-header-search-text {
+    border:0 none;
+    height: 30px;
+    outline:none;
+    width: 205px;
+    font-size: 12px;
+}
+.show-header-search-btn {
+    background: url("../img/video_search.png") no-repeat;
+    width:17px;
+    height: 17px;
+    border:0 none;
+    overflow: hidden;
+    position:absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+.show-header-menu li a:hover, .header-login-user a:hover {
+    text-decoration: underline;
+}
+.mf-mb30 {
+    margin-bottom: 30px;
+}
+.news-wrap {
+    margin-top: -30px;
+}
+.show-header-user .header-login-user {
+    margin-right: 0;
+    display: inline-block;
+}
+.show-header-user .login-before {
+    background: url(/statics/v4/common/img/v_user_no.png) no-repeat left center;
+    padding-left:28px;
+}
+.show-header-user .ui-line {
+    font-weight: bold;
+    margin: 0;
+}
+.show-header-user .login-after {
+    background: url(/statics/v4/common/img/user_icon.png) no-repeat left center;
+    padding-left:28px;
+}
+.loginout img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-right:4px;
+}

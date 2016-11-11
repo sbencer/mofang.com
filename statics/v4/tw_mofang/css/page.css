@@ -1,0 +1,42 @@
+.hw-page{
+	text-align: center;
+	width: 100%;
+	font-size: 0;
+	padding:30px 0;
+}
+
+.hw-page a{
+	display: inline-block;
+	height:18px;
+	_display:inline;
+	font-size: 14px;
+	border: 1px solid #CDCDCD;
+	margin:0 5px;
+	line-height: 18px;
+	text-align: center;
+	color:#999;
+	vertical-align: middle;
+	border-radius: 30px;
+	padding: 0 5px;
+}
+.hw-page a.curr, .hw-page a.page-on{
+	background:#EC9820;
+	border: 1px solid #EC9820;
+	color:#fff;
+}
+.hw-page a.hw-prev{
+	height:20px;
+	width:20px;
+	background: url(/statics/v4/tw_mofang/img/page_l.jpg) center no-repeat;
+	border:0;
+	width:20px;
+	padding:0;
+}
+.hw-page a.hw-next{
+	height:20px;
+	width:20px;
+	background: url(/statics/v4/tw_mofang/img/page_r.png) center no-repeat;
+	border:0;
+	width:20px;
+	padding:0;
+}

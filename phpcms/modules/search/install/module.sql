@@ -1,0 +1,1 @@
+INSERT INTO `phpcms_module` (`module`, `name`, `url`, `iscore`, `version`, `description`, `setting`, `listorder`, `disabled`, `installdate`, `updatedate`) VALUES ('search', '全文搜索', '', 0, '1.0', 'Solr全文搜索服务', '', 0, 0, '2013-10-11', '2013-10-11');

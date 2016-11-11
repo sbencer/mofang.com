@@ -1,0 +1,454 @@
+<?php
+	class WanyouApi{
+
+		private $info_type;
+		private $package;
+
+		public function __construct(){
+
+			$this->package = $_GET['package'];
+			$this->info_type = $_GET['type'];
+			$this->appid = $_GET['appid'];
+
+			$this->pagesize = isset($_GET['pagesize']) ? intval($_GET['pagesize']) :10;
+			$this->pagesize = ($this->pagesize > 0) && ($this->pagesize < 100) ? $this->pagesize : 10;
+
+            //攻略/资讯对应专区id
+			$this->appid = isset($_GET['appid']) ? intval($_GET['appid']) : 0;
+            //攻略对应catid
+			$this->catid = isset($_GET['catid']) ? intval($_GET['catid']) : 0;
+
+            //用户id
+			$this->uid = isset($_GET['uid']) ? intval($_GET['uid']) : 0;
+
+            $this->curr_page = intval($_GET['page']) ? intval($_GET['page']) : 1;
+            $this->pagenum = intval($_GET['nums']) ? intval($_GET['nums']) : 15;
+
+            //搜索
+            $this->typeid  = intval($_GET['typeid']) ? intval($_GET['typeid']): 0;
+            $this->keyword = $_POST['search'] ? $_POST['search'] : '';
+
+			$this->get_info();
+		}
+
+		/**
+		  * 
+          * @Param
+          *
+		 */
+		public function info_list_part($partid){
+
+            //分页
+		    $currpage = $_GET['currpage'] ? $_GET['currpage'] : 1;
+		    $pagenum = $_GET['pagenum'] ? $_GET['pagenum'] : 100;
+		    $ajax = ($_GET['ajax']&&$_GET['ajax']==1) ? 1 : 0;
+
+			$db_content = pc_base::load_model('content_model');
+			$db_content_part = $db_content;
+
+		    $db_partition = pc_base::load_model('partition_model');
+		    $db_partition_game = pc_base::load_model('partition_games_model');
+
+
+            //查是否是专区/子栏目
+            $partition_info = $db_partition->get_one('`catid`='.$partid, 'parentid,setting');
+            if($partition_info['parentid']==0){//专区
+
+                $tab_channel = $db_partition->select("(`arrparentid` like '%,".$partid."' OR `arrparentid` like '%,".$partid.",%') AND `is_tab2`=1", 'catid,catname,setting');
+                //$tab_channel = $db_partition->select("`arrparentid` like '%".$partid."%' AND `is_tab2`=1", 'catid,catname,setting');
+                $result['tab'] = array();
+                $temp_array = array();
+                $catids = '';
+                foreach( $tab_channel as $k_tc=>$v_tc ){
+                    $temp_setting = string2array($v_tc['setting']);
+                    $temp_array['image'] = $temp_setting['new_tab_image'];
+                    $temp_array['url'] = 'http://www.mofang.com/zhushou/gonglue/'.$this->appid.'.html?catid='.$v_tc['catid'];
+                    $temp_array['title'] = $v_tc['catname'];
+                    $result['tab'][] = $temp_array;
+                    $catids .= ','.$v_tc['catid'];
+                }
+                $catids = trim($catids, ',');
+                if(empty($catids)){
+                    $game_id = get_wanyou_games($this->appid);
+                    $modelid = 1;
+					$guide_catid = '103,190';
+					$info_list = $this->info_list_base($guide_catid, $this->info_type, $modelid, "`gameid`='|21-".$game_id."|'");
+                    if(empty($info_list)){//无攻略内容
+                        echo "暂无攻略!";
+                    }else{
+		                include template('api', 'list', 'mofang_v2');
+                    }
+                    exit();
+                }
+
+                //home内容
+                $result['type'] = 0;
+                //查Tab项
+
+
+                //1.查询专区下攻略栏目内容(一样全查,因为需要排序)
+                //$part_set = string2array($partition_info['setting']);
+                //$catids = $part_set['app_gonglue_cha'];
+            }else{//子栏目
+                //列表内容
+                $result['type'] = 1;
+                $catids = $partid;
+            }
+            //专区攻略->所有子栏目
+            //$catids可能为空
+            $arrchildids = $db_partition->select('`catid` IN ('.$catids.')', 'arrchildid');
+            $str_arrchildid = '';
+            foreach( $arrchildids as $k_as=>$v_as ){
+                $str_arrchildid .= ','.$v_as['arrchildid'];
+            }
+            $str_arrchildid = trim($str_arrchildid, ',');
+            $guide_list = $db_partition_game->listinfo('`part_id` IN ('.$str_arrchildid.')', '`listorder` DESC');
+            $guide_total = $db_partition_game->count('`part_id` IN ('.$str_arrchildid.')');
+            //总数
+            $result['total'] = $guide_total;
+
+
+            $info_list = array();
+            foreach( $guide_list as $k_gl=>$v_gl){//攻略列表
+                $db_content_part->set_model($v_gl['modelid']);
+                //最好限字段
+                $info_list[]=$db_content_part->get_one('`id`='.$v_gl['gameid']);
+            }
+
+            //这个列表需增加按更新时间排序
+            if($this->appid!=526804){
+                usort($info_list, 'partition_list_cmp');
+            }
+            $info_list = array_slice($info_list, $currpage, $pagenum);
+            $result['list'] = $info_list;
+
+            if( $ajax ){
+		        echo json_encode($result);
+            }else{
+			    return $result;
+            }
+        }
+
+		/**
+		  * 构造符合结构的信息列表
+		  * @Param
+		  *		$catids 	要查询的catid
+		  *		$type 		查询的数据类型
+		  *		$modelid 	数据模型id
+		  *
+		 */
+		private function info_list_base($catids, $type, $modelid, $sql_add=''){
+
+            //分页
+		    $currpage = $_GET['currpage'] ? $_GET['currpage'] : 1;
+		    $pagenum = $_GET['pagenum'] ? $_GET['pagenum'] : 100;
+		    $ajax = ($_GET['ajax']&&$_GET['ajax']==1) ? 1 : 0;
+
+			$db_content = pc_base::load_model('content_model');
+			//$db_content->set_model( $modelid );
+
+			$sql = '`catid` IN ('.$catids.')';
+			$sql .= ' AND `status`=99';
+            $sql .= $sql_add ? ' AND '.$sql_add : '';
+
+			$db_content->set_model( $modelid );
+			$info_list = $db_content->listinfo($sql, '`updatetime` DESC,`id` DESC', $currpage, $pagenum );
+
+			foreach( $info_list as $key=>$value ){
+
+				//更新时间
+				$info_list[$key]['update_time'] = $value['updatetime'];
+
+				$news_data_content = pc_base::load_model('content_model');
+                $news_data_content->table_name = 'www_news_data';
+				$temp_column = $news_data_content->get_one( '`id`='.$value['id'], 'content,copyfrom' );
+				//内容
+				$info_list[$key]['content'] = $temp_column['content'];
+				//文章来源
+				$temp_column['copyfrom'] = explode( '|', $value['copyfrom'] );
+				$temp_column['copyfrom'] = $temp_column['copyfrom'][0] ? $temp_column['copyfrom'][0] : '魔方网';
+				$info_list[$key]['source'] = $temp_column['copyfrom'];
+
+				//关联游戏
+				if( $value['gameid'] ){
+					$db_content_game = $db_content;
+					$temp_relate_game = trim( $value['gameid'], '|' );
+					$temp_relate_game = explode( '-', $temp_relate_game );
+					switch( $temp_relate_game[0] ){
+						case '20':
+							$db_content_game->set_model(20);
+							$select_fields = 'title';
+							break;
+						case '21':
+							$db_content_game->set_model(21);
+							$select_fields = 'title,package_name';
+							break;
+					}
+					$temp_game_name = $db_content_game->get_one('`id`='.$temp_relate_game[1], $select_fields);
+					$info_list[$key]['game_name'] = $temp_game_name['title'];
+					$info_list[$key]['package_name'] = $temp_game_name['package_name'] ? $temp_game_name['package_name'] : '';
+
+				}else{
+					$info_list[$key]['game_name'] = '';
+					$info_list[$key]['package_name'] = '';
+				}
+				
+				$info_list[$key]['type'] = $type;
+
+				unset($info_list[$key]['updatetime']);
+				unset($info_list[$key]['gameid']);
+
+			}
+
+            if( $ajax ){//ajax请求数据
+		        echo json_encode($info_list);
+            }else{
+			    return $info_list;
+            }
+		}
+        /*
+         * 礼包列表
+         *
+         **/
+        private function gift_list( $game_id='', $keyword='' ){
+
+		    $db_privilege_account_model = pc_base::load_model('privilege_account_model');
+            $db_privilege_rule = pc_base::load_model('privilege_rule_model');
+		    $db_privilege_account_nums_model = pc_base::load_model('privilege_account_nums_model');
+			$db_content = pc_base::load_model('content_model');
+            
+            if(!empty($keyword)){
+                $sql = "`name` like '%".$keyword."%' AND `modelid`=21";
+            }else{
+                //有效期内的
+                $sql = "1 AND `modelid`=21";
+                $sql .= $game_id ? ' AND `gameid`='.$game_id : '';
+            }
+
+            $limit = '';
+            $privilege_list = $db_privilege_account_model->select($sql,'*',$limit,'`intime` DESC');
+
+            foreach( $privilege_list as $k_dc=>$v_dc ){
+
+                //魔方app礼包
+                $temp_rule = $db_privilege_rule->get_one('`privilege_id`='.$v_dc['id'], 'rule_json');
+                if($temp_rule['rule_json'] && ($temp_rule_array=json_decode($temp_rule['rule_json'], true)) ){
+                    $temp_rule_array = json_decode($temp_rule['rule_json'], true);
+                    if(!$temp_rule_array['mofang_app'] && !$temp_rule_array['zhushou_redirect']){
+                        unset($privilege_list[$k_dc]);
+                        continue;
+                    }
+                }
+
+                $db_content->set_model($v_dc['modelid']);
+                $temp_game_info = $db_content->get_one('`id`='.$v_dc['gameid'], 'title,url,icon');
+                $privilege_list[$k_dc]['game_title'] = $temp_game_info['title'];
+                $privilege_list[$k_dc]['game_url'] = $temp_game_info['url'];
+                $privilege_list[$k_dc]['game_icon'] = $temp_game_info['icon'];
+
+                //号码
+                $privilege_list[$k_dc]['total_hao'] = $db_privilege_account_nums_model->count('`privilegeid`='.$v_dc['id']);
+                $privilege_list[$k_dc]['last_hao'] = $db_privilege_account_nums_model->count('`privilegeid`='.$v_dc['id'].' AND `occupy_userid`=0');
+            }
+
+
+            return $privilege_list;
+        }
+
+		/**
+		  * 信息列表
+		  * @Param	
+          *         None
+		  *
+		 */
+		private function get_info(){
+			//$this->package;
+			$info_list = array();
+			switch( $this->info_type ){
+                //资讯
+				case 'news':
+                    $modelid = 1;
+					$news_catid = '101,188'; 
+					$info_list = $this->info_list_base( $news_catid, $this->info_type, $modelid );
+                    $news=1;
+		            include template('api', 'list', 'mofang_v2');
+                    exit();
+				break;
+                //攻略
+				case 'guide':
+                    $game_id = get_wanyou_games($this->appid);
+
+                    //关联专区
+                    $part_id = 0;
+                    if( $game_id ){//查询关联专区
+		                $db_partition_relationgames = pc_base::load_model('partition_relationgames_model');
+                        $part_id = $db_partition_relationgames->get_one('`modelid`=21 AND `gameid`='.$game_id, 'part_id');
+                        $part_id = $part_id['part_id'];
+                    }
+
+                    if($this->appid==611906 && !$this->catid){//天天爱西游
+
+		                $db_partition_game = pc_base::load_model('partition_games_model');
+                        //$db_partition_game->select(``);
+
+                        $db_content = pc_base::load_model('content_model');
+                        $channel_id = array(5359,5360,5361,5362,5363,5364);
+                        $pos_list = array();
+                        foreach($channel_id as $channel_val){
+                            $long_res = $db_content->query("SELECT b.id,b.modelid FROM www_partition_games AS a,www_position_data AS b WHERE a.gameid=b.id AND a.modelid=b.modelid AND b.posid=127 AND a.part_id=".$channel_val);
+                            $pos_list['long'][$channel_val] = array();
+                            foreach( $db_content->fetch_array() as $k_long=>$v_long ){
+                                $db_content->set_model($v_long['modelid']);
+                                $temp_title = $db_content->get_one("`id`=".$v_long['id'], 'title');
+                                $pos_list['long'][$channel_val][$k_long]['title'] = $temp_title['title'];
+                                $temp_url = $db_content->get_one("`id`=".$v_long['id'], 'url');
+                                $pos_list['long'][$channel_val][$k_long]['url'] = $temp_url['url'];
+                            }
+                            $short_res = $db_content->query("SELECT b.id,b.modelid FROM www_partition_games AS a,www_position_data AS b WHERE a.gameid=b.id AND a.modelid=b.modelid AND b.posid=128 AND a.part_id=".$channel_val);
+                            $pos_list['short'][$channel_val] = array();
+                            foreach( $db_content->fetch_array() as $k_long=>$v_long ){
+                                $db_content->set_model($v_long['modelid']);
+                                $temp_title = $db_content->get_one("`id`=".$v_long['id'], 'shortname');
+                                $pos_list['short'][$channel_val][$k_long]['title'] = $temp_title['shortname'];
+                                $temp_url = $db_content->get_one("`id`=".$v_long['id'], 'url');
+                                $pos_list['short'][$channel_val][$k_long]['url'] = $temp_url['url'];
+                            }
+                        }
+
+		                include template('api', 'ttaxy2', 'mofang_v2');
+                    }elseif($this->appid==526804 && !$this->catid ){
+		                include template('api', 'luobo2', 'mofang_v2');
+                    }elseif($part_id){//有game_id关联专区
+                        //这里需要转换为partid
+                        if( $this->catid ){
+				            $return_info = $this->info_list_part($this->catid);
+                        }else{
+				            $return_info = $this->info_list_part($part_id);
+                        }
+                        $info_list = $return_info['list'];
+                        switch( $return_info['type'] ){//展现形式
+                            //home页
+                            case 0:
+                                $tab=$return_info['tab'];
+		                        include template('api', 'home', 'mofang_v2');
+                                break;
+                            //列表
+                            case 1:
+		                        include template('api', 'list', 'mofang_v2');
+                                break;
+                        }
+                    }elseif($game_id){//有game_id,无关联专区
+                        $modelid = 1;
+					    $guide_catid = '103,190';
+					    $info_list = $this->info_list_base($guide_catid, $this->info_type, $modelid, "`gameid`='|21-".$game_id."|'");
+                        if(empty($info_list)){//无攻略内容
+                            echo "暂无攻略!";
+                        }else{
+		                    include template('api', 'list', 'mofang_v2');
+                        }
+                    }else{
+                        $modelid = 1;
+					    $guide_catid = '103,190';
+					    $info_list = $this->info_list_base($guide_catid, $this->info_type, $modelid);
+                        if(empty($info_list)){//无攻略内容
+                            echo "暂无攻略!";
+                        }else{
+		                    include template('api', 'list', 'mofang_v2');
+                        }
+                    }
+                    exit();
+				break;
+                //礼包
+				case 'gift':
+                        
+                    $game_id = get_wanyou_games($this->appid);
+
+                    $db_privilege_account_model = pc_base::load_model('privilege_account_model');
+                    $db_privilege_rule = pc_base::load_model('privilege_rule_model');
+                    $db_privilege_account_nums_model = pc_base::load_model('privilege_account_nums_model');
+                    //判断是否有对应游戏优惠
+                    //礼包剩余量
+                    $last_nums=0;
+                    if($game_id){
+                        $privilege_info = $db_privilege_account_model->select('`modelid`=21 AND `gameid`='.$game_id, 'id');
+                        $last_privilege_id=0;
+                        foreach( $privilege_info as $k_pi=>$v_pi ){
+                            $last_privilege_id = $v_pi['id'];
+                            $last_nums = $db_privilege_account_nums_model->count('`occupy_userid`=0 AND `privilegeid`='.$v_pi['id']);
+                            if($last_nums>0){
+                                break;
+                            }
+                        }
+                    }
+                    if($game_id){//有游戏有对应礼包
+                        $info_list = $this->gift_list($game_id);
+                    }elseif($this->appid){//无对应游戏或无对应礼包
+                        echo "暂无礼包!";
+                        exit();
+                    }else{
+                        //所有礼包
+                        $info_list = $this->gift_list();
+                    }
+
+                    $uid = $this->uid ? intval($this->uid) : 0;
+
+                    $currpage = $this->curr_page;
+                    $pagenum = $this->pagenum;
+                    //$part_info_ids = $this->db_partition_game->listinfo('`part_id` IN ('.$temp_arrchildid['arrchildid'].')', $listorder, $currpage, $pagenum);
+                    //$content_total = $this->db_partition_game->count('`part_id` IN ('.$temp_arrchildid['arrchildid'].')');
+                    if(!$_GET['page']){//无page参数
+		                include template('api', 'fahao_list', 'mofang_v2');
+                        exit();
+                    }
+				break;
+                case 'search':
+                    $info_list = $this->search($this->typeid, $this->keyword);
+                    switch($this->typeid){
+                        case 1:
+		                    include template('api', 'fahao_list', 'mofang_v2');
+                            break;
+                        case 2:
+                            break;
+                    }
+                    exit();
+                break;
+				default:
+					$err_info['code'] = 99;
+					$err_info['msg'] = '数据类别异常!';
+					echo json_encode( $err_info );
+					exit();
+				break;
+			}
+	
+			$game_information['code'] = 0;
+			$game_information['data'] = $info_list;
+				
+			echo json_encode( $game_information );
+		} 
+
+
+        /*
+         * 搜索
+         *  @Param
+                $typeid 类型id
+                $keyword 搜索词
+         *
+         **/
+        public function search($typeid, $keyword){
+            $db_privilege_account_model = pc_base::load_model('privilege_account_model');
+            $db_privilege_account_nums_model = pc_base::load_model('privilege_account_nums_model');
+            switch($typeid){
+                //礼包
+                case 1:
+                    $result = $this->gift_list('', $keyword);
+                    break;
+                //攻略
+                case 2:
+                    break;
+            }
+            return $result;
+        }
+
+	}
+
+	$handle = new WanyouApi();

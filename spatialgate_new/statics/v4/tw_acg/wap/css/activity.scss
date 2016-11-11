@@ -1,0 +1,73 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+.activity_mark{height:mfe-px2rem(109); line-height:mfe-px2rem(110); background-color:#efefef; overflow:hidden;}
+.activity_mark span{font-size:mfe-px2rem(48); color:#000; margin-left:mfe-px2rem(30); float:left;}
+.activity_mark a{height:mfe-px2rem(68); line-height:mfe-px2rem(68); background-color:#fb75a7; border-radius:mfe-px2rem(10); padding:0 mfe-px2rem(18); font-size:mfe-px2rem(36); color:#fff; float:right; margin:mfe-px2rem(23) mfe-px2rem(30) 0 0;}
+.month_list a{width:mfe-px2rem(179); height:mfe-px2rem(100); text-align:center; line-height:mfe-px2rem(100); font-size:mfe-px2rem(44); float:left; background-color:#fb75a7; font-family:"Helvetica" !important; color:#fff; margin-right:mfe-px2rem(1); position:relative;}
+.month_list a:last-child{margin-right:0;}
+.month_list a.curr{background-color:#cd6efe;}
+.month_list a span{width:100%; font-size:mfe-px2rem(27); position:absolute; bottom:0; left:0; line-height:initial; text-align:center;}
+.activity_list{font-size:mfe-px2rem(36); clear:both; overflow:hidden;}
+.activity_list p{padding:0 mfe-px2rem(30); line-height:mfe-px2rem(98); text-align:right; color:#999;}
+.activity_list ul{overflow:hidden;}
+.activity_list ul li{padding:0 mfe-px2rem(30); line-height:mfe-px2rem(60); color:#333; letter-spacing:mfe-px2rem(2); clear:both; overflow:hidden;}
+.activity_list ul li a{padding:mfe-px2rem(20) 0; display:block; border-top:mfe-px2rem(3) dashed #e8e8e8; overflow:hidden;}
+.activity_list ul li span{width:mfe-px2rem(690); display:block; font-size:mfe-px2rem(45); white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.activity_list ul li i{display:block; color:#999; text-align:right;}
+.activity_list ul li:hover{background-color:#cd6efe;}
+.activity_list ul li:hover a{color:#fff !important; border-color:transparent;}
+.activity_list ul li:hover i{color:#fff !important;}
+/*ago*/
+.activityBox.ago .activity_mark a{background-color:#ffbb3c;}
+.activityBox.ago .month_list a.curr{background-color:#ffbb3c;}
+.activityBox.ago .activity_list ul li:hover{background-color:#ffbb3c;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

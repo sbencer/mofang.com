@@ -1,0 +1,68 @@
+@charset "utf-8";
+.update-tip{
+    width:100%;
+    background: #484848;
+}
+.update-tip-wrap{
+    margin:auto;
+    width:1000px;
+    overflow: hidden;
+    height:46px;
+    line-height: 46px;
+}
+.update-tip-wd{
+    font-size:14px;
+    color:#fff;
+}
+.ie-update{
+    color:#fff;
+    padding-left:50px;
+    padding-right:14px;
+    border-radius: 3px;
+    height:36px;
+    display: inline-block;
+    _display:inline;
+    text-align: center;
+    line-height: 36px;
+    background: url(../../img/v6/ie.png) 10px center no-repeat #299EEB;
+}
+.ie-load-wd{
+    color:#fff;
+    font-size:14px;
+    display: block;
+    padding:0 5px;
+    overflow: hidden;
+}
+.chrome-update{
+    background: url(../../img/v6/chrome.png) left center no-repeat;
+    font-size:14px;
+    color:#fff;
+    padding-left:30px;
+}
+.load-brower a, .load-brower span{
+    height:36px;
+    line-height: 36px;
+}
+.load-brower{
+    overflow: hidden;
+    padding-top:6px;
+    width:331px;
+}
+.update-close-btn{
+    width:21px;
+    height:21px;
+    margin-top:12px;
+    cursor:hand;
+    cursor: pointer;
+    background: url(../../img/v6/update_close.png) left top no-repeat;
+}
+.load-brower a:hover{
+    color:#fff;
+}
+.update-tip{
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index: 99999;
+    display: none;
+}

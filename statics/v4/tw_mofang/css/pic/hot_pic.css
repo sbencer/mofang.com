@@ -1,0 +1,68 @@
+.pic-hot-rank .pic-top a{
+    width:290px;
+    height:163px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.pic-hot-rank .pic-top a img{
+    display: block;
+    width:290px;
+    height:163px;
+}
+.pic-hot-rank .pic-top span{
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.pic-hot-rank .pic-top span.rank-1{
+    background: url(/statics/v4/tw_mofang/img/1.png) left center no-repeat;
+}
+.pic-hot-rank .pic-top span.rank-2{
+    background: url(/statics/v4/tw_mofang/img/2.png) left center no-repeat;
+}
+.pic-hot-rank .pic-top span.rank-3{
+    background: url(/statics/v4/tw_mofang/img/3.png) left center no-repeat;
+}
+.pic-hot-rank .pic-top p{
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    width:279px;
+    padding:0 5px;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    _background: #000;
+    background: rgba(0,0,0,.6);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+    filter: alpha(opacity=70);
+    filter: alpha(opacity=70);
+}
+.pic-hot-rank .list-cmm span{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 20px;
+    background: #E3E3E3;
+    font-size: 14px;
+    color:#666666;
+    vertical-align: middle;
+    float:left;
+    margin-right: 10px;
+}
+.pic-hot-rank{
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.pic-hot-rank .list-cmm a{
+    color:#666666;
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}

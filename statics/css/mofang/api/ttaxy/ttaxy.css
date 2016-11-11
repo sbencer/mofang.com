@@ -1,0 +1,159 @@
+html{
+    transition: width .4s;
+	-webkit-transition: width .4s; /* Safari */
+}
+.xy-wrapper {
+    padding-bottom:16rem;
+}
+.xy-ad-img {
+    width:100%;
+}
+
+.xy-ad {
+
+}
+.xy-ad-title {
+    margin-top:0;
+    padding-left:6rem;
+    display:block;
+    line-height:4rem;
+    background-color:#000;
+    color:#fff;
+    font-size:1.8rem;
+    position:relative;
+}
+
+.xy-ad-title-alert {
+    position:absolute;
+    width:2rem;
+    left:3rem;
+    top:1.1rem;
+}
+
+.xy-section {
+    padding-top:1rem;
+    margin-left:1rem;
+    margin-right:1rem;
+
+}
+
+.xy-section-title {
+    color:#fe573f;
+    font-size:2.8rem;
+    line-height:4rem;
+}
+
+.xy-solid-line {
+    border-bottom:solid 1px #e0e0e0;
+    padding-bottom:.5rem;
+    margin-bottom:.5rem;
+}
+
+.xy-links {
+    margin-left:2rem;
+    display:flex;
+    display:-webkit-box;
+}
+.xy-links ul {
+
+}
+.xy-links li {
+    list-style:disc;
+    color:#c6c6c6;
+    font-size:2rem;
+    line-height:4rem;
+    list-style-position:outside;
+    -moz-box-flex:1; /* Firefox */
+    -webkit-box-flex:1; /* Safari 和 Chrome */
+    box-flex:1;
+}
+.xy-links a {
+    color:#464646;
+}
+
+.xy-title-bold {
+    font-size:2.3rem;
+    font-weight:bold;
+    padding-left:1.6rem;
+}
+
+.xy-card-list {
+    display:flex;
+    display:-webkit-box;
+}
+.xy-card-list img {
+    width:100%;
+}
+.xy-card-list li{
+    -moz-box-flex:1; /* Firefox */
+    -webkit-box-flex:1; /* Safari 和 Chrome */
+    box-flex:1;
+}
+
+.xy-dash-line {
+    border-bottom-style:dashed;
+}
+
+.xy-links-button {
+    margin-bottom:1.2rem;
+}
+.xy-links-button li{
+    list-style:none;
+    padding-right:2rem;
+    width:33.333%;
+}
+.xy-links-button a{
+    list-style:none;
+    text-align:center;
+    margin-right:2rem;
+    border:solid 1px #b9b9b9;
+    border-radius:6px;
+    display:block;
+    width:100%;
+    font-weight:bold;
+}
+
+.xy-footer {
+
+}
+.xy-footer a{
+    font-size:2rem;
+    padding-left:1rem;
+    color:#6d6d6d;
+    line-height:4rem;
+}
+
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+}
+/* Smartphones (landscape) ----------- */
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+	html { font-size:45%}
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	html{ font-size:55%}
+}
+@media only screen and (min-width: 481px) and (max-width: 639px) {
+	html{ font-size:65%;}
+}
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	html{ font-size:75%;}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)  {
+    html { font-size:85%}
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px) {
+    html { font-size:95%}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+	html{ font-size:105%}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+	html{ font-size:115%}
+}

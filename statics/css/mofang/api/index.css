@@ -1,0 +1,345 @@
+.page {
+ /* width: 320px;*/
+  min-width: 320px;
+  margin: auto;
+  position: relative;
+  background: #fff;
+}
+
+
+/*home*/
+.main-option-item {
+  width: 33%;
+  height: 100px;
+  border:1px solid #ddd;
+  float: left;
+  text-align: center;
+  margin-right:-1px;
+  margin-bottom:-1px;
+  position: relative;
+}
+.main-option-item-ul{
+  background-color: #fff;
+}
+.icon{
+  position: relative;
+  background: url("../../../../statics/images/mofang/api/icon.png") no-repeat;
+  background-size: 60px;
+}
+
+.icon-equip{
+  background-position:25px -132px; 
+}
+.icon-search-data{
+  background-position:33px -628px; 
+}
+.icon-newhead{
+  background-position: center 25px;
+}
+.icon-update {
+  background-position:center -55px;
+}
+.icon-force {
+  background-position:35 -219px;
+}
+.icon-card{
+  background-position: 
+}
+.main-option{
+  background-color: #fff;
+  width: 100%;
+}
+.main-option .item-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.main-option-item a {
+  font-size:1.625em;
+}
+
+/*page list*/
+.list-cont a {
+  font-size: 2em;
+  color:#252424;
+}
+.list-cont li {
+  border-bottom: 1px dotted #d5d5d5;
+  margin:0 10px;
+  padding: 10px 0;
+  position:relative;
+}
+.icon-enter {
+  background: url("../../../../statics/images/mofang/api/enter.png") no-repeat;
+  position: absolute;
+  width: 11px;
+  height: 20px;
+  right: 2px;
+  top: 15px;
+  background-size: 8px;
+}
+.icon-enter-two{
+   background: url("../../../../statics/images/mofang/api/enter.png") no-repeat;
+  position: absolute;
+  width: 11px;
+  height: 20px;
+  right: 20px;
+  top: 50px;
+  background-size: 8px;
+}
+
+.ui-listall{
+  color: #868686;
+  background-color:#fff; 
+  border-top:1px solid #dcdcdc; 
+  border-bottom:1px solid #dcdcdc; 
+  padding: 20px;
+  position: relative;
+}
+
+.ui-back-ground a:last-child{
+  border: 0px none;
+  margin: -1px 0px 0 0;
+}
+.fon-color{
+  color: #4BB7FD;
+}
+.gong-title{
+  font-size: 2.125em;
+  color: #252424;
+}
+.pic-img{
+  max-width: 100%;
+  display: inline-block;
+}
+.gong-hd{
+  float: left;
+  display: inline-block;
+  max-width: 23.69%;
+  margin-right: 20px;
+}
+.gong-hd img {
+background: url(http://pics.mofang.com/2014/0210/20140210053610430.png) center center no-repeat;
+}
+.gong-bd{
+  float: left;
+  display: inline;
+  width: 65.44%
+}
+.gong-ft{
+  float: right;
+  width: 7.73%
+}
+.gong-bd dl dt dd{
+  display: inline-block;
+}
+.fon-color{
+  font-size: 1.5em;
+}
+
+.list-con-size{
+  font-size: 1.625em;
+}
+.ui-back-ground{
+  background-color:#f4f4f4; 
+}
+
+.search-text{
+  width: 80.99%;
+  height: 56px;
+  border: 1px solid #E5E5E5;
+  float: left;
+}
+.search-submit{
+  float: left;
+  width: 58px;
+  height: 58px;
+  vertical-align: middle;
+  background-color:;
+  background: url(../../../../statics/images/mofang/api/search.png) no-repeat center #3ABF00;
+}
+.search-pad-30{
+  padding: 0 20px;
+  background-color: #f4f4f4;
+}
+
+.header-search{
+  padding:20px 0px 30px 0px;
+}
+
+.list-new-updata{
+  background-color: #fff;
+}
+
+.home-updata{
+
+  font-size: 2em;
+  margin: 30px 0 0 0;
+  padding: 0px 0px 10px 0;
+}
+.page-back-color{
+  background-color: #F4F4F4;
+}
+.list-new-updata li:last-child{
+  border: 0 none;
+}
+.page-matgin-top{
+  margin-top: 40px;
+}
+.gift_title{
+  color: #252424;
+}
+.nbd{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fot-size{
+  font-size:1.5em;
+}
+/*media screen*/
+@media screen and (max-width : 480px){
+  
+}
+@media screen and (max-width : 725px){
+  
+}
+@media screen and (max-width : 1024px){
+  .pic-problem{
+     width: 120px;
+}
+  
+}
+@media screen and (min-width: 320px) and (max-width : 479px){
+ 
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+      .search-text {
+    width: 85.99%;
+  }
+   .main-option-item {
+    width: 33.01%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 725px) { 
+     .search-text {
+    width: 89%;
+  }
+    .main-option-item {
+    width: 33.1%;
+  }
+}
+@media screen and (min-width: 726px) and (max-width: 767px) {
+  .main-option-item {
+        width: 33.18%;
+      }
+  .pic-img {
+   width: 107px;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px)  { 
+  .search-text {
+    width: 89%;
+  }
+  .pic-img {
+    width: 107px;
+  }
+  .main-option-item {
+    width: 33.18%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) { 
+   .pic-problem{
+    width: 120px;
+  }
+   .search-text {
+    width: 91%;
+  }
+  .pic-img {
+   width: 107px;
+  }
+  .main-option-item {
+    width: 33.18%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) { 
+  .pic-problem{
+    width: 120px;
+  }
+  .main-option-item {
+    width: 33.22%;}
+  .search-text {
+    width: 93.44%;
+  }
+  .pic-img {
+    width: 107px;
+  }
+}
+
+@media screen and (min-width: 1029px) and (max-width: 1600px) { 
+    .pic-problem{
+        width: 120px;
+    }
+    .main-option-item {
+        width: 33.22%;
+    }
+    .search-text {
+        width: 93.44%;
+    }
+    .pic-img {
+        width: 107px;
+    }
+}
+
+.list-width{
+    width:95%;
+}
+
+
+.test-wrap {
+    border:1px solid #ccc;
+    border-radius:4px;
+    margin: 20px;
+    box-shadow:1px 0px 1px #eee inset;
+    position:relative;
+
+}
+:focus{
+    outline:none;
+}
+.test-wrap input {
+    flex:1;
+}
+.test .test-ipt {
+    height: 28px;
+    line-height: 22px;
+    padding:5px 0 5px 6px;
+    border:0 none;
+    font-size:1.875em;
+    width: 60%;
+    color:#9f9f9f;
+}
+.test .test-btn {
+    border:0 none;
+    background: none;
+    width: 80px;
+    height: 40px;
+    background:#FE573F url("../../../../statics/images/mofang/api/search_btn.png") center no-repeat;
+    vertical-align:middle;
+    background-size: 28px;
+    right:0;
+    position:absolute;
+
+}
+.error-info{
+    font-size: 2.125em;
+    color:#999;
+    margin-top:25px;
+}

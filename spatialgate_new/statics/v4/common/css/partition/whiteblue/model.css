@@ -1,0 +1,901 @@
+@charset "utf-8";
+/* fn */
+.fn-left{float:left; display:inline;}
+.fn-right{ float:right; display:inline;}
+.fn-hide{ display:none;}
+.mb-10{ margin-bottom:10px;}
+/* main start */
+.main{ width:100%; overflow:hidden;}
+.main-top{ margin-bottom:10px; /*padding-top:350px;*/ width:100%; /*background: url(../../../../images/mofang/partition/darkblue/top-img.jpg) center 0 no-repeat;*/}
+.main-top-nav{ border-top:4px solid #38a1f1; position: relative; background: url(../../../../images/mofang/partition/darkblue/line-2-blue.jpg) 0 0 repeat;}
+.top-nav-con{ height:106px; width:1000px; margin:auto; position:relative;}
+.top-nav-conl{ float:left; width:730px;padding-left:20px; overflow:hidden;}
+.min_width{min-width:32px;_width:expression(document.body.clientwidth <32?"32px":"auto");}
+.top-nav-detail{ width:750px; background: url(../../../../images/mofang/partition/darkblue/line-green-1.png) -60px bottom no-repeat;}
+.top-nav-detail a{ display: inline-block; height:46px; line-height: 46px; _zoom:0; _display:inline; margin-right:60px; text-align: center; font-size:16px; color:#fff; text-decoration: none;}
+/* 2014-01-09 */
+.top-navl-center{ width:700px; overflow: hidden; /*height:30px; line-height: 30px; border-bottom:1px dotted #f0f0f0;*/}
+.nav-race-title{ /*display: block; width:40px;*/ color:#bae1ff; display: inline-block;}
+.top-nav-race-c{ overflow: hidden; float: left; display:inline;}
+.top-nav-race{ margin-right:30px; white-space:nowrap;}
+.top-nav-race a{ color: #BAE1FF; line-height: 28px; display: inline-block; margin-right:5px; white-space:nowrap;}
+.top-nav-race a:hover{ color: #BAE1FF;}
+.top-nav-race em{ display: inline-block; margin-right: 3px;}
+.top-nav-race-c .race-c{display: inline-block; _zoom:1; _display: inline; margin-left:-1px; background: url(../../../../images/mofang/partition/darkblue/line-4-blue.jpg) left center no-repeat; padding: 0 8px 0 9px; color:#BAE1FF;}
+
+.nav-top-type{ color:#444; line-height:30px; height: 30px;} 
+.nav-top-type .race-c{  background: url(../../../../images/mofang/partition/darkblue/line-3-blue.jpg) left center no-repeat;}
+.nav-top-type .race-c{ color:#92caf4;}
+.nav-top-type  .nav-race-title{color:#92CAF4;}
+.top-nav-conr{ margin-top:46px; float:right; width:250px;}
+.top-nav-search{ position: relative; width:220px; height:30px;}
+.top-nav-search .search-ipt{ border-radius:2px; background: #0c5d9b; padding:2px 5px; width:208px; color:#e0eeda; height:26px; line-height: 24px; border:1px solid #0a5085; border-radius: 2px;}
+.search-icon{ cursor: hand; cursor: pointer; border-radius:1px; text-indent: -99999px; border: none; position: absolute; right:0; top:1px; background: url(../../../../images/mofang/partition/darkblue/search-blue.png) center no-repeat; width:30px; height:30px;}
+.search-con{ overflow: hidden;}
+.search-con a{ color:#92CAF4 !important; background:url("../../../../images/mofang/partition/darkblue/line-blue-3.jpg") no-repeat scroll left center;  display: inline-block;margin-left: -1px;padding: 0 8px 0 9px; height:30px; line-height: 30px; _display:inline; _zoom:1; margin-left:-1px;}
+.enter-luntan{ z-index:999; background: url(../../../../images/mofang/partition/darkblue/enter-blue.png) 0 0 no-repeat; display: block; position: absolute; right:-7px; top:-14px; width:210px; height:52px;}
+/* main end*/
+/* main-content start */
+.main-content{ position: relative; width:1000px;}
+.side-fix{ _position:absolute; _left:1015px; _top:0; width:145px; z-index:999; left:50%; top:0; margin-left:515px; background: #e0e0e0; width:145px;position: fixed;}
+.side-pos{ position:absolute;left:1015px; top:10px; z-index:99; background: #e0e0e0; width:145px;}
+.side-bar h3{background: linear-gradient(to bottom, #2C3543 0%, #22262C 100%) repeat scroll 0 0 rgba(0, 0, 0, 0); line-height: 37px; height:37px; border-top:1px solid #424a56; color:#fff; font-size:16px; padding-left: 8px;}
+.side-bar-nav { overflow: hidden;}
+.side-bar{ border-radius: 0 0 2px 2px;}
+.side-bar-nav li{ height:38px; line-height: 38px; border-bottom:1px solid #ccc; margin-top:1px; padding-left:25px; background: url(../../../../images/mofang/partition/darkblue/9-blue.png) 9px center no-repeat;  font-size:14px;}
+.side-bar-nav li a{ color:#777;}
+.side-bar-img .side-bar-img1{ margin:10px auto 0; height:60px; width:125px; display: block;overflow: hidden;}
+.side-bar-img .side-bar-img1 img{ height:60px; width:125px;}
+.exchange{ width:74px; height:40px; margin:10px auto 0; padding:10px 10px 10px 40px; background: url(../../../../images/mofang/partition/darkblue/qq.png) 5px center no-repeat #007edf; font-size:14px; color:#007edf;}
+.exchange a, .exchange span{ color:#fff; display: block;width:84px;text-align:center;}
+.side-go-top{ width:145px; height:145px; background:url(../../../../images/mofang/partition/darkblue/go-top-green.png) center center no-repeat; cursor:hand; cursor:pointer;}
+.video-start{ display:block; position:absolute; height:24px; width:24px; background:url(../../../../images/mofang/partition/darkblue/video-start.png) 0 0 no-repeat; left:8px; top:50px;}
+/* main-content end */
+/* pangshiqi */
+.background{background-color: #fff;margin: 0 auto;}
+.w340{width: 340px; background-color: #fff; }
+.w1000{width: 988px; padding: 10px 6px;}
+.fl{float: left;}
+.fr{float: right;}
+.mat10{margin-top: 15px;}
+
+.header_back{background: url(../../../../images/mofang/partition/darkblue/hd-green.png) no-repeat; width: 340px; height:19px;}
+.body_back{background: url(../../../../images/mofang/partition/darkblue/bd-green.png) repeat-y;}
+.foter_back{background: url(../../../../images/mofang/partition/darkblue/fot-green.png) no-repeat;width: 340px; height:20px;} 
+.body_back .mat10 a{ display:inline-block; width:258px; height:25px; line-height:25px; overflow:hidden;}
+
+.container_left h1{color: #E52121; font-size:16px; text-align: center;}
+.container_left ul{font-size: 14px; color: #444; width: 320px; padding: 0 10px;height: 303px;}
+.container_left li{ height:25px; overflow:hidden;background: url(../../../../images/mofang/partition/darkblue/9-green.png) no-repeat 0 center; padding-left: 10px;line-height: 25px; width:316px;}
+.mat20{margin-top: 16px;}
+.container_left p{text-align: center; line-height:22px; height:22px; color:#444; }
+.container_left a{padding:0 10px; color: #444; font-size: 14px;}
+.container_left a:hover{color: #E52121;}
+.container_left em{float: right; margin-right: 5px;font-size: 12px; color:#777;}
+.app-txt{
+height: 60px;
+overflow: hidden;
+width: 167px;
+}
+.w636{width:636px; border: 1px solid #e0e0e0; background-color: #fff;height: 150px}
+.w636a{width:636px;margin-top: 10px;height: 300px;}
+.w320{width: 320px; }
+.game{background: linear-gradient(to bottom, #2C3543 0%, #22262C 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);height: 30px;line-height: 30px; border-bottom:1px solid #E52121;position: relative;}
+.hot-curr .hot{ z-index:999;position: absolute; background: url(../../../../images/mofang/partition/darkblue/hot.png) no-repeat; display: block;top: -4px; left: 80px; width: 26px; height: 20px;}
+
+.game span{padding:0px 16px ; font-size: 16px; }
+.one_game{background-color: #fff;margin: 0px 10px;height: 110px;}
+.first{margin: 10px 0;height:91px;overflow:hidden;}
+.first h3{color:#e52121;font-size:16px;}
+.first a{color:#444;font-size: 14px; padding-bottom: 2px}
+.first p{width: 240px; color:#444; font-size:14px;height:65px;overflow:hidden;}
+.first img{margin:5px 10px 0 0;width:80px;}
+
+.w300{width: 330px;}
+.w150{width: 150px; margin-left: 20px; }
+.xiazai_down{border-left: 1px solid #e0e0e0; margin-top:13px; height:86px;}
+.xiazai_down .erwei{padding:5px 15px;}
+.check{border-bottom: 3px solid #E52121; color: #e52121;}
+.bod_f1{border-left: 1px solid #e0e0e0;}
+.bod_r1{border-left: 1px solid #30353C;}
+.news-bd-slide{ margin-bottom:10px; width:638px; height:300px; overflow: hidden; position: relative;}
+.news-bd-slide-cont{
+  position: absolute;
+  width:99999px;
+  height:300px;
+  left:0;
+  top:0;
+}
+.news-bd-slide-cont a{
+  width:638px;
+  height:300px;
+}
+.news-bd-slide-cont li{
+  float:left;
+  width:638px;
+  height:300px;
+  position: relative;
+}
+.news-bd-slide-cont a img{
+  width:638px;
+  height:300px;
+}
+.idnex-mask{
+  position:absolute;
+  left:0;
+  bottom:0;
+  height:30px;
+  width:618px;
+  background: url(../../../../images/mofang/partition/darkblue/jian_bg.png) left bottom repeat-x;
+  color:#fff;
+  font-size:18px;
+  line-height: 30px;
+  padding-left:20px;
+  padding-top: 20px;
+}
+.idnex-mask a{color:#fff !important;}
+.news-bd-slide .bx-prev{
+  background: url(../../../../images/mofang/partition/darkblue/index_lunbo_left.png) 10px 25px no-repeat;
+  left:12px;
+}
+.news-bd-slide .bx-next, .news-bd-slide .bx-prev{
+  position: absolute;
+  width:40px;
+  height:80px;
+  top:110px;
+  cursor: hand;
+   cursor: pointer;
+   text-indent:-999px;
+}
+.bx-controls-auto{ display:none;}
+.news-bd-slide .bx-next{
+  right:12px;
+  background: url(../../../../images/mofang/partition/darkblue/index_lunbo_right.png) 10px 25px no-repeat;
+}
+.news-bd-slide .bx-default-pager{
+  right:11px;
+  bottom:19px;
+  position: absolute;
+}
+.news-bd-slide .bx-pager-item{
+  height:11px;
+  width:11px;
+  display: inline-block;
+  _display: inline;
+  zoom:0;
+  margin-right:6px;
+  cursor: hand;
+  cursor: pointer;
+}
+.news-bd-slide .bx-pager-item a{ text-indent:-999px;  border-radius:10px; height:9px; width:9px; background:#9fa5a7; overflow:hidden; display:inline-block;}
+.news-bd-slide .bx-pager-item .active{
+  background: #fff;
+  border-radius:10px;
+  height:8px;
+  width:8px;
+	border:none;
+  display: inline-block;
+  overflow:hidden;
+}
+/*start*/
+.tujian-bd{height:451px; overflow:hidden;}
+.tujian_bd{width: 686px; margin-top: 10px;/*height:35px;overflow:hidden;*/}
+.tujian_bd li{ cursor:hand; cursor:pointer;float: left; background-color: #e0e0e0;/*width: 70px;*/ height: 30px; text-align: center; line-height: 30px;margin: 5px;padding: 0 15px; color: #444;width:; height: ;}
+.tujian_bd li.xuanzhong{background-color: #007EDF;color:#fff;}
+.picture_tu li{float: left; width: 90px; height:112px; text-align: center; margin-top: 20px;margin: 10px 12px 0 10px;list-style:none;}
+.picture_tu img{width: 86px;height: 86px;border: 2px solid #13161B;}
+.picture_tu{width: 686px;/*height: 402px;*/}
+.picture_tu li a{color:#444;}
+
+.picture_map{width:686px;}
+.tuj{color: #E52121 !important;}
+.tujian_head{background-color: #fff; border: 1px solid #e0e0e0; width: 686px; padding-bottom: 16px;}
+.yingxiong{ overflow:hidden;}
+.yingxiong li{color:#777; cursor:hand; cursor:pointer;float:left; padding: 0px 10px; font-size:14px; background:url(../../../../images/mofang/partition/darkblue/line-5.png) 0 center no-repeat; margin-left:-1px;}
+.yingxiong .bg-no{ background:none;}
+.yingxiong .bg-ha{ background:url(../../../../images/mofang/partition/darkblue/line-5.png) 0 center no-repeat;}
+.yingxiong li span{ padding:0 0 0 10px;}
+.yingxiong .hot-curr{ background:#fff; color:#444; font-size:14px;border-top: 2px solid #007EDF !important; border-bottom: 1px solid #fff; border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0; height: 36px; }
+.bod_one {margin-bottom: 10px;}
+.hot_project{width:288px;border:1px solid #e0e0e0;padding-bottom:21px;background:#fff;}
+.w988{width: 988px; background-color: #fff;border: 1px solid #e0e0e0;}
+.strat-side-hd .hot-curr {
+  border-right:1px solid #e0e0e0;
+  color:#444 !important;
+}
+.hd-bg-left{ width:150px; background:#e0e0e0;}
+.team_fu_par{ position:relative; width:150px; height:400px; overflow:hidden;}
+.team_fu{ position:absolute;}
+.team_fu li{ cursor:hand; cursor:pointer; width: 130px; height: 40px;text-align: center; line-height: 40px; background: url(../../../../images/mofang/partition/darkblue/line-green.png) no-repeat #e0e0e0;padding-left:20px; }
+.team_fu p{color: #777 !important; font-size: 14px;}
+.hot-curr .team_fu_xuan{background-color: #fff; border-left: 4px solid #007EDF;}
+.shang{ height:40px; width:150px;background: url(../../../../images/mofang/partition/darkblue/shang-green.png) no-repeat center 15px #e0e0e0; cursor:hand; cursor:pointer;}
+.xia{ height:40px; width:150px;background: url(../../../../images/mofang/partition/darkblue/xia-green.png) no-repeat center 10px #e0e0e0; cursor:hand; cursor:pointer;}
+.shang em, .xia em{ overflow:hidden; width:148px; height:10px; background:#fff; display:block;}
+.xia em{ display:inline-block; margin-top:30px;}
+.ganzhu1{width: 146px; height: 10px; background-color: #fff; margin-left: -19px;}
+.ganzhu{width: 146px; height: 10px; background-color: #fff; margin:-25px 0 0 -19px;}
+.game-load{ margin-bottom:10px;}
+
+
+.xiongmao{float:right;width: 450px; color: #444;}
+.xiongmao li{margin-bottom:10px; }
+.xiongmao span{ width:70px; height:24px ; background-color: #e0e0e0; text-align: center; line-height: 24px;  display: inline-block; _display:inline-block; margin-right: 10px;}
+.xiongmao li em{ display:inline-block; width:145px; height:24px; background:url(../../../../images/mofang/partition/darkblue/start.png) -16px center no-repeat; vertical-align:bottom; overflow:hidden;}
+.xiongmao li .star-4{ background-position:-45px;}
+.xiongmao li .star-3{ background-position:-76px;}
+.xiongmao li .star-2{ background-position:-107px;}
+.xiongmao li .star-1{ background-position:-140px;}
+.xiongmao li .star-0{ background-position:-173px;}
+.team_bd{padding:  20px 24px; width: 788px;}
+.team_bd img{width:318px;height:218px;}
+.mar_20{margin-right: 20px;}
+.xiongmao_left{width: 450px;height:256px;overflow:hidden;}
+.xiongmao_left h3{color: #444; font-size: 16px; border-bottom:1px dashed #3C424A;padding-bottom:10px;  margin-bottom: 10px;}
+
+.xiongmao_size{width: 450px; color: #444; font-size: 14px;}
+.team_bd_two a,.team_bd_four a{color: #444;width:310px;height:28px;overflow:hidden;}
+.team_bd_two a:hover,.team_bd_four a:hover{color: #E52121;}
+.team_bd_two ul, .team_bd_four ul{margin-top: 15px;}
+.team_bd_two{width:380px; margin:0 0 20px 20px;}
+.team_bd_four{width:380px; margin-right: 20px;}
+.team_bd_two li,.team_bd_four li{background: url(../../../../images/mofang/partition/darkblue/9-green.png) no-repeat 0 center; font-size: 14px;line-height: 24px; padding-left: 18px; color: #444;}
+
+.team_bd_four em, .team_bd_two em{font-size: 12px;}
+.about strong{font-size: ; color: #E52121; float: left; font-size: 16px; border-bottom: 2px solid #E52121; line-height: 27px}
+.about{height: 28px; border-bottom: 1px solid #686F7B;}
+.about a{color: #545A66; font-family:"serif"}
+.about span{background: url(../../../../images/mofang/partition/darkblue/more_bg_blue.png) no-repeat; padding-left: 20px;}
+
+
+.strat-side-hd {
+  float:left;
+}
+.strat-side-hd li {
+  font-size: 16px;
+  color:#777;
+  float:left;
+  font-weight:bold;
+  position: relative;
+  width: 98px;
+  text-align:center;
+ 
+}
+.guide-list{height:199px;}
+.wrap .line {
+  border-bottom: 3px solid #e52121; 
+  position:absolute;
+  display:block;
+  width: 99px;
+  bottom:0;
+  left:0;
+}
+.wrap .hot {
+   color:#e52121;
+    border-right:1px solid #e0e0e0;
+}
+
+.hd-more {
+  background: url(../../../../images/mofang/partition/darkblue/more_bg.png) 0 12px no-repeat;
+  _background-position:0 10px;
+  float:right;
+  color:#545a66;
+  margin-left: 10px;
+  padding-left: 20px;
+  margin-right: 10px;
+  font-family:serif;
+}
+
+.strat-side-bd {
+  background: #fff;
+  padding:15px 0;
+  border:1px solid #e0e0e0;
+  border-top:none;
+}
+.hot_project_pic li{ margin-top:5px;}
+.hot_project_pic{ margin-top:20px; text-align:center;height: 427px;}
+.team_fu{ width:150px; overflow:hidden;}
+.hd-bg-con{ width:838px; overflow:hidden;}
+/*end*/
+/* zhaoshuai start*/
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+.strat {
+  margin-bottom: 10px;
+}
+.strat-side {
+  width: 338px;
+  float:left;
+}
+.strat-guide {
+  width: 634px;
+  margin-left:12px;
+  float:left;
+  border:1px solid #e0e0e0;
+}
+.strat-side-hd {
+	
+  float:left;
+}
+.strat-side-hd li {
+	border-left:1px solid #e0e0e0;
+  margin-left:-1px;
+  font-size: 16px;
+  color:#777 !important;
+  float:left;
+  font-weight:bold;
+  position: relative;
+  width: 98px;
+  text-align:center;
+  height:38px;
+  cursor:hand;
+  cursor:pointer;
+}
+.hot-curr .line {
+  border-bottom: 3px solid #007EDF; 
+  position:absolute;
+  display:block;
+  width: 98px;
+  bottom:0;
+  left:0;
+}
+.containerB .hot-curr{color:#444;}
+.strat .hot-curr {
+   	color:#444;
+    border-right:1px solid #e0e0e0;
+}
+#image-list .hot-curr {
+   	color:#444;
+    border-right:1px solid #e0e0e0;
+}
+.strat-video .hot-curr {
+   	color:#444;
+    border-right:1px solid #e0e0e0;
+}
+.ui-first,.ui-first a {
+  color:#007edf;
+}
+.ui-last,.ui-last a {
+  color:#444;
+}
+.hd-bg {
+	height:38px;
+	  line-height: 38px;
+	  border-bottom:1px solid #e0e0e0;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e9e9e9 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e9e9e9)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e9e9e9 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#e9e9e9 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#e9e9e9 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#e9e9e9 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9',GradientType=0 ); /* IE6-9 */
+
+}
+.strat-side-bd {
+  background: #fff;
+  padding:15px 0;
+  border:1px solid #e0e0e0;
+  border-top:none;
+  height: 171px;
+}
+.strat-side-bd li,
+.pvp-side-item {
+  background: url(../../../../images/mofang/partition/darkblue/9-green.png) 0 12px no-repeat;
+  margin-left: 10px;
+  padding-left:10px;
+  line-height:28px;
+  height:28px;
+}
+
+.info-more {
+  color:#777;
+  font-size:12px;
+  float:right;
+}
+.strat-side-bd li a, .pvp-side-item a{
+  color:#444;
+  font-size: 14px;
+  /*margin-right: 12px;*/
+  width: 260px;
+  float:left;
+  height:28px;
+  line-height:28px;
+  overflow:hidden;
+}
+.ui-bd,.ui-bd-green {
+  background: #007EDF;
+  border-radius:3px;
+  padding:0 6px;
+  color:#fff;
+  font-size: 12px;
+  font-weight: bold;
+  _margin-top:8px;
+  display:inline-block;
+  *display:inline;
+  *zoom:1;
+  height:24px;
+  line-height:24px;
+  margin-right: 20px;
+}
+.ui-bd-green {
+  background: #3A9F10;
+}
+.strat-guide-hd {
+  float:left;
+  height: 40px;
+}
+.strat-guide-bd {
+  float:left;
+}
+.pvp {
+  margin-bottom: 10px;
+  background: #fff;
+}
+.strat-one {
+  height:40px;
+  line-height:40px;
+  padding-left: 10px;
+  width:624px;
+  overflow:hidden;
+}
+.strat-video {
+  margin-bottom: 10px;
+}
+.strat-video-bd {
+  background: #fff;
+  padding: 25px 0 10px;
+}
+.pvp-side-title {
+  color:#E52121;
+  font-size:16px;
+  margin-top: 15px;
+  text-align:center;
+  margin-bottom: 5px;
+}
+.strat-video-item {
+  float:left;
+  margin-left: 24px;
+   text-align:center;
+   margin-bottom:15px;
+   display:inline;
+   position:relative;
+}
+.strat-video-item {
+  color:#444;
+}
+.strat-video-item img {
+  width:138px;
+  height:82px;
+  display:block;
+  margin-bottom:10px;
+}
+.hd-more {
+  background: url("../../../../images/mofang/partition/darkblue/more_bg_blue.png") 0 12px no-repeat;
+  _background-position:0 10px;
+  float:right;
+  color:#545a66;
+  margin-left: 10px;
+  padding-left: 20px;
+  margin-right: 10px;
+  font-family:serif;
+}
+#image-list {
+  margin-bottom: 10px;
+}
+#image-list .strat-video-bd img {
+  width:172px;
+  height:118px;
+}
+.pvp-side {
+  width: 338px;
+  float:left;
+  padding: 20px 0 10px 6px;
+}
+.pvp-side h3 {
+  padding-bottom: 5px;
+}
+.pvp-cont {
+  width: 634px;
+  float:left;
+  padding: 25px 0 10px;
+}
+.pvp-cont-item {
+  float:left;
+  text-align:center;
+  margin-left: 16px;
+  margin-bottom: 15px;
+  display:inline;
+  position:relative;
+}
+.pvp-cont-item span {
+  color:#444;
+}
+.pvp-cont-item img {
+  display:block;
+  margin-bottom: 10px;
+  width: 138px;
+  height: 82px;
+}
+.friends {
+  background: #e0e0e0;
+  height: 40px;
+  line-height: 40px;
+}
+.friends-hd {
+  float:left;
+  color:#444;
+  font-size:14px;
+  margin-left: 15px;
+}
+.friends-bd,.friends-bd a {
+  color:#444;
+  font-size: 14px;
+}
+.friends-bd a {
+  margin: 0 4px;
+}
+/*zhao shuai end*/
+/*main-content start*/
+.main-content{padding:10px 6px; width:988px; background: #f0f0f0; margin:auto;}
+/*main-content end*/
+
+
+/*liebiao  xiangqing start*/
+
+.sidebar {
+  width: 290px;
+  background: #fff;
+}
+.sidebar-down {
+  background: #fff;
+  margin-bottom: 10px;
+}
+.sidebar-rank,
+.sidebar-guide,
+.hot_list,
+.hot_video,
+.hot_new{
+  margin-bottom: 15px;
+}
+.hot_girl {
+  margin-bottom: 25px;
+}
+.hot_list {
+  background: #fff;
+}
+.sidebar-cont {
+  padding:15px;
+}
+.sidebar-cont .icon_big {
+  display:block;
+  float:left;
+  margin-right: 10px;
+  height: 80px;
+  width: 80px;
+  /*margin-bottom: 15px;*/
+}
+.wrap_cont {
+  margin-bottom: 10px;
+}
+.sidebar-cont-info{
+  height:95px;
+  overflow:hidden;
+}
+.sidebar-cont-info h3 {
+  font-size: 16px;
+  color:#e52121;
+  margin-bottom: 6px;
+}
+.sidebar-cont-info p {
+  font-size: 14px;
+  color:#444;
+}
+.ios_icon,.and_icon {
+  background: #007EDF url(../../../../images/mofang/partition/darkblue/ios_bg.png) 20px 8px no-repeat;
+  width: 130px;
+  display:block;
+  height:40px;
+  padding-left:20px;
+  text-decoration:none;
+  text-align:center;
+  border-radius:2px;
+  font-size: 16px;
+  color:#fff;
+  line-height: 40px;
+  float:left;
+  margin-right: 5px;
+}
+.ios_icon:hover, .and_icon:hover{color:#fff;}
+.hot-curr .hot_icon {
+  background: url(../../../../images/mofang/partition/darkblue/hot.png) no-repeat;
+  width: 25px;
+  height: 18px;
+  position:absolute;
+  z-index:999;
+}
+.and_icon {
+  margin-top: 10px;
+   background: #3A9F10 url(../../../../images/mofang/partition/darkblue/and_bg.png) 20px 8px no-repeat;
+}
+.num_star,
+.num_one,
+.num_two,
+.num_three{
+  background: #3D4658;
+  width:24px;
+  height:24px;
+  text-align:center;
+  font-size:12px;
+  color:#9ca7bc;
+  float:left;
+  line-height:24px;
+  border-radius:2px;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.num_one {
+  color:#fff;
+  background: #E52121;
+}
+.num_two {
+  color:#fff;
+  background: #007EDF;
+}
+.num_three {
+  color:#fff;
+  background: #3A9F10;
+}
+.sidebar-rank-cont .list-color {
+  color:#007EDF !important;
+}
+.cont_info_anthor {
+  margin-right: 25px;
+}
+.cont_info h3 {
+  font-size: 14px;
+  color:#444;
+  margin-bottom: 5px;
+}
+.cont_info p {
+  color:#545a66;
+}
+.sidebar-rank-cont li {
+  _height: 50px;
+  padding: 6px 10px;
+}
+.host_list_cont {
+  padding: 25px 0 15px;
+}
+.host_list_cont li {
+  display:inline;
+}
+.host_list_cont img {
+  display:block;
+  width:269px;
+  height: 100px;
+  margin: 0 auto 10px;
+}
+.hot_new .strat-side-bd li {
+  width: 260px;
+  overflow:hidden;
+}
+.hot_new .strat-side-bd li a {
+  float:none;
+}
+.hot-video-item {
+  float: left;
+  text-align: center;
+  margin-left: 14px;
+  margin-bottom: 15px;
+  display: inline;
+  position: relative;
+}
+.hot-video-item span {
+  text-align:center;
+  color:#444;
+}
+.hot-video-item img {
+  width: 124px;
+  height: 73px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content_list {
+  width:688px;
+  border-top:1px solid #e0e0e0;
+  border-bottom:1px solid #e0e0e0;
+}
+.content_lst_right {
+float: right;
+width: 20px;
+height: 20px;
+}
+.img_show {
+  float:left;
+  margin-right: 20px;
+}
+.img_show img {
+  width: 200px;
+  height: 120px;
+  display:block;
+}
+.content_lst_title {
+  font-size: 16px;
+  color:#E52121;
+  margin-bottom: 5px;
+}
+.lst_title_info {
+  display:block;
+  color:#545a66;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.content_list_cont {
+  padding: 20px 0px;
+  border-bottom: 1px dotted #e0e0e0;
+  margin:0 15px 15px;
+}
+.content_lst_artic {
+  color:#444;
+  line-height: 22px;
+  font-size:14px;
+  margin-bottom: 10px;
+}
+.content_lst_tag span {
+  height: 24px;
+  line-height: 24px;
+  color:#444;
+  padding:0 8px;
+  background: #e0e0e0;
+  border-radius:2px;
+  float:left;
+  margin-right: 10px;
+}
+
+
+/*xiangqing start*/
+
+.t-container{ width: 100%; float: left; display: inline;}
+.t-main{ margin-left: 200px; overflow: hidden; position: relative;}
+.t-banner{ height: 400px; width: 1000px; overflow: hidden;}
+.w1000{ width:1000px;}
+.mb10{ margin-bottom:10px;}
+.mb20{ margin-bottom:20px;}
+.disno{ display:none;}
+.fl { float:left; display: inline;}
+.fr { float:right; display: inline;}
+.w690{ width: 688px;}
+.w280{ width: 280px;}
+.w288{width: 288px;}
+.ie-pos{ _width:auto;}
+.mbg1{ background: #F6F6F6;}
+.mbg2{ background: #FFF;}
+.mbg3{ background: #FFF;}
+
+
+/* w700 list */
+.article-main{ width: 340px; height: 205px; margin-left: 10px; font-size: 14px; padding: 15px 0 0; overflow: hidden;}
+.article-main h2{ color: #359BDC; font-size: 16px; text-align: center; line-height: 30px;}
+.article-main h2 a{ color: #359BDC;}
+.article-main ul{ overflow: hidden; padding: 0 20px 0 10px; margin-top: 10px;}
+.article-main li{ line-height: 24px;}
+.article-main li a{ color: #666;}
+.article-main li a:hover{ color: #333;}
+.article-main li .date{ color: #ccc;}
+.article-hot{ padding: 0;}
+.article-item{ border-bottom: 2px #F6F6F6 solid; margin-top: 20px; padding-bottom: 18px;}
+.article-hot .article-pic{ height: 138px; width: 200px; margin-right: 20px; overflow: hidden;}
+.article-hot .article-pic img{ border: 2px #F3F3F3 solid; height: 134px; width: 196px;}
+.article-hot .article-con{ font-size: 14px;}
+.article-hot .article-con h4{ font-size: 16px; color: #F5CC74; margin-bottom: 5px;}
+.article-hot .article-con h4 a{ color: #359BDC;}
+.article-hot .time{color: #555D70; margin-bottom: 10px; display: block;}
+.article-hot .more-intro{ text-align: right;}
+.article-hot .more-intro a,.article-hot .more-intro a:hover{ color: #FF8E11;}
+.load-more{ width: 698px; height: 38px; line-height: 38px; text-align: center; background: #F0FAFF; margin: 20px 0 0; border: 1px #B7DAE9 solid;}
+.load-more a{ color: #359BDC; display: block; font-size: 16px;}
+.load-more a:hover{ background: #E7F7FF; text-decoration: none;}
+
+/* page */
+.page-wrapper{ width: 100%;}
+.page-nav{ padding: 30px 0 20px; text-align: center;}
+.page-nav a{ text-align:center; background:#e0e0e0; padding:2px 10px; color: #444; cursor: pointer; font-size: 14px; margin: 0 4px;}
+.page-nav a:hover,.page-nav a.page-on{ background:#E52121; color:#fff; text-decoration: none;}
+
+.mt_20{ margin-top:20px;}
+.mt_10{ margin-top:10px;}
+.mb_30{ margin-bottom:30px;}
+.mb_20{ margin-bottom:20px;}
+.mr_20{ margin-right:20px;}
+
+/* detail */
+.ContentPublic{ width:648px; padding:0 20px;background: url(../../../../images/mofang/partition/darkblue/body-green.png) repeat-y;}
+.publicTitle{width:660px; height:68px; border-bottom: 1px dashed #e0e0e0; text-align: center; color: #ccc; margin: 0 auto;}
+.publicTitle h3{color: #444; font-size: 22px; text-align: center;}
+.publicTitle span{ display: inline-block; color:#444 ; border-right: 1px solid #444; padding: 0 10px; height: 15px; font-size: 14px; line-height: 15px; margin-top: 10px;}
+.publicTitle a{color: #444; margin-top: 10px}
+.publicFont{color: #666;font-size: 14px;}
+.publicFont p{margin:20px 0px; color: #444;}
+
+.contentShare{width: 648px; height: 46px; padding-top:40px; line-height: 38px;}
+.contentTag{float: right; color: #555D70; }
+.context{width: 648px; height: 30px;}
+.context a{color: #545A66;}
+.context a:hover{color: #E52121;}
+.context p{color: #444;font-size: 14px;}
+.aboutContent{color: #333;font-size:18px;width:648px;height: 170px;margin-top: 24px;}
+.aboutContent h4{border-bottom: 1px solid #30343C; padding-bottom:6px; margin-bottom: 10px; font-size:16px; color: #E52121;}
+.aboutContent li{float: left; width: 310px; overflow: hidden;background: url(../../../../images/mofang/partition/darkblue/9-green.png) no-repeat 0 8px; padding-left: 10px;}
+.aboutContent a{color: #444; font-size: 14px;}
+.aboutContent a:hover{color: #E52121; text-decoration: none;}
+.gameReviews{width: 648px; height: 140px;margin-top:32px; }
+.gameReviews textarea{ color:#444; font-size:14px;width: 638px; height: 88px;border:1px solid  #e0e0e0;resize:none; background-color: #e0e0e0;padding: 10px 0 0 10px; margin: 0 auto;}
+.gameReviews input{background-color:#007EDF ; color: #fff;border-style: none; width:80px;height:30px; float: right;margin-top: 10px; cursor: pointer;}
+
+/* share */
+.shareBox { width:189px; height:30px; overflow:hidden; float: left;}
+.share-tit { border-radius:3px 0 0 3px;background:#007edf; color:#fff; line-height:30px; font-size:14px; text-align:center;width:61px; float:left;}
+.share-list { border-radius:0 3px 3px 0; float:left; overflow:hidden; width:125px; background-color: #e0e0e0;}
+.share-list li {float:left; margin:2px 0px;}
+.share-list li a { float:left; width:29px; height:26px; margin-right:1px;background:url(../../../../images/mofang/partition/darkblue/ico1.png) no-repeat;}
+.share-list li .sina {background-position:0 0;}
+.share-list li .tx {background-position:-30px 0;}
+.share-list li .kj {background-position:-62px 0;}
+.share-list li .baidu {background-position:-93px 0;}
+.share-list li .QQ { border-right:0px;background-position:-125px 0; width:30px;}
+.share-list li .sina {background-position:0 -29px;}
+.share-list li .tx {background-position:-30px -29px;}
+.share-list li .kj {background-position:-62px -29px;}
+.share-list li .baidu{background-position:-93px -29px;}
+.share-list li .QQ { border-right:0px;background-position:-125px -29px; width:30px;}
+
+/* comment */
+.popularComments{width: 660px;margin-top: 40px; overflow: hidden;}
+.popular{ width: 648px;color: red; height: 30px; border-bottom:1px solid #686F7B; line-height: 30px;}
+.popular a{float: right; color:red;  color: #444; padding-right: 10px;}
+.popular p{float: right;color:red; padding-right:20px; color: #444}
+.popular h4{float: left;color:red;  color: #AAABB2; font-size: 18px;}
+.popular span{padding: 0px 5px; color:#E52123;}
+.contentStart{width: 648px;height: 106px; padding-top: 10px; border-bottom: 1px dashed #e0e0e0; margin-bottom: -1px;}
+.contentStart img{float: left; margin-right: 10px; width:42px;height: 42px;}
+.contentStart div{float: left; width:590px;color: #666; overflow: hidden; }
+.contentStart p{margin-top: 20px;width:590px; height:34px; color: #444}
+.contentStart i{font-style: normal; margin-right: 20px; font-size:14px; color: #444;}
+.contentStart span{color:#545A66; font-size: 12px;}
+.zhichi{background: url(/statics/v4/common/img/zhichi.png) no-repeat left center;padding-right:20px; padding-left: 20px; float: right; color: #0376D0;}
+.fandui{background: url(/statics/v4/common/img/fandui.png) no-repeat left center; padding-left: 20px; float: right; color: #444;}
+
+/*xiugai*/
+.popular h4 {font-size: 16px; color: #E52123}
+.time{text-align: center; color: #545A66; margin-top: 10px;}
+.time span{padding-right: 20px; font-size: 12px;}
+.fl{float: left;}
+.speak{ color: #545A66; margin-left: 70px;}
+.speak a{color: #007EDF;}
+
+.header_backg{background: url(../../../../images/mofang/partition/darkblue/heder-green.png) no-repeat; height: 19px;}
+.foter{background: url(../../../../images/mofang/partition/darkblue/foter-green.png) no-repeat; height: 19px;}
+/*xiangqing end*/
+/*liebiao  xiangqing end*/
+
+/*video start*/
+.publicTitle_video h2{font-size: 20px; color: #E0C773; float: left;font-weight:normal;}
+.video_bofang{margin-top:20px; }
+.video_start{background: url(../../../../images/mofang/partition/darkblue/video-start.png) no-repeat; position: absolute; width: 24px;height: 24px;top: 42px; left: 7px;}
+/*video end*/
+.hot_new .strat-side-bd li a, .pvp-side-item a {
+    color: #444;
+    display: inline-block;
+    /*float: left;*/
+    font-size: 14px;
+    height: 24px;
+    line-height: 29px;
+    margin-right: 12px;
+    overflow: hidden;
+    width: 270px;
+}
+.hot_project_pic img{height: 102px; width:270px;}

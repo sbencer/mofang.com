@@ -1,0 +1,36 @@
+.sorts .list_title h2 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_sort.png) no-repeat;
+  background-size: 1.80247rem auto; }
+
+.sort_list {
+  overflow: hidden; }
+
+.sort_list li {
+  font-size: 1.08642rem;
+  padding: 0.37037rem 0.71605rem;
+  border-bottom: 0.07407rem #cccccc dashed;
+  letter-spacing: 0.07407rem;
+  line-height: 1.38272rem;
+  overflow: hidden; }
+
+.sort_list li:last-child {
+  border: none; }
+
+.sort_list img.fl {
+  margin-right: 0.74074rem;
+  width: 6.46914rem;
+  height: 3.62963rem; }
+
+.sort_list li p {
+  width: 18.02469rem;
+  padding-top: 0.49383rem;
+  float: left; }
+
+.sort_list li:hover {
+  background-color: #6dc7f4;
+  color: #fff; }
+
+.sort_list li:hover a, .sort_list li:hover span {
+  color: #fff; }
+
+/*# sourceMappingURL=sort_list.css.map */

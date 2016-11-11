@@ -1,0 +1,69 @@
+<?php
+/**
+ * Template functions used for the site footer.
+ *
+ * @package storefront
+ */
+
+if ( ! function_exists( 'storefront_footer_widgets' ) ) {
+	/**
+	 * Display the footer widget regions
+	 * @since  1.0.0
+	 * @return  void
+	 */
+	function storefront_footer_widgets() {
+		if ( is_active_sidebar( 'footer-4' ) ) {
+			$widget_columns = apply_filters( 'storefront_footer_widget_regions', 4 );
+		} elseif ( is_active_sidebar( 'footer-3' ) ) {
+			$widget_columns = apply_filters( 'storefront_footer_widget_regions', 3 );
+		} elseif ( is_active_sidebar( 'footer-2' ) ) {
+			$widget_columns = apply_filters( 'storefront_footer_widget_regions', 2 );
+		} elseif ( is_active_sidebar( 'footer-1' ) ) {
+			$widget_columns = apply_filters( 'storefront_footer_widget_regions', 1 );
+		} else {
+			$widget_columns = apply_filters( 'storefront_footer_widget_regions', 0 );
+		}
+		$widget_columns = apply_filters( 'storefront_footer_widget_regions', 5 );
+
+		if ( $widget_columns > 0 ) : ?>
+
+			<section class="footer-widgets col-<?php echo intval( $widget_columns ); ?> fix">
+
+				<?php $i = 0; while ( $i < $widget_columns ) : $i++; ?>
+
+					<?php if ( is_active_sidebar( 'footer-' . $i ) ) : ?>
+
+						<section class="footer-mono-<?php echo intval( $i ); ?>">
+							<div class=twi-woo-widget>
+							</div>
+				        	<?php dynamic_sidebar( 'footer-' . intval( $i ) ); ?>
+						</section>
+
+			        <?php endif; ?>
+
+				<?php endwhile; ?>
+
+			</section><!-- /.footer-widgets  -->
+
+		<?php endif;
+	}
+}
+
+if ( ! function_exists( 'storefront_credit' ) ) {
+	/**
+	 * Display the theme credit
+	 * @since  1.0.0
+	 * @return void
+	 */
+	function storefront_credit() {
+		?>
+		<div class="site-info">
+			<span style="text-align: center">魔方數位資訊服務有限公司 版權所有 @2016 Mofang lmc All Rights Reserved.</span>
+			
+			<?php if ( apply_filters( 'storefront_credit_link', true ) ) { ?>
+			
+			<?php } ?>
+		</div><!-- .site-info -->
+		<?php
+	}
+}

@@ -1,0 +1,180 @@
+@function mfe-px2rem($px) {
+    @return $px/24 + rem;
+}
+body {
+    font-family:"Hiragino Sans GB"  SimHei, "Microsoft YaHei", Arial, SimSun, sans-serif;
+    background: #bfbfbf;
+    overflow-x:hidden;
+}
+.wrapper {
+    width: mfe-px2rem(640);
+    min-width: mfe-px2rem(320);
+    margin: 0 auto;
+    overflow: hidden；
+}
+.hd {
+}
+.bd {
+}
+.ft {
+}
+/* toolbar */
+.toolbar {
+    height: mfe-px2rem(88);
+    background-color: #28282a;
+    position: relative;
+}
+.logo {
+    width: mfe-px2rem(182);
+    height: mfe-px2rem(60);
+    background-image: url(../../img/wap/logo.png);
+    position: absolute;
+    left: mfe-px2rem(13);
+    top: mfe-px2rem(13);
+}
+.btn-search {
+    background-image: url(../../img/wap/btn_search.png);
+    position: absolute;
+    right: mfe-px2rem(115);
+    top: mfe-px2rem(13);
+    width: mfe-px2rem(60);
+    height: mfe-px2rem(60);
+    cursor: pointer;
+}
+.btn-tool {
+    background-image: url(../../img/wap/btn_tool.png);
+    position: absolute;
+    right: mfe-px2rem(15);
+    top: mfe-px2rem(13);
+    width: mfe-px2rem(60);
+    height: mfe-px2rem(60);
+    cursor: pointer;
+}
+.btn-user-icon {
+    display: none;
+    background-image: url(http://u.mofang.com/images/user.png);
+    position: absolute;
+    right: mfe-px2rem(15);
+    top: mfe-px2rem(13);
+    width: mfe-px2rem(60);
+    height: mfe-px2rem(60);
+    cursor: pointer;
+}
+
+
+/* search */
+.search{
+    position: absolute;
+    width:mfe-px2rem(640);
+    height:mfe-px2rem(110);
+    background-color:#dedede;
+    top:mfe-px2rem(88);
+    z-index: 100;
+    display: none;
+    box-shadow:mfe-px2rem(0) mfe-px2rem(3) mfe-px2rem(3) rgba(0,0,0,.1);
+}
+.search .input_query{
+    width:mfe-px2rem(530);
+    height:mfe-px2rem(60);
+    border-radius:mfe-px2rem(40);
+    border:none;
+    float: left;
+    outline:none;
+    font-size:mfe-px2rem(24);
+    text-indent:1em;
+    box-shadow:inset mfe-px2rem(0) mfe-px2rem(1) mfe-px2rem(1) rgba(0,0,0,.2);
+}
+.search .btn_submit{
+    border:none;
+    background-image: url(../../img/wap/ico_search.png);
+    display: block;
+    width: mfe-px2rem(60);
+    height:mfe-px2rem(60);
+    float: left;
+    padding:0;
+    margin-left:mfe-px2rem(8);
+    cursor:pointer;
+    background-color:#dedede;
+}
+.search .search_inner{
+    width:mfe-px2rem(640);
+    margin-top:mfe-px2rem(20);
+    margin-left:mfe-px2rem(20);
+}
+
+/* jiajia tip */
+.jiajia-download-tip {
+    background-image: url(../../img/wap/bg_jiajia_download.png);
+    width: mfe-px2rem(640);
+    height: mfe-px2rem(107);
+    position: relative;
+    display: none;
+}
+.jiajia-download-tip a {
+    text-indent: mfe-px2rem(-1000);
+    overflow: hidden;
+    display: block;
+    width: mfe-px2rem(157);
+    height: mfe-px2rem(64);
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    right: mfe-px2rem(18);
+    top: mfe-px2rem(20);
+}
+
+/**
+ * copyright
+ */
+.copyright {
+    background-color: #28282a;
+    width: mfe-px2rem(640);
+    height: mfe-px2rem(400);
+    color: #999999;
+}
+.copyright li {
+    color: #999999;
+    font-size: mfe-px2rem(29);
+    text-align: center;
+    padding-bottom:mfe-px2rem(5);
+    padding-top:mfe-px2rem(5);
+}
+.copyright ul{
+    padding-top: mfe-px2rem(30);
+}
+.copyright .copyright-logo{
+    width: mfe-px2rem(182);
+    height: mfe-px2rem(60);
+    background-image: url(../../img/wap/logo.png);
+    display: block;
+    margin:0 auto;
+    text-indent: mfe-px2rem(-1000);
+    overflow: hidden;
+    margin-top: mfe-px2rem(15);
+    margin-bottom: mfe-px2rem(15);
+}
+.copyright .switches{
+    width: mfe-px2rem(435);
+    height:mfe-px2rem(75);
+    margin: 0 auto;
+    border:solid mfe-px2rem(2) #171718;
+    border-radius:mfe-px2rem(20);
+}
+.copyright .switches span,
+.copyright .switches a{
+    width: mfe-px2rem(216);
+    height:mfe-px2rem(75);
+    line-height:mfe-px2rem(75);
+    display: block;
+    float:left;
+}
+.copyright .switches span{
+    background-color: #090909;
+    border-radius:mfe-px2rem(17) 0 0 mfe-px2rem(17);
+}
+.copyright .switches a{
+    color:#999999;
+    text-decoration: none;
+}
+
+

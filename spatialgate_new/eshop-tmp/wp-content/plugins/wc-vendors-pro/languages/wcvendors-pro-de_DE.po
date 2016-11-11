@@ -1,0 +1,3282 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Vendors Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-20 17:15+0100\n"
+"PO-Revision-Date: Wed Dec 02 2015 20:06:10 GMT+0100\n"
+"Last-Translator: Studio Wittrin <studio@wittrin.info>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wcvendors-pro.php\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Loco-Target-Locale: de_DE"
+
+#: admin/partials/wcvendors-pro-system-status.php:58
+#, c-format
+msgid ""
+"You cannot set your vendor store slug and vendor shop page to the same value."
+" This will break things. <a href=\"%s\">Click here to change</a>."
+msgstr ""
+
+#: includes/class-wcvendors-pro-activator.php:106
+msgid ""
+"<b>WC Vendors Pro is disabled</b>. WC Vendors Pro requires WC Vendors v1.7.0 "
+"or higher to operate."
+msgstr ""
+
+#: includes/class-wcvendors-pro-updater.php:369
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+#: includes/class-wcvendors-pro.php:478
+msgid "WordPress Dashboard"
+msgstr ""
+
+#: includes/class-wcvendors-pro.php:480
+msgid "Lock vendors out of the /wp-admin/ area."
+msgstr ""
+
+#: includes/class-wcvendors-pro.php:572
+msgid "Reverse the feedback system."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:381
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:392
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new license "
+"key will be emailed to you after your order has been completed."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:403
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:414
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:425
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:436
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:447
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:458
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:469
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:480
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:491
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new WC "
+"Vendors Pro license Key in the settings page. The License Key should have "
+"arrived in your email inbox, if not you can get it by logging into your "
+"account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: public/class-wcvendors-pro-export-helper.php:103
+#: public/class-wcvendors-pro-order-controller.php:236
+msgid "NA"
+msgstr "entfällt"
+
+#: public/class-wcvendors-pro-product-controller.php:836
+#: public/class-wcvendors-pro-reports-controller.php:349
+msgid "<i class=\"fa fa-picture-o\"></i>"
+msgstr ""
+
+#: public/class-wcvendors-pro-product-controller.php:838
+msgid "<i class=\"fa fa-shopping-cart\"></i>"
+msgstr ""
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:239
+msgid "Usage / Limits"
+msgstr "Nutzung / Limits"
+
+#: public/class-wcvendors-pro-store-controller.php:145
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:610
+msgctxt "placeholder"
+msgid ""
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:755
+msgid ""
+"If managing stock, this controls whether or not backorders are allowed. If "
+"enabled, stock quantity can go below 0."
+msgstr ""
+
+#: templates/dashboard/permission.php:14
+msgid "These is not the droids you are looking for."
+msgstr "Dies sind nicht Droiden, die Sie suchen."
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wcvendors.com/product/wc-vendors-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The WC Vendors Pro plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WC Vendors"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wcvendors.com/"
+msgstr ""
+
+#: includes/class-wcvendors-pro-activator.php:41
+msgid "This plugin requires PHP Version 5.4.  Sorry about that."
+msgstr "Dieser Plugin benötigt PHP Version 5.4. Tut uns leid. "
+
+#: includes/class-wcvendors-pro-activator.php:49
+msgid ""
+"WC Vendors Pro requires WooCommerce to run. Please install WooCommerce and "
+"activate before attempting to activate again."
+msgstr ""
+"Um WC Vendors Pro zu benutzen, muss WooCommerce installiert sein. Bitte "
+"installieren Sie WooCommerce und aktivieren Sie es bevor Sie versuchen WC "
+"Vendors Pro erneut zu aktivieren."
+
+#: includes/class-wcvendors-pro-activator.php:57
+msgid ""
+"WC Vendors Pro requires WC Vendors to run. Please install WC Vendors and "
+"activate before attempting to activate again."
+msgstr ""
+"WC Vendors Pro benötigt WC Vendors, um zu laufen. Bitte installieren und "
+"aktivieren Sie WC Vendors und versuchen Sie dann erneut WC Vendors Pro zu "
+"aktivieren."
+
+#: public/class-wcvendors-pro-form-helper.php:766
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: public/class-wcvendors-pro-form-helper.php:767
+msgid "&#197;land Islands"
+msgstr "&#197;land Islands"
+
+#: public/class-wcvendors-pro-form-helper.php:768
+msgid "Albania"
+msgstr "Albanien"
+
+#: public/class-wcvendors-pro-form-helper.php:769
+msgid "Algeria"
+msgstr "Algerien"
+
+#: public/class-wcvendors-pro-form-helper.php:770
+msgid "Andorra"
+msgstr "Andorra"
+
+#: public/class-wcvendors-pro-form-helper.php:771
+msgid "Angola"
+msgstr "Angola"
+
+#: public/class-wcvendors-pro-form-helper.php:772
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: public/class-wcvendors-pro-form-helper.php:773
+msgid "Antarctica"
+msgstr "Antarctis"
+
+#: public/class-wcvendors-pro-form-helper.php:774
+msgid "Antigua and Barbuda"
+msgstr "Antigua und Berbuda"
+
+#: public/class-wcvendors-pro-form-helper.php:775
+msgid "Argentina"
+msgstr "Argentinien"
+
+#: public/class-wcvendors-pro-form-helper.php:776
+msgid "Armenia"
+msgstr "Armenien"
+
+#: public/class-wcvendors-pro-form-helper.php:777
+msgid "Aruba"
+msgstr "Aruba"
+
+#: public/class-wcvendors-pro-form-helper.php:779
+msgid "Austria"
+msgstr "Österreich"
+
+#: public/class-wcvendors-pro-form-helper.php:780
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: public/class-wcvendors-pro-form-helper.php:781
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: public/class-wcvendors-pro-form-helper.php:782
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: public/class-wcvendors-pro-form-helper.php:783
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: public/class-wcvendors-pro-form-helper.php:784
+msgid "Barbados"
+msgstr "Barbados"
+
+#: public/class-wcvendors-pro-form-helper.php:785
+msgid "Belarus"
+msgstr "Weißrussland"
+
+#: public/class-wcvendors-pro-form-helper.php:786
+msgid "Belgium"
+msgstr "Belgien"
+
+#: public/class-wcvendors-pro-form-helper.php:787
+msgid "Belau"
+msgstr "Palau"
+
+#: public/class-wcvendors-pro-form-helper.php:788
+msgid "Belize"
+msgstr "Belize"
+
+#: public/class-wcvendors-pro-form-helper.php:789
+msgid "Benin"
+msgstr "Benin"
+
+#: public/class-wcvendors-pro-form-helper.php:790
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: public/class-wcvendors-pro-form-helper.php:791
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: public/class-wcvendors-pro-form-helper.php:792
+msgid "Bolivia"
+msgstr "Bolivien"
+
+#: public/class-wcvendors-pro-form-helper.php:793
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius und Saba"
+
+#: public/class-wcvendors-pro-form-helper.php:794
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnien Herzgonivina"
+
+#: public/class-wcvendors-pro-form-helper.php:795
+msgid "Botswana"
+msgstr "Botswana"
+
+#: public/class-wcvendors-pro-form-helper.php:796
+msgid "Bouvet Island"
+msgstr "Bouvetinsel"
+
+#: public/class-wcvendors-pro-form-helper.php:797
+msgid "Brazil"
+msgstr "Brasilien"
+
+#: public/class-wcvendors-pro-form-helper.php:798
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: public/class-wcvendors-pro-form-helper.php:799
+msgid "British Virgin Islands"
+msgstr "Jungferninseln"
+
+#: public/class-wcvendors-pro-form-helper.php:800
+msgid "Brunei"
+msgstr "Brunei"
+
+#: public/class-wcvendors-pro-form-helper.php:801
+msgid "Bulgaria"
+msgstr "Bulgarien"
+
+#: public/class-wcvendors-pro-form-helper.php:802
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: public/class-wcvendors-pro-form-helper.php:803
+msgid "Burundi"
+msgstr "Burundi"
+
+#: public/class-wcvendors-pro-form-helper.php:804
+msgid "Cambodia"
+msgstr "Kambodscha"
+
+#: public/class-wcvendors-pro-form-helper.php:805
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: public/class-wcvendors-pro-form-helper.php:806
+msgid "Canada"
+msgstr "Kanada"
+
+#: public/class-wcvendors-pro-form-helper.php:807
+msgid "Cape Verde"
+msgstr "Kap Verde"
+
+#: public/class-wcvendors-pro-form-helper.php:808
+msgid "Cayman Islands"
+msgstr "Cayman Inseln"
+
+#: public/class-wcvendors-pro-form-helper.php:809
+msgid "Central African Republic"
+msgstr "Zentralafrikanische Republik"
+
+#: public/class-wcvendors-pro-form-helper.php:810
+msgid "Chad"
+msgstr "Tschad"
+
+#: public/class-wcvendors-pro-form-helper.php:811
+msgid "Chile"
+msgstr "Chile"
+
+#: public/class-wcvendors-pro-form-helper.php:812
+msgid "China"
+msgstr "China"
+
+#: public/class-wcvendors-pro-form-helper.php:813
+msgid "Christmas Island"
+msgstr "Weihnachtsinsel"
+
+#: public/class-wcvendors-pro-form-helper.php:814
+msgid "Cocos (Keeling) Islands"
+msgstr "Kokosinseln"
+
+#: public/class-wcvendors-pro-form-helper.php:815
+msgid "Colombia"
+msgstr "Kolumbien"
+
+#: public/class-wcvendors-pro-form-helper.php:816
+msgid "Comoros"
+msgstr "Komoren"
+
+#: public/class-wcvendors-pro-form-helper.php:817
+msgid "Congo (Brazzaville)"
+msgstr "Kongo (Brazzaville)"
+
+#: public/class-wcvendors-pro-form-helper.php:818
+msgid "Congo (Kinshasa)"
+msgstr "Kongo (Kinshasa)"
+
+#: public/class-wcvendors-pro-form-helper.php:819
+msgid "Cook Islands"
+msgstr "Cookinseln"
+
+#: public/class-wcvendors-pro-form-helper.php:820
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: public/class-wcvendors-pro-form-helper.php:821
+msgid "Croatia"
+msgstr "Kroatien"
+
+#: public/class-wcvendors-pro-form-helper.php:822
+msgid "Cuba"
+msgstr "Kuba"
+
+#: public/class-wcvendors-pro-form-helper.php:823
+msgid "Cura&Ccedil;ao"
+msgstr "Cura&Ccedil;ao"
+
+#: public/class-wcvendors-pro-form-helper.php:824
+msgid "Cyprus"
+msgstr "Zypern"
+
+#: public/class-wcvendors-pro-form-helper.php:825
+msgid "Czech Republic"
+msgstr "Tschechische Rupublik"
+
+#: public/class-wcvendors-pro-form-helper.php:826
+msgid "Denmark"
+msgstr "Dänemark"
+
+#: public/class-wcvendors-pro-form-helper.php:827
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: public/class-wcvendors-pro-form-helper.php:828
+msgid "Dominica"
+msgstr "Dominica"
+
+#: public/class-wcvendors-pro-form-helper.php:829
+msgid "Dominican Republic"
+msgstr "Dominikanische Republik"
+
+#: public/class-wcvendors-pro-form-helper.php:830
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: public/class-wcvendors-pro-form-helper.php:831
+msgid "Egypt"
+msgstr "Ägypten"
+
+#: public/class-wcvendors-pro-form-helper.php:832
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: public/class-wcvendors-pro-form-helper.php:833
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: public/class-wcvendors-pro-form-helper.php:834
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: public/class-wcvendors-pro-form-helper.php:835
+msgid "Estonia"
+msgstr "Estland"
+
+#: public/class-wcvendors-pro-form-helper.php:836
+msgid "Ethiopia"
+msgstr "Äthiopien"
+
+#: public/class-wcvendors-pro-form-helper.php:837
+msgid "Falkland Islands"
+msgstr "Falkland Inseln"
+
+#: public/class-wcvendors-pro-form-helper.php:838
+msgid "Faroe Islands"
+msgstr "Färöer-Inseln"
+
+#: public/class-wcvendors-pro-form-helper.php:839
+msgid "Fiji"
+msgstr "Fiji"
+
+#: public/class-wcvendors-pro-form-helper.php:840
+msgid "Finland"
+msgstr "Finnland"
+
+#: public/class-wcvendors-pro-form-helper.php:841
+msgid "France"
+msgstr "Frankreich"
+
+#: public/class-wcvendors-pro-form-helper.php:842
+msgid "French Guiana"
+msgstr "Französisch Guiana"
+
+#: public/class-wcvendors-pro-form-helper.php:843
+msgid "French Polynesia"
+msgstr "Französisch Polynesien"
+
+#: public/class-wcvendors-pro-form-helper.php:844
+msgid "French Southern Territories"
+msgstr "Franz. Süd- und Antarktisgebiete"
+
+#: public/class-wcvendors-pro-form-helper.php:845
+msgid "Gabon"
+msgstr "Gabon"
+
+#: public/class-wcvendors-pro-form-helper.php:846
+msgid "Gambia"
+msgstr "Gambia"
+
+#: public/class-wcvendors-pro-form-helper.php:847
+msgid "Georgia"
+msgstr "Georgien"
+
+#: public/class-wcvendors-pro-form-helper.php:848
+msgid "Germany"
+msgstr "Deutschland"
+
+#: public/class-wcvendors-pro-form-helper.php:849
+msgid "Ghana"
+msgstr "Ghana"
+
+#: public/class-wcvendors-pro-form-helper.php:850
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: public/class-wcvendors-pro-form-helper.php:851
+msgid "Greece"
+msgstr "Griechenland"
+
+#: public/class-wcvendors-pro-form-helper.php:852
+msgid "Greenland"
+msgstr "Grönland"
+
+#: public/class-wcvendors-pro-form-helper.php:853
+msgid "Grenada"
+msgstr "Grenada"
+
+#: public/class-wcvendors-pro-form-helper.php:854
+msgid "Guadeloupe"
+msgstr "Guadaloupe"
+
+#: public/class-wcvendors-pro-form-helper.php:855
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: public/class-wcvendors-pro-form-helper.php:856
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: public/class-wcvendors-pro-form-helper.php:857
+msgid "Guinea"
+msgstr "Guinea"
+
+#: public/class-wcvendors-pro-form-helper.php:858
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: public/class-wcvendors-pro-form-helper.php:859
+msgid "Guyana"
+msgstr "Guinea-Bissau"
+
+#: public/class-wcvendors-pro-form-helper.php:860
+msgid "Haiti"
+msgstr "Haiti"
+
+#: public/class-wcvendors-pro-form-helper.php:861
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard und McDonaldinseln"
+
+#: public/class-wcvendors-pro-form-helper.php:862
+msgid "Honduras"
+msgstr "Honduras"
+
+#: public/class-wcvendors-pro-form-helper.php:863
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: public/class-wcvendors-pro-form-helper.php:864
+msgid "Hungary"
+msgstr "Ungarn"
+
+#: public/class-wcvendors-pro-form-helper.php:865
+msgid "Iceland"
+msgstr "Island"
+
+#: public/class-wcvendors-pro-form-helper.php:866
+msgid "India"
+msgstr "Indien"
+
+#: public/class-wcvendors-pro-form-helper.php:867
+msgid "Indonesia"
+msgstr "Indonesion"
+
+#: public/class-wcvendors-pro-form-helper.php:868
+msgid "Iran"
+msgstr "Iran"
+
+#: public/class-wcvendors-pro-form-helper.php:869
+msgid "Iraq"
+msgstr "Iraq"
+
+#: public/class-wcvendors-pro-form-helper.php:870
+msgid "Republic of Ireland"
+msgstr "Irland"
+
+#: public/class-wcvendors-pro-form-helper.php:871
+msgid "Isle of Man"
+msgstr "Insel Man"
+
+#: public/class-wcvendors-pro-form-helper.php:872
+msgid "Israel"
+msgstr "Israel"
+
+#: public/class-wcvendors-pro-form-helper.php:873
+msgid "Italy"
+msgstr "Italien"
+
+#: public/class-wcvendors-pro-form-helper.php:874
+msgid "Ivory Coast"
+msgstr "Elfenbeinküste"
+
+#: public/class-wcvendors-pro-form-helper.php:875
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: public/class-wcvendors-pro-form-helper.php:876
+msgid "Japan"
+msgstr "Japan"
+
+#: public/class-wcvendors-pro-form-helper.php:877
+msgid "Jersey"
+msgstr "Jersey"
+
+#: public/class-wcvendors-pro-form-helper.php:878
+msgid "Jordan"
+msgstr "Jordanien"
+
+#: public/class-wcvendors-pro-form-helper.php:879
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: public/class-wcvendors-pro-form-helper.php:880
+msgid "Kenya"
+msgstr "Kenia"
+
+#: public/class-wcvendors-pro-form-helper.php:881
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: public/class-wcvendors-pro-form-helper.php:882
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: public/class-wcvendors-pro-form-helper.php:883
+msgid "Kyrgyzstan"
+msgstr "Kirgisistan"
+
+#: public/class-wcvendors-pro-form-helper.php:884
+msgid "Laos"
+msgstr "Laos"
+
+#: public/class-wcvendors-pro-form-helper.php:885
+msgid "Latvia"
+msgstr "Lettland"
+
+#: public/class-wcvendors-pro-form-helper.php:886
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: public/class-wcvendors-pro-form-helper.php:887
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: public/class-wcvendors-pro-form-helper.php:888
+msgid "Liberia"
+msgstr "Liberia"
+
+#: public/class-wcvendors-pro-form-helper.php:889
+msgid "Libya"
+msgstr "Libyen"
+
+#: public/class-wcvendors-pro-form-helper.php:890
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: public/class-wcvendors-pro-form-helper.php:891
+msgid "Lithuania"
+msgstr "Lithauen"
+
+#: public/class-wcvendors-pro-form-helper.php:892
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: public/class-wcvendors-pro-form-helper.php:893
+msgid "Macao S.A.R., China"
+msgstr "Macao S.A.R., China"
+
+#: public/class-wcvendors-pro-form-helper.php:894
+msgid "Macedonia"
+msgstr "Mazedonien"
+
+#: public/class-wcvendors-pro-form-helper.php:895
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: public/class-wcvendors-pro-form-helper.php:896
+msgid "Malawi"
+msgstr "Malawi"
+
+#: public/class-wcvendors-pro-form-helper.php:897
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: public/class-wcvendors-pro-form-helper.php:898
+msgid "Maldives"
+msgstr "Malediven"
+
+#: public/class-wcvendors-pro-form-helper.php:899
+msgid "Mali"
+msgstr "Mali"
+
+#: public/class-wcvendors-pro-form-helper.php:900
+msgid "Malta"
+msgstr "Malta"
+
+#: public/class-wcvendors-pro-form-helper.php:901
+msgid "Marshall Islands"
+msgstr "Marshall Inseln"
+
+#: public/class-wcvendors-pro-form-helper.php:902
+msgid "Martinique"
+msgstr "Martinique"
+
+#: public/class-wcvendors-pro-form-helper.php:903
+msgid "Mauritania"
+msgstr "Mauritanien"
+
+#: public/class-wcvendors-pro-form-helper.php:904
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: public/class-wcvendors-pro-form-helper.php:905
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: public/class-wcvendors-pro-form-helper.php:906
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: public/class-wcvendors-pro-form-helper.php:907
+msgid "Micronesia"
+msgstr "Mikronesien"
+
+#: public/class-wcvendors-pro-form-helper.php:908
+msgid "Moldova"
+msgstr "Moldavien"
+
+#: public/class-wcvendors-pro-form-helper.php:909
+msgid "Monaco"
+msgstr "Monaco"
+
+#: public/class-wcvendors-pro-form-helper.php:910
+msgid "Mongolia"
+msgstr "Mongolien"
+
+#: public/class-wcvendors-pro-form-helper.php:911
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: public/class-wcvendors-pro-form-helper.php:912
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: public/class-wcvendors-pro-form-helper.php:913
+msgid "Morocco"
+msgstr "Morokko"
+
+#: public/class-wcvendors-pro-form-helper.php:914
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: public/class-wcvendors-pro-form-helper.php:915
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: public/class-wcvendors-pro-form-helper.php:916
+msgid "Namibia"
+msgstr "Namibia"
+
+#: public/class-wcvendors-pro-form-helper.php:917
+msgid "Nauru"
+msgstr "Nauru"
+
+#: public/class-wcvendors-pro-form-helper.php:918
+msgid "Nepal"
+msgstr "Nepal"
+
+#: public/class-wcvendors-pro-form-helper.php:919
+msgid "Netherlands"
+msgstr "Niederlande"
+
+#: public/class-wcvendors-pro-form-helper.php:920
+msgid "Netherlands Antilles"
+msgstr "Niederländische Antillen"
+
+#: public/class-wcvendors-pro-form-helper.php:921
+msgid "New Caledonia"
+msgstr "Neu Kaledonien"
+
+#: public/class-wcvendors-pro-form-helper.php:922
+msgid "New Zealand"
+msgstr "Neuseeland"
+
+#: public/class-wcvendors-pro-form-helper.php:923
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: public/class-wcvendors-pro-form-helper.php:924
+msgid "Niger"
+msgstr "Niger"
+
+#: public/class-wcvendors-pro-form-helper.php:925
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: public/class-wcvendors-pro-form-helper.php:926
+msgid "Niue"
+msgstr "Niue"
+
+#: public/class-wcvendors-pro-form-helper.php:927
+msgid "Norfolk Island"
+msgstr "Norfolk Insel"
+
+#: public/class-wcvendors-pro-form-helper.php:928
+msgid "North Korea"
+msgstr "Nordkorea"
+
+#: public/class-wcvendors-pro-form-helper.php:929
+msgid "Norway"
+msgstr "Norwegen"
+
+#: public/class-wcvendors-pro-form-helper.php:930
+msgid "Oman"
+msgstr "Oman"
+
+#: public/class-wcvendors-pro-form-helper.php:931
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: public/class-wcvendors-pro-form-helper.php:932
+msgid "Palestinian Territory"
+msgstr "Palästinensische Gebiete"
+
+#: public/class-wcvendors-pro-form-helper.php:933
+msgid "Panama"
+msgstr "Panama"
+
+#: public/class-wcvendors-pro-form-helper.php:934
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: public/class-wcvendors-pro-form-helper.php:935
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: public/class-wcvendors-pro-form-helper.php:936
+msgid "Peru"
+msgstr "Peru"
+
+#: public/class-wcvendors-pro-form-helper.php:937
+msgid "Philippines"
+msgstr "Philippinen"
+
+#: public/class-wcvendors-pro-form-helper.php:938
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: public/class-wcvendors-pro-form-helper.php:939
+msgid "Poland"
+msgstr "Polen"
+
+#: public/class-wcvendors-pro-form-helper.php:940
+msgid "Portugal"
+msgstr "Portugal"
+
+#: public/class-wcvendors-pro-form-helper.php:941
+msgid "Qatar"
+msgstr "Qatar"
+
+#: public/class-wcvendors-pro-form-helper.php:942
+msgid "Reunion"
+msgstr "Reunion"
+
+#: public/class-wcvendors-pro-form-helper.php:943
+msgid "Romania"
+msgstr "Rumänien"
+
+#: public/class-wcvendors-pro-form-helper.php:944
+msgid "Russia"
+msgstr "Russland"
+
+#: public/class-wcvendors-pro-form-helper.php:945
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: public/class-wcvendors-pro-form-helper.php:946
+msgid "Saint Barth&eacute;lemy"
+msgstr "St. Barth&eacute;lemy"
+
+#: public/class-wcvendors-pro-form-helper.php:947
+msgid "Saint Helena"
+msgstr "St. Helena"
+
+#: public/class-wcvendors-pro-form-helper.php:948
+msgid "Saint Kitts and Nevis"
+msgstr "St. Kitts und Nevis"
+
+#: public/class-wcvendors-pro-form-helper.php:949
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+#: public/class-wcvendors-pro-form-helper.php:950
+msgid "Saint Martin (French part)"
+msgstr "St.Martin (Französischer Teil)"
+
+#: public/class-wcvendors-pro-form-helper.php:951
+msgid "Saint Martin (Dutch part)"
+msgstr "St. Martin (Niederländischer Teil)"
+
+#: public/class-wcvendors-pro-form-helper.php:952
+msgid "Saint Pierre and Miquelon"
+msgstr "St. Pierre und Miquelon"
+
+#: public/class-wcvendors-pro-form-helper.php:953
+msgid "Saint Vincent and the Grenadines"
+msgstr "St. Vincent und die Grenadinen"
+
+#: public/class-wcvendors-pro-form-helper.php:954
+msgid "San Marino"
+msgstr "San Marino"
+
+#: public/class-wcvendors-pro-form-helper.php:955
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; und Pr&iacute;ncipe"
+
+#: public/class-wcvendors-pro-form-helper.php:956
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabien"
+
+#: public/class-wcvendors-pro-form-helper.php:957
+msgid "Senegal"
+msgstr "Senegal"
+
+#: public/class-wcvendors-pro-form-helper.php:958
+msgid "Serbia"
+msgstr "Serbien"
+
+#: public/class-wcvendors-pro-form-helper.php:959
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#: public/class-wcvendors-pro-form-helper.php:960
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: public/class-wcvendors-pro-form-helper.php:961
+msgid "Singapore"
+msgstr "Singapur"
+
+#: public/class-wcvendors-pro-form-helper.php:962
+msgid "Slovakia"
+msgstr "Slowakei"
+
+#: public/class-wcvendors-pro-form-helper.php:963
+msgid "Slovenia"
+msgstr "Slowenien"
+
+#: public/class-wcvendors-pro-form-helper.php:964
+msgid "Solomon Islands"
+msgstr "Solomon Inseln"
+
+#: public/class-wcvendors-pro-form-helper.php:965
+msgid "Somalia"
+msgstr "Somalia"
+
+#: public/class-wcvendors-pro-form-helper.php:966
+msgid "South Africa"
+msgstr "Südafrika"
+
+#: public/class-wcvendors-pro-form-helper.php:967
+msgid "South Georgia/Sandwich Islands"
+msgstr "Südliche Sandwichinseln"
+
+#: public/class-wcvendors-pro-form-helper.php:968
+msgid "South Korea"
+msgstr "Südkorea"
+
+#: public/class-wcvendors-pro-form-helper.php:969
+msgid "South Sudan"
+msgstr "Südsudan"
+
+#: public/class-wcvendors-pro-form-helper.php:970
+msgid "Spain"
+msgstr "Spanien"
+
+#: public/class-wcvendors-pro-form-helper.php:971
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: public/class-wcvendors-pro-form-helper.php:972
+msgid "Sudan"
+msgstr "Sudan"
+
+#: public/class-wcvendors-pro-form-helper.php:973
+msgid "Suriname"
+msgstr "Suriname"
+
+#: public/class-wcvendors-pro-form-helper.php:974
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard und Jan Mayen"
+
+#: public/class-wcvendors-pro-form-helper.php:975
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: public/class-wcvendors-pro-form-helper.php:976
+msgid "Sweden"
+msgstr "Schweden"
+
+#: public/class-wcvendors-pro-form-helper.php:977
+msgid "Switzerland"
+msgstr "Schweiz"
+
+#: public/class-wcvendors-pro-form-helper.php:978
+msgid "Syria"
+msgstr "Syrien"
+
+#: public/class-wcvendors-pro-form-helper.php:979
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: public/class-wcvendors-pro-form-helper.php:980
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: public/class-wcvendors-pro-form-helper.php:981
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: public/class-wcvendors-pro-form-helper.php:982
+msgid "Thailand"
+msgstr "Thailand"
+
+#: public/class-wcvendors-pro-form-helper.php:983
+msgid "Timor-Leste"
+msgstr "Osttimor"
+
+#: public/class-wcvendors-pro-form-helper.php:984
+msgid "Togo"
+msgstr "Togo"
+
+#: public/class-wcvendors-pro-form-helper.php:985
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: public/class-wcvendors-pro-form-helper.php:986
+msgid "Tonga"
+msgstr "Tonga"
+
+#: public/class-wcvendors-pro-form-helper.php:987
+msgid "Trinidad and Tobago"
+msgstr "Trinidad und Tobago"
+
+#: public/class-wcvendors-pro-form-helper.php:988
+msgid "Tunisia"
+msgstr "Tunesien"
+
+#: public/class-wcvendors-pro-form-helper.php:989
+msgid "Turkey"
+msgstr "Türkei"
+
+#: public/class-wcvendors-pro-form-helper.php:990
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: public/class-wcvendors-pro-form-helper.php:991
+msgid "Turks and Caicos Islands"
+msgstr "Turks- und Caicosinseln"
+
+#: public/class-wcvendors-pro-form-helper.php:992
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: public/class-wcvendors-pro-form-helper.php:993
+msgid "Uganda"
+msgstr "Uganda"
+
+#: public/class-wcvendors-pro-form-helper.php:994
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: public/class-wcvendors-pro-form-helper.php:995
+msgid "United Arab Emirates"
+msgstr "Vereinigte Arabische Emirate"
+
+#: public/class-wcvendors-pro-form-helper.php:996
+msgid "United Kingdom (UK)"
+msgstr "Vereinigtes Königreich (UK)"
+
+#: public/class-wcvendors-pro-form-helper.php:997
+msgid "United States (US)"
+msgstr "Vereinigte Staaten von Amerika (USA)"
+
+#: public/class-wcvendors-pro-form-helper.php:998
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: public/class-wcvendors-pro-form-helper.php:999
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: public/class-wcvendors-pro-form-helper.php:1000
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: public/class-wcvendors-pro-form-helper.php:1001
+msgid "Vatican"
+msgstr "Vatikanstaat"
+
+#: public/class-wcvendors-pro-form-helper.php:1002
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: public/class-wcvendors-pro-form-helper.php:1003
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: public/class-wcvendors-pro-form-helper.php:1004
+msgid "Wallis and Futuna"
+msgstr "Wallis und Futuna"
+
+#: public/class-wcvendors-pro-form-helper.php:1005
+msgid "Western Sahara"
+msgstr "Demokratische Arabische Republik Sahara"
+
+#: public/class-wcvendors-pro-form-helper.php:1006
+msgid "Western Samoa"
+msgstr "Samoa"
+
+#: public/class-wcvendors-pro-form-helper.php:1007
+msgid "Yemen"
+msgstr "Jemen"
+
+#: public/class-wcvendors-pro-form-helper.php:1008
+msgid "Zambia"
+msgstr "Sambia"
+
+#: public/class-wcvendors-pro-form-helper.php:1009
+msgid "Zimbabwe"
+msgstr "Simbabwe"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:486
+msgid ""
+"List of allowed emails to check against the customer&#039;s billing email "
+"when an order is placed. Separate email addresses with commas."
+msgstr ""
+"Liste von erlaubten Emails. Die Emails werden mit den Rechnungsemails der "
+"Kunden verglichen. Separiere die Emailadressen mit Kommata."
+
+#: public/forms/class-wcvendors-pro-product-form.php:407
+msgid "From&hellip;"
+msgstr "Von&hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:422
+msgid "To&hellip;"
+msgstr "An&hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:910
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
+msgstr ""
+"Versandklassen werden von bestimmten Versandarten genutzt, um ähnliche "
+"Produkte zu gruppieren."
+
+#: public/forms/class-wcvendors-pro-product-form.php:937
+msgid "Up-Sells"
+msgstr "Up-Sells"
+
+#: public/forms/class-wcvendors-pro-store-form.php:176
+msgid "yourpaypaladdress@goeshere.com"
+msgstr "ihrepaypaladresse@kommthierher.com"
+
+#: templates/front/ratings/feedback-form.php:52
+msgid "(e.g. delivery experience, item as described, quality of customer service)"
+msgstr "(z.B. Liefererfahrung, Artikel wie beschrieben, Qualität des Kundenservices)"
+
+#: public/class-wcvendors-pro-form-helper.php:778
+msgid "Australia"
+msgstr "Australien"
+
+#: admin/class-wcvendors-pro-admin.php:94
+#: public/class-wcvendors-pro-dashboard.php:90
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/class-wcvendors-pro-commission-controller.php:263
+msgid "Store Commission"
+msgstr "Shop Provision"
+
+#: admin/class-wcvendors-pro-commission-controller.php:331
+msgid "Fixed"
+msgstr "Fest"
+
+#: admin/class-wcvendors-pro-commission-controller.php:332
+msgid "Fixed + fee"
+msgstr "Feste + Gebühr"
+
+#: admin/class-wcvendors-pro-commission-controller.php:333
+msgid "Percentage"
+msgstr "Prozentual"
+
+#: admin/class-wcvendors-pro-commission-controller.php:334
+msgid "Percentage + fee"
+msgstr "Prozentuale + Gebühr"
+
+#: admin/partials/product/wcvendors-pro-product-meta-panel.php:4
+msgid "Commission Type"
+msgstr "Provisionstyp"
+
+#: admin/partials/product/wcvendors-pro-product-meta-panel.php:16
+#: includes/class-wcvendors-pro.php:618
+msgid "Commission %"
+msgstr "Provision %"
+
+#: admin/partials/product/wcvendors-pro-product-meta-panel.php:21
+msgid "Commission Amount"
+msgstr "Provisionsbetrag"
+
+#: admin/partials/product/wcvendors-pro-product-meta-panel.php:25
+msgid "Commission Fee"
+msgstr "Provisionsgebühr"
+
+#: admin/partials/product/wcvendors-pro-product-meta-tab.php:2
+msgid "Commission"
+msgstr "Provision "
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/wcvendors-pro-system-status.php:17
+msgid "WC Vendors Pro"
+msgstr "WC Vendors Pro"
+
+#: admin/partials/wcvendors-pro-system-status.php:17
+msgid "This section shows information about WC Vendors Pro requirements."
+msgstr "Dieser Abschnitt zeigt Informationen über WC Vendors Pro Anforderungen."
+
+#: admin/partials/wcvendors-pro-system-status.php:22
+msgid "Pro dasboard page"
+msgstr "Pro Dasboard Seite"
+
+#: admin/partials/wcvendors-pro-system-status.php:27
+#, php-format
+msgid ""
+"WC Vendors Pro WILL NOT FUNCTION without this set. <a href=\"%s\">Click here "
+"to set the page</a>."
+msgstr ""
+"WC Vendors Pro wird nicht funktionieren ohne diese Einstellung. <a "
+"href=„%s“>Klicken Sie hier um die Seite zu legen</a>."
+
+#: admin/partials/wcvendors-pro-system-status.php:30
+#, php-format
+msgid ""
+"Your pro dashboard page cannot be set to your free dashboard page. <a "
+"href=\"%s\">Click here to change</a>."
+msgstr ""
+"Your pro dashboard page cannot be set to your free dashboard page. <a "
+"href=\"%s\">Click here to change</a>."
+
+#: admin/partials/wcvendors-pro-system-status.php:40
+msgid "Feedback form page"
+msgstr "Bewertungsseite"
+
+#: admin/partials/wcvendors-pro-system-status.php:44
+#, php-format
+msgid ""
+"Vendor ratings will not work without this page set. <a href=\"%s\">Click here "
+"to set the page</a>."
+msgstr ""
+"Verkäufer Bewertungen funktionieren nicht ohne diese Seite. <a "
+"href=„%s“>Klicken Sie hier, um die Seite festzulegen.</a>."
+
+#: admin/partials/wcvendors-pro-system-status.php:51
+msgid "Vendor stores slug"
+msgstr "Slug (URL-Ergänzung) des Verkäufer Shops"
+
+#: admin/partials/wcvendors-pro-system-status.php:55
+#, php-format
+msgid ""
+"You need to set a vendor store slug for the stores to work. <a "
+"href=\"%s\">Click here to set the slug</a>."
+msgstr ""
+"Sie müssen eine Slug (URL-Ergänzung) für den Verkäufer Shop anlegen, damit "
+"der Shop funktioniert. <a href=\"%s\">Hier klicken und slug erstellen</a>."
+
+#: includes/class-wcvendors-pro-activator.php:142
+msgid "There was a problem creating the vendor store."
+msgstr "Es gab ein Problem beim Erstellen des Shops."
+
+#: includes/class-wcvendors-pro-activator.php:163
+msgid "Pro Dashboard"
+msgstr "Pro Dashboard"
+
+#: includes/class-wcvendors-pro-activator.php:167
+#: includes/class-wcvendors-pro-ratings-controller.php:614
+msgid "Feedback"
+msgstr "Bewertung"
+
+#: includes/class-wcvendors-pro-logger.php:169
+msgid "Logs"
+msgstr "Logs"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:86
+#: includes/class-wcvendors-pro-ratings-controller.php:613
+#: public/class-wcvendors-pro-reports-controller.php:275
+msgid "Order #"
+msgstr "Bestellung #"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:87
+#: public/class-wcvendors-pro-table-helper.php:143
+msgid "Title"
+msgstr "Titel"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:88
+#: public/class-wcvendors-pro-store-controller.php:694
+msgid "Vendor"
+msgstr "Verkäufer"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:89
+#: includes/class-wcvendors-pro-ratings-controller.php:615
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:90
+#: includes/class-wcvendors-pro-ratings-controller.php:616
+#: public/class-wcvendors-pro-order-controller.php:188
+msgid "Customer"
+msgstr "Kunde"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:91
+msgid "Comments"
+msgstr "Kommentare"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:92
+msgid "Rating"
+msgstr "Bewertung"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:93
+#: includes/class-wcvendors-pro-ratings-controller.php:617
+#: public/class-wcvendors-pro-reports-controller.php:277
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:175
+#: public/class-wcvendors-pro-dashboard.php:78
+#: public/class-wcvendors-pro-dashboard.php:106
+#: public/class-wcvendors-pro-product-controller.php:873
+#: public/class-wcvendors-pro-table-helper.php:153
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:197
+msgid "Vendor rating(s) deleted."
+msgstr "Verkäufer Bewertung(en) gelöscht."
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:229
+#: includes/class-wcvendors-pro-ratings-controller.php:456
+#: includes/class-wcvendors-pro-ratings-controller.php:549
+#: includes/class-wcvendors-pro.php:557
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-table-title.php:16
+msgid "Vendor Ratings"
+msgstr "Verkäufer Bewertungen"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:386
+msgid "No vendor ratings found."
+msgstr "Keine Verkäuferbewertungen gefunden."
+
+#: includes/class-wcvendors-pro-ratings-controller.php:134
+msgid "Please select a star rating."
+msgstr "Bitte wählen Sie eine Sterne-Bewertung."
+
+#: includes/class-wcvendors-pro-ratings-controller.php:191
+msgid "Your feedback has been saved."
+msgstr "Ihr Feedback wurde gespeichert."
+
+#: includes/class-wcvendors-pro-ratings-controller.php:193
+msgid "There was an error posting your feedback."
+msgstr "Es ist ein Fehler aufgetreten. Das Feedback konnte nicht gespeichert werden."
+
+#: includes/class-wcvendors-pro-ratings-controller.php:261
+msgid "Leave Feedback"
+msgstr "Feedback hinterlassen:"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:512
+msgid "Vendor rating updated."
+msgstr "Verkäufer Bewertungen aktualisiert."
+
+#: includes/class-wcvendors-pro-ratings-controller.php:525
+msgid "Vendor rating deleted."
+msgstr "Verkäufer Bewertung gelöscht."
+
+#: includes/class-wcvendors-pro-ratings-controller.php:597
+msgid "No ratings have been submitted for this product yet."
+msgstr "Für dieses Produkt wurden noch keine Bewertungen abgegeben."
+
+#: includes/class-wcvendors-pro-ratings-controller.php:612
+#: public/class-wcvendors-pro-order-controller.php:186
+#: public/class-wcvendors-pro-product-controller.php:835
+#: public/class-wcvendors-pro-reports-controller.php:274
+#: public/class-wcvendors-pro-reports-controller.php:348
+#: public/class-wcvendors-pro-table-helper.php:142
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:700
+msgid "No ratings found."
+msgstr "Keine Bewertungen gefunden."
+
+#: includes/class-wcvendors-pro-updater.php:139
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:80
+msgid "License Activation"
+msgstr "Lizenzaktivierung"
+
+#: includes/class-wcvendors-pro-updater.php:140
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:87
+msgid "License Deactivation"
+msgstr "Lizenz Deaktivierung"
+
+#: includes/class-wcvendors-pro-updater.php:350
+#, php-format
+msgid ""
+"The WC Vendors Pro license key has not been activated, so the plugin is "
+"inactive! %sClick here%s to activate the license key and the plugin."
+msgstr ""
+"Der WC Vendors Pro Lizenzschlüssel ist nicht aktiviert worden. Damit ist das "
+"Plugin inaktiv! %sKlicke hier %s, um den Lizenzschlüssel einzugeben und das "
+"Plugin zu aktivieren."
+
+#: includes/class-wcvendors-pro.php:458
+msgid "Pro"
+msgstr "Pro"
+
+#: includes/class-wcvendors-pro.php:459
+msgid "General options"
+msgstr "Allgemeine Einstellungen"
+
+#: includes/class-wcvendors-pro.php:462
+msgid "Pro Dashboard Page"
+msgstr "Pro Dashboard Seite"
+
+#: includes/class-wcvendors-pro.php:463
+msgid ""
+"The page to display the pro dashboard [wcv_pro_dashboard] shortcode. "
+"<strong>DO NOT USE EXISTING DASHBOARD PAGE HERE.</strong>"
+msgstr ""
+"Die Seite zeigt das pro Dashboard mit dem [wcv_pro_dashboard] shortcode an. "
+"<strong>Verwenden Sie hier\n"
+" keine bereits vorhandenen DASHBOARD-Seite .</strong>"
+
+#: includes/class-wcvendors-pro.php:470
+msgid "Vendor Store Slug"
+msgstr "Slug (URL Ergänzung) des Verkäufer Shops"
+
+#: includes/class-wcvendors-pro.php:471
+msgid "Eg: <code>yoursite.com/[your_setting_here]/[vendor_name_here]</code>"
+msgstr ""
+"z.B.: <code>deineseite."
+"de/[deine_einstellungen_hier]/[verkäufer_name_hier]</code>"
+
+#: includes/class-wcvendors-pro.php:479
+msgid "Only administrators can access the /wp-admin/ dashboard. "
+msgstr "Nur Administratoren können auf das /wp-admin/ Dashboard zugreifen."
+
+#: includes/class-wcvendors-pro.php:488
+msgid "Pro Features"
+msgstr "Pro Features"
+
+#: includes/class-wcvendors-pro.php:488
+msgid ""
+"<strong>Please save your permalinks after changing any of the following "
+"settings</strong>"
+msgstr ""
+"<strong>Bitte speichern Sie Ihre Permalinks, nachdem Sie Änderungen an den "
+"folgenden Einstellungen vorgenommen haben</strong>"
+
+#: includes/class-wcvendors-pro.php:491
+msgid "Product Management"
+msgstr "Produkt Management"
+
+#: includes/class-wcvendors-pro.php:492
+msgid "Disable product management in pro dashboard. "
+msgstr "Deaktivieren Sie das Produktmanagement im pro Dashboard."
+
+#: includes/class-wcvendors-pro.php:493
+msgid "This will remove the product management from the pro dashboard."
+msgstr "Dies entfernt das Produktmanagement von dem pro Dashboard."
+
+#: includes/class-wcvendors-pro.php:500
+msgid "Order Management"
+msgstr "Management von Bestellungen"
+
+#: includes/class-wcvendors-pro.php:501
+msgid "Disable order management in pro dashboard. "
+msgstr "Deaktivieren Sie das Management von Bestellungen im pro Dashboard."
+
+#: includes/class-wcvendors-pro.php:502
+msgid "This will remove the order management from the pro dashboard."
+msgstr "Dies entfernt das Management von Bestellungen aus dem pro Dashboard."
+
+#: includes/class-wcvendors-pro.php:509
+msgid "Coupon Management"
+msgstr "Gutscheinverwaltung"
+
+#: includes/class-wcvendors-pro.php:510
+msgid "Disable coupon management in pro dashboard. "
+msgstr "Deaktivieren Sie Gutscheinverwaltung im pro Dashboard."
+
+#: includes/class-wcvendors-pro.php:511
+msgid "This will remove the coupon management from the pro dashboard."
+msgstr "Dies entfernt die Gutscheinverwaltung aus dem pro Dashboard."
+
+#: includes/class-wcvendors-pro.php:518
+#: public/class-wcvendors-pro-dashboard.php:96
+msgid "Ratings"
+msgstr "Bewertungen"
+
+#: includes/class-wcvendors-pro.php:519
+msgid "Disable the ratings system completely. "
+msgstr "Deaktivieren Sie das Bewertungssystem komplett."
+
+#: includes/class-wcvendors-pro.php:520
+msgid "This will remove the ratings system from the front end completely."
+msgstr "Das Bewertungssystem wird vom front end komplett entfernt."
+
+#: includes/class-wcvendors-pro.php:527
+#: public/class-wcvendors-pro-dashboard.php:489
+msgid "View Store"
+msgstr "Shop ansehen"
+
+#: includes/class-wcvendors-pro.php:528
+msgid "Disable the view store button on the pro dashboard. "
+msgstr "Deaktivieren Sie den 'Shop ansehen'-Button im Pro Dashboard."
+
+#: includes/class-wcvendors-pro.php:529
+msgid "This will remove the view store button from the navigation."
+msgstr "Dadurch wird der 'Shop ansehen'-Button in der Navigation entfernt."
+
+#: includes/class-wcvendors-pro.php:536
+#: public/class-wcvendors-pro-product-controller.php:816
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: includes/class-wcvendors-pro.php:539
+msgid "Product Delete"
+msgstr "Produkt löschen"
+
+#: includes/class-wcvendors-pro.php:540
+msgid "Delete vendor products permanently. "
+msgstr "Verkäuferprodukte dauerhaft löschen."
+
+#: includes/class-wcvendors-pro.php:541
+msgid "Bypass the trash when a vendor deletes a product and delete permanently."
+msgstr ""
+"Hiermit werden Verkäuferprodukte dauerhaft gelöscht und nicht erst in den "
+"Papierkorb gelegt."
+
+#: includes/class-wcvendors-pro.php:548
+msgid "Coupon Delete"
+msgstr "Gutschein löschen"
+
+#: includes/class-wcvendors-pro.php:549
+msgid "Delete vendor coupons permanently. "
+msgstr "Verkäufer Gutscheine dauerhaft löschen."
+
+#: includes/class-wcvendors-pro.php:550
+msgid "Bypass the trash when a vendor deletes a coupon and delete permanently."
+msgstr ""
+"Hiermit werden Verkäufergutscheine dauerhaft gelöscht und nicht erst in den "
+"Papierkorb gelegt."
+
+#: includes/class-wcvendors-pro.php:558
+msgid "Vendor Ratings System."
+msgstr "Verkäufer Bewertungssystem"
+
+#: includes/class-wcvendors-pro.php:562
+msgid "Feedback Form Page"
+msgstr "Feedback-Formular-Seite"
+
+#: includes/class-wcvendors-pro.php:563
+msgid ""
+"The page to display the feedback from this will have the [wcv_feedback_form] "
+"shortcode."
+msgstr ""
+"Die Seite zur Anzeige des Feedbacks, verwendet den Shortcode "
+"[wcv_feedback_form]."
+
+#: includes/class-wcvendors-pro.php:570
+msgid "Feedback System"
+msgstr "Feedback-System"
+
+#: includes/class-wcvendors-pro.php:571
+msgid ""
+"Start all vendors at a 5 star rating until they receive their first feedback "
+"score"
+msgstr ""
+"Alle Verkäufer haben eine 5 Sterne-Bewertung bis Sie die erste Bewertung "
+"erhalten."
+
+#: includes/class-wcvendors-pro.php:579
+msgid "Order Status"
+msgstr "Status der Bestellung"
+
+#: includes/class-wcvendors-pro.php:580
+msgid "The order status required before feedback can be left."
+msgstr ""
+"Der Bestellstatus ist erforderlich, bevor ein Feedback hinterlassen werden "
+"kann."
+
+#: includes/class-wcvendors-pro.php:584
+msgid "Processing"
+msgstr "In Arbeit"
+
+#: includes/class-wcvendors-pro.php:585
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: includes/class-wcvendors-pro.php:592
+msgid "Commissions"
+msgstr "Provisionen"
+
+#: includes/class-wcvendors-pro.php:593
+msgid "Commission settings for payouts."
+msgstr "Provisionseinstellungen für Auszahlungen."
+
+#: includes/class-wcvendors-pro.php:597
+msgid "Coupon Action"
+msgstr "Gutscheinaktion"
+
+#: includes/class-wcvendors-pro.php:598
+msgid ""
+"Process the commission before or after the coupon has been applied to the "
+"price."
+msgstr "Soll die Provision vor oder nach der Gutschrift abgerechnet werden."
+
+#: includes/class-wcvendors-pro.php:602
+msgid "After"
+msgstr "Danach"
+
+#: includes/class-wcvendors-pro.php:603
+msgid "Before"
+msgstr "Davor"
+
+#: includes/class-wcvendors-pro.php:609
+msgid "Global Commission Type"
+msgstr "Globaler Provisions-Typ"
+
+#: includes/class-wcvendors-pro.php:610
+msgid ""
+"This is the default commission type for all vendors. <strong>This overrides "
+"default commission in WC Vendors.</strong>"
+msgstr ""
+"Dies ist der Standardprovisions-Typ für alle Verkäufer. "
+"<strong>Standardprovision in WC Vendors überschreiben.</strong>"
+
+#: includes/class-wcvendors-pro.php:619
+msgid "The percent of commission you give the vendors."
+msgstr "Höhe der Verkäuferprovision in Prozent."
+
+#: includes/class-wcvendors-pro.php:630
+msgid "Commission amount"
+msgstr "Provisionsbetrag"
+
+#: includes/class-wcvendors-pro.php:631
+msgid "The fixed amount of commission you give the vendors."
+msgstr "Höhe der Verkäuferprovision."
+
+#: includes/class-wcvendors-pro.php:637
+msgid "Commission fee"
+msgstr "Provisionsgebühr"
+
+#: includes/class-wcvendors-pro.php:638
+msgid "This is the fee added on top of the amount."
+msgstr "Das ist die Gebühr vom Betrag."
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:55
+msgid ""
+"If you are having any problems with activation, please visit your <a "
+"href=\"https://www.wcvendors.com/my-account/\" target=\"_blank\">my account</a> "
+"page to reset your activation."
+msgstr ""
+"Wenn Sie Probleme mit der Aktivierung haben, besuchen Sie unsere Seite <a "
+"href=„https://www.wcvendors.com/my-account/„ target=„_blank“>mein Konto</a> "
+"um Ihre Aktivierung zurückzusetzen."
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:61
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:65
+#: templates/dashboard/product-edit.php:15
+#: templates/dashboard/shop_coupon-edit.php:16
+#: templates/dashboard/store-settings.php:94
+msgid "Save Changes"
+msgstr "Einstellungen speichern"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:81
+msgid "License Key Status"
+msgstr "Lizenzschlüssel Status"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:82
+msgid "License Key"
+msgstr "Lizenzschlüssel"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:83
+msgid "License email"
+msgstr "E-Mail Lizenzschlüssel"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:88
+msgid "Deactivate License Key"
+msgstr "Deaktiviere Lizenzschlüssel"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:168
+msgid "Plugin activated. "
+msgstr "Plugin aktiviert."
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:174
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr ""
+"Verbindung zum Lizenzschlüssel Server fehlgeschlagen. Versuchen Sie es "
+"später noch einmal."
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:261
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+"Die Lizenz konnte nicht deaktiviert werden. Verwenden Sie die Registerkarte "
+"Lizenz Deaktivierung, um die Lizenz zu deaktivieren, bevor Sie eine neue "
+"Lizenz aktivieren."
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:300
+msgid "Plugin license deactivated. "
+msgstr "Plugin-Lizenz deaktiviert."
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:368
+msgid "Deactivates the WC Vendors Pro license so it can be used on another website."
+msgstr ""
+"WC Verdross Pro Lizenz deaktiviert, sodass es auf einer anderen Website "
+"verwendet werden kann."
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:370
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Der Lizenzschlüssel für %s ist abgelaufen. Sie können ihn reaktivieren oder "
+"einen neuen Lizenzschlüssel über Ihr Konto <a href=„%s“ "
+"target=„_blank“>Dashboard</a> kaufen."
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:30
+msgid "Edit Vendor Rating"
+msgstr "Verkäuferbewertungen bearbeiten"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:31
+msgid "Rating Details"
+msgstr "Bewertungsdetails"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:40
+msgid "Feedback Title"
+msgstr "Feedback Titel"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:46
+msgid "The feedback title."
+msgstr "Der Feedback Titel."
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:51
+msgid "Feedback Comment"
+msgstr "Feedbackkommentar"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:57
+msgid "The feedback comment."
+msgstr "Das Feedbackkommentar"
+
+#: includes/partials/ratings/public/wcvendors-pro-ratings-link.php:18
+#: includes/partials/ratings/public/wcvendors-pro-ratings-link.php:21
+#: includes/partials/ratings/public/wcvendors-pro-ratings-link.php:27
+msgid "( "
+msgstr "("
+
+#: public/class-wcvendors-pro-dashboard.php:75
+#: public/class-wcvendors-pro-order-controller.php:189
+#: public/forms/class-wcvendors-pro-coupon-form.php:399
+msgid "Products"
+msgstr "Produkte"
+
+#: public/class-wcvendors-pro-dashboard.php:77
+#: public/class-wcvendors-pro-dashboard.php:105
+#: public/class-wcvendors-pro-product-controller.php:867
+#: public/class-wcvendors-pro-table-helper.php:152
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: public/class-wcvendors-pro-dashboard.php:84
+#: templates/dashboard/reports/overview.php:26
+msgid "Orders"
+msgstr "Bestellungen"
+
+#: public/class-wcvendors-pro-dashboard.php:103
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: public/class-wcvendors-pro-dashboard.php:130
+msgid "<h2>Please ensure you have set a page for the Pro Dashboard.</h2>"
+msgstr ""
+"<h2>Bitte stellen Sie sicher, dass Sie eine Seite für das Pro Dashboard "
+"festgelegt haben.</h2>"
+
+#: public/class-wcvendors-pro-dashboard.php:383
+msgid "Admins cannot apply to be vendors. "
+msgstr "Administratoren können keine Verkäufer sein."
+
+#: public/class-wcvendors-pro-dashboard.php:486
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: public/class-wcvendors-pro-export-helper.php:102
+#: public/class-wcvendors-pro-order-controller.php:235
+msgid "Yes"
+msgstr "Ja"
+
+#: public/class-wcvendors-pro-export-helper.php:102
+#: public/class-wcvendors-pro-order-controller.php:235
+msgid "No"
+msgstr "Nein"
+
+#: public/class-wcvendors-pro-form-helper.php:551
+msgid "Select a "
+msgstr "Wählen Sie ein/e"
+
+#: public/class-wcvendors-pro-form-helper.php:590
+msgid "Featured Image"
+msgstr "Hauptbild"
+
+#: public/class-wcvendors-pro-form-helper.php:602
+msgid "Set featured image"
+msgstr "Hauptbild festlegen"
+
+#: public/class-wcvendors-pro-form-helper.php:603
+msgid "Remove featured image"
+msgstr "Hauptbild entfernen "
+
+#: public/class-wcvendors-pro-form-helper.php:615
+msgid "Gallery"
+msgstr "Galerie"
+
+#: public/class-wcvendors-pro-form-helper.php:632
+msgid "Add Images to Product Gallery"
+msgstr "Bilder zur Produktgalerie hinzufügen"
+
+#: public/class-wcvendors-pro-form-helper.php:632
+msgid "Add to gallery"
+msgstr "zur Galerie hinzufügen"
+
+#: public/class-wcvendors-pro-form-helper.php:632
+msgid "Add product gallery images"
+msgstr "Bilder zur Produktgalerie hinzufügen"
+
+#: public/class-wcvendors-pro-form-helper.php:649
+msgid "Image"
+msgstr "Bild"
+
+#: public/class-wcvendors-pro-form-helper.php:650
+#: public/class-wcvendors-pro-form-helper.php:653
+msgid "Add Image"
+msgstr "Bild hinzufügen"
+
+#: public/class-wcvendors-pro-form-helper.php:651
+msgid "Remove Image"
+msgstr "Bild entfernen"
+
+#: public/class-wcvendors-pro-form-helper.php:654
+#: public/forms/class-wcvendors-pro-store-form.php:124
+#: public/forms/class-wcvendors-pro-store-form.php:150
+msgid "Select an Image"
+msgstr "Bild auswählen"
+
+#: public/class-wcvendors-pro-order-controller.php:151
+msgid "You need type something in the note field"
+msgstr "Sie müssen Text im Hinweis-Feld eingeben"
+
+#: public/class-wcvendors-pro-order-controller.php:187
+msgid "Order Number"
+msgstr "Bestellnummer"
+
+#: public/class-wcvendors-pro-order-controller.php:190
+msgid "Total"
+msgstr "Gesamtbetrag"
+
+#: public/class-wcvendors-pro-order-controller.php:191
+msgid "Shipped"
+msgstr "Versendet"
+
+#: public/class-wcvendors-pro-order-controller.php:192
+msgid "Order Date"
+msgstr "Bestelldatum"
+
+#: public/class-wcvendors-pro-order-controller.php:241
+msgid "Shipping Label"
+msgstr "Versandetikett"
+
+#: public/class-wcvendors-pro-order-controller.php:247
+msgid "Order Note"
+msgstr "Bestellhinweis"
+
+#: public/class-wcvendors-pro-order-controller.php:255
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:96
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:97
+msgid "Tracking Number"
+msgstr "Sendungsnummer"
+
+#: public/class-wcvendors-pro-order-controller.php:272
+msgid "Mark Shipped"
+msgstr "Als versandt markieren"
+
+#: public/class-wcvendors-pro-order-controller.php:332
+msgid "No orders found."
+msgstr "Keine Bestellungen gefunden."
+
+#: public/class-wcvendors-pro-order-controller.php:363
+msgid "Order marked shipped."
+msgstr "Ihre Bestellung wurde versandt."
+
+#: public/class-wcvendors-pro-order-controller.php:365
+msgid " has marked as shipped. "
+msgstr "als versendet markiert."
+
+#: public/class-wcvendors-pro-order-controller.php:445
+msgid "The customer has been notified."
+msgstr "Der Kunde wurde informiert."
+
+#: public/class-wcvendors-pro-order-controller.php:675
+msgid ""
+"A vendor has added a tracking number to your order. You can track this at "
+"the following url. "
+msgstr ""
+"Der Verkäufer hat eine Sendungsnummer zu Ihrer Bestellung hinterlegt. Sie "
+"können Ihre Sendung unter folgendem Link verfolgen."
+
+#: public/class-wcvendors-pro-product-controller.php:83
+#, php-format
+msgid "Product Updated. <a href=\"%s\">View product.</a>"
+msgstr "Produkt aktualisiert. <a href=„%s“>Produkt anzeigen.</a>"
+
+#: public/class-wcvendors-pro-product-controller.php:85
+msgid "There was a problem editing the product."
+msgstr "Es gab ein Problem bei der Produktbearbeitung."
+
+#: public/class-wcvendors-pro-product-controller.php:94
+#, php-format
+msgid "Product Added. <a href=\"%s\">View product.</a>"
+msgstr "Produkt hinzugefügt. <a href=„%s“>Produkt anzeigen.</a>"
+
+#: public/class-wcvendors-pro-product-controller.php:96
+#: public/class-wcvendors-pro-shop-coupon-controller.php:169
+msgid "There was a problem adding the product."
+msgstr "Es gab ein Problem beim Hinzufügen des Produkts."
+
+#: public/class-wcvendors-pro-product-controller.php:134
+msgid "Product Deleted."
+msgstr "Produkt gelöscht."
+
+#: public/class-wcvendors-pro-product-controller.php:136
+msgid "There was a problem deleting the product."
+msgstr "Es gab ein Problem beim Löschen des Produkts."
+
+#: public/class-wcvendors-pro-product-controller.php:160
+msgid "Please enter a product title."
+msgstr "Bitte geben Sie einen Produktnamen ein."
+
+#: public/class-wcvendors-pro-product-controller.php:165
+msgid "Please enter a product description."
+msgstr "Bitte geben Sie eine Produktbeschreibung ein."
+
+#: public/class-wcvendors-pro-product-controller.php:368
+msgid "Product SKU must be unique."
+msgstr "Produkt Artikelnummer muss eindeutig sein."
+
+#: public/class-wcvendors-pro-product-controller.php:811
+msgid "Online"
+msgstr "Online"
+
+#: public/class-wcvendors-pro-product-controller.php:812
+msgid "Scheduled"
+msgstr "Geplant"
+
+#: public/class-wcvendors-pro-product-controller.php:813
+msgid "Draft"
+msgstr "Entwurf"
+
+#: public/class-wcvendors-pro-product-controller.php:814
+msgid "Pending Approval"
+msgstr "Wird geprüft"
+
+#: public/class-wcvendors-pro-product-controller.php:815
+msgid "Admin Only"
+msgstr "Nur Administratoren"
+
+#: public/class-wcvendors-pro-product-controller.php:837
+#: public/class-wcvendors-pro-reports-controller.php:276
+#: public/class-wcvendors-pro-reports-controller.php:350
+msgid "Details"
+msgstr "Details"
+
+#: public/class-wcvendors-pro-product-controller.php:839
+#: public/class-wcvendors-pro-reports-controller.php:351
+msgid "Status"
+msgstr "Status"
+
+#: public/class-wcvendors-pro-product-controller.php:879
+#: public/class-wcvendors-pro-table-helper.php:154
+msgid "View"
+msgstr "Ansehen"
+
+#: public/class-wcvendors-pro-product-controller.php:937
+msgid "No products found."
+msgstr "Es wurden keine Produkte gefunden."
+
+#: public/class-wcvendors-pro-public.php:134
+msgid "One result is available, press enter to select it."
+msgstr "Ein Ergebnis ist verfügbar, drücken Sie die Eingabetaste um es auszuwählen."
+
+#: public/class-wcvendors-pro-public.php:135
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+"%qty% Ergebnisse sind verfügbar. Verwenden Sie die Pfeiltasten zum "
+"Navigieren."
+
+#: public/class-wcvendors-pro-public.php:136
+msgid "No matches found"
+msgstr "Keine Übereinstimmung gefunden"
+
+#: public/class-wcvendors-pro-public.php:137
+msgid "Loading failed"
+msgstr "Laden fehlgeschlagen"
+
+#: public/class-wcvendors-pro-public.php:138
+msgid "Please enter 1 or more characters"
+msgstr "Bitte geben Sie mindestens 1 oder mehr Zeichen ein"
+
+#: public/class-wcvendors-pro-public.php:139
+#, c-format
+msgid "Please enter %qty% or more characters"
+msgstr "Bitte geben Sie mindestens %qty% oder mehr Zeichen ein"
+
+#: public/class-wcvendors-pro-public.php:140
+msgid "Please delete 1 character"
+msgstr "Bitte löschen Sie ein Zeichen"
+
+#: public/class-wcvendors-pro-public.php:141
+#, c-format
+msgid "Please delete %qty% characters"
+msgstr "Bitte löschen Sie %qty% Zeichen"
+
+#: public/class-wcvendors-pro-public.php:142
+msgid "You can only select 1 item"
+msgstr "Sie können nur 1 Artikel auswählen"
+
+#: public/class-wcvendors-pro-public.php:143
+#, c-format
+msgid "You can only select %qty% items"
+msgstr "Sie können nur %qty% Artikel auswählen"
+
+#: public/class-wcvendors-pro-public.php:144
+msgid "Loading more results&hellip;"
+msgstr "Lädt weitere Ergebnisse&hellip;"
+
+#: public/class-wcvendors-pro-public.php:145
+msgid "Searching&hellip;"
+msgstr "Suche&hellip;"
+
+#: public/class-wcvendors-pro-reports-controller.php:325
+msgid "No Orders found."
+msgstr "Keine Bestellungen gefunden."
+
+#: public/class-wcvendors-pro-reports-controller.php:392
+msgid "No Products found."
+msgstr "Es wurden keine Produkte gefunden"
+
+#: public/class-wcvendors-pro-reports-controller.php:407
+msgid "Start Date"
+msgstr "Startdatum"
+
+#: public/class-wcvendors-pro-reports-controller.php:423
+msgid "End Date"
+msgstr "Enddatum"
+
+#: public/class-wcvendors-pro-reports-controller.php:439
+msgid "Update"
+msgstr "Update"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:81
+msgid "Please enter a coupon code"
+msgstr "Bitte einen Gutscheincode eingeben."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:95
+msgid "This coupon code exists. "
+msgstr "Dieser Gutscheincode ist bereits vorhanden."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:160
+msgid "Coupon Updated."
+msgstr "Gutschein aktualisiert."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:162
+msgid "Coupon Added."
+msgstr "Gutschein hinzugefügt."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:167
+msgid "There was a problem updating the product."
+msgstr "Es gab ein Problem, das Produkt zu aktualisieren."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:207
+msgid "Coupon Deleted."
+msgstr "Gutschein gelöscht."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:209
+msgid "There was a problem deleting the coupon."
+msgstr "Es gab ein Problem den Gutschein zu löschen."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:234
+msgid "Coupon"
+msgstr "Gutschein"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:235
+msgid "Coupon Type"
+msgstr "Gutschein Typ"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:236
+#: public/forms/class-wcvendors-pro-coupon-form.php:195
+#: public/forms/class-wcvendors-pro-coupon-form.php:196
+msgid "Coupon Amount"
+msgstr "Gutscheinbetrag"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:237
+#: public/class-wcvendors-pro-table-helper.php:144
+msgid "Description"
+msgstr "Beschreibung"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:238
+msgid "Product ID's"
+msgstr "Produkt ID’s"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:240
+msgid "Expiry"
+msgstr "Verfallsdatum "
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:324
+msgid "No coupons found."
+msgstr "Keine Gutscheine gefunden"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:349
+msgid "Product Discount"
+msgstr "Produkt Rabatt"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:350
+msgid "Product % Discount"
+msgstr "Produkt Rabatt in %"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:444
+#: public/class-wcvendors-pro-store-controller.php:87
+msgid "Vendor Store"
+msgstr "Verkäufer Shop"
+
+#: public/class-wcvendors-pro-store-controller.php:86
+#: public/class-wcvendors-pro-store-controller.php:88
+#: public/class-wcvendors-pro-store-controller.php:98
+msgid "Vendor Stores"
+msgstr "Verkäufer Shops"
+
+#: public/class-wcvendors-pro-store-controller.php:89
+msgid "New Vendor Store"
+msgstr "Neuer Verkäufer Shop"
+
+#: public/class-wcvendors-pro-store-controller.php:90
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: public/class-wcvendors-pro-store-controller.php:91
+msgid "Add New Vendor Store"
+msgstr "Neuer Verkäufer Shop hinzufügen"
+
+#: public/class-wcvendors-pro-store-controller.php:92
+msgid "Edit Vendor Store"
+msgstr "Verkäufer Shop bearbeiten"
+
+#: public/class-wcvendors-pro-store-controller.php:93
+msgid "View Vendor Store"
+msgstr "Verkäufer Shop anzeigen"
+
+#: public/class-wcvendors-pro-store-controller.php:94
+msgid "Search Vendor Stores"
+msgstr "Verkäufer Shops suchen"
+
+#: public/class-wcvendors-pro-store-controller.php:95
+msgid "No Vendor Stores found"
+msgstr "Kein Verkäufer Shop gefunden"
+
+#: public/class-wcvendors-pro-store-controller.php:96
+msgid "No Vendor Stores found in trash"
+msgstr "Kein Verkäufer Shop im Papierkorb gefunden "
+
+#: public/class-wcvendors-pro-store-controller.php:97
+msgid "Parent Vendor Store"
+msgstr "Übergeordneter Verkäufer Shop"
+
+#: public/class-wcvendors-pro-store-controller.php:99
+#: public/forms/class-wcvendors-pro-store-form.php:119
+#: templates/dashboard/store-settings.php:66
+msgid "Store Banner"
+msgstr "Shop Banner"
+
+#: public/class-wcvendors-pro-store-controller.php:100
+msgid "Set store banner"
+msgstr "Shop Banner einstellen"
+
+#: public/class-wcvendors-pro-store-controller.php:101
+msgid "Remove store banner"
+msgstr "Shop Banner entfernen"
+
+#: public/class-wcvendors-pro-store-controller.php:102
+msgid "Use as store banner"
+msgstr "Verwenden als Shop Banner"
+
+#: public/class-wcvendors-pro-store-controller.php:134
+#, php-format
+msgid "updated. <a target=\"_blank\" href=\"%s\">View Vendor Store</a>"
+msgstr "aktualisiert. <a target=„_blank“ href=„%s“>Verkäufer Shop anzeigen</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:135
+msgid "Custom field updated."
+msgstr "Benutzerdefiniertes Feld aktualisiert."
+
+#: public/class-wcvendors-pro-store-controller.php:136
+msgid "Custom field deleted."
+msgstr "Benutzerdefiniertes Feld gelöscht."
+
+#: public/class-wcvendors-pro-store-controller.php:137
+msgid "updated."
+msgstr "Aktualisiert"
+
+#: public/class-wcvendors-pro-store-controller.php:139
+#, php-format
+msgid "restored to revision from %s"
+msgstr "Wiederhergestellt zur Wiederholung von %s"
+
+#: public/class-wcvendors-pro-store-controller.php:140
+#, php-format
+msgid "published. <a href=\"%s\">View Vendor Store</a>"
+msgstr "veröffentlicht. <a href=„%s“>Verkäufer Shop anzeigen</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:141
+msgid "saved."
+msgstr "gespeichert."
+
+#: public/class-wcvendors-pro-store-controller.php:142
+#, php-format
+msgid "submitted. <a target=\"_blank\" href=\"%s\">Preview Vendor Store</a>"
+msgstr "übertragen. <a target=„_blank“ href=„%s“>Vorschau des Verkäufer Shops</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:143
+#, php-format
+msgid ""
+"scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview "
+"Vendor Store</a>"
+msgstr ""
+"geplant für: <strong>%1$s</strong>. <a target=„_blank“ href=„%2$s“>Vorschau "
+"des Verkäufer Shops</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:146
+#, php-format
+msgid "draft updated. <a target=\"_blank\" href=\"%s\">Preview Vendor Store</a>"
+msgstr ""
+"Entwurf aktualisiert. <a target=„_blank“ href=„%s“>Vorschau des Verkäufer "
+"Shop</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:269
+#: public/forms/class-wcvendors-pro-store-form.php:195
+msgid " Store"
+msgstr " Shop"
+
+#: public/class-wcvendors-pro-store-controller.php:420
+msgid ""
+"That store name is already taken. Your store name must be unique. <br /> "
+"Settings have not been saved."
+msgstr ""
+"Dieser Shop-Name ist bereits vergeben. Ihr Shop-Name muss eindeutig sein."
+"<br> Einstellungen wurden nicht gespeichert."
+
+#: public/class-wcvendors-pro-store-controller.php:425
+msgid "Store Settings Saved"
+msgstr "Shop-Einstellungen gespeichert"
+
+#: public/class-wcvendors-pro-store-controller.php:466
+msgid "There was a problem saving your settings. Settings have not been saved."
+msgstr ""
+"Es gab ein Problem beim Speichern der Einstellungen. Einstellungen wurden "
+"nicht gespeichert."
+
+#: public/class-wcvendors-pro-store-controller.php:544
+msgid ""
+"Your application has been recieved. You will be notified by email the "
+"results of your application"
+msgstr ""
+"Ihre Bewerbung ist eingegangen. Sie werden via e-Mail benachrichtigt, sobald "
+"eine Entscheidung getroffen wurde."
+
+#: public/class-wcvendors-pro-store-controller.php:593
+#: public/class-wcvendors-pro-store-controller.php:621
+msgid "Sold by: "
+msgstr "Verkauft von:<br/>"
+
+#: public/class-wcvendors-pro-table-helper.php:145
+msgid "Date Posted"
+msgstr "Veröffentlicht am"
+
+#: public/class-wcvendors-pro-table-helper.php:290
+msgid "No "
+msgstr "Nein"
+
+#: public/class-wcvendors-pro-vendor-controller.php:351
+msgid ""
+"The Vendor Dashboard is only visible to Vendors. Due to WordPress "
+"capabilities and its limitations, Administrators can not view it. You should "
+"create a test vendor user account, with the role Vendor, and use that "
+"account to view and experience the Vendor Dashboard. "
+msgstr ""
+"Das Verkäufer-Dashboard wird nur für Verkäufer angezeigt. Aufgrund der "
+"WordPress-Funktionen und seine Grenzen kann es für Administratoren nicht "
+"angezeigt werden. Sie sollten ein Test-Verkäuferkonto erstellen um das "
+"Verkäufer-Dashboard kennenzulernen und zu nutzen."
+
+#: public/class-wcvendors-pro-vendor-controller.php:369
+msgid "pending"
+msgstr "in Bearbeitung"
+
+#: public/class-wcvendors-pro-vendor-controller.php:371
+msgid "approved"
+msgstr "bestätigt"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:97
+#: public/forms/class-wcvendors-pro-coupon-form.php:98
+msgid "Coupon Code"
+msgstr "Gutscheincode"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:116
+#: public/forms/class-wcvendors-pro-coupon-form.php:117
+msgid "Coupon Description"
+msgstr "Gutschein Beschreibung"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:141
+#: public/forms/class-wcvendors-pro-coupon-form.php:143
+msgid "Discount Type"
+msgstr "Rabatt-Typ"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:145
+msgid "Product discount"
+msgstr "Produkt Rabatt"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:146
+#, php-format
+msgid "Product % discount"
+msgstr "Produkt Rabatt in %"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:168
+msgid "Apply to all my products"
+msgstr "Für alle Produkte übernehmen"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:172
+msgid "Check this box if the coupon applies to all your products."
+msgstr ""
+"Aktivieren Sie dieses Kontrollkästchen, wenn der Gutschein für alle Ihre "
+"Produkte gilt."
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:220
+msgid "Allow Free Shipping"
+msgstr "Kostenloser Versand aktivieren"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:224
+msgid ""
+"Check this box if the coupon grants free shipping. The free shipping method "
+"must be enabled and be set to require \"a valid free shipping coupon\" (see "
+"the \"Free Shipping Requires\" setting)."
+msgstr ""
+"Aktivieren Sie dieses Kontrollkästchen, wenn der Gutschein kostenlosen "
+"Versand erlauben soll. Kostenloser Versand muss aktiviert sein und es muss "
+"ausgewählt werden das ein Gutschein erforderlich ist. (siehe „Kostenloser "
+"Versand“ Einstellung)."
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:248
+msgid "Coupon Expiry Date"
+msgstr "Gutschein Ablaufdatum"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:278
+msgid "Minimum Spend"
+msgstr "Mindestausgabe"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:279
+msgid "No Minimum"
+msgstr "Keine Mindestausgabe"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:303
+msgid "Maximum Spend"
+msgstr "Maximalausgabe"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:304
+msgid "No Maximum"
+msgstr "Keine Maximalausgabe"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:328
+msgid "Individual use only"
+msgstr "Nicht in Kombination mit anderen Gutscheinen nutzbar"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:334
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr ""
+"Aktivieren Sie dieses Kontrollkästchen, wenn der Gutschein nicht in "
+"Verbindung mit anderen Gutscheinen verwendet werden kann."
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:356
+msgid "Exclude sale items"
+msgstr "Sonderangebote ausgenommen"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:362
+msgid ""
+"Check this box if the coupon should not apply to items on sale. Per-item "
+"coupons will only work if the item is not on sale. Per-cart coupons will "
+"only work if there are no sale items in the cart."
+msgstr ""
+"Markieren Sie dieses Kästchen, wenn der Gutschein nicht auf Sonderangebote "
+"angewandt werden soll. Artikelbezogene Gutscheine funktionieren nur bei "
+"regulären Artikeln, bzw. wenn keine Sonderangebote im Warenkorb sind."
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:406
+#: public/forms/class-wcvendors-pro-coupon-form.php:454
+msgid "Search for a product &hellip;"
+msgstr "Nach einem Produkt suchen &hellip;"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:447
+msgid "Exclude Products"
+msgstr "Produkte ausschließen"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:481
+msgid "Email Restrictions"
+msgstr "E-Mail Einschränkungen"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:482
+msgid "No restrictions"
+msgstr "keine Einschränkungen"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:509
+#: public/forms/class-wcvendors-pro-coupon-form.php:534
+msgid "Usage limit per coupon"
+msgstr "Nutzungsbegrenzung pro Gutschein"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:510
+#: public/forms/class-wcvendors-pro-coupon-form.php:535
+#: public/forms/class-wcvendors-pro-coupon-form.php:560
+msgid "Unlimited usage"
+msgstr "Unbegrenzte Nutzung"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:559
+msgid "Usage limit per user"
+msgstr "Nutzungsbegrenzung pro Benutzer"
+
+#: public/forms/class-wcvendors-pro-product-form.php:99
+msgid "Product Name"
+msgstr "Produktname"
+
+#: public/forms/class-wcvendors-pro-product-form.php:117
+msgid "Product Description"
+msgstr "Produktbeschreibung"
+
+#: public/forms/class-wcvendors-pro-product-form.php:136
+msgid "Product Short Description"
+msgstr "Produkt-Kurzbeschreibung"
+
+#: public/forms/class-wcvendors-pro-product-form.php:188
+msgid "Select a Category"
+msgstr "Kategorie auswählen"
+
+#: public/forms/class-wcvendors-pro-product-form.php:200
+msgid "Categories"
+msgstr "Kategorien"
+
+#: public/forms/class-wcvendors-pro-product-form.php:200
+msgid "Category"
+msgstr "Kategorie"
+
+#: public/forms/class-wcvendors-pro-product-form.php:227
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: public/forms/class-wcvendors-pro-product-form.php:234
+msgid "Search or add a tag&hellip;"
+msgstr "Suchen oder hinzufügen von Schlagwort &hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:267
+msgid "Simple product"
+msgstr "Einfaches Produkt"
+
+#: public/forms/class-wcvendors-pro-product-form.php:268
+msgid "Grouped product"
+msgstr "Gruppiertes Produkt"
+
+#: public/forms/class-wcvendors-pro-product-form.php:269
+msgid "External/Affiliate product"
+msgstr "Externes/Affiliate Produkt"
+
+#: public/forms/class-wcvendors-pro-product-form.php:285
+msgid "Product Type"
+msgstr "Produkttyp"
+
+#: public/forms/class-wcvendors-pro-product-form.php:305
+msgid "Virtual"
+msgstr "Virtuell"
+
+#: public/forms/class-wcvendors-pro-product-form.php:306
+msgid "Virtual products are intangible and aren't shipped."
+msgstr ""
+"Virtuelle Produkte sind immaterielle Vermögenswerte und werden nicht "
+"verschickt."
+
+#: public/forms/class-wcvendors-pro-product-form.php:312
+msgid "Downloadable"
+msgstr "Herunterladbar"
+
+#: public/forms/class-wcvendors-pro-product-form.php:313
+msgid "Downloadable products give access to a file upon purchase."
+msgstr "Download-Produkte ermöglichen den Zugriff auf eine Datei nach dem Kauf."
+
+#: public/forms/class-wcvendors-pro-product-form.php:367
+msgid "Regular Price"
+msgstr "Regulärer Preis"
+
+#: public/forms/class-wcvendors-pro-product-form.php:388
+msgid "Sale Price"
+msgstr "Aktionspreis"
+
+#: public/forms/class-wcvendors-pro-product-form.php:390
+msgid "Schedule"
+msgstr "Zeitplan"
+
+#: public/forms/class-wcvendors-pro-product-form.php:404
+msgid "From"
+msgstr "Von"
+
+#: public/forms/class-wcvendors-pro-product-form.php:420
+msgid "To"
+msgstr "Zu"
+
+#: public/forms/class-wcvendors-pro-product-form.php:427
+msgid "The sale will end at the beginning of the set date."
+msgstr "Die Preisaktion endet nach Ablauf des eingestellten Datums."
+
+#: public/forms/class-wcvendors-pro-product-form.php:427
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: public/forms/class-wcvendors-pro-product-form.php:462
+msgid "Download Limit"
+msgstr "Download-Limit"
+
+#: public/forms/class-wcvendors-pro-product-form.php:463
+msgid "Unlimited"
+msgstr "Unbegrenzt"
+
+#: public/forms/class-wcvendors-pro-product-form.php:465
+msgid "Leave blank for unlimited re-downloads."
+msgstr "Leer lassen für unbegrenzte Re-Downloads."
+
+#: public/forms/class-wcvendors-pro-product-form.php:490
+msgid "Download Expiry"
+msgstr "Download gültig bis"
+
+#: public/forms/class-wcvendors-pro-product-form.php:491
+msgid "Never"
+msgstr "Nie"
+
+#: public/forms/class-wcvendors-pro-product-form.php:493
+msgid "Enter the number of days before a download link expires, or leave blank."
+msgstr ""
+"Geben Sie die Anzahl der Tage an, bevor ein Download-Link abgelaufen ist, "
+"oder lassen Sie es leer."
+
+#: public/forms/class-wcvendors-pro-product-form.php:519
+msgid "Download Type"
+msgstr "Download Typ"
+
+#: public/forms/class-wcvendors-pro-product-form.php:521
+#, php-format
+msgid ""
+"Choose a download type - this controls the <a href=\"%s\">http://schema."
+"org</a>."
+msgstr ""
+"Wählen Sie einen Download - diese steuert die <a href=„%s“>http://schema."
+"org</a>."
+
+#: public/forms/class-wcvendors-pro-product-form.php:525
+msgid "Standard Product"
+msgstr "Standardprodukt"
+
+#: public/forms/class-wcvendors-pro-product-form.php:526
+msgid "Application/Software"
+msgstr "Anwendung/Software"
+
+#: public/forms/class-wcvendors-pro-product-form.php:527
+msgid "Music"
+msgstr "Musik"
+
+#: public/forms/class-wcvendors-pro-product-form.php:555
+msgid "Stock Keeping Unit"
+msgstr "Lagerhaltungseinheit"
+
+#: public/forms/class-wcvendors-pro-product-form.php:555
+msgid "SKU"
+msgstr "Artikel-Nr.:"
+
+#: public/forms/class-wcvendors-pro-product-form.php:557
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr ""
+"Die Artikelnummer bezieht sich auf eine Lagerhaltungseinheit und eine "
+"eindeutige Kennung für jedes einzelne Produkt und Service, die gekauft "
+"werden können."
+
+#: public/forms/class-wcvendors-pro-product-form.php:588
+msgid "Product URL"
+msgstr "Produkt-URL"
+
+#: public/forms/class-wcvendors-pro-product-form.php:591
+msgid "Enter the external URL to the product."
+msgstr "Geben Sie die externe URL für das Produkt an."
+
+#: public/forms/class-wcvendors-pro-product-form.php:609
+msgid "Button text"
+msgstr "Button Text"
+
+#: public/forms/class-wcvendors-pro-product-form.php:612
+msgid "This text will be shown on the button linking to the external product."
+msgstr "Dieser Text steht auf dem Button, der zum Produkt verlinkt."
+
+#: public/forms/class-wcvendors-pro-product-form.php:630
+msgid "Tax Status"
+msgstr "Steuerstatus"
+
+#: public/forms/class-wcvendors-pro-product-form.php:634
+msgid "Taxable"
+msgstr "Besteuerbar"
+
+#: public/forms/class-wcvendors-pro-product-form.php:635
+msgid "Shipping only"
+msgstr "Nur Versand"
+
+#: public/forms/class-wcvendors-pro-product-form.php:636
+msgctxt "Tax status"
+msgid "None"
+msgstr "Kein "
+
+#: public/forms/class-wcvendors-pro-product-form.php:643
+msgid "Standard"
+msgstr "Standard"
+
+#: public/forms/class-wcvendors-pro-product-form.php:655
+msgid "Tax Class"
+msgstr "Steuerklasse"
+
+#: public/forms/class-wcvendors-pro-product-form.php:683
+msgid "Enable reviews"
+msgstr "Bewertungen aktivieren"
+
+#: public/forms/class-wcvendors-pro-product-form.php:705
+msgid "Manage stock?"
+msgstr "Lagerbestand verwalten?"
+
+#: public/forms/class-wcvendors-pro-product-form.php:706
+msgid "Enable stock management at product level"
+msgstr "Aktiviere Bestandsverwaltung auf Produktebene"
+
+#: public/forms/class-wcvendors-pro-product-form.php:725
+msgid "Stock Qty"
+msgstr "Artikel auf Lager"
+
+#: public/forms/class-wcvendors-pro-product-form.php:729
+msgid "Stock quantity."
+msgstr "Lagermenge."
+
+#: public/forms/class-wcvendors-pro-product-form.php:751
+msgid "Allow Backorders?"
+msgstr "Lieferrückestände zulassen?"
+
+#: public/forms/class-wcvendors-pro-product-form.php:757
+msgid "Do not allow"
+msgstr "Nicht erlauben"
+
+#: public/forms/class-wcvendors-pro-product-form.php:758
+msgid "Allow, but notify customer"
+msgstr "erlauben, aber den Kunden benachrichtigen"
+
+#: public/forms/class-wcvendors-pro-product-form.php:759
+msgid "Allow"
+msgstr "Zulassen"
+
+#: public/forms/class-wcvendors-pro-product-form.php:777
+msgid "Stock status"
+msgstr "Lagerstatus"
+
+#: public/forms/class-wcvendors-pro-product-form.php:781
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr "Zeigt im Frontend an, ob das Produkt „auf Lager“ oder „ausverkauft“ ist"
+
+#: public/forms/class-wcvendors-pro-product-form.php:783
+msgid "In stock"
+msgstr "Artikel auf Lager"
+
+#: public/forms/class-wcvendors-pro-product-form.php:784
+msgid "Out of stock"
+msgstr "Ausverkauft"
+
+#: public/forms/class-wcvendors-pro-product-form.php:803
+msgid "Sold Individually"
+msgstr "Wird einzeln verkauft"
+
+#: public/forms/class-wcvendors-pro-product-form.php:805
+msgid "Enable this to only allow one of this item to be bought in a single order"
+msgstr ""
+"Aktivieren Sie diese Option, wenn dieser Artikel nur einmal pro Bestellung "
+"gekauft werden darf."
+
+#: public/forms/class-wcvendors-pro-product-form.php:825
+msgid "Weight"
+msgstr "Gewicht"
+
+#: public/forms/class-wcvendors-pro-product-form.php:828
+msgid "Weight in decimal form"
+msgstr "Gewicht in dezimaler form"
+
+#: public/forms/class-wcvendors-pro-product-form.php:851
+msgid "Dimensions"
+msgstr "Abmessungen"
+
+#: public/forms/class-wcvendors-pro-product-form.php:852
+msgid "Length"
+msgstr "Länge"
+
+#: public/forms/class-wcvendors-pro-product-form.php:863
+msgid "Width"
+msgstr "Breite"
+
+#: public/forms/class-wcvendors-pro-product-form.php:874
+msgid "Height"
+msgstr "Höhe"
+
+#: public/forms/class-wcvendors-pro-product-form.php:880
+msgid "Dimensions in decimal form."
+msgstr "Abmessungen in dezimaler Form."
+
+#: public/forms/class-wcvendors-pro-product-form.php:905
+msgid "Shipping class"
+msgstr "Versandklasse"
+
+#: public/forms/class-wcvendors-pro-product-form.php:906
+msgid "No shipping class"
+msgstr "keine Versandklasse"
+
+#: public/forms/class-wcvendors-pro-product-form.php:943
+msgid ""
+"Up-sells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
+msgstr ""
+"Up-Sells sind Produkte, die Sie anstelle des aktuell angezeigten Produkt "
+"empfehlen, zum Beispiel Produkte, die mehr rentabel oder qualitativ "
+"hochwertiger oder teurer sind."
+
+#: public/forms/class-wcvendors-pro-product-form.php:945
+#: public/forms/class-wcvendors-pro-product-form.php:985
+msgid "Search for a product&hellip;"
+msgstr "Suche nach Produkt&hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:977
+msgid "Cross-Sells"
+msgstr "Cross-Sells"
+
+#: public/forms/class-wcvendors-pro-product-form.php:983
+msgid ""
+"Cross-sells are products which you promote in the cart, based on the current "
+"product."
+msgstr ""
+"Cross-Sells sind Produkte, die Sie im Einkaufswagen anbieten und die in "
+"Relation zum im Einkaufswagen befindlichen Produkt stehen. "
+
+#: public/forms/class-wcvendors-pro-product-form.php:1004
+msgid "Choose a grouped product&hellip;"
+msgstr "Wählen Sie einen gruppiertes Produkt&hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1045
+msgid "Grouping"
+msgstr "Gruppierung"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1049
+msgid "Set this option to make this product part of a grouped product."
+msgstr ""
+"Setzen Sie diese Option, um dieses Produkt zum Teil eines gruppierten "
+"Produkt zu machen."
+
+#: public/forms/class-wcvendors-pro-product-form.php:1077
+#: templates/dashboard/shop_coupon-edit.php:45
+msgid "General"
+msgstr "Allgemein "
+
+#: public/forms/class-wcvendors-pro-product-form.php:1082
+msgid "Inventory"
+msgstr "Bestand"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1087
+msgid "Shipping"
+msgstr "Versand"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1092
+msgid "Linked Products"
+msgstr "Verlinkte Produkte"
+
+#: public/forms/class-wcvendors-pro-store-form.php:120
+#: public/forms/class-wcvendors-pro-store-form.php:123
+msgid "Add Store Banner"
+msgstr "Shop Banner hinzufügen"
+
+#: public/forms/class-wcvendors-pro-store-form.php:121
+msgid "Remove Store Banner"
+msgstr "Shop Banner entfernen"
+
+#: public/forms/class-wcvendors-pro-store-form.php:145
+#: templates/dashboard/store-settings.php:70
+msgid "Store Icon"
+msgstr "Shop Icon"
+
+#: public/forms/class-wcvendors-pro-store-form.php:146
+#: public/forms/class-wcvendors-pro-store-form.php:149
+msgid "Add Store Icon"
+msgstr "Shop Icon hinzufügen"
+
+#: public/forms/class-wcvendors-pro-store-form.php:147
+msgid "Remove Store Icon"
+msgstr "Shop Icon entfernen "
+
+#: public/forms/class-wcvendors-pro-store-form.php:175
+msgid "PayPal Address"
+msgstr "PayPal Adresse"
+
+#: public/forms/class-wcvendors-pro-store-form.php:178
+msgid "Your PayPal address is used to send you your commission."
+msgstr "Ihre PayPal-Adresse wird verwendet, um Ihnen Ihre Provision zu senden."
+
+#: public/forms/class-wcvendors-pro-store-form.php:201
+msgid "Store Name <small>Required</small>"
+msgstr "Shop Name <small>erforderlich</small>"
+
+#: public/forms/class-wcvendors-pro-store-form.php:202
+msgid "Your Store Name"
+msgstr "Ihr Shop Name"
+
+#: public/forms/class-wcvendors-pro-store-form.php:204
+msgid "Your shop name is public and must be unique."
+msgstr "Ihr Shop Name ist öffentlich und muss eindeutig sein."
+
+#: public/forms/class-wcvendors-pro-store-form.php:229
+msgid "Store Phone"
+msgstr "Shop Telefon"
+
+#: public/forms/class-wcvendors-pro-store-form.php:230
+msgid "Your store phone number"
+msgstr "Ihre Shop Telefonnummer"
+
+#: public/forms/class-wcvendors-pro-store-form.php:232
+msgid "This is your store contact number"
+msgstr "Dies ist Ihre Shop Kontakttelefonnummer"
+
+#: public/forms/class-wcvendors-pro-store-form.php:327
+msgid "Twitter Username"
+msgstr "Twitter Benutzername"
+
+#: public/forms/class-wcvendors-pro-store-form.php:328
+msgid "YourTwitterUserHere"
+msgstr "IhrTwitterBenutzernameHier"
+
+#: public/forms/class-wcvendors-pro-store-form.php:330
+msgid "Your <a href=\"https://twitter.com/\">Twitter</a> username without the url."
+msgstr "Ihre <a href=„https://twitter.com/„>Twitter</a> Benutzername ohne die Url."
+
+#: public/forms/class-wcvendors-pro-store-form.php:351
+msgid "Instagram Username"
+msgstr "Instagram Benutzername"
+
+#: public/forms/class-wcvendors-pro-store-form.php:352
+msgid "YourInstagramUsername"
+msgstr "IhrInstagramNutzername"
+
+#: public/forms/class-wcvendors-pro-store-form.php:354
+msgid "Your <a href=\"https://instagram.com/\">Instagram</a> username without the url."
+msgstr ""
+"Ihr <a href=„https://instagram.com/„>Instagram</a> Benutzernamen ohne die "
+"Url."
+
+#: public/forms/class-wcvendors-pro-store-form.php:375
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: public/forms/class-wcvendors-pro-store-form.php:376
+msgid "http://yourfacebookurl/here"
+msgstr "http://yourfacebookurl/here"
+
+#: public/forms/class-wcvendors-pro-store-form.php:378
+msgid "Your <a href=\"https://facebook.com/\">Facebook</a> url."
+msgstr "Ihre <a href=„https://facebook.com/„>Facebook</a>-Url."
+
+#: public/forms/class-wcvendors-pro-store-form.php:399
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: public/forms/class-wcvendors-pro-store-form.php:400
+msgid "http://linkedinurl.com/here"
+msgstr "http://linkedinurl.com/here"
+
+#: public/forms/class-wcvendors-pro-store-form.php:402
+msgid "Your <a href=\"https://linkedin.com/\">LinkedIn</a> url."
+msgstr "Ihre <a href=„https://linkedin.com/„>LinkedIn</a>-Url."
+
+#: public/forms/class-wcvendors-pro-store-form.php:423
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: public/forms/class-wcvendors-pro-store-form.php:424
+msgid "http://youtube.com/here"
+msgstr "http://youtube.com/"
+
+#: public/forms/class-wcvendors-pro-store-form.php:426
+msgid "Your <a href=\"https://youtube.com/\">Youtube</a> url."
+msgstr "Ihre <a href=„https://youtube.com/„>Youtube</a>-Url."
+
+#: public/forms/class-wcvendors-pro-store-form.php:447
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: public/forms/class-wcvendors-pro-store-form.php:448
+msgid "https://plus.google.com/yourname"
+msgstr "https://Plus.Google.com/yourname"
+
+#: public/forms/class-wcvendors-pro-store-form.php:450
+msgid "Your <a href=\"https://plus.google.com\">Google+</a> url."
+msgstr "Ihre <a href=„https://plus.google.com“>Google +</a> Url."
+
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:116
+msgid "Date Shipped"
+msgstr "Versanddatum"
+
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:141
+msgid "Shipping Provider"
+msgstr "Versand-Anbieter"
+
+#: public/forms/wcvendors-pro-address.php:21
+msgid "Store Country"
+msgstr "Shop Land"
+
+#: public/forms/wcvendors-pro-address.php:32
+msgid "Store Address"
+msgstr "Shop Adresse"
+
+#: public/forms/wcvendors-pro-address.php:33
+msgid "Street Address"
+msgstr "Shop Straße"
+
+#: public/forms/wcvendors-pro-address.php:44
+msgid "Apartment, unit, suite etc. "
+msgstr "Hausnummer"
+
+#: public/forms/wcvendors-pro-address.php:55
+#: public/forms/wcvendors-pro-address.php:56
+msgid "City / Town"
+msgstr "Stadt"
+
+#: public/forms/wcvendors-pro-address.php:67
+#: public/forms/wcvendors-pro-address.php:68
+msgid "State / County"
+msgstr "Land"
+
+#: public/forms/wcvendors-pro-address.php:77
+#: public/forms/wcvendors-pro-address.php:78
+msgid "Postcode / Zip"
+msgstr "Postleitzahl"
+
+#: public/forms/wcvendors-pro-downloadable-files.php:22
+msgid "Name"
+msgstr "Name"
+
+#: public/forms/wcvendors-pro-downloadable-files.php:22
+msgid "This is the name of the download shown to the customer."
+msgstr "Das ist der Downloadname, der dem Kunden angezeigt wird."
+
+#: public/forms/wcvendors-pro-downloadable-files.php:23
+msgid "File URL"
+msgstr "Datei-URL"
+
+#: public/forms/wcvendors-pro-downloadable-files.php:23
+msgid ""
+"This is the URL or absolute path to the file which customers will get access "
+"to."
+msgstr "Das ist die URL oder Adresse, von der der Kunde die Datei downloaden kann."
+
+#: public/forms/wcvendors-pro-downloadable-files.php:34
+#: public/forms/wcvendors-pro-downloadable-files.php:51
+msgid "File Name"
+msgstr "Dateiname"
+
+#: public/forms/wcvendors-pro-downloadable-files.php:35
+#: public/forms/wcvendors-pro-downloadable-files.php:52
+msgid "http://"
+msgstr "http://"
+
+#: public/forms/wcvendors-pro-downloadable-files.php:36
+#: public/forms/wcvendors-pro-downloadable-files.php:53
+msgid "Choose file"
+msgstr "Datei auswählen"
+
+#: public/forms/wcvendors-pro-downloadable-files.php:36
+#: public/forms/wcvendors-pro-downloadable-files.php:53
+msgid "Insert file URL"
+msgstr "Datei-URL einfügen"
+
+#: public/forms/wcvendors-pro-downloadable-files.php:57
+msgid "Add File"
+msgstr "Datei hinzufügen"
+
+#: public/partials/order/wcvendors-pro-order-table-actions.php:18
+msgid "Export Orders"
+msgstr "Bestellungen exportieren"
+
+#: public/partials/product/wcvendors-pro-table-actions.php:18
+#: templates/dashboard/product-edit.php:15
+msgid "Add Product"
+msgstr "Produkt hinzufügen"
+
+#: public/partials/shop_coupon/wcvendors-pro-table-shop-coupon-table-actions.php:18
+#: templates/dashboard/shop_coupon-edit.php:16
+msgid "Add Coupon"
+msgstr "Gutschein hinzufügen"
+
+#: templates/dashboard/order/order_note.php:13
+msgid " ago you wrote :"
+msgstr " schrieben Sie :"
+
+#: templates/dashboard/order/order_note_form.php:17
+msgid "Order Notes"
+msgstr "Anmerkungen zu Ihrer Bestellung"
+
+#: templates/dashboard/order/order_note_form.php:37
+msgid "Add Order Note"
+msgstr "Anmerkungen zu Ihrer Bestellung hinzufügen"
+
+#: templates/dashboard/order/shipping-label.php:67
+msgid "Ship To:"
+msgstr "Lieferung nach:"
+
+#: templates/dashboard/order/shipping-label.php:69
+msgid "N/A"
+msgstr "N/A"
+
+#: templates/dashboard/order/shipping-label.php:76
+msgid "From:"
+msgstr "Von:"
+
+#: templates/dashboard/order/shipping-label.php:96
+msgid "Picking List"
+msgstr "Kommissionierliste"
+
+#: templates/dashboard/order/tracking_number.php:17
+msgid "Update Tracking Details"
+msgstr "Tracking Details aktualisieren"
+
+#: templates/dashboard/order/tracking_number.php:19
+msgid "Add Tracking Details"
+msgstr "Tracking Details hinzufügen"
+
+#: templates/dashboard/order/tracking_number.php:29
+msgid "Shipment Tracking"
+msgstr "Sendungsverfolgung"
+
+#: templates/dashboard/permission.php:16
+msgid "Return to dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: templates/dashboard/product-edit.php:152
+msgid "Save Draft"
+msgstr "Entwurf speichern"
+
+#: templates/dashboard/reports/overview.php:31
+msgid "Total Products Sold"
+msgstr "Produkte insgesamt verkauft"
+
+#: templates/dashboard/reports/overview.php:37
+msgid "Commission Owed"
+msgstr "Provision ausstehend "
+
+#: templates/dashboard/reports/overview.php:42
+msgid "Commission Paid"
+msgstr "Provision gezahlt"
+
+#: templates/dashboard/reports/reports.php:16
+msgid "Orders Totals"
+msgstr "Gesamtbestellungen"
+
+#: templates/dashboard/reports/reports.php:21
+msgid ""
+"No orders for this period. Adjust your dates above and click Update, or list "
+"new products for customers to buy."
+msgstr ""
+"Keine Bestellungen für diesen Zeitraum. Passen Sie Ihre Daten oben an und "
+"klicken Sie auf aktualisieren, oder listen Sie neue Produkte, die Kunden "
+"kaufen können."
+
+#: templates/dashboard/reports/reports.php:34
+msgid "Product Totals"
+msgstr "Alle Produkte"
+
+#: templates/dashboard/reports/reports.php:39
+msgid ""
+"No sales for this period. Adjust your dates above and click Update, or list "
+"new products for customers to buy."
+msgstr ""
+"Keine Verkäufe für diesen Zeitraum. Passen Sie Ihre Daten oben an und "
+"klicken Sie auf aktualisieren, oder listen Sie neue Produkte, die Kunden "
+"kaufen können"
+
+#: templates/dashboard/reports/reports.php:52
+msgid "Recent Orders"
+msgstr "Letzte Bestellungen"
+
+#: templates/dashboard/reports/reports.php:56
+#: templates/dashboard/reports/reports.php:66
+msgid "View All"
+msgstr "Alle anzeigen"
+
+#: templates/dashboard/reports/reports.php:62
+msgid "Recent Products"
+msgstr "Neuste Produkte"
+
+#: templates/dashboard/shop_coupon-edit.php:46
+msgid "Usage Restrictions"
+msgstr "Nutzungsbeschränkungen"
+
+#: templates/dashboard/shop_coupon-edit.php:47
+msgid "Usage Limits"
+msgstr "Nutzungsbegrenzung "
+
+#: templates/dashboard/store-settings.php:19
+msgid "Store"
+msgstr "Shop"
+
+#: templates/dashboard/store-settings.php:20
+#: templates/front/vendor-signup-form.php:18
+msgid "Payment"
+msgstr "Zahlungsarten"
+
+#: templates/dashboard/store-settings.php:21
+msgid "Branding"
+msgstr "Branding"
+
+#: templates/dashboard/store-settings.php:22
+#: templates/front/vendor-signup-form.php:19
+msgid "Social"
+msgstr "Soziale Netzwerke"
+
+#: templates/dashboard/store-settings.php:34
+#: templates/front/vendor-signup-form.php:29
+msgid "Store Description"
+msgstr "Shop-Beschreibung"
+
+#: templates/dashboard/store-settings.php:41
+#: templates/front/vendor-signup-form.php:35
+msgid "Single product page store description"
+msgstr "Shopbeschreibung auf Einzelproduktseite"
+
+#: templates/front/ratings/feedback-form.php:14
+msgid "Rate your experience"
+msgstr "Bewerten Sie Ihre Erfahrung"
+
+#: templates/front/ratings/feedback-form.php:17
+#, php-format
+msgid ""
+"Order #<mark class=\"order-number\">%s</mark> was placed on <mark class=\"order-"
+"date\">%s</mark> and is currently <mark class=\"order-status\">%s</mark>."
+msgstr ""
+"Bestellung <mark class=„order-number“> %s </mark> wurde am <mark "
+"class=„order-date“> %s </mark> und derzeit <mark class=„order-status“> %s "
+"</mark> ."
+
+#: templates/front/ratings/feedback-form.php:72
+msgid "Submit Feedback"
+msgstr "Feedback abgeben"
+
+#: templates/front/ratings/ratings-display-panel.php:18
+#: templates/store/store-ratings.php:24
+msgid "Posted on"
+msgstr "Veröffentlicht am"
+
+#: templates/front/ratings/ratings-display-panel.php:18
+#: templates/store/store-ratings.php:24
+msgid "by"
+msgstr "von"
+
+#: templates/front/vendor-pending-notice.php:11
+msgid ""
+"Your account has not yet been approved to become a vendor. When it is, you "
+"will receive an email telling you that your account is approved!"
+msgstr ""
+"Ihr Verkäuferkonto wurde noch nicht freigeschaltet. Sie werden per E-Mail "
+"benachrichtigt, sobald es freigeschaltet ist."
+
+#: templates/front/vendor-signup-form.php:13
+msgid "Vendor Application"
+msgstr "Verkäufer Anwendung"
+
+#: templates/front/vendor-signup-form.php:17
+msgid "General Store Information"
+msgstr "Allgemeine Shop Informationen"
+
+#: templates/front/vendor-signup-form.php:73
+msgid "Apply to be Vendor"
+msgstr "Bewerben Sie sich als Verkäufer"
+
+#: templates/store/old/single-vendor_store.php:84
+#: templates/store/single-vendor_store.php:87
+msgid "No ratings have been submitted for this vendor yet."
+msgstr "Für diese Verkäufer wurden noch keine Bewertungen abgegeben."

@@ -1,0 +1,134 @@
+/*widget_index_focus*/
+.index-focus{
+	padding: 13px 11px 11px;
+	height: 370px;
+	overflow: hidden;
+	border: 1px solid #c1c1c1;
+	background-color: #fff;
+}
+.focus-swiper{
+	position: relative;
+	width: 660px;
+	height: 370px;
+	background-color: #ccc;
+}
+.focus-swiper .focus-swiper-btn{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -1px;
+    z-index: 999;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font: 700 40px/50px SimSun;
+
+}
+.focus-swiper .focus-swiper-next{
+	right: 0px;
+    -webkit-border-radius: 50px 0 0 50px;
+    -moz-border-radius: 50px 0 0 50px;
+    -o-border-radius: 50px 0 0 50px;
+    border-radius: 50px 0 0 50px;
+    text-align: right;
+}
+.focus-swiper .focus-swiper-prev{
+	left: 0px;
+    -webkit-border-radius: 50px 0 0 50px;
+    -moz-border-radius: 50px 0 0 50px;
+    -o-border-radius: 50px 0 0 50px;
+    border-radius: 50px 0 0 50px;
+    text-align: left;
+}
+    
+.focus-swiper .focus-swiper-prev:before{
+	content: '< ';
+    margin-left: 0;
+}
+.focus-swiper .focus-swiper-next:before{
+	content: '> ';
+    margin-left: 0;
+}
+    
+.focus-swiper .swiper-container{
+	width: 660px;
+	height: 370px;
+	overflow: hidden;
+}
+.focus-swiper .swiper-slide{
+	position: relative;
+}
+.focus-swiper .swiper-slide img{
+    width: 660px;
+    height: 370px;
+}
+.focus-swiper .swiper-slide .focus-swiper-info{
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    height: 49px;
+    line-height: 53px;
+    color: #FFF;
+    font-size: 14px;
+    text-indent: 2em;
+    width: 634px;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 6px;
+    _background: #000;
+    background: #010101;
+    color: #fff;
+
+}
+.focus-list-wrap{
+	width: 504px;
+	overflow: hidden;
+}
+.focus-list-wrap ul{
+	margin-right: -12px;
+}
+.focus-list-wrap ul li{
+	float: left;
+	position: relative;
+	width: 246px;
+	margin: 0 12px 12px 0;
+}
+.focus-list-wrap img{
+	display: block;
+	width: 246px;
+	height: 135px;
+}
+.focus-list-wrap li .focus-list-info{
+    height: 40px;
+    line-height: 30px;
+    background: #f2f3f3\9;
+    _background: #f2f3f3;
+    color: #000;
+    font-size: 12px;
+    padding: 4px 10px 0;
+    font-weight: 700;
+    overflow: hidden;
+    background: #f2f3f3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+/*跑马灯*/
+.index-lamp{
+	height: 41px;
+    line-height: 41px;
+	border: 1px solid #c1c1c1;
+	margin-top: -1px;
+    font-size: 20px;
+    overflow: hidden;
+	background-color: #464646;
+}
+.index-lamp li{
+    height: 41px;
+    padding-left: 15px;
+}
+.index-lamp a{
+    color: #ffa200;
+}

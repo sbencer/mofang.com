@@ -1,0 +1,22 @@
+.side-latest{
+}
+.side-latest-wrap{
+	padding: 19px 15px 0;
+}
+.side-latest-wrap dl{
+	margin-bottom: 16px;
+}
+.side-latest-wrap dt{
+	width: 358px;
+	height: 198px;
+	margin-bottom: 5px;
+}
+.side-latest-wrap dt img{
+	width: 358px;
+	height: 198px;
+}
+.side-latest-wrap dd{
+	font-size: 14px;
+	line-height: 24px;
+	color: #464646;
+}

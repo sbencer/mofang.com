@@ -1,0 +1,4583 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Vendors Pro\n"
+"POT-Creation-Date: 2016-03-23 15:56+0800\n"
+"PO-Revision-Date: 2016-03-31 01:18+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wcvendors-pro.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:79
+msgid "Store General"
+msgstr "一般商店"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:82
+msgid "Trusted Vendor"
+msgstr "可信供應商"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:83
+msgid ""
+" Check to allow this vendor to publish products immediately regardless of "
+"global publishing rules."
+msgstr "勾選以允許該供應商發布的產品，立即不顧全球發布規則。"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:87
+msgid "Untrusted Vendor"
+msgstr "不可信供應商"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:88
+msgid ""
+" Check to require all products submitted to be reviewed, regardless of "
+"global publishing rules. This overrides the trusted vendor option."
+msgstr ""
+"檢查需要提交進行審核，無論全球發布規則的所有產品。這將覆蓋可信供應商的選擇。"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:92
+#: public/forms/class-wcvendors-pro-store-form.php:637
+msgid "Store Website / Blog URL"
+msgstr "商店網站/博客網址"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:98
+#: public/forms/class-wcvendors-pro-store-form.php:1221
+#: public/forms/wcvendors-pro-address.php:32
+msgid "Store Address"
+msgstr "商店地址"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:101
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:138
+#: public/class-wcvendors-pro-order-controller.php:139
+#: public/class-wcvendors-pro-order-controller.php:188
+msgid "Address 1"
+msgstr "地址欄1"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:105
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:142
+#: public/class-wcvendors-pro-order-controller.php:143
+#: public/class-wcvendors-pro-order-controller.php:192
+msgid "Address 2"
+msgstr "地址欄2"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:109
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:146
+#: public/class-wcvendors-pro-order-controller.php:147
+#: public/class-wcvendors-pro-order-controller.php:196
+msgid "City"
+msgstr "城市"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:113
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:150
+#: public/class-wcvendors-pro-order-controller.php:151
+#: public/class-wcvendors-pro-order-controller.php:200
+msgid "Postcode"
+msgstr "郵政編碼"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:117
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:154
+#: public/class-wcvendors-pro-order-controller.php:155
+#: public/class-wcvendors-pro-order-controller.php:204
+#: public/forms/partials/wcvendors-pro-shipping-table.php:21
+#: public/forms/partials/wcvendors-pro-shipping-table.php:33
+#: public/forms/partials/wcvendors-pro-shipping-table.php:53
+#: templates/front/shipping/shipping-panel.php:62
+msgid "Country"
+msgstr "國家"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:121
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:158
+#: public/class-wcvendors-pro-order-controller.php:159
+#: public/class-wcvendors-pro-order-controller.php:208
+msgid "Select a country&hellip;"
+msgstr "選擇國家..."
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:124
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:161
+#: public/class-wcvendors-pro-order-controller.php:162
+#: public/class-wcvendors-pro-order-controller.php:211
+msgid "State/County"
+msgstr "鄉鎮市"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:125
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:162
+msgid "State/County or state code"
+msgstr "州/縣或州代碼"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:129
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:166
+msgid "Telephone"
+msgstr "電話"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:135
+msgid "Store Shipping Address"
+msgstr "郵寄地址"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:172
+msgid "Store Social"
+msgstr "商店社群"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:175
+#: includes/class-wcvendors-pro.php:1045 includes/class-wcvendors-pro.php:1125
+msgid "Twitter"
+msgstr "Twitter"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:176
+msgid "<a href=\"https://twitter.com/\">Twitter</a> username without the url."
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:179
+#: includes/class-wcvendors-pro.php:1046 includes/class-wcvendors-pro.php:1126
+msgid "Instagram"
+msgstr "Instagram"
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:180
+msgid ""
+"<a href=\"https://instagram.com/\">Instagram</a> username without the url."
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:183
+#: includes/class-wcvendors-pro.php:1047 includes/class-wcvendors-pro.php:1127
+msgid "Facebook"
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:184
+msgid "<a href=\"https://facebook.com/\">Facebook</a> url."
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:187
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:188
+msgid "<a href=\"https://linkedin.com/\">LinkedIn</a> url."
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:191
+msgid "YouTube"
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:192
+msgid "<a href=\"https://youtube.com/\">Youtube</a> url."
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:195
+#: includes/class-wcvendors-pro.php:1051 includes/class-wcvendors-pro.php:1131
+msgid "Google+"
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:196
+msgid "<a href=\"https://plus.google.com\">Google+</a> url."
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:199
+#: includes/class-wcvendors-pro.php:1050 includes/class-wcvendors-pro.php:1130
+msgid "Pinterest"
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin-vendor-controller.php:200
+msgid "<a href=https://www.pinterest.com/\">Pinterest</a> url."
+msgstr ""
+
+#: admin/class-wcvendors-pro-admin.php:102
+#: public/class-wcvendors-pro-dashboard.php:274
+#: templates/dashboard/store-settings.php:18
+msgid "Settings"
+msgstr "設定"
+
+#: admin/class-wcvendors-pro-admin.php:203 includes/class-wcvendors-pro.php:493
+#: includes/class-wcvendors-pro.php:518
+msgid "Pro"
+msgstr "專業版"
+
+#: admin/class-wcvendors-pro-commission-controller.php:316
+msgid "Fixed"
+msgstr "固定"
+
+#: admin/class-wcvendors-pro-commission-controller.php:317
+msgid "Fixed + fee"
+msgstr "固定+费用"
+
+#: admin/class-wcvendors-pro-commission-controller.php:318
+msgid "Percentage"
+msgstr "百分比"
+
+#: admin/class-wcvendors-pro-commission-controller.php:319
+msgid "Percentage + fee"
+msgstr "百分比 手續費"
+
+#: admin/class-wcvendors-pro-shipping-controller.php:83
+#: includes/class-wcvendors-pro.php:952 includes/class-wcvendors-pro.php:987
+#: includes/class-wcvendors-pro.php:1030 includes/class-wcvendors-pro.php:1067
+#: includes/class-wcvendors-pro.php:1110
+#: public/forms/class-wcvendors-pro-product-form.php:1530
+#: public/forms/class-wcvendors-pro-store-form.php:288
+#: templates/dashboard/order/order_details.php:258
+#: templates/dashboard/reports/overview.php:35
+#: templates/dashboard/reports/overview.php:56
+msgid "Shipping"
+msgstr "配送"
+
+#: admin/class-wcvendors-pro-shipping-controller.php:226
+msgid "Flat Rate"
+msgstr "一般費率"
+
+#: admin/class-wcvendors-pro-shipping-controller.php:227
+msgid "Country Table Rate"
+msgstr "國家匯率表"
+
+#: admin/class-wcvendors-pro-shipping.php:64
+#: admin/class-wcvendors-pro-shipping.php:106
+#: includes/class-wcvendors-pro.php:608
+msgid "Vendor Shipping"
+msgstr "供應商費率"
+
+#: admin/class-wcvendors-pro-shipping.php:65
+msgid ""
+"This shipping module is for your vendors to input their own shipping prices "
+"on their Pro Dashboard.  <p>The prices you enter for Product Cost and "
+"Handling Fees will only be used if a vendor has not entered their own prices "
+"on their Pro Vendor Dashboard.  <p>The simplest shipping system is Flat "
+"Rate, where vendors can input a cost within their country, and outside of "
+"their country.  Country Table Rate will require vendors to enter country "
+"codes that they ship to and set prices for each country.  <p><strong><a href="
+"\"https://www.wcvendors.com/kb/pro-shipping/\" target=\"prodocs\">WC Vendors "
+"Pro Shipping Documentation</a></strong>"
+msgstr ""
+
+#: admin/class-wcvendors-pro-shipping.php:97
+msgid "Standalone Method"
+msgstr "獨立方法"
+
+#: admin/class-wcvendors-pro-shipping.php:99
+msgid "Enable WC Vendors Pro Shipping as a standalone shipping method"
+msgstr "啟用WC廠商臨航運作為一個獨立的送貨方式"
+
+#: admin/class-wcvendors-pro-shipping.php:103
+msgid "Method Title"
+msgstr "配送方式"
+
+#: admin/class-wcvendors-pro-shipping.php:105
+msgid "This controls the title which the user sees during checkout."
+msgstr "此欄位設定買家在結帳時，所見的配送方式為何。"
+
+#: admin/class-wcvendors-pro-shipping.php:109
+#: public/forms/class-wcvendors-pro-product-form.php:1007
+msgid "Tax Status"
+msgstr "消費稅狀態"
+
+#: admin/class-wcvendors-pro-shipping.php:115
+#: public/forms/class-wcvendors-pro-product-form.php:1011
+msgid "Taxable"
+msgstr "應稅"
+
+#: admin/class-wcvendors-pro-shipping.php:116
+msgid "None"
+msgstr "無"
+
+#: admin/class-wcvendors-pro-shipping.php:120
+msgid "Shipping System"
+msgstr "運輸系統"
+
+#: admin/class-wcvendors-pro-shipping.php:124
+msgid ""
+"Your vendors have a simple flat rate for national and international shipping "
+"or a per country rate table. This can be overridden on a per vendor basis."
+msgstr ""
+"您的供應商為國家和國際航運或簡單的扁平率每個國家稅率表。這可以對每個供應商進"
+"行覆蓋。"
+
+#: admin/class-wcvendors-pro-shipping.php:128
+msgid "Product Cost Nationally"
+msgstr "產品成本在全國范圍內"
+
+#: admin/class-wcvendors-pro-shipping.php:130
+#: admin/class-wcvendors-pro-shipping.php:157
+msgid ""
+"Default per product cost excluding tax for products on a per vendor level. e."
+"g. 5.50."
+msgstr "每個產品的成本不包括默認為產品稅對每個供應商的水平。例如：5.50。"
+
+#: admin/class-wcvendors-pro-shipping.php:134
+msgid "Free National shipping"
+msgstr "免費送貨全國"
+
+#: admin/class-wcvendors-pro-shipping.php:135
+msgid "Enable store wide free national shipping"
+msgstr "啟用存儲範圍內的自由航運"
+
+#: admin/class-wcvendors-pro-shipping.php:137
+msgid "Check this to enable free national shipping"
+msgstr "若您希望使用配送機制，請啟用此選項"
+
+#: admin/class-wcvendors-pro-shipping.php:141
+msgid "Disable National shipping"
+msgstr "禁止國家航運"
+
+#: admin/class-wcvendors-pro-shipping.php:142
+msgid "Disable national shipping"
+msgstr "禁止國家航運"
+
+#: admin/class-wcvendors-pro-shipping.php:144
+msgid "Check this to disable national shipping"
+msgstr "選中此選項禁用全國發貨"
+
+#: admin/class-wcvendors-pro-shipping.php:148
+msgid "Product Qty Override National"
+msgstr "產品數量覆蓋全國"
+
+#: admin/class-wcvendors-pro-shipping.php:149
+msgid "Charge once for national shipping, even if more than one is purchased."
+msgstr "一次國際收费即使多个购买。"
+
+#: admin/class-wcvendors-pro-shipping.php:151
+#: admin/class-wcvendors-pro-shipping.php:178
+msgid ""
+"Disable the product qty in shipping calculations on a per product basis."
+msgstr "禁止在每個產品中的基礎計算運費的產品數量。"
+
+#: admin/class-wcvendors-pro-shipping.php:155
+msgid "Product Cost Internationally"
+msgstr "產品成本國際"
+
+#: admin/class-wcvendors-pro-shipping.php:161
+msgid "Free International shipping"
+msgstr "免郵費優惠。"
+
+#: admin/class-wcvendors-pro-shipping.php:162
+msgid "Enable store wide free international shipping"
+msgstr "啟用存儲寬免郵費優惠。"
+
+#: admin/class-wcvendors-pro-shipping.php:164
+msgid "Check this to enable free international shipping"
+msgstr "若您希望使用配送機制，請啟用此選項"
+
+#: admin/class-wcvendors-pro-shipping.php:168
+msgid "Disable International Shipping"
+msgstr "停用國際運費"
+
+#: admin/class-wcvendors-pro-shipping.php:169
+msgid "Disable store wide international shipping"
+msgstr "停用國際運費"
+
+#: admin/class-wcvendors-pro-shipping.php:171
+msgid "Check this to disable international shipping"
+msgstr "選中此選項禁用國際航運"
+
+#: admin/class-wcvendors-pro-shipping.php:175
+msgid "Product Qty Override International"
+msgstr "产品数量覆盖国际"
+
+#: admin/class-wcvendors-pro-shipping.php:176
+msgid ""
+"Charge once for international shipping, even if more than one is purchased."
+msgstr "一次性国际航运收费"
+
+#: admin/class-wcvendors-pro-shipping.php:182
+msgid "Default product Handling Fee (per vendor)"
+msgstr "默认产品处理费 (每个供应商)"
+
+#: admin/class-wcvendors-pro-shipping.php:184
+msgid ""
+"Product handling fee excluding tax. Fixed amount (5.00) or add a percentage "
+"sign for a percentage (5%). Leave blank to disable."
+msgstr ""
+"产品不含税的手续费。固定的金额 (5.00) 或添加百分比符号的百分比 (5%)。留空可以"
+"禁用。"
+
+#: admin/class-wcvendors-pro-shipping.php:188
+msgid "Method availability"
+msgstr "方法可用性"
+
+#: admin/class-wcvendors-pro-shipping.php:193
+msgid "All allowed countries"
+msgstr "所有允許的國家"
+
+#: admin/class-wcvendors-pro-shipping.php:194
+#: admin/class-wcvendors-pro-shipping.php:198
+msgid "Specific Countries"
+msgstr "特定國家"
+
+#: admin/partials/product/wcvendors-pro-commission-panel.php:19
+#: admin/partials/vendor/wcvendors-pro-vendor-commission-fields.php:23
+msgid "Commission Type"
+msgstr "佣金類型"
+
+#: admin/partials/product/wcvendors-pro-commission-panel.php:31
+#: admin/partials/vendor/wcvendors-pro-vendor-commission-fields.php:35
+#: includes/class-wcvendors-pro.php:827
+msgid "Commission %"
+msgstr "佣金(%)"
+
+#: admin/partials/product/wcvendors-pro-commission-panel.php:36
+#: admin/partials/vendor/wcvendors-pro-vendor-commission-fields.php:39
+msgid "Commission Amount"
+msgstr "佣金數額"
+
+#: admin/partials/product/wcvendors-pro-commission-panel.php:40
+#: admin/partials/vendor/wcvendors-pro-vendor-commission-fields.php:43
+msgid "Commission Fee"
+msgstr "佣金"
+
+#: admin/partials/product/wcvendors-pro-product-meta-tab.php:2
+#: templates/dashboard/order/order_details.php:93
+msgid "Commission"
+msgstr "佣金手續費(%)"
+
+#: admin/partials/vendor/wcvendors-pro-store-meta-shipping-panel.php:19
+msgid "Store Shipping"
+msgstr "配送"
+
+#: admin/partials/vendor/wcvendors-pro-store-meta-shipping-panel.php:23
+msgid "Shipping Type"
+msgstr "運輸類型"
+
+#: admin/partials/vendor/wcvendors-pro-store-meta-shipping-panel.php:35
+msgid "You can override the global setting for shipping type for this vendor."
+msgstr "您可以覆蓋出貨機型而該供應商的全局設置。"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:69
+msgid "Store Branding"
+msgstr "商店標誌"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:74
+#: public/class-wcvendors-pro-store-controller.php:100
+#: public/forms/class-wcvendors-pro-store-form.php:350
+#: public/forms/class-wcvendors-pro-store-form.php:360
+msgid "Store Banner"
+msgstr "商店橫幅"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:77
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:82
+msgid "Upload an image for the banner."
+msgstr "上傳圖片橫幅。"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:80
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:82
+msgid "Add Banner"
+msgstr "添加橫幅"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:81
+msgid "Remove Banner"
+msgstr "刪除橫幅"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:87
+#: public/forms/class-wcvendors-pro-store-form.php:391
+#: public/forms/class-wcvendors-pro-store-form.php:401
+msgid "Store Icon"
+msgstr "商店图标"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:90
+msgid "Upload an image for the store icon."
+msgstr "上傳商店圖標的圖像。"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:93
+msgid "Add Icon"
+msgstr "添加圖示"
+
+#: admin/partials/vendor/wcvendors-pro-user-meta.php:94
+msgid "Remove Icon"
+msgstr "移除圖示"
+
+#: admin/partials/vendor/wcvendors-pro-vendor-commission-fields.php:19
+msgid "Pro Commission"
+msgstr "專業版傭金"
+
+#. Plugin Name of the plugin/theme
+#: admin/partials/wcvendors-pro-system-status.php:17
+msgid "WC Vendors Pro"
+msgstr "WC 供應商(專業版)"
+
+#: admin/partials/wcvendors-pro-system-status.php:17
+msgid "This section shows information about WC Vendors Pro requirements."
+msgstr "此部分显示有关 WC 供应商临要求的信息。"
+
+#: admin/partials/wcvendors-pro-system-status.php:22
+msgid "Theme Compatability"
+msgstr "主題兼容性"
+
+#: admin/partials/wcvendors-pro-system-status.php:27
+#, php-format
+msgid ""
+"Your theme is not 100%% WooCommerce compatible and will not display vendor "
+"stores properly. Please show this page ( <a href=\"%s\">https://docs."
+"woothemes.com/document/third-party-custom-theme-compatibility/</a> ) to your "
+"theme author and instruct them to provide full WooCommerce compatibility, "
+"not the limited WooCommerce compatibility they currently provide by using "
+"woocommerce.php instead of full templates."
+msgstr ""
+"你的主題是不是100 %% WooCommerce兼容，將無法正常顯示供應商的商店。請顯示此頁"
+"面（ <a href=\"%s\">https://docs.woothemes.com/document/third-party-custom-"
+"theme-compatibility/</a> ）你的主題作者和指導他們提供完整的WooCommerce兼容，"
+"而不是有限的WooCommerce兼容性，他們目前提供採用全模板woocommerce.php代替。"
+
+#: admin/partials/wcvendors-pro-system-status.php:35
+msgid "Pro dasboard page"
+msgstr "WC 供應商主供台(專業版)"
+
+#: admin/partials/wcvendors-pro-system-status.php:40
+#, php-format
+msgid ""
+"WC Vendors Pro WILL NOT FUNCTION without this set. <a href=\"%s\">Click here "
+"to set the page</a>."
+msgstr ""
+"WC供應商Pro將無法正常工作沒有這一套。 <a href=\"%s\">單擊此處設置的頁面</"
+"a> 。"
+
+#: admin/partials/wcvendors-pro-system-status.php:43
+#, php-format
+msgid ""
+"Your pro dashboard page cannot be set to your free dashboard page. <a href="
+"\"%s\">Click here to change</a>."
+msgstr ""
+"你的親儀表盤頁面不能被設置為您免費儀表板的頁面。 <a href=\"%s\">點擊此處更改"
+"</a> 。"
+
+#: admin/partials/wcvendors-pro-system-status.php:53
+msgid "Feedback form page"
+msgstr "反饋表單頁面"
+
+#: admin/partials/wcvendors-pro-system-status.php:57
+#, php-format
+msgid ""
+"Vendor ratings will not work without this page set. <a href=\"%s\">Click "
+"here to set the page</a>."
+msgstr ""
+"供應商評級不會在未得到本頁面設置工作。 <a href=\"%s\">單擊此處設置的頁面</"
+"a> 。"
+
+#: admin/partials/wcvendors-pro-system-status.php:64
+msgid "Vendor Shop Permalink"
+msgstr "供應商費率"
+
+#: admin/partials/wcvendors-pro-system-status.php:68
+#, php-format
+msgid ""
+"You need to set a vendor store permalink. <a href=\"%s\">Click here to set "
+"the slug</a>."
+msgstr ""
+"您需要設置一個供應商的存儲固定鏈接。 <a href=\"%s\">點擊此處設置Slug</a> 。"
+
+#: admin/partials/wcvendors-pro-template-status.php:4
+msgid "WC Vendors Pro Templates"
+msgstr "WC廠商臨模板"
+
+#: admin/partials/wcvendors-pro-template-status.php:4
+msgid ""
+"This section shows any files that are overriding the default WC Vendors Pro "
+"template pages."
+msgstr "此區段顯示任何被置換為非預設的 WooCommerce 範本頁面"
+
+#: admin/partials/wcvendors-pro-template-status.php:42
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: admin/partials/wcvendors-pro-template-status.php:54
+#: admin/partials/wcvendors-pro-template-status.php:63
+msgid "Overrides"
+msgstr "覆蓋"
+
+#: admin/partials/wcvendors-pro-template-status.php:75
+msgid "Learn how to update outdated templates"
+msgstr "學習如何更新過時的範本"
+
+#: includes/class-wcvendors-pro-activator.php:41
+msgid "This plugin requires PHP Version 5.4.  Sorry about that."
+msgstr "這個插件需要PHP 5.4版。對於那個很抱歉。"
+
+#: includes/class-wcvendors-pro-activator.php:49
+msgid ""
+"WC Vendors Pro requires WooCommerce to run. Please install WooCommerce and "
+"activate before attempting to activate again."
+msgstr ""
+"WC供應商Pro需要WooCommerce運行。請安裝WooCommerce並嘗試重新激活之前激活。"
+
+#: includes/class-wcvendors-pro-activator.php:57
+msgid ""
+"WC Vendors Pro requires WC Vendors to run. Please install WC Vendors and "
+"activate before attempting to activate again."
+msgstr ""
+"WC供應商Pro需要WC供應商來運行。請安裝WC供應商，並試圖再次激活之前激活。"
+
+#: includes/class-wcvendors-pro-activator.php:121
+msgid ""
+"<b>WC Vendors Pro is disabled</b>. WC Vendors Pro requires WC Vendors v1.7.0 "
+"or higher to operate."
+msgstr ""
+"<b>WC供應商Pro是禁用的</b> 。 WC供應商Pro需要WC廠商V1.7.0或更高版本來操作。"
+
+#: includes/class-wcvendors-pro-activator.php:132
+msgid "Pro Dashboard"
+msgstr "儀表板"
+
+#: includes/class-wcvendors-pro-activator.php:136
+#: includes/class-wcvendors-pro-ratings-controller.php:637
+msgid "Feedback"
+msgstr "反饋"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:86
+#: includes/class-wcvendors-pro-ratings-controller.php:636
+#: public/class-wcvendors-pro-reports-controller.php:311
+msgid "Order #"
+msgstr "訂單"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:87
+#: public/class-wcvendors-pro-table-helper.php:157
+#: templates/front/ratings/feedback-form.php:57
+msgid "Title"
+msgstr "標題"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:88
+#: public/class-wcvendors-pro-store-controller.php:919
+msgid "Vendor"
+msgstr "供應商"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:89
+#: includes/class-wcvendors-pro-ratings-controller.php:638
+msgid "Product"
+msgstr "商品"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:90
+#: includes/class-wcvendors-pro-ratings-controller.php:639
+#: public/class-wcvendors-pro-order-controller.php:333
+msgid "Customer"
+msgstr "買家"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:91
+msgid "Comments"
+msgstr "留言"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:92
+msgid "Rating"
+msgstr "評分"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:93
+#: includes/class-wcvendors-pro-ratings-controller.php:640
+#: public/class-wcvendors-pro-reports-controller.php:313
+msgid "Date"
+msgstr "日期"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:175
+#: public/class-wcvendors-pro-dashboard.php:262
+#: public/class-wcvendors-pro-dashboard.php:291
+#: public/class-wcvendors-pro-product-controller.php:1045
+#: public/class-wcvendors-pro-table-helper.php:167
+msgid "Delete"
+msgstr "删除"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:197
+msgid "Vendor rating(s) deleted."
+msgstr "供應商等級評估中刪除。"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:229
+#: includes/class-wcvendors-pro-ratings-controller.php:468
+#: includes/class-wcvendors-pro.php:737
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-table-title.php:16
+msgid "Vendor Ratings"
+msgstr "供應商評級"
+
+#: includes/class-wcvendors-pro-ratings-admin-table.php:386
+msgid "No vendor ratings found."
+msgstr "未找到任何評價！"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:134
+msgid "Please select a star rating."
+msgstr "請選擇評分"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:191
+msgid "Your feedback has been saved."
+msgstr "您的反饋已保存。"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:193
+msgid "There was an error posting your feedback."
+msgstr "傳送發表更新時發生了問題，請重新再試。"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:210
+#, php-format
+msgid ""
+"<p>This page should not be accessed directly. Please return to the <a href="
+"\"%s\">my account page</a> and select an order to leave feedback. </p>"
+msgstr ""
+"<p>此頁面不應該直接訪問。請回到<a href=\"%s\">我的帳戶頁面</a> ，然後選擇一個"
+"才能離開反饋。 </p>"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:258
+msgid "Revise Feedback"
+msgstr "修訂反饋"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:258
+msgid "Leave Feedback"
+msgstr "評價服務"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:524
+msgid "Vendor rating updated."
+msgstr "賣方評級更新。"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:537
+msgid "Vendor rating deleted."
+msgstr "賣方評級刪除。"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:594
+msgid "View All Ratings <br /><br />"
+msgstr "查看全部評分<br /><br />"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:620
+msgid "No ratings have been submitted for this product yet."
+msgstr "無評分已提交該產品還沒有。"
+
+#: includes/class-wcvendors-pro-ratings-controller.php:635
+#: public/class-wcvendors-pro-order-controller.php:331
+#: public/class-wcvendors-pro-product-controller.php:996
+#: public/class-wcvendors-pro-reports-controller.php:310
+#: public/class-wcvendors-pro-reports-controller.php:390
+#: public/class-wcvendors-pro-table-helper.php:156
+msgid "ID"
+msgstr ""
+
+#: includes/class-wcvendors-pro-ratings-controller.php:723
+msgid "No ratings found."
+msgstr "未找到任何評價！"
+
+#: includes/class-wcvendors-pro-updater.php:141
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:80
+msgid "License Activation"
+msgstr "啟用認證"
+
+#: includes/class-wcvendors-pro-updater.php:142
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:87
+msgid "License Deactivation"
+msgstr "認證停用"
+
+#: includes/class-wcvendors-pro-updater.php:352
+#, php-format
+msgid ""
+"The WC Vendors Pro license key has not been activated, so the plugin is "
+"inactive! %sClick here%s to activate the license key and the plugin."
+msgstr ""
+
+#: includes/class-wcvendors-pro-updater.php:371
+#, php-format
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<b>警告!</b> 你阻擋外部請求，這代表你將無法獲得 %s 的更新. 請增加 %s 到 %s."
+
+#: includes/class-wcvendors-pro.php:498
+msgid "Click to view vendor shipping settings here."
+msgstr "點擊這裡查看供應商船運設置。"
+
+#: includes/class-wcvendors-pro.php:500
+msgid "General options"
+msgstr "通用設定"
+
+#: includes/class-wcvendors-pro.php:503
+msgid "Pro Dashboard Page"
+msgstr "臨儀表板頁面"
+
+#: includes/class-wcvendors-pro.php:504
+msgid ""
+"Page requires the [wcv_pro_dashboard] shortcode. <strong>DO NOT USE THE WC "
+"VENDORS FREE DASHBOARD PAGE HERE - and do NOT delete the Free Dashboard "
+"pages either, you will break your site if you do.</strong>"
+msgstr ""
+"頁要求[wcv_pro_dashboard]簡碼<strong>不要在這裡使用的廁所免費VENDORS儀表板頁"
+"面-切勿刪除該免費儀表板的頁面，你會打破你的網站，如果你做的。</strong>"
+
+#: includes/class-wcvendors-pro.php:512
+msgid "Store Header"
+msgstr "店頭"
+
+#: includes/class-wcvendors-pro.php:513
+msgid ""
+"Which store header to use. Store headers need to be enabled for this option "
+"to work."
+msgstr "這店頭使用。店頭需要啟用該選項工作。"
+
+#: includes/class-wcvendors-pro.php:517
+#: templates/front/shipping/shipping-panel.php:28
+#: templates/front/shipping/shipping-panel.php:39
+msgid "Free"
+msgstr "免費"
+
+#: includes/class-wcvendors-pro.php:524
+msgid "Store Shop Header"
+msgstr "商店页首"
+
+#: includes/class-wcvendors-pro.php:525
+msgid "Enable Store Headers on Shop Pages."
+msgstr "允許顯示商店Header"
+
+#: includes/class-wcvendors-pro.php:526
+msgid "Check to enable the entire header on the /vendors/username/ page."
+msgstr "檢查整個header在/vendors/username/ page的顯示狀況"
+
+#: includes/class-wcvendors-pro.php:533
+msgid "Store Single Product Header"
+msgstr "商店單一的商品Header"
+
+#: includes/class-wcvendors-pro.php:534
+msgid "Enable Store Headers on Single Product Pages."
+msgstr "在單一的商品頁面顯示商店Header"
+
+#: includes/class-wcvendors-pro.php:535
+msgid ""
+"Check to enable the entire header on /shop/product-category/product-name/"
+msgstr "檢查整個Header在/shop/product-category/product-name/的顯示狀況"
+
+#: includes/class-wcvendors-pro.php:542
+msgid "WordPress Dashboard"
+msgstr "WordPress儀表板"
+
+#: includes/class-wcvendors-pro.php:543
+msgid "Only administrators can access the /wp-admin/ dashboard. "
+msgstr "只有管理員身份可以使用此儀表板。"
+
+#: includes/class-wcvendors-pro.php:544
+msgid "Lock vendors out of the /wp-admin/ area."
+msgstr "將/wp-admin/位置以外的供應商權限關閉"
+
+#: includes/class-wcvendors-pro.php:552
+msgid "Vendor Dashboard Notice"
+msgstr "供應商儀表板提示"
+
+#: includes/class-wcvendors-pro.php:553
+msgid ""
+"Display a message to vendors on all dashboard pages below the dashboard menu."
+msgstr "顯示一則訊息"
+
+#: includes/class-wcvendors-pro.php:560
+msgid "Pro Features"
+msgstr "專業版功能"
+
+#: includes/class-wcvendors-pro.php:560
+msgid ""
+"<strong>Please save your permalinks after changing any of the following "
+"settings</strong>"
+msgstr "請在做以下設置的修改之後存檔"
+
+#: includes/class-wcvendors-pro.php:563
+msgid "Product Management"
+msgstr "產品管理"
+
+#: includes/class-wcvendors-pro.php:564
+msgid "Disable product management in pro dashboard. "
+msgstr "在專業版儀表板之中關閉商品管理"
+
+#: includes/class-wcvendors-pro.php:565
+msgid "Check to remove the product management from the pro dashboard."
+msgstr "確定將商品管理由專業版儀表板中移除"
+
+#: includes/class-wcvendors-pro.php:572
+msgid "Order Management"
+msgstr "訂單管理"
+
+#: includes/class-wcvendors-pro.php:573
+msgid "Disable order management in pro dashboard. "
+msgstr "在專業版儀表板關閉訂單管理"
+
+#: includes/class-wcvendors-pro.php:574
+msgid "Check to remove the order management from the pro dashboard."
+msgstr "確定將訂單管理從專業版儀表板中移除"
+
+#: includes/class-wcvendors-pro.php:581
+msgid "Coupon Management"
+msgstr "折價卷管理"
+
+#: includes/class-wcvendors-pro.php:582
+msgid "Disable coupon management in pro dashboard. "
+msgstr "在專業儀表板中關閉折價券管理"
+
+#: includes/class-wcvendors-pro.php:583
+msgid "Check to remove the coupon management from the pro dashboard."
+msgstr "確定在專業儀表板中關閉折價券管理"
+
+#: includes/class-wcvendors-pro.php:590
+msgid "Settings Management"
+msgstr "設定管理"
+
+#: includes/class-wcvendors-pro.php:591
+msgid "Disable store settings management in pro dashboard. "
+msgstr "在專業版儀表板關閉商店設定管理"
+
+#: includes/class-wcvendors-pro.php:592
+msgid "Check to remove the store settings management from the pro dashboard."
+msgstr "確定在專業版儀表板關閉商店設定管理"
+
+#: includes/class-wcvendors-pro.php:599
+#: public/class-wcvendors-pro-dashboard.php:280
+msgid "Ratings"
+msgstr "評比"
+
+#: includes/class-wcvendors-pro.php:600
+msgid "Disable the ratings system completely. "
+msgstr "完全關閉評比系統"
+
+#: includes/class-wcvendors-pro.php:601
+msgid "Check to remove the ratings system from the front end completely."
+msgstr "確定在前臺完全關閉評比系統"
+
+#: includes/class-wcvendors-pro.php:609
+msgid "Disable the vendor shipping system completely. "
+msgstr "完全關閉供應商運輸系統"
+
+#: includes/class-wcvendors-pro.php:610
+msgid ""
+"Check to remove the vendor shipping system from the front end completely."
+msgstr "確定從前臺完全關閉供應商運輸系統"
+
+#: includes/class-wcvendors-pro.php:617
+#: public/class-wcvendors-pro-dashboard.php:524
+msgid "View Store"
+msgstr "觀覽商店"
+
+#: includes/class-wcvendors-pro.php:618
+msgid "Disable the view store button on the pro dashboard. "
+msgstr "在專業儀表板中關閉觀覽商店按鈕"
+
+#: includes/class-wcvendors-pro.php:619
+msgid "Check to remove the view store button from the navigation."
+msgstr "確定在視角中關閉觀覽商店按鈕"
+
+#: includes/class-wcvendors-pro.php:626
+msgid "Delete Product"
+msgstr "刪除產品"
+
+#: includes/class-wcvendors-pro.php:627
+msgid "Disable the delete option on the product form. "
+msgstr "從產品表格中關閉刪除選項"
+
+#: includes/class-wcvendors-pro.php:628
+msgid "Check to remove the delete button from the product table."
+msgstr "確定從產品表格中移除刪除選項"
+
+#: includes/class-wcvendors-pro.php:635
+msgid "Edit Approved Products"
+msgstr "編輯已批准的產品"
+
+#: includes/class-wcvendors-pro.php:636
+msgid ""
+"Publish edits to approved products. ( New products will still have to be "
+"approved )"
+msgstr "發布編輯批准的產品。 （新產品仍然需要被批准）"
+
+#: includes/class-wcvendors-pro.php:637
+msgid "Allow vendors to edit products that have already been approved."
+msgstr "允許供應商修改已批准的商品"
+
+#: includes/class-wcvendors-pro.php:645
+msgid "Dashboard Date Range"
+msgstr "儀表板日期區間"
+
+#: includes/class-wcvendors-pro.php:647
+msgid "Define the dashboard default date range."
+msgstr "定義儀表板基本的日期區間"
+
+#: includes/class-wcvendors-pro.php:649 includes/class-wcvendors-pro.php:666
+msgid "Annually"
+msgstr "年度"
+
+#: includes/class-wcvendors-pro.php:650 includes/class-wcvendors-pro.php:667
+msgid "Quarterly"
+msgstr "季"
+
+#: includes/class-wcvendors-pro.php:651 includes/class-wcvendors-pro.php:668
+msgid "Monthly"
+msgstr "月"
+
+#: includes/class-wcvendors-pro.php:652 includes/class-wcvendors-pro.php:669
+msgid "Weekly"
+msgstr "週"
+
+#: includes/class-wcvendors-pro.php:662
+msgid "Orders Page Ranges"
+msgstr "訂單頁範圍"
+
+#: includes/class-wcvendors-pro.php:664
+msgid "Define the orders sales page date range."
+msgstr "定義訂單頁日期區間"
+
+#: includes/class-wcvendors-pro.php:678
+msgid "Products per page"
+msgstr "每頁產品"
+
+#: includes/class-wcvendors-pro.php:679
+msgid "How many products to display per page"
+msgstr "每頁顯示多少產品"
+
+#: includes/class-wcvendors-pro.php:686
+msgid "Coupons per page"
+msgstr "每頁折價券"
+
+#: includes/class-wcvendors-pro.php:687
+msgid "How many coupons to display per page"
+msgstr "每頁顯示多少折價券"
+
+#: includes/class-wcvendors-pro.php:694
+#: public/class-wcvendors-pro-product-controller.php:977
+msgid "Trash"
+msgstr "資源回收"
+
+#: includes/class-wcvendors-pro.php:697
+msgid "Product Delete"
+msgstr "刪除產品"
+
+#: includes/class-wcvendors-pro.php:698
+msgid "Delete vendor products permanently. "
+msgstr "永久刪除供應商產品"
+
+#: includes/class-wcvendors-pro.php:699
+msgid ""
+"Bypass the trash when a vendor deletes a product and delete permanently."
+msgstr "當供應商永久刪除產品時分流"
+
+#: includes/class-wcvendors-pro.php:706
+msgid "Coupon Delete"
+msgstr "刪除折價券"
+
+#: includes/class-wcvendors-pro.php:707
+msgid "Delete vendor coupons permanently. "
+msgstr "永久刪除供應商折價券"
+
+#: includes/class-wcvendors-pro.php:708
+msgid "Bypass the trash when a vendor deletes a coupon and delete permanently."
+msgstr "當供應商永久刪除折價券時分流"
+
+#: includes/class-wcvendors-pro.php:715
+msgid "View Your Store"
+msgstr "觀覽你的商店"
+
+#: includes/class-wcvendors-pro.php:716
+msgid "Disable view your store in dashboard menu."
+msgstr "從儀表板選單關閉觀覽商店"
+
+#: includes/class-wcvendors-pro.php:717
+msgid "Remove the menu link"
+msgstr "移除選單連結"
+
+#: includes/class-wcvendors-pro.php:724
+msgid "Default Branding"
+msgstr "預設品牌"
+
+#: includes/class-wcvendors-pro.php:727
+msgid "Default Store Banner"
+msgstr "預設商店橫幅廣告"
+
+#: includes/class-wcvendors-pro.php:728
+msgid "Select an image for the default store banner"
+msgstr "從預設的橫幅廣告選擇影像"
+
+#: includes/class-wcvendors-pro.php:738
+msgid "Vendor Ratings System."
+msgstr "供應商評價系統"
+
+#: includes/class-wcvendors-pro.php:742
+msgid "Feedback Form Page"
+msgstr "回饋頁面"
+
+#: includes/class-wcvendors-pro.php:743
+msgid ""
+"The page to display the feedback from this will have the [wcv_feedback_form] "
+"shortcode."
+msgstr "顯示回饋表單的頁面會出現 [wcv_feedback_form]的短碼"
+
+#: includes/class-wcvendors-pro.php:751
+msgid "Vendor Ratings Label"
+msgstr "供應商評價標籤"
+
+#: includes/class-wcvendors-pro.php:752
+msgid "The vendor ratings tab title on the single product page."
+msgstr "這個供應商評價頁籤在單一個產品頁面"
+
+#: includes/class-wcvendors-pro.php:755
+msgid "Product Ratings"
+msgstr "產品評價"
+
+#: includes/class-wcvendors-pro.php:759
+msgid "Feedback System"
+msgstr "回饋系統"
+
+#: includes/class-wcvendors-pro.php:760
+msgid ""
+"Start all vendors at a 5 star rating until they receive their first feedback "
+"score"
+msgstr "預設所有供應商5星評價直到他們得到第一個評分"
+
+#: includes/class-wcvendors-pro.php:761
+msgid "Reverse the feedback system."
+msgstr "還原回饋系統"
+
+#: includes/class-wcvendors-pro.php:768
+msgid "Feedback Display"
+msgstr "顯示回饋"
+
+#: includes/class-wcvendors-pro.php:769
+msgid "Disable feedback on the single product pages."
+msgstr "在單一產品頁將回饋關閉"
+
+#: includes/class-wcvendors-pro.php:770
+msgid "Only show feedback at the store level."
+msgstr "只在商店的層級顯示回饋"
+
+#: includes/class-wcvendors-pro.php:777
+msgid "Feedback Sort"
+msgstr "排序回饋"
+
+#: includes/class-wcvendors-pro.php:778
+msgid "What order to display the feedback in."
+msgstr "顯示回饋"
+
+#: includes/class-wcvendors-pro.php:782
+msgid "Newest"
+msgstr "最新的"
+
+#: includes/class-wcvendors-pro.php:783
+msgid "Oldest"
+msgstr "最舊的"
+
+#: includes/class-wcvendors-pro.php:789
+msgid "Order Status"
+msgstr "訂單狀態"
+
+#: includes/class-wcvendors-pro.php:790
+msgid "The order status required before feedback can be left."
+msgstr "在留下回饋之前必須有訂單狀態"
+
+#: includes/class-wcvendors-pro.php:794
+msgid "Processing"
+msgstr "程序"
+
+#: includes/class-wcvendors-pro.php:795
+msgid "Completed"
+msgstr "完成"
+
+#: includes/class-wcvendors-pro.php:802
+msgid "Commissions"
+msgstr "委派"
+
+#: includes/class-wcvendors-pro.php:803
+msgid "Commission settings for payouts."
+msgstr "佣金設置"
+
+#: includes/class-wcvendors-pro.php:806
+msgid "Coupon Action"
+msgstr "折價券動作"
+
+#: includes/class-wcvendors-pro.php:807
+msgid ""
+"Process the commission before or after the coupon has been applied to the "
+"price."
+msgstr "之前或優惠券已經應用到後價格過程中的佣金。"
+
+#: includes/class-wcvendors-pro.php:811
+msgid "After"
+msgstr "在那之後"
+
+#: includes/class-wcvendors-pro.php:812
+msgid "Before"
+msgstr "在哪之前"
+
+#: includes/class-wcvendors-pro.php:818
+msgid "Global Commission Type"
+msgstr "全球的委派模式"
+
+#: includes/class-wcvendors-pro.php:819
+msgid ""
+"This is the default commission type for all vendors. <strong>This overrides "
+"default commission in WC Vendors Free.  You may edit a vendors user account "
+"to override the global rate for that vendor.  You may edit an individual "
+"product to override the commission rate only for that product.</strong>"
+msgstr ""
+
+#: includes/class-wcvendors-pro.php:828
+msgid "The percent of commission you give the vendors."
+msgstr "偽派給供應商的比例"
+
+#: includes/class-wcvendors-pro.php:839
+msgid "Commission amount"
+msgstr "委派的數量"
+
+#: includes/class-wcvendors-pro.php:840
+msgid "The fixed amount of commission you give the vendors."
+msgstr "你給供應商的固定金額佣金。"
+
+#: includes/class-wcvendors-pro.php:846
+msgid "Commission fee"
+msgstr "佣金"
+
+#: includes/class-wcvendors-pro.php:847
+msgid "This is the fee added on top of the amount."
+msgstr ""
+
+#: includes/class-wcvendors-pro.php:853
+msgid "Product Form"
+msgstr "產品表格"
+
+#: includes/class-wcvendors-pro.php:855
+msgid "Product Add/Edit Form"
+msgstr "產品添加/編輯表單"
+
+#: includes/class-wcvendors-pro.php:855
+msgid ""
+"Configure what to hide from all vendors when adding a product on the front "
+"end."
+msgstr ""
+
+#: includes/class-wcvendors-pro.php:858
+msgid "Basic"
+msgstr "基本的"
+
+#: includes/class-wcvendors-pro.php:861
+#: public/class-wcvendors-pro-shop-coupon-controller.php:250
+#: public/class-wcvendors-pro-table-helper.php:158
+msgid "Description"
+msgstr "說明"
+
+#: includes/class-wcvendors-pro.php:862
+msgid "Short Description"
+msgstr "簡短說明"
+
+#: includes/class-wcvendors-pro.php:863
+#: public/forms/class-wcvendors-pro-product-form.php:384
+#: public/forms/class-wcvendors-pro-product-form.php:417
+msgid "Categories"
+msgstr "類型"
+
+#: includes/class-wcvendors-pro.php:864
+#: public/forms/class-wcvendors-pro-product-form.php:523
+msgid "Tags"
+msgstr "標籤"
+
+#: includes/class-wcvendors-pro.php:865
+msgid "Attributes"
+msgstr "屬性"
+
+#: includes/class-wcvendors-pro.php:872
+msgid "Category Display"
+msgstr "分類顯示"
+
+#: includes/class-wcvendors-pro.php:873
+msgid "What kind of category selection."
+msgstr "分類選擇"
+
+#: includes/class-wcvendors-pro.php:877
+msgid "Multi select"
+msgstr "多重選擇"
+
+#: includes/class-wcvendors-pro.php:878
+msgid "Check list"
+msgstr "檢查列表"
+
+#: includes/class-wcvendors-pro.php:884
+msgid "Hide Categories"
+msgstr "隱藏分類"
+
+#: includes/class-wcvendors-pro.php:885
+msgid ""
+"A comma separated list of categories to hide from the vendor product form. "
+msgstr "一個逗號分隔的類別列表，隱藏在供應商的產品表格。"
+
+#: includes/class-wcvendors-pro.php:891
+msgid "Hide Attributes"
+msgstr "隱藏屬性"
+
+#: includes/class-wcvendors-pro.php:892
+msgid ""
+"A comma separated list of attributes to hide from the vendor product form. "
+msgstr "要從供應商產品表單隱藏屬性清單。"
+
+#: includes/class-wcvendors-pro.php:899
+msgid "Media"
+msgstr "媒體"
+
+#: includes/class-wcvendors-pro.php:902
+msgid "Featured Image (also disables the gallery)"
+msgstr "注目商品圖片（同時關閉圖庫）"
+
+#: includes/class-wcvendors-pro.php:903
+#: public/class-wcvendors-pro-form-helper.php:646
+msgid "Gallery"
+msgstr "圖庫："
+
+#: includes/class-wcvendors-pro.php:910
+msgid "Max Gallery Images"
+msgstr "最大圖庫圖像"
+
+#: includes/class-wcvendors-pro.php:911
+msgid "The maximum number of images that can be uploaded to the gallery. "
+msgstr "可以上傳到畫廊的最大數量圖像。"
+
+#: includes/class-wcvendors-pro.php:918
+#: public/forms/class-wcvendors-pro-product-form.php:1520
+#: templates/dashboard/shop_coupon-edit.php:45
+msgid "General"
+msgstr "一般"
+
+#: includes/class-wcvendors-pro.php:921
+#: public/forms/class-wcvendors-pro-product-form.php:901
+msgid "SKU"
+msgstr "SKU碼"
+
+#: includes/class-wcvendors-pro.php:922
+msgid "Private listing"
+msgstr "您的私人清單"
+
+#: includes/class-wcvendors-pro.php:923
+msgid "External URL"
+msgstr "外部連結網址"
+
+#: includes/class-wcvendors-pro.php:924
+msgid "Button text for external url"
+msgstr "外部鏈接的按鈕文字"
+
+#: includes/class-wcvendors-pro.php:925
+msgid "Price (disables sale price) "
+msgstr "價格（禁用銷售價格）"
+
+#: includes/class-wcvendors-pro.php:926
+msgid "Sale price"
+msgstr "售價"
+
+#: includes/class-wcvendors-pro.php:927
+#: templates/dashboard/order/order_details.php:102
+#: templates/dashboard/order/order_details.php:103
+msgid "Tax"
+msgstr "稅金"
+
+#: includes/class-wcvendors-pro.php:928
+msgid "Download files (also disables all download fields)"
+msgstr "下載檔案 （也禁用所有下載領域）"
+
+#: includes/class-wcvendors-pro.php:929
+msgid "Download limit"
+msgstr "下载限制"
+
+#: includes/class-wcvendors-pro.php:930
+msgid "Download expiry"
+msgstr "下载截止"
+
+#: includes/class-wcvendors-pro.php:931
+msgid "Download type"
+msgstr "下載類型"
+
+#: includes/class-wcvendors-pro.php:938
+#: public/forms/class-wcvendors-pro-product-form.php:1525
+msgid "Inventory"
+msgstr "庫存"
+
+#: includes/class-wcvendors-pro.php:941
+msgid "Manage Inventory (also disables all inventory fields)"
+msgstr "管理庫存（也禁用所有庫存字段）"
+
+#: includes/class-wcvendors-pro.php:942
+#: public/forms/class-wcvendors-pro-product-form.php:1109
+msgid "Stock Qty"
+msgstr "庫存量"
+
+#: includes/class-wcvendors-pro.php:943
+msgid "Backorders"
+msgstr "缺貨的產品"
+
+#: includes/class-wcvendors-pro.php:944
+#: public/forms/class-wcvendors-pro-product-form.php:1167
+msgid "Stock status"
+msgstr "庫存狀況"
+
+#: includes/class-wcvendors-pro.php:945
+msgid "Sold individually"
+msgstr "單獨出售"
+
+#: includes/class-wcvendors-pro.php:955
+#: public/forms/class-wcvendors-pro-product-form.php:1221
+msgid "Weight"
+msgstr "重量"
+
+#: includes/class-wcvendors-pro.php:956 includes/class-wcvendors-pro.php:1033
+#: includes/class-wcvendors-pro.php:1113
+#: public/forms/class-wcvendors-pro-product-form.php:1814
+#: public/forms/class-wcvendors-pro-store-form.php:1114
+msgid "Product handling fee"
+msgstr "產品手續費"
+
+#: includes/class-wcvendors-pro.php:957
+#: public/forms/class-wcvendors-pro-product-form.php:1250
+msgid "Dimensions"
+msgstr "尺寸"
+
+#: includes/class-wcvendors-pro.php:958
+#: public/forms/class-wcvendors-pro-product-form.php:1326
+msgid "Shipping class"
+msgstr "運送級距"
+
+#: includes/class-wcvendors-pro.php:965
+msgid "Upsells / Grouping"
+msgstr "加售/分組"
+
+#: includes/class-wcvendors-pro.php:968
+msgid "Up sells"
+msgstr "向上銷售"
+
+#: includes/class-wcvendors-pro.php:969
+msgid "Cross sells"
+msgstr "交叉銷售"
+
+#: includes/class-wcvendors-pro.php:970
+msgid "Grouped Products"
+msgstr "群組商品"
+
+#: includes/class-wcvendors-pro.php:977
+msgid "Settings Form"
+msgstr "設置表單"
+
+#: includes/class-wcvendors-pro.php:979
+msgid "Settings form."
+msgstr "設置表單"
+
+#: includes/class-wcvendors-pro.php:979
+msgid "Configure what to hide on the vendor settings page."
+msgstr "配置什麼需要在供應商設置頁面取消"
+
+#: includes/class-wcvendors-pro.php:982
+msgid "Settings Form Tabs"
+msgstr "設置表單標籤"
+
+#: includes/class-wcvendors-pro.php:985 includes/class-wcvendors-pro.php:1009
+#: includes/class-wcvendors-pro.php:1065 includes/class-wcvendors-pro.php:1089
+#: public/forms/class-wcvendors-pro-store-form.php:278
+msgid "Payment"
+msgstr "付款"
+
+#: includes/class-wcvendors-pro.php:986 includes/class-wcvendors-pro.php:1019
+#: includes/class-wcvendors-pro.php:1066 includes/class-wcvendors-pro.php:1099
+#: public/forms/class-wcvendors-pro-store-form.php:283
+msgid "Branding"
+msgstr "品牌"
+
+#: includes/class-wcvendors-pro.php:988 includes/class-wcvendors-pro.php:1042
+#: includes/class-wcvendors-pro.php:1068 includes/class-wcvendors-pro.php:1122
+#: public/forms/class-wcvendors-pro-store-form.php:293
+msgid "Social"
+msgstr "社群網站"
+
+#: includes/class-wcvendors-pro.php:995 includes/class-wcvendors-pro.php:1075
+#: public/forms/class-wcvendors-pro-store-form.php:273
+msgid "Store"
+msgstr "店舖"
+
+#: includes/class-wcvendors-pro.php:998 includes/class-wcvendors-pro.php:1078
+msgid "Store description"
+msgstr "商店描述"
+
+#: includes/class-wcvendors-pro.php:999 includes/class-wcvendors-pro.php:1079
+msgid "Seller info"
+msgstr "賣家信息"
+
+#: includes/class-wcvendors-pro.php:1000 includes/class-wcvendors-pro.php:1080
+msgid "Company / blog URL"
+msgstr "公司/博客網址"
+
+#: includes/class-wcvendors-pro.php:1001 includes/class-wcvendors-pro.php:1081
+msgid "Store phone"
+msgstr "店家電話號碼"
+
+#: includes/class-wcvendors-pro.php:1002 includes/class-wcvendors-pro.php:1082
+msgid "Store address ( if you use pro shipping this option will not work. )"
+msgstr "店面地址（如果你使用進階運送則此選項將無法作用。）"
+
+#: includes/class-wcvendors-pro.php:1012
+msgid "Paypal email"
+msgstr "PayPal 電子郵件"
+
+#: includes/class-wcvendors-pro.php:1022 includes/class-wcvendors-pro.php:1102
+msgid "Store banner"
+msgstr "商店橫幅"
+
+#: includes/class-wcvendors-pro.php:1023 includes/class-wcvendors-pro.php:1103
+msgid "Store icon"
+msgstr "商店圖標"
+
+#: includes/class-wcvendors-pro.php:1034 includes/class-wcvendors-pro.php:1114
+msgid "Shipping policy"
+msgstr "配送條款"
+
+#: includes/class-wcvendors-pro.php:1035 includes/class-wcvendors-pro.php:1115
+msgid "Return policy"
+msgstr "退貨政策"
+
+#: includes/class-wcvendors-pro.php:1048 includes/class-wcvendors-pro.php:1128
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: includes/class-wcvendors-pro.php:1049 includes/class-wcvendors-pro.php:1129
+msgid "Youtube"
+msgstr "Youtube"
+
+#: includes/class-wcvendors-pro.php:1058
+msgid "Signup Form"
+msgstr "註冊表格"
+
+#: includes/class-wcvendors-pro.php:1059
+msgid "Signup form."
+msgstr "註冊表格。"
+
+#: includes/class-wcvendors-pro.php:1059
+msgid "Configure what to hide on the signup form."
+msgstr "配置什麼在註冊表格上需要隱藏。"
+
+#: includes/class-wcvendors-pro.php:1062
+msgid "Signup Form Tabs"
+msgstr "註冊表單標籤"
+
+#: includes/class-wcvendors-pro.php:1092
+msgid "Paypal Email"
+msgstr "PayPal 電子郵件"
+
+#: includes/class-wcvendors-pro.php:1138
+msgid "Signup Messages"
+msgstr "註冊信息"
+
+#: includes/class-wcvendors-pro.php:1138
+msgid ""
+"These options allow you to provide messages to vendors signing up to your "
+"market place."
+msgstr "這些選項允許你提供消息予供應商簽約"
+
+#: includes/class-wcvendors-pro.php:1141
+msgid "Vendor signup notice"
+msgstr "供應商註冊提醒"
+
+#: includes/class-wcvendors-pro.php:1142
+msgid ""
+"Display a message to vendors on signup page, this could include store "
+"specific instructions."
+msgstr "顯示一條消息，註冊頁面上的供應商，這可能包括存儲的具體說明。"
+
+#: includes/class-wcvendors-pro.php:1148
+msgid "Pending vendor message"
+msgstr "待解决的供應商"
+
+#: includes/class-wcvendors-pro.php:1149
+msgid "Display a message to pending vendors after they have applied."
+msgstr "在供應商申請之後顯示訊息。"
+
+#: includes/class-wcvendors-pro.php:1152
+msgid ""
+"Your application has been received. You will be notified by email the "
+"results of your application."
+msgstr "您的申請已被受理。您將通過電子郵件通知您的應用程序的結果。"
+
+#: includes/class-wcvendors-pro.php:1156
+msgid "Approved vendor message"
+msgstr "已審核供應商的消息"
+
+#: includes/class-wcvendors-pro.php:1157
+msgid "Display a message on the dashboard for approved vendors."
+msgstr "在供應商申請之後顯示訊息。"
+
+#: includes/class-wcvendors-pro.php:1160
+msgid ""
+"Congratulations! You are now a vendor. Be sure to configure your store "
+"settings before adding products."
+msgstr "祝賀你 ！你現在是一個供應商。請在要添加產品之前配置存儲設置。"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:55
+msgid ""
+"If you are having any problems with activation, please visit your <a href="
+"\"https://www.wcvendors.com/my-account/\" target=\"_blank\">my account</a> "
+"page to reset your activation."
+msgstr ""
+"如果您有任何啟動的問題，請訪問您的<a href=“https://www.wcvendors.com/my-"
+"account/“ target=“_blank”>帳戶</a>頁以重置啟動。"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:61
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:65
+#: templates/dashboard/product-edit.php:15
+#: templates/dashboard/shop_coupon-edit.php:16
+#: templates/dashboard/store-settings.php:115
+msgid "Save Changes"
+msgstr "儲存設定"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:81
+msgid "License Key Status"
+msgstr "許可證密鑰狀態"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:82
+msgid "License Key"
+msgstr "金鑰"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:83
+msgid "License email"
+msgstr "許可電子郵件"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:88
+msgid "Deactivate License Key"
+msgstr "停用許可證"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:168
+msgid "Plugin activated. "
+msgstr "插件激活了"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:174
+msgid "Connection failed to the License Key API server. Try again later."
+msgstr "連接到許可證關鍵 API 伺服器失敗。稍後再試。"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:261
+msgid ""
+"The license could not be deactivated. Use the License Deactivation tab to "
+"manually deactivate the license before activating a new license."
+msgstr ""
+"許可不能被停用。使用許可證停用標籤激活新許可證之前，需要手動停用許可證。"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:300
+msgid "Plugin license deactivated. "
+msgstr "插件許可證停用。"
+
+#: includes/lib/api-manager/admin/class-wcvendors-pro-api-manager-menu.php:368
+msgid ""
+"Deactivates the WC Vendors Pro license so it can be used on another website."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:370
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:381
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:392
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:403
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:414
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:425
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:436
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:447
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:458
+#, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate or purchase a license key from your account <a href=\"%s\" target="
+"\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:469
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:480
+#, php-format
+msgid ""
+"%s has not been activated. Go to the settings page and enter the license key "
+"and license email to activate %s."
+msgstr ""
+
+#: includes/lib/api-manager/classes/class-wcvendors-pro-plugin-update.php:491
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new WC "
+"Vendors Pro license Key in the settings page. The License Key should have "
+"arrived in your email inbox, if not you can get it by logging into your "
+"account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:30
+msgid "Edit Vendor Rating"
+msgstr ""
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:31
+msgid "Rating Details"
+msgstr "詳細評價"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:40
+msgid "Feedback Title"
+msgstr "反饋標題"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:46
+msgid "The feedback title."
+msgstr "反饋時間"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:51
+msgid "Feedback Comment"
+msgstr "評論內容"
+
+#: includes/partials/ratings/admin/wcvendors-pro-ratings-feedback-form.php:57
+msgid "The feedback comment."
+msgstr "反饋"
+
+#: includes/partials/ratings/public/wcvendors-pro-ratings-link.php:15
+msgid "rating"
+msgstr "評分"
+
+#: includes/partials/ratings/public/wcvendors-pro-ratings-link.php:15
+msgid "ratings"
+msgstr "評比"
+
+#: includes/partials/ratings/public/wcvendors-pro-ratings-link.php:21
+msgid "( "
+msgstr ""
+
+#: public/class-wcvendors-pro-dashboard.php:86
+msgid "<h2>Please ensure you have set a page for the Pro Dashboard.</h2>"
+msgstr "請確保您已設置頁面儀表板。"
+
+#: public/class-wcvendors-pro-dashboard.php:227
+#: public/partials/product/wcvendors-pro-table-actions.php:18
+#: templates/dashboard/product-edit.php:15
+msgid "Add Product"
+msgstr "新增商品"
+
+#: public/class-wcvendors-pro-dashboard.php:228
+#: public/partials/shop_coupon/wcvendors-pro-table-shop-coupon-table-actions.php:18
+#: templates/dashboard/shop_coupon-edit.php:16
+msgid "Add Coupon"
+msgstr "新增優惠卷"
+
+#: public/class-wcvendors-pro-dashboard.php:259
+#: public/class-wcvendors-pro-order-controller.php:334
+#: public/forms/class-wcvendors-pro-coupon-form.php:398
+#: templates/dashboard/reports/overview.php:31
+#: templates/dashboard/reports/overview.php:52
+msgid "Products"
+msgstr "產品"
+
+#: public/class-wcvendors-pro-dashboard.php:261
+#: public/class-wcvendors-pro-dashboard.php:290
+#: public/class-wcvendors-pro-product-controller.php:1039
+#: public/class-wcvendors-pro-table-helper.php:166
+msgid "Edit"
+msgstr "編輯"
+
+#: public/class-wcvendors-pro-dashboard.php:268
+#: templates/dashboard/reports/overview.php:75
+msgid "Orders"
+msgstr "訂單"
+
+#: public/class-wcvendors-pro-dashboard.php:288
+msgid "Coupons"
+msgstr "優惠卷"
+
+#: public/class-wcvendors-pro-dashboard.php:423
+msgid "Admins cannot apply to be vendors. "
+msgstr "管理員不能申請成為供應商。"
+
+#: public/class-wcvendors-pro-dashboard.php:521
+msgid "Dashboard"
+msgstr "儀表板"
+
+#: public/class-wcvendors-pro-export-helper.php:102
+#: public/class-wcvendors-pro-order-controller.php:385
+msgid "Yes"
+msgstr "Yes"
+
+#: public/class-wcvendors-pro-export-helper.php:102
+#: public/class-wcvendors-pro-order-controller.php:385
+#: public/class-wcvendors-pro-order-controller.php:428
+msgid "No"
+msgstr "No"
+
+#: public/class-wcvendors-pro-export-helper.php:103
+#: public/class-wcvendors-pro-order-controller.php:386
+msgid "NA"
+msgstr "NA"
+
+#: public/class-wcvendors-pro-form-helper.php:566
+#: public/forms/class-wcvendors-pro-product-form.php:470
+msgid "Select a "
+msgstr "選擇"
+
+#: public/class-wcvendors-pro-form-helper.php:612
+msgid "Featured Image"
+msgstr "注目商品圖片"
+
+#: public/class-wcvendors-pro-form-helper.php:615
+msgid "Select or Upload a Feature Image"
+msgstr "選擇或上載功能圖像"
+
+#: public/class-wcvendors-pro-form-helper.php:615
+msgid "Set Product Feature Image"
+msgstr "設置產品功能圖片"
+
+#: public/class-wcvendors-pro-form-helper.php:625
+msgid "Set featured image"
+msgstr "設置注目商品圖片"
+
+#: public/class-wcvendors-pro-form-helper.php:626
+msgid "Remove featured image"
+msgstr "移除注目商品圖像"
+
+#: public/class-wcvendors-pro-form-helper.php:640
+msgid "You have reached the maximum number of gallery images."
+msgstr "您已達到畫廊圖像的上載限量。"
+
+#: public/class-wcvendors-pro-form-helper.php:663
+msgid "Add Images to Product Gallery"
+msgstr "添加圖片到產品圖庫"
+
+#: public/class-wcvendors-pro-form-helper.php:663
+msgid "Add to gallery"
+msgstr "添加到圖庫"
+
+#: public/class-wcvendors-pro-form-helper.php:663
+msgid "Add product gallery images"
+msgstr "新增商品圖庫圖片"
+
+#: public/class-wcvendors-pro-form-helper.php:684
+msgid "Image"
+msgstr "影像"
+
+#: public/class-wcvendors-pro-form-helper.php:685
+#: public/class-wcvendors-pro-form-helper.php:688
+msgid "Add Image"
+msgstr "新增圖片"
+
+#: public/class-wcvendors-pro-form-helper.php:686
+msgid "Remove Image"
+msgstr "移除圖像"
+
+#: public/class-wcvendors-pro-form-helper.php:689
+#: public/forms/class-wcvendors-pro-store-form.php:365
+#: public/forms/class-wcvendors-pro-store-form.php:406
+msgid "Select an Image"
+msgstr "選取影像"
+
+#: public/class-wcvendors-pro-form-helper.php:801
+msgid "Afghanistan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:802
+msgid "&#197;land Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:803
+msgid "Albania"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:804
+msgid "Algeria"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:805
+msgid "Andorra"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:806
+msgid "Angola"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:807
+msgid "Anguilla"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:808
+msgid "Antarctica"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:809
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:810
+msgid "Argentina"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:811
+msgid "Armenia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:812
+msgid "Aruba"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:813
+msgid "Australia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:814
+msgid "Austria"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:815
+msgid "Azerbaijan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:816
+msgid "Bahamas"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:817
+msgid "Bahrain"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:818
+msgid "Bangladesh"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:819
+msgid "Barbados"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:820
+msgid "Belarus"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:821
+msgid "Belgium"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:822
+msgid "Belau"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:823
+msgid "Belize"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:824
+msgid "Benin"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:825
+msgid "Bermuda"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:826
+msgid "Bhutan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:827
+msgid "Bolivia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:828
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:829
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:830
+msgid "Botswana"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:831
+msgid "Bouvet Island"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:832
+msgid "Brazil"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:833
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:834
+msgid "British Virgin Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:835
+msgid "Brunei"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:836
+msgid "Bulgaria"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:837
+msgid "Burkina Faso"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:838
+msgid "Burundi"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:839
+msgid "Cambodia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:840
+msgid "Cameroon"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:841
+msgid "Canada"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:842
+msgid "Cape Verde"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:843
+msgid "Cayman Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:844
+msgid "Central African Republic"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:845
+msgid "Chad"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:846
+msgid "Chile"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:847
+msgid "China"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:848
+msgid "Christmas Island"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:849
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:850
+msgid "Colombia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:851
+msgid "Comoros"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:852
+msgid "Congo (Brazzaville)"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:853
+msgid "Congo (Kinshasa)"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:854
+msgid "Cook Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:855
+msgid "Costa Rica"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:856
+msgid "Croatia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:857
+msgid "Cuba"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:858
+msgid "Cura&Ccedil;ao"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:859
+msgid "Cyprus"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:860
+msgid "Czech Republic"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:861
+msgid "Denmark"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:862
+msgid "Djibouti"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:863
+msgid "Dominica"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:864
+msgid "Dominican Republic"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:865
+msgid "Ecuador"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:866
+msgid "Egypt"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:867
+msgid "El Salvador"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:868
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:869
+msgid "Eritrea"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:870
+msgid "Estonia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:871
+msgid "Ethiopia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:872
+msgid "Falkland Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:873
+msgid "Faroe Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:874
+msgid "Fiji"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:875
+msgid "Finland"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:876
+msgid "France"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:877
+msgid "French Guiana"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:878
+msgid "French Polynesia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:879
+msgid "French Southern Territories"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:880
+msgid "Gabon"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:881
+msgid "Gambia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:882
+msgid "Georgia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:883
+msgid "Germany"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:884
+msgid "Ghana"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:885
+msgid "Gibraltar"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:886
+msgid "Greece"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:887
+msgid "Greenland"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:888
+msgid "Grenada"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:889
+msgid "Guadeloupe"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:890
+msgid "Guatemala"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:891
+msgid "Guernsey"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:892
+msgid "Guinea"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:893
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:894
+msgid "Guyana"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:895
+msgid "Haiti"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:896
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:897
+msgid "Honduras"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:898
+msgid "Hong Kong"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:899
+msgid "Hungary"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:900
+msgid "Iceland"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:901
+msgid "India"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:902
+msgid "Indonesia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:903
+msgid "Iran"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:904
+msgid "Iraq"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:905
+msgid "Republic of Ireland"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:906
+msgid "Isle of Man"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:907
+msgid "Israel"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:908
+msgid "Italy"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:909
+msgid "Ivory Coast"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:910
+msgid "Jamaica"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:911
+msgid "Japan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:912
+msgid "Jersey"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:913
+msgid "Jordan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:914
+msgid "Kazakhstan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:915
+msgid "Kenya"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:916
+msgid "Kiribati"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:917
+msgid "Kuwait"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:918
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:919
+msgid "Laos"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:920
+msgid "Latvia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:921
+msgid "Lebanon"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:922
+msgid "Lesotho"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:923
+msgid "Liberia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:924
+msgid "Libya"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:925
+msgid "Liechtenstein"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:926
+msgid "Lithuania"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:927
+msgid "Luxembourg"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:928
+msgid "Macao S.A.R., China"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:929
+msgid "Macedonia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:930
+msgid "Madagascar"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:931
+msgid "Malawi"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:932
+msgid "Malaysia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:933
+msgid "Maldives"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:934
+msgid "Mali"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:935
+msgid "Malta"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:936
+msgid "Marshall Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:937
+msgid "Martinique"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:938
+msgid "Mauritania"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:939
+msgid "Mauritius"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:940
+msgid "Mayotte"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:941
+msgid "Mexico"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:942
+msgid "Micronesia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:943
+msgid "Moldova"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:944
+msgid "Monaco"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:945
+msgid "Mongolia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:946
+msgid "Montenegro"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:947
+msgid "Montserrat"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:948
+msgid "Morocco"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:949
+msgid "Mozambique"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:950
+msgid "Myanmar"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:951
+msgid "Namibia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:952
+msgid "Nauru"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:953
+msgid "Nepal"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:954
+msgid "Netherlands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:955
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:956
+msgid "New Caledonia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:957
+msgid "New Zealand"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:958
+msgid "Nicaragua"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:959
+msgid "Niger"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:960
+msgid "Nigeria"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:961
+msgid "Niue"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:962
+msgid "Norfolk Island"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:963
+msgid "North Korea"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:964
+msgid "Norway"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:965
+msgid "Oman"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:966
+msgid "Pakistan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:967
+msgid "Palestinian Territory"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:968
+msgid "Panama"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:969
+msgid "Papua New Guinea"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:970
+msgid "Paraguay"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:971
+msgid "Peru"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:972
+msgid "Philippines"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:973
+msgid "Pitcairn"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:974
+msgid "Poland"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:975
+msgid "Portugal"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:976
+msgid "Qatar"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:977
+msgid "Reunion"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:978
+msgid "Romania"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:979
+msgid "Russia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:980
+msgid "Rwanda"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:981
+msgid "Saint Barth&eacute;lemy"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:982
+msgid "Saint Helena"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:983
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:984
+msgid "Saint Lucia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:985
+msgid "Saint Martin (French part)"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:986
+msgid "Saint Martin (Dutch part)"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:987
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:988
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:989
+msgid "San Marino"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:990
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:991
+msgid "Saudi Arabia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:992
+msgid "Senegal"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:993
+msgid "Serbia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:994
+msgid "Seychelles"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:995
+msgid "Sierra Leone"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:996
+msgid "Singapore"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:997
+msgid "Slovakia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:998
+msgid "Slovenia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:999
+msgid "Solomon Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1000
+msgid "Somalia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1001
+msgid "South Africa"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1002
+msgid "South Georgia/Sandwich Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1003
+msgid "South Korea"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1004
+msgid "South Sudan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1005
+msgid "Spain"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1006
+msgid "Sri Lanka"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1007
+msgid "Sudan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1008
+msgid "Suriname"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1009
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1010
+msgid "Swaziland"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1011
+msgid "Sweden"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1012
+msgid "Switzerland"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1013
+msgid "Syria"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1014
+msgid "Taiwan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1015
+msgid "Tajikistan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1016
+msgid "Tanzania"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1017
+msgid "Thailand"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1018
+msgid "Timor-Leste"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1019
+msgid "Togo"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1020
+msgid "Tokelau"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1021
+msgid "Tonga"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1022
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1023
+msgid "Tunisia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1024
+msgid "Turkey"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1025
+msgid "Turkmenistan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1026
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1027
+msgid "Tuvalu"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1028
+msgid "Uganda"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1029
+msgid "Ukraine"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1030
+msgid "United Arab Emirates"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1031
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1032
+msgid "United States (US)"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1033
+msgid "Uruguay"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1034
+msgid "Uzbekistan"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1035
+msgid "Vanuatu"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1036
+msgid "Vatican"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1037
+msgid "Venezuela"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1038
+msgid "Vietnam"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1039
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1040
+msgid "Western Sahara"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1041
+msgid "Western Samoa"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1042
+msgid "Yemen"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1043
+msgid "Zambia"
+msgstr ""
+
+#: public/class-wcvendors-pro-form-helper.php:1044
+msgid "Zimbabwe"
+msgstr ""
+
+#: public/class-wcvendors-pro-order-controller.php:127
+#: public/class-wcvendors-pro-order-controller.php:176
+msgid "First Name"
+msgstr "名字"
+
+#: public/class-wcvendors-pro-order-controller.php:131
+#: public/class-wcvendors-pro-order-controller.php:180
+msgid "Last Name"
+msgstr "姓氏"
+
+#: public/class-wcvendors-pro-order-controller.php:135
+#: public/class-wcvendors-pro-order-controller.php:184
+msgid "Company"
+msgstr "公司"
+
+#: public/class-wcvendors-pro-order-controller.php:167
+msgid "Email"
+msgstr "電子郵件"
+
+#: public/class-wcvendors-pro-order-controller.php:170
+msgid "Phone"
+msgstr "電話"
+
+#: public/class-wcvendors-pro-order-controller.php:276
+msgid "You need type something in the note field"
+msgstr "你需要在說明欄位中鍵入"
+
+#: public/class-wcvendors-pro-order-controller.php:332
+msgid "Order"
+msgstr "訂單"
+
+#: public/class-wcvendors-pro-order-controller.php:335
+#: templates/dashboard/order/order_details.php:96
+msgid "Total"
+msgstr "訂單總計"
+
+#: public/class-wcvendors-pro-order-controller.php:336
+msgid "Shipped"
+msgstr "已發貨"
+
+#: public/class-wcvendors-pro-order-controller.php:337
+msgid "Order Date"
+msgstr "訂購日期"
+
+#: public/class-wcvendors-pro-order-controller.php:391
+msgid "View Order Details"
+msgstr "查看詳情"
+
+#: public/class-wcvendors-pro-order-controller.php:399
+msgid "Shipping Label"
+msgstr "出貨標籤"
+
+#: public/class-wcvendors-pro-order-controller.php:405
+msgid "Order Note"
+msgstr "訂單備註"
+
+#: public/class-wcvendors-pro-order-controller.php:413
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:96
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:97
+msgid "Tracking Number"
+msgstr "宅配追蹤碼："
+
+#: public/class-wcvendors-pro-order-controller.php:430
+msgid "Mark Shipped"
+msgstr "標記已發貨"
+
+#: public/class-wcvendors-pro-order-controller.php:438
+msgid "Product: "
+msgstr "產品："
+
+#: public/class-wcvendors-pro-order-controller.php:438
+msgid "Shipping: "
+msgstr "運費："
+
+#: public/class-wcvendors-pro-order-controller.php:438
+msgid "Tax: "
+msgstr "稅:"
+
+#: public/class-wcvendors-pro-order-controller.php:500
+msgid "No orders found."
+msgstr "找不到訂單"
+
+#: public/class-wcvendors-pro-order-controller.php:531
+msgid "Order marked shipped."
+msgstr "訂單標記為已發貨"
+
+#: public/class-wcvendors-pro-order-controller.php:533
+msgid " has marked as shipped. "
+msgstr "已標記為已發運。"
+
+#: public/class-wcvendors-pro-order-controller.php:612
+msgid "The customer has been notified."
+msgstr "已通知客戶。"
+
+#: public/class-wcvendors-pro-order-controller.php:685
+#: public/forms/class-wcvendors-pro-product-form.php:1020
+msgid "Standard"
+msgstr "標準"
+
+#: public/class-wcvendors-pro-order-controller.php:901
+msgid ""
+"A vendor has added a tracking number to your order. You can track this at "
+"the following url. "
+msgstr "供應商已添加到您的訂單的跟蹤號碼。您可以跟蹤這在下面的 url。"
+
+#: public/class-wcvendors-pro-product-controller.php:105
+#: public/class-wcvendors-pro-product-controller.php:107
+#, php-format
+msgid "Product Updated. <a href=\"%s\">View product.</a>"
+msgstr "商品已更新<a href=“%s”>查看商品</a>"
+
+#: public/class-wcvendors-pro-product-controller.php:109
+#: public/class-wcvendors-pro-product-controller.php:134
+#, php-format
+msgid "Product submitted for review. <a href=\"%s\">Preview product.</a>"
+msgstr "產品提交以供審查。<a href=“%s”>預覽產品。</a>"
+
+#: public/class-wcvendors-pro-product-controller.php:113
+msgid "There was a problem editing the product."
+msgstr "編輯產品時出錯。"
+
+#: public/class-wcvendors-pro-product-controller.php:126
+msgid "Product draft saved."
+msgstr "產品草稿已保存。"
+
+#: public/class-wcvendors-pro-product-controller.php:128
+msgid "Product draft saved, pending review."
+msgstr "產品草案保存，等待審查。"
+
+#: public/class-wcvendors-pro-product-controller.php:132
+#, php-format
+msgid "Product Added. <a href=\"%s\">View product.</a>"
+msgstr "商品已添加<a href=“%s”>查看商品</a>"
+
+#: public/class-wcvendors-pro-product-controller.php:138
+msgid "There was a problem adding the product."
+msgstr "添加產品時出錯。"
+
+#: public/class-wcvendors-pro-product-controller.php:177
+msgid "Product Deleted."
+msgstr "商品已刪除"
+
+#: public/class-wcvendors-pro-product-controller.php:179
+msgid "There was a problem deleting the product."
+msgstr "刪除產品時出錯。"
+
+#: public/class-wcvendors-pro-product-controller.php:503
+msgid "Product SKU must be unique."
+msgstr "產品的 SKU 必須是唯一的。"
+
+#: public/class-wcvendors-pro-product-controller.php:972
+msgid "Online"
+msgstr "線上"
+
+#: public/class-wcvendors-pro-product-controller.php:973
+msgid "Scheduled"
+msgstr "已排程"
+
+#: public/class-wcvendors-pro-product-controller.php:974
+msgid "Draft"
+msgstr "草稿"
+
+#: public/class-wcvendors-pro-product-controller.php:975
+msgid "Pending Approval"
+msgstr "正在通過"
+
+#: public/class-wcvendors-pro-product-controller.php:976
+msgid "Admin Only"
+msgstr "管理員限定"
+
+#: public/class-wcvendors-pro-product-controller.php:997
+#: public/class-wcvendors-pro-reports-controller.php:391
+msgid "<i class=\"fa fa-picture-o\"></i>"
+msgstr ""
+
+#: public/class-wcvendors-pro-product-controller.php:998
+#: public/class-wcvendors-pro-reports-controller.php:312
+#: public/class-wcvendors-pro-reports-controller.php:392
+msgid "Details"
+msgstr "細節"
+
+#: public/class-wcvendors-pro-product-controller.php:999
+msgid "<i class=\"fa fa-shopping-cart\"></i>"
+msgstr ""
+
+#: public/class-wcvendors-pro-product-controller.php:1000
+#: public/class-wcvendors-pro-reports-controller.php:393
+msgid "Status"
+msgstr "狀態"
+
+#: public/class-wcvendors-pro-product-controller.php:1047
+msgid "Delete product?"
+msgstr "刪除產品"
+
+#: public/class-wcvendors-pro-product-controller.php:1052
+#: public/class-wcvendors-pro-table-helper.php:168
+msgid "View"
+msgstr "查看"
+
+#: public/class-wcvendors-pro-product-controller.php:1070
+msgid "Categories:"
+msgstr "分類："
+
+#: public/class-wcvendors-pro-product-controller.php:1070
+msgid "Tags:"
+msgstr "標籤"
+
+#: public/class-wcvendors-pro-product-controller.php:1123
+msgid "No products found."
+msgstr "找不到商品"
+
+#: public/class-wcvendors-pro-public.php:135
+msgid "One result is available, press enter to select it."
+msgstr "其結果之一是可用的，按確定鍵選擇它。"
+
+#: public/class-wcvendors-pro-public.php:136
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr "%qty% 條結果是可用的，用上下箭頭鍵進行觀覽。"
+
+#: public/class-wcvendors-pro-public.php:137
+msgid "No matches found"
+msgstr "沒有匹配的搜索結果"
+
+#: public/class-wcvendors-pro-public.php:138
+msgid "Loading failed"
+msgstr "載入失敗"
+
+#: public/class-wcvendors-pro-public.php:139
+msgid "Please enter 1 or more characters"
+msgstr "請輸入1個或多個字詞"
+
+#: public/class-wcvendors-pro-public.php:140
+msgid "Please enter %qty% or more characters"
+msgstr "請輸入％數量％或更多字詞"
+
+#: public/class-wcvendors-pro-public.php:141
+msgid "Please delete 1 character"
+msgstr "請刪除1個字詞"
+
+#: public/class-wcvendors-pro-public.php:142
+msgid "Please delete %qty% characters"
+msgstr "請刪除％數量％字詞"
+
+#: public/class-wcvendors-pro-public.php:143
+msgid "You can only select 1 item"
+msgstr "您只能選擇1個項目"
+
+#: public/class-wcvendors-pro-public.php:144
+msgid "You can only select %qty% items"
+msgstr "您只能選擇％數量％的項目"
+
+#: public/class-wcvendors-pro-public.php:145
+msgid "Loading more results&hellip;"
+msgstr "正在載入更多結果中＆hellip;"
+
+#: public/class-wcvendors-pro-public.php:146
+msgid "Searching&hellip;"
+msgstr "搜索中＆hellip;"
+
+#: public/class-wcvendors-pro-reports-controller.php:365
+msgid "No Orders found."
+msgstr "找不到訂單"
+
+#: public/class-wcvendors-pro-reports-controller.php:437
+msgid "No Products found."
+msgstr "找不到商品"
+
+#: public/class-wcvendors-pro-reports-controller.php:452
+#: public/partials/order/wcvendors-pro-order-table-actions.php:25
+msgid "Start Date"
+msgstr "開始日期"
+
+#: public/class-wcvendors-pro-reports-controller.php:468
+#: public/partials/order/wcvendors-pro-order-table-actions.php:41
+msgid "End Date"
+msgstr "結束日期"
+
+#: public/class-wcvendors-pro-reports-controller.php:484
+#: public/partials/order/wcvendors-pro-order-table-actions.php:57
+msgid "Update"
+msgstr "更新"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:91
+msgid "Please enter a coupon code"
+msgstr "請輸入一個優惠代碼."
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:104
+msgid "This coupon code exists. "
+msgstr "該優惠券代碼存在。"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:173
+msgid "Coupon Updated."
+msgstr "優惠券已更新"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:175
+msgid "Coupon Added."
+msgstr "添加優惠券。"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:180
+msgid "There was a problem updating the coupon."
+msgstr "更新優惠券時出錯。"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:182
+msgid "There was a problem adding the coupon."
+msgstr "添加優惠券時出錯。"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:220
+msgid "Coupon Deleted."
+msgstr "優惠券已刪除"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:222
+msgid "There was a problem deleting the coupon."
+msgstr "刪除產品時出錯。"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:247
+msgid "Coupon"
+msgstr "優惠券"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:248
+msgid "Coupon Type"
+msgstr "優惠碼類型"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:249
+#: public/forms/class-wcvendors-pro-coupon-form.php:195
+#: public/forms/class-wcvendors-pro-coupon-form.php:196
+msgid "Coupon Amount"
+msgstr "優惠券金額"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:251
+msgid "Product ID's"
+msgstr "產品ID："
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:252
+msgid "Usage / Limits"
+msgstr "用途/限制"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:253
+msgid "Expiry"
+msgstr "到期"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:352
+msgid "No coupons found."
+msgstr "找不到優惠券"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:354
+msgid "You cannot add coupons until you've added a product. "
+msgstr "您不能添加優惠券，直到您添加了一種產品。"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:395
+msgid "Product Discount"
+msgstr "商品折扣"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:396
+msgid "Product % Discount"
+msgstr "商品百分比折扣"
+
+#: public/class-wcvendors-pro-shop-coupon-controller.php:490
+#: public/class-wcvendors-pro-store-controller.php:88
+msgid "Vendor Store"
+msgstr "供應商店鋪"
+
+#: public/class-wcvendors-pro-store-controller.php:87
+#: public/class-wcvendors-pro-store-controller.php:89
+#: public/class-wcvendors-pro-store-controller.php:99
+msgid "Vendor Stores"
+msgstr "供應商商店"
+
+#: public/class-wcvendors-pro-store-controller.php:90
+msgid "New Vendor Store"
+msgstr "新供應商的商店"
+
+#: public/class-wcvendors-pro-store-controller.php:91
+msgid "Add New"
+msgstr "新增"
+
+#: public/class-wcvendors-pro-store-controller.php:92
+msgid "Add New Vendor Store"
+msgstr "增加新供應商的商店"
+
+#: public/class-wcvendors-pro-store-controller.php:93
+msgid "Edit Vendor Store"
+msgstr "編輯供應商商店"
+
+#: public/class-wcvendors-pro-store-controller.php:94
+msgid "View Vendor Store"
+msgstr "查看供應商商店"
+
+#: public/class-wcvendors-pro-store-controller.php:95
+msgid "Search Vendor Stores"
+msgstr "搜索供應商商店"
+
+#: public/class-wcvendors-pro-store-controller.php:96
+msgid "No Vendor Stores found"
+msgstr "找不到供應商商店"
+
+#: public/class-wcvendors-pro-store-controller.php:97
+msgid "No Vendor Stores found in trash"
+msgstr "資源回收桶裡找不到供應商商店"
+
+#: public/class-wcvendors-pro-store-controller.php:98
+msgid "Parent Vendor Store"
+msgstr "父供應商商店"
+
+#: public/class-wcvendors-pro-store-controller.php:101
+msgid "Set store banner"
+msgstr "設置商店橫幅廣告"
+
+#: public/class-wcvendors-pro-store-controller.php:102
+msgid "Remove store banner"
+msgstr "移除商店橫幅廣告"
+
+#: public/class-wcvendors-pro-store-controller.php:103
+msgid "Use as store banner"
+msgstr "用作商店橫幅廣告"
+
+#: public/class-wcvendors-pro-store-controller.php:135
+#, php-format
+msgid "updated. <a target=\"_blank\" href=\"%s\">View Vendor Store</a>"
+msgstr "更新。<a target=“_blank” href=“%s”>查看供應商商店</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:136
+msgid "Custom field updated."
+msgstr "自訂欄位已更新"
+
+#: public/class-wcvendors-pro-store-controller.php:137
+msgid "Custom field deleted."
+msgstr "自訂欄位已刪除"
+
+#: public/class-wcvendors-pro-store-controller.php:138
+msgid "updated."
+msgstr "已更新"
+
+#: public/class-wcvendors-pro-store-controller.php:140
+#, php-format
+msgid "restored to revision from %s"
+msgstr "恢復到修改 %s"
+
+#: public/class-wcvendors-pro-store-controller.php:141
+#, php-format
+msgid "published. <a href=\"%s\">View Vendor Store</a>"
+msgstr "已發布。<a href=“%s”>查看供應商商店</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:142
+msgid "saved."
+msgstr "已儲存"
+
+#: public/class-wcvendors-pro-store-controller.php:143
+#, php-format
+msgid "submitted. <a target=\"_blank\" href=\"%s\">Preview Vendor Store</a>"
+msgstr "已提交。<a target=“_blank” href=“%s”>預覽供應商商店</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:144
+#, php-format
+msgid ""
+"scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview Vendor Store</a>"
+msgstr ""
+"計畫為: <strong>%1$s</strong>。<a target=“_blank” href=“%2$s”>預覽供應商商店"
+"</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:146
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: public/class-wcvendors-pro-store-controller.php:147
+#, php-format
+msgid ""
+"draft updated. <a target=\"_blank\" href=\"%s\">Preview Vendor Store</a>"
+msgstr "草稿已更新。<a target=“_blank” href=“%s”>預覽供應商商店</a>"
+
+#: public/class-wcvendors-pro-store-controller.php:260
+#: public/forms/class-wcvendors-pro-store-form.php:456
+msgid " Store"
+msgstr "店舖"
+
+#: public/class-wcvendors-pro-store-controller.php:442
+#: public/class-wcvendors-pro-vendor-controller.php:516
+msgid ""
+"That store name is already taken. Your store name must be unique. <br /> "
+"Settings have not been saved."
+msgstr "那店名已被使用。你商店名稱必須是唯一的。<br>尚未保存設置。"
+
+#: public/class-wcvendors-pro-store-controller.php:447
+#: public/class-wcvendors-pro-vendor-controller.php:520
+msgid "Store Settings Saved"
+msgstr "商店設定已儲存"
+
+#: public/class-wcvendors-pro-store-controller.php:508
+msgid "There was a problem saving your settings. Settings have not been saved."
+msgstr "保存設置時出錯。尚未保存設置。"
+
+#: public/class-wcvendors-pro-store-controller.php:648
+msgid ""
+"Your application has been received. You will be notified by email the "
+"results of your application"
+msgstr "您的申請已被受理。您將通過電子郵件通知您的應用程序的結果。"
+
+#: public/class-wcvendors-pro-store-controller.php:770
+#: public/class-wcvendors-pro-vendor-controller.php:834
+msgid "Ships From: "
+msgstr ", 出貨地:"
+
+#: public/class-wcvendors-pro-table-helper.php:159
+msgid "Date Posted"
+msgstr "發布日期"
+
+#: public/class-wcvendors-pro-table-helper.php:304
+msgid "No "
+msgstr ""
+
+#: public/class-wcvendors-pro-vendor-controller.php:397
+#, fuzzy
+msgid ""
+"The Vendor Dashboard is only visible to Vendors. Due to WordPress "
+"capabilities and its limitations, Administrators can not view it. You should "
+"create a test vendor user account, with the role Vendor, and use that "
+"account to view and experience the Vendor Dashboard. "
+msgstr ""
+"供應商儀表板只有供應商可見。由於 WordPress 功能和它的局限性，管理員不可以查看"
+"它。你應該試著創造一個測試供應商使用者帳戶，並使用該帳戶來查看和經驗供應商儀"
+"表板。"
+
+#: public/class-wcvendors-pro-vendor-controller.php:410
+msgid "pending"
+msgstr "待處理"
+
+#: public/class-wcvendors-pro-vendor-controller.php:412
+msgid "approved"
+msgstr "已批准"
+
+#: public/class-wcvendors-pro-vendor-controller.php:925
+#, php-format
+msgid ""
+"<p>To add or edit products, view sales and orders for your vendor account, "
+"or to configure your store, visit your <a href=\"%s\">Vendor Dashboard</a>.</"
+"p>"
+msgstr ""
+"<p>若要添加或編輯產品，請查看您的供應商帳戶銷售和訂單，或者為配置您的存儲、 "
+"訪問您的<a href=“%s”>供應商的儀表板</a>。</p>"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:97
+#: public/forms/class-wcvendors-pro-coupon-form.php:98
+msgid "Coupon Code"
+msgstr "優惠券代碼"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:116
+#: public/forms/class-wcvendors-pro-coupon-form.php:117
+msgid "Coupon Description"
+msgstr "優惠券說明"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:141
+#: public/forms/class-wcvendors-pro-coupon-form.php:143
+msgid "Discount Type"
+msgstr "折扣類型"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:145
+msgid "Product discount"
+msgstr "商品折扣"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:146
+#, php-format
+msgid "Product % discount"
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:168
+msgid "Apply to all my products"
+msgstr "適用于所有我產品"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:172
+msgid "Check this box if the coupon applies to all your products."
+msgstr "如果優惠券適用于您的產品，請選中此框。"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:220
+msgid "Allow Free Shipping"
+msgstr "允許免運費"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:224
+msgid ""
+"Check this box if the coupon grants free shipping. The free shipping method "
+"must be enabled and be set to require \"a valid free shipping coupon\" (see "
+"the \"Free Shipping Requires\" setting)."
+msgstr ""
+"如果優惠券授予免運費，請選中此框。免費送貨方法必須啟用並設置為需要”有效免運費"
+"優惠券”（見”免費送貨要求”設置）。"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:248
+msgid "Coupon Expiry Date"
+msgstr "優惠券有效期"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:278
+msgid "Minimum Spend"
+msgstr "最低消費"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:279
+msgid "No Minimum"
+msgstr "不限最低"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:303
+msgid "Maximum Spend"
+msgstr "最高消費"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:304
+msgid "No Maximum"
+msgstr "不限最高消費"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:328
+msgid "Individual use only"
+msgstr "限個人使用"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:334
+msgid ""
+"Check this box if the coupon cannot be used in conjunction with other "
+"coupons."
+msgstr "如果該優惠券不能與其他優惠券一起使用，勾選此框。"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:356
+msgid "Exclude sale items"
+msgstr "不包含促銷中的商品"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:362
+msgid ""
+"Check this box if the coupon should not apply to items on sale. Per-item "
+"coupons will only work if the item is not on sale. Per-cart coupons will "
+"only work if there are no sale items in the cart."
+msgstr ""
+"如果優惠券不應適用於特價的物品，請勾選此選項。只有該商品非特價時優惠券才有"
+"效。基於購物車優惠的優惠卷只有在車內不包含特價商品時才有效。"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:405
+#: public/forms/class-wcvendors-pro-coupon-form.php:453
+msgid "Search for a product &hellip;"
+msgstr "搜尋商品&hellip;"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:446
+msgid "Exclude Products"
+msgstr "不包括的商品"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:480
+msgid "Email Restrictions"
+msgstr "Email 限制"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:481
+msgid "No restrictions"
+msgstr "无限制"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:485
+msgid ""
+"List of allowed emails to check against the customer&#039;s billing email "
+"when an order is placed. Separate email addresses with commas."
+msgstr "當產生時，列出並核對顧客帳單電郵, 用逗號分隔"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:508
+#: public/forms/class-wcvendors-pro-coupon-form.php:533
+msgid "Usage limit per coupon"
+msgstr "每張優惠券的使用限制"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:509
+#: public/forms/class-wcvendors-pro-coupon-form.php:534
+#: public/forms/class-wcvendors-pro-coupon-form.php:559
+msgid "Unlimited usage"
+msgstr "無限使用"
+
+#: public/forms/class-wcvendors-pro-coupon-form.php:558
+msgid "Usage limit per user"
+msgstr "每個用戶的使用限制"
+
+#: public/forms/class-wcvendors-pro-product-form.php:234
+#: public/forms/class-wcvendors-pro-product-form.php:239
+msgid "Product Name"
+msgstr "産品名稱"
+
+#: public/forms/class-wcvendors-pro-product-form.php:238
+msgid "Product name is required or is too long."
+msgstr "產品名稱是必需或太長。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:260
+msgid "Product Description"
+msgstr "產品說明"
+
+#: public/forms/class-wcvendors-pro-product-form.php:264
+msgid "Product description is required."
+msgstr "產品描述是必需的。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:287
+msgid "Product Short Description"
+msgstr "產品簡短說明"
+
+#: public/forms/class-wcvendors-pro-product-form.php:305
+msgid "Save Pending"
+msgstr "待儲存"
+
+#: public/forms/class-wcvendors-pro-product-form.php:365
+msgid "Select a Category"
+msgstr "請選擇分類"
+
+#: public/forms/class-wcvendors-pro-product-form.php:384
+msgid "Category"
+msgstr "類別"
+
+#: public/forms/class-wcvendors-pro-product-form.php:530
+msgid "Search or add a tag&hellip;"
+msgstr "搜索或添加一個標記 &hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:564
+msgid "Simple product"
+msgstr "簡單商品"
+
+#: public/forms/class-wcvendors-pro-product-form.php:565
+msgid "Grouped product"
+msgstr "组合產品"
+
+#: public/forms/class-wcvendors-pro-product-form.php:566
+msgid "External/Affiliate product"
+msgstr "外部/附屬產品"
+
+#: public/forms/class-wcvendors-pro-product-form.php:582
+msgid "Product Type"
+msgstr "商品類型"
+
+#: public/forms/class-wcvendors-pro-product-form.php:599
+msgid "Virtual"
+msgstr "虛擬"
+
+#: public/forms/class-wcvendors-pro-product-form.php:600
+msgid "Virtual products are intangible and aren't shipped."
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:606
+msgid "Downloadable"
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:607
+msgid "Downloadable products give access to a file upon purchase."
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:665
+msgid "Regular Price"
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:671
+msgid "Price should be a number."
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:694
+msgid "Sale Price"
+msgstr "售價"
+
+#: public/forms/class-wcvendors-pro-product-form.php:696
+msgid "Schedule"
+msgstr "排程"
+
+#: public/forms/class-wcvendors-pro-product-form.php:701
+msgid "Sale price should be a number."
+msgstr "銷售價格應該是一個數字"
+
+#: public/forms/class-wcvendors-pro-product-form.php:715
+msgid "From"
+msgstr "自"
+
+#: public/forms/class-wcvendors-pro-product-form.php:718
+msgid "From&hellip;"
+msgstr "自&hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:731
+msgid "To"
+msgstr "至"
+
+#: public/forms/class-wcvendors-pro-product-form.php:733
+msgid "To&hellip;"
+msgstr "至&hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:738
+msgid "The sale will end at the beginning of the set date."
+msgstr "促銷活動會在設置的開始時間之前結束。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:738
+msgid "Cancel"
+msgstr "取消"
+
+#: public/forms/class-wcvendors-pro-product-form.php:795
+msgid "Download Limit"
+msgstr "下載限制"
+
+#: public/forms/class-wcvendors-pro-product-form.php:796
+msgid "Unlimited"
+msgstr "無限制"
+
+#: public/forms/class-wcvendors-pro-product-form.php:798
+msgid "Leave blank for unlimited re-downloads."
+msgstr "留空表示可以無限下載"
+
+#: public/forms/class-wcvendors-pro-product-form.php:829
+msgid "Download Expiry"
+msgstr "下載期限"
+
+#: public/forms/class-wcvendors-pro-product-form.php:830
+msgid "Never"
+msgstr "從不"
+
+#: public/forms/class-wcvendors-pro-product-form.php:832
+msgid ""
+"Enter the number of days before a download link expires, or leave blank."
+msgstr "輸入下載連結逾期的天數，或留空白。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:863
+msgid "Download Type"
+msgstr "下載類型"
+
+#: public/forms/class-wcvendors-pro-product-form.php:865
+#, php-format
+msgid ""
+"Choose a download type - this controls the <a href=\"%s\">http://schema.org</"
+"a>."
+msgstr "選擇下載類型-此控制項<a href=“%s”>HTTP://schema.org</a>。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:869
+msgid "Standard Product"
+msgstr "標準產品"
+
+#: public/forms/class-wcvendors-pro-product-form.php:870
+msgid "Application/Software"
+msgstr "應用程序/軟體"
+
+#: public/forms/class-wcvendors-pro-product-form.php:871
+msgid "Music"
+msgstr "音樂"
+
+#: public/forms/class-wcvendors-pro-product-form.php:901
+msgid "Stock Keeping Unit"
+msgstr "庫存單位"
+
+#: public/forms/class-wcvendors-pro-product-form.php:903
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr "SKU是指庫存維持單元，為每個不同的產品和服務，可購買的唯一標識符。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:936
+msgid "Private Listing, hide this product from the catalog."
+msgstr "私人清單，隱藏此目錄中的產品。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:958
+msgid "Product URL"
+msgstr "商品URL"
+
+#: public/forms/class-wcvendors-pro-product-form.php:961
+msgid "Enter the external URL to the product."
+msgstr "輸入產品外部連結網址"
+
+#: public/forms/class-wcvendors-pro-product-form.php:982
+msgid "Button text"
+msgstr "按鈕文本"
+
+#: public/forms/class-wcvendors-pro-product-form.php:983
+msgctxt "placeholder"
+msgid ""
+msgstr ""
+
+#: public/forms/class-wcvendors-pro-product-form.php:985
+msgid "This text will be shown on the button linking to the external product."
+msgstr "本文將顯示在鏈接到外部產品的按鈕。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1012
+msgid "Shipping only"
+msgstr "僅配送"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1013
+msgctxt "Tax status"
+msgid "None"
+msgstr "無(稅金狀態)"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1032
+msgid "Tax Class"
+msgstr "稅率級別"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1061
+msgid "Enable reviews"
+msgstr "開放評價"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1085
+msgid "Manage stock?"
+msgstr "管理庫存"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1086
+msgid "Enable stock management at product level"
+msgstr "啟用商品庫存管理"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1113
+msgid "Stock quantity."
+msgstr "庫存數量"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1138
+msgid "Allow Backorders?"
+msgstr "允許缺貨"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1142
+msgid ""
+"If managing stock, this controls whether or not backorders are allowed. If "
+"enabled, stock quantity can go below 0."
+msgstr ""
+"如果管理庫存，這將會控制是否允許延期出貨。如果啟用的話，庫存量將可以小於 0"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1144
+msgid "Do not allow"
+msgstr "不允許"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1145
+msgid "Allow, but notify customer"
+msgstr "允許，但通知顧客"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1146
+msgid "Allow"
+msgstr "允許"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1171
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr "無論是否有庫存皆顯示在前臺。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1173
+msgid "In stock"
+msgstr "有庫存"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1174
+msgid "Out of stock"
+msgstr "無庫存"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1196
+msgid "Sold Individually"
+msgstr "單獨出售"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1198
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
+msgstr "啟用此選項後，此商品於同筆訂單僅能購買一件"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1224
+msgid "Weight in decimal form"
+msgstr "十進位格式的重量"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1251
+msgid "Length"
+msgstr "長"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1262
+msgid "Width"
+msgstr "寛"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1273
+msgid "Height"
+msgstr "高度"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1279
+msgid "Dimensions in decimal form."
+msgstr "十進位格式的 長x寬x高"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1327
+msgid "No shipping class"
+msgstr "無運送級距"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1332
+msgid ""
+"Shipping classes are used by certain shipping methods to group similar "
+"products."
+msgstr "運送級距是利用確切的運送方法來分組相似類型商品"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1365
+msgid "Up-Sells"
+msgstr "向上銷售"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1371
+msgid ""
+"Up-sells are products which you recommend instead of the currently viewed "
+"product, for example, products that are more profitable or better quality or "
+"more expensive."
+msgstr ""
+"向上銷售的產品是你推薦的產品，而不是目前正在看的產品，例如，產品更有利可圖，"
+"質量更高或更昂貴。編輯你的產品時，你可以編輯向上銷售。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1373
+#: public/forms/class-wcvendors-pro-product-form.php:1415
+msgid "Search for a product&hellip;"
+msgstr "搜尋商品&hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1407
+msgid "Cross-Sells"
+msgstr "交叉銷售"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1413
+msgid ""
+"Cross-sells are products which you promote in the cart, based on the current "
+"product."
+msgstr "交叉銷售是將選定的商品放在購物車中推薦給顧客"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1437
+msgid "Choose a grouped product&hellip;"
+msgstr "選擇一個群組商品 &hellip;"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1478
+msgid "Grouping"
+msgstr "分組"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1482
+msgid "Set this option to make this product part of a grouped product."
+msgstr "設置此選項，以使本產品成為一個群組中的一部份。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1535
+msgid "Linked Products"
+msgstr "相關產品"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1613
+msgid "National shipping fee"
+msgstr "全國運輸費用"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1614
+#: public/forms/class-wcvendors-pro-product-form.php:1715
+msgid "Change to override store defaults."
+msgstr "複寫商店的預設值"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1616
+msgid "The cost to ship this product within your country."
+msgstr "將產品送至國內的運費成本。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1643
+#: public/forms/class-wcvendors-pro-store-form.php:899
+msgid ""
+"Charge once per product for national shipping, even if more than one is "
+"purchased."
+msgstr "每產品收取一次國內運費，即使一次購買多項。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1667
+msgid "Disable national shipping for this product."
+msgstr "禁用對該產品的國內貨運。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1690
+msgid "Free national shipping"
+msgstr "免費送貨全國"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1714
+msgid "International shipping fee"
+msgstr "国际运费"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1717
+msgid "The cost to ship this product outside your country."
+msgstr "將產品送至國外的運費成本。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1741
+#: public/forms/class-wcvendors-pro-store-form.php:996
+msgid ""
+"Charge once per product for international shipping, even if more than one is "
+"purchased."
+msgstr "每產品收取一次國際航運，即使一次購買多項。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1765
+msgid "Disable international shipping for this product."
+msgstr "停用對產品的國際航運。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1789
+msgid "Free international shipping"
+msgstr "免費的國際航運。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1815
+#: public/forms/class-wcvendors-pro-store-form.php:874
+#: public/forms/class-wcvendors-pro-store-form.php:968
+#: public/forms/class-wcvendors-pro-store-form.php:1140
+msgid "0"
+msgstr "0"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1817
+msgid "The product handling fee. Amount (5.00) or Percentage (5%)."
+msgstr "產品處理費。金額 (5.00) 或百分比 （5%)。"
+
+#: public/forms/class-wcvendors-pro-product-form.php:1833
+#: public/forms/class-wcvendors-pro-store-form.php:1258
+msgid ""
+"Countries must use the international standard for two letter country codes. "
+"eg. AU for Australia."
+msgstr "國家必須為兩個字母的國家代碼使用的國際標準。如。AU代表澳大利亞。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:354
+msgid "Once you become a vendor you can upload your banner here."
+msgstr "一旦你成為供應商，你可以在這裡上傳你的橫幅廣告。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:361
+#: public/forms/class-wcvendors-pro-store-form.php:364
+msgid "Add Store Banner"
+msgstr "加入商店橫幅"
+
+#: public/forms/class-wcvendors-pro-store-form.php:362
+msgid "Remove Store Banner"
+msgstr "移除商店的橫幅廣告"
+
+#: public/forms/class-wcvendors-pro-store-form.php:395
+msgid "Once you become a vendor you can upload your store icon here."
+msgstr "一旦你成為供應商，你可以在這裡上傳您的商店圖示。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:402
+#: public/forms/class-wcvendors-pro-store-form.php:405
+msgid "Add Store Icon"
+msgstr "添加商店圖示"
+
+#: public/forms/class-wcvendors-pro-store-form.php:403
+msgid "Remove Store Icon"
+msgstr "移除商店圖示"
+
+#: public/forms/class-wcvendors-pro-store-form.php:435
+msgid "PayPal Address"
+msgstr "PayPal地址"
+
+#: public/forms/class-wcvendors-pro-store-form.php:436
+msgid "yourpaypaladdress@goeshere.com"
+msgstr "yourpaypaladdress@goeshere.com"
+
+#: public/forms/class-wcvendors-pro-store-form.php:438
+msgid "Your PayPal address is used to send you your commission."
+msgstr "您的PayPal地址已用於向您發送您的佣金。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:462
+msgid "Store Name <small>Required</small>"
+msgstr "您必須輸入店鋪名稱"
+
+#: public/forms/class-wcvendors-pro-store-form.php:463
+msgid "Your Store Name"
+msgstr "店鋪名稱"
+
+#: public/forms/class-wcvendors-pro-store-form.php:465
+msgid "Your shop name is public and must be unique."
+msgstr "你店的名字是公開的並且必須唯一。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:493
+msgid "Store Phone"
+msgstr "店家電話號碼"
+
+#: public/forms/class-wcvendors-pro-store-form.php:494
+msgid "Your store phone number"
+msgstr "你店裡的電話號碼"
+
+#: public/forms/class-wcvendors-pro-store-form.php:496
+msgid "This is your store contact number"
+msgstr "這是您商店的聯繫號碼"
+
+#: public/forms/class-wcvendors-pro-store-form.php:533
+#: public/forms/class-wcvendors-pro-store-form.php:542
+msgid "Seller Info"
+msgstr "攤商資訊"
+
+#: public/forms/class-wcvendors-pro-store-form.php:580
+#: public/forms/class-wcvendors-pro-store-form.php:588
+msgid "Store Description"
+msgstr "商店描述"
+
+#: public/forms/class-wcvendors-pro-store-form.php:638
+msgid "https://yourcompany-blogurl.com/here"
+msgstr "HTTPs://yourcompany-blogurl.com/here"
+
+#: public/forms/class-wcvendors-pro-store-form.php:640
+msgid ""
+"Your <a href=\"https://yourcompany-blogurl.com/here\">Company / Blog </a> "
+"url."
+msgstr "你<a href=“https://yourcompany-blogurl.com/here”>公司 / Blog</a>url。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:665
+msgid "Twitter Username"
+msgstr "Twitter 用户名"
+
+#: public/forms/class-wcvendors-pro-store-form.php:666
+msgid "YourTwitterUserHere"
+msgstr "YourTwitterUserHere"
+
+#: public/forms/class-wcvendors-pro-store-form.php:668
+msgid ""
+"Your <a href=\"https://twitter.com/\">Twitter</a> username without the url."
+msgstr "<a href=“https://twitter.com/“>Twitter</a>使用者名沒有 url。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:694
+msgid "Instagram Username"
+msgstr "Instagram用户名"
+
+#: public/forms/class-wcvendors-pro-store-form.php:695
+msgid "YourInstagramUsername"
+msgstr "YourInstagramUsername"
+
+#: public/forms/class-wcvendors-pro-store-form.php:697
+msgid ""
+"Your <a href=\"https://instagram.com/\">Instagram</a> username without the "
+"url."
+msgstr ""
+"你的<a href=\"https://instagram.com/\">Instagram</a> 使用者名稱漏了網址."
+
+#: public/forms/class-wcvendors-pro-store-form.php:723
+msgid "Facebook URL"
+msgstr "Facebook  網址"
+
+#: public/forms/class-wcvendors-pro-store-form.php:724
+msgid "http://yourfacebookurl/here"
+msgstr "HTTP://yourfacebookurl/here"
+
+#: public/forms/class-wcvendors-pro-store-form.php:726
+msgid "Your <a href=\"https://facebook.com/\">Facebook</a> url."
+msgstr "<a href=“https://facebook.com/“>Facebook</a>的 url。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:752
+msgid "LinkedIn URL"
+msgstr "Linkedin"
+
+#: public/forms/class-wcvendors-pro-store-form.php:753
+msgid "http://linkedinurl.com/here"
+msgstr "HTTP://linkedinurl.com/here"
+
+#: public/forms/class-wcvendors-pro-store-form.php:755
+msgid "Your <a href=\"https://linkedin.com/\">LinkedIn</a> url."
+msgstr "<a href=“https://linkedin.com/“>LinkedIn</a>的 url。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:781
+msgid "YouTube URL"
+msgstr "YouTube 網址"
+
+#: public/forms/class-wcvendors-pro-store-form.php:782
+msgid "http://youtube.com/here"
+msgstr "HTTP://youtube.com/here"
+
+#: public/forms/class-wcvendors-pro-store-form.php:784
+msgid "Your <a href=\"https://youtube.com/\">Youtube</a> url."
+msgstr "你<a href=“https://youtube.com/“>Youtube</a>的 url。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:810
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: public/forms/class-wcvendors-pro-store-form.php:811
+msgid "https://plus.google.com/yourname"
+msgstr "HTTPs://plus.google.com/yourname"
+
+#: public/forms/class-wcvendors-pro-store-form.php:813
+msgid "Your <a href=\"https://plus.google.com\">Google+</a> url."
+msgstr "你的<a href=“https://plus.google.com”>Google +</a> url。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:840
+msgid "Pinterest URL"
+msgstr "Pinterest 網址"
+
+#: public/forms/class-wcvendors-pro-store-form.php:841
+msgid "https://www.pinterest.com/username/"
+msgstr "HTTPs://www.pinterest.com/username/"
+
+#: public/forms/class-wcvendors-pro-store-form.php:843
+msgid "Your <a href=https://www.pinterest.com/\">Pinterest</a> url."
+msgstr "你<a href=“https://www.pinterest.com/“”>Pinterest</a>的 url。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:873
+msgid "Default National Shipping Fee"
+msgstr "預設全國運輸費用"
+
+#: public/forms/class-wcvendors-pro-store-form.php:876
+msgid ""
+"The default shipping fee within your country, this can be overridden on a "
+"per product basis."
+msgstr "在全國的預設運費。這可以在不同產品頁重新複寫。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:922
+msgid "Free national shipping."
+msgstr "免費送貨全國"
+
+#: public/forms/class-wcvendors-pro-store-form.php:945
+msgid "Disable national shipping."
+msgstr "禁止國家航運"
+
+#: public/forms/class-wcvendors-pro-store-form.php:967
+msgid "Default International Shipping Fee"
+msgstr "預設國際航運費"
+
+#: public/forms/class-wcvendors-pro-store-form.php:970
+msgid ""
+"The default shipping fee outside your country, this can be overridden on a "
+"per product basis. "
+msgstr "預設情況下運送您的國家以外的費用，這可以重寫在每個產品的基礎上。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1021
+msgid "Free international shipping."
+msgstr "免費的國際航運。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1046
+msgid "Disable international shipping."
+msgstr "停用國際運費"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1115
+msgid "Leave empty to disable"
+msgstr "留空"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1117
+msgid ""
+"The product handling fee, this can be overridden on a per product basis. "
+"Amount (5.00) or Percentage (5%)."
+msgstr ""
+"產品的手續費，這可以重寫在每個產品的基礎上。金額 (5.00) 或百分比 （5%)。"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1139
+msgid "Order handling fee"
+msgstr "訂單處理費"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1142
+msgid ""
+"The order handling fee for all products in the order. Amount (5.00) or "
+"Percentage (5%)"
+msgstr "訂單中的所有產品的訂單處理費用。金額 (5.00) 或百分比 （5%)"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1167
+msgid "Shipping Policy"
+msgstr "配送條款"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1191
+msgid "Return Policy"
+msgstr "退貨政策"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1214
+msgid "Shipping from"
+msgstr "產品運送來源地"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1216
+msgid "Where products will be shipped from."
+msgstr "產品運送來源地"
+
+#: public/forms/class-wcvendors-pro-store-form.php:1222
+msgid "Other"
+msgstr "其他"
+
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:116
+msgid "Date Shipped"
+msgstr "發貨日期"
+
+#: public/forms/class-wcvendors-pro-tracking-number-form.php:141
+msgid "Shipping Provider"
+msgstr "運輸供應商"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:22
+msgid "Name"
+msgstr "名字"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:22
+msgid "This is the name of the download shown to the customer."
+msgstr "這是會向客戶顯示的下載名稱"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:23
+msgid "File URL"
+msgstr "檔案網址"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:23
+msgid ""
+"This is the URL or absolute path to the file which customers will get access "
+"to."
+msgstr "這是些客戶訪問的文件的 URL 或絕對路徑"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:34
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:51
+msgid "File Name"
+msgstr "檔案名稱"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:35
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:52
+msgid "http://"
+msgstr "http://"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:36
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:53
+msgid "Choose file"
+msgstr "選擇檔案"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:36
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:53
+msgid "Insert file URL"
+msgstr "插入檔案網址"
+
+#: public/forms/partials/wcvendors-pro-downloadable-files.php:57
+msgid "Add File"
+msgstr "新增檔案"
+
+#: public/forms/partials/wcvendors-pro-shipping-table.php:22
+#: public/forms/partials/wcvendors-pro-shipping-table.php:34
+#: public/forms/partials/wcvendors-pro-shipping-table.php:54
+#: templates/front/shipping/shipping-panel.php:63
+msgid "State"
+msgstr "縣/市"
+
+#: public/forms/partials/wcvendors-pro-shipping-table.php:23
+msgid "Shipping Fee"
+msgstr "運輸費用"
+
+#: public/forms/partials/wcvendors-pro-shipping-table.php:35
+#: public/forms/partials/wcvendors-pro-shipping-table.php:55
+msgid "Fee"
+msgstr "費"
+
+#: public/forms/partials/wcvendors-pro-shipping-table.php:60
+msgid "Add Rate"
+msgstr "添加利率"
+
+#: public/forms/wcvendors-pro-address.php:21
+msgid "Store Country"
+msgstr "儲存國家"
+
+#: public/forms/wcvendors-pro-address.php:33
+msgid "Street Address"
+msgstr "街道門牌號碼"
+
+#: public/forms/wcvendors-pro-address.php:44
+#: public/forms/wcvendors-pro-shipping-address.php:46
+msgid "Apartment, unit, suite etc. "
+msgstr "公寓、 單位、 套房等。"
+
+#: public/forms/wcvendors-pro-address.php:55
+#: public/forms/wcvendors-pro-address.php:56
+#: public/forms/wcvendors-pro-shipping-address.php:57
+#: public/forms/wcvendors-pro-shipping-address.php:58
+msgid "City / Town"
+msgstr "市 / 鎮"
+
+#: public/forms/wcvendors-pro-address.php:67
+#: public/forms/wcvendors-pro-address.php:68
+#: public/forms/wcvendors-pro-shipping-address.php:69
+#: public/forms/wcvendors-pro-shipping-address.php:70
+msgid "State / County"
+msgstr "縣/市"
+
+#: public/forms/wcvendors-pro-address.php:77
+#: public/forms/wcvendors-pro-address.php:78
+#: public/forms/wcvendors-pro-shipping-address.php:79
+#: public/forms/wcvendors-pro-shipping-address.php:80
+msgid "Postcode / Zip"
+msgstr "郵遞區號"
+
+#: public/forms/wcvendors-pro-shipping-address.php:23
+msgid "Shipping Country"
+msgstr "配送 國家"
+
+#: public/forms/wcvendors-pro-shipping-address.php:34
+#: public/forms/wcvendors-pro-shipping-address.php:35
+msgid "Shipping Address"
+msgstr "郵寄地址"
+
+#: public/partials/order/wcvendors-pro-order-table-actions.php:70
+msgid "Export Orders"
+msgstr "匯出訂單"
+
+#: templates/dashboard/order/order_details.php:18
+#, php-format
+msgid "Order #%d Details"
+msgstr ""
+
+#: templates/dashboard/order/order_details.php:26
+msgid "Billing Details"
+msgstr "帳單明細"
+
+#: templates/dashboard/order/order_details.php:32
+#: templates/dashboard/order/order_details.php:34
+#: templates/dashboard/order/order_details.php:56
+#: templates/dashboard/order/order_details.php:58
+msgid "Address"
+msgstr "地址"
+
+#: templates/dashboard/order/order_details.php:34
+msgid "No billing address set."
+msgstr "沒有帳單的位址集。"
+
+#: templates/dashboard/order/order_details.php:50
+msgid "Shipping Details"
+msgstr "送貨詳情"
+
+#: templates/dashboard/order/order_details.php:58
+msgid "No shipping address set."
+msgstr "沒有送貨地址設定。"
+
+#: templates/dashboard/order/order_details.php:87
+msgid "Order Items"
+msgstr "訂單項目"
+
+#: templates/dashboard/order/order_details.php:92
+msgid "Item"
+msgstr "項目"
+
+#: templates/dashboard/order/order_details.php:94
+#: templates/front/shipping/shipping-panel.php:64
+msgid "Cost"
+msgstr "價格"
+
+#: templates/dashboard/order/order_details.php:95
+msgid "Qty"
+msgstr "數量"
+
+#: templates/dashboard/order/order_details.php:278
+msgid "Commission Total"
+msgstr "佣金"
+
+#: templates/dashboard/order/order_details.php:282
+msgid "Order Total"
+msgstr "訂單總計"
+
+#: templates/dashboard/order/order_details.php:296
+msgid "Customer Note"
+msgstr "客戶備註"
+
+#: templates/dashboard/order/order_details.php:302
+msgid "No customer notes."
+msgstr "沒有客戶備註"
+
+#: templates/dashboard/order/order_note.php:13
+msgid " ago you wrote :"
+msgstr "以前你曾寫 ︰"
+
+#: templates/dashboard/order/order_note_form.php:17
+msgid "Order Notes"
+msgstr "訂單編號"
+
+#: templates/dashboard/order/order_note_form.php:37
+msgid "Add Order Note"
+msgstr "新增訂單"
+
+#: templates/dashboard/order/shipping-label.php:67
+msgid "Ship To:"
+msgstr "運送至"
+
+#: templates/dashboard/order/shipping-label.php:77
+msgid "From:"
+msgstr ", 出貨地:"
+
+#: templates/dashboard/order/shipping-label.php:97
+msgid "Picking List"
+msgstr "檢查列表"
+
+#: templates/dashboard/order/tracking_number.php:17
+msgid "Update Tracking Details"
+msgstr "更新跟蹤詳細資訊"
+
+#: templates/dashboard/order/tracking_number.php:19
+msgid "Add Tracking Details"
+msgstr "添加跟蹤詳細資訊"
+
+#: templates/dashboard/order/tracking_number.php:29
+msgid "Shipment Tracking"
+msgstr "貨物追蹤"
+
+#: templates/dashboard/permission.php:14
+msgid "No Permission."
+msgstr "沒有權限"
+
+#: templates/dashboard/permission.php:16
+msgid "Return to dashboard"
+msgstr "返回儀表板"
+
+#: templates/dashboard/product-edit.php:182
+msgid "Save Draft"
+msgstr "保存草稿"
+
+#: templates/dashboard/reports/overview.php:26
+msgid "Commission Due"
+msgstr "佣金"
+
+#: templates/dashboard/reports/overview.php:39
+#: templates/dashboard/reports/overview.php:60
+msgid "Totals"
+msgstr "總計"
+
+#: templates/dashboard/reports/overview.php:48
+#: templates/dashboard/reports/overview.php:88
+msgid "Commission Paid"
+msgstr "佣金"
+
+#: templates/dashboard/reports/overview.php:80
+msgid "Total Products Sold"
+msgstr "合計產品數"
+
+#: templates/dashboard/reports/overview.php:84
+msgid "Commission Owed"
+msgstr "佣金欠款"
+
+#: templates/dashboard/reports/reports.php:16
+msgid "Orders Totals"
+msgstr "訂單合計"
+
+#: templates/dashboard/reports/reports.php:21
+msgid ""
+"No orders for this period. Adjust your dates above and click Update, or list "
+"new products for customers to buy."
+msgstr ""
+"這一時期沒有訂單。調整你以上的日期和按一下更新，或列出為客戶購買新產品。"
+
+#: templates/dashboard/reports/reports.php:34
+msgid "Product Totals"
+msgstr "產品總計"
+
+#: templates/dashboard/reports/reports.php:39
+msgid ""
+"No sales for this period. Adjust your dates above and click Update, or list "
+"new products for customers to buy."
+msgstr ""
+"這一時期沒有銷售。調整你以上的日期和按一下更新，或列出為客戶購買新產品。"
+
+#: templates/dashboard/reports/reports.php:52
+msgid "Recent Orders"
+msgstr "最近的訂單"
+
+#: templates/dashboard/reports/reports.php:56
+#: templates/dashboard/reports/reports.php:66
+msgid "View All"
+msgstr "檢視全部"
+
+#: templates/dashboard/reports/reports.php:62
+msgid "Recent Products"
+msgstr "最新產品"
+
+#: templates/dashboard/shop_coupon-edit.php:46
+msgid "Usage Restrictions"
+msgstr "使用限制"
+
+#: templates/dashboard/shop_coupon-edit.php:47
+msgid "Usage Limits"
+msgstr "使用限制"
+
+#: templates/front/ratings/feedback-form.php:16
+msgid "Rate your experience"
+msgstr "為您的經驗評價"
+
+#: templates/front/ratings/feedback-form.php:19
+#, php-format
+msgid ""
+"Order #<mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: templates/front/ratings/feedback-form.php:42
+msgid "from"
+msgstr ", 出貨地:"
+
+#: templates/front/ratings/feedback-form.php:58
+msgid ""
+"Comments: (e.g. delivery experience, item as described, quality of customer "
+"service)"
+msgstr "評論: （例如發貨經驗，商品與描述，優質的客戶服務）"
+
+#: templates/front/ratings/feedback-form.php:73
+msgid "Submit Feedback"
+msgstr "提交反饋"
+
+#: templates/front/ratings/ratings-display-panel.php:18
+#: templates/store/store-ratings.php:47
+msgid "Posted on"
+msgstr "發表於"
+
+#: templates/front/ratings/ratings-display-panel.php:18
+msgid " by "
+msgstr ""
+
+#: templates/front/shipping/shipping-panel.php:50
+#: templates/front/shipping/shipping-panel.php:95
+msgid "No shipping rates are available for this product."
+msgstr "該產品沒有運費數據。"
+
+#: templates/front/shipping/shipping-panel.php:70
+#: templates/front/shipping/shipping-panel.php:71
+msgid "Any"
+msgstr "任何"
+
+#: templates/front/vendor-signup-form.php:15
+msgid "Vendor Application"
+msgstr "商家申请"
+
+#: templates/front/vendor-signup-form.php:103
+msgid "Apply to be Vendor"
+msgstr "申請成為供應商"
+
+#: templates/store/store-ratings.php:23
+msgid "Customer Ratings"
+msgstr "客户評價"
+
+#: templates/store/store-ratings.php:46
+msgid "Product:"
+msgstr "產品："
+
+#: templates/store/store-ratings.php:47
+msgid "by"
+msgstr ""
+
+#: templates/store/store-ratings.php:55
+msgid "No ratings have been submitted for this vendor yet."
+msgstr "目前還沒有關於此供應商的評價。"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wcvendors.com/product/wc-vendors-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The WC Vendors Pro plugin"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WC Vendors"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.wcvendors.com/"
+msgstr ""

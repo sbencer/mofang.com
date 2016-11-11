@@ -1,0 +1,391 @@
+﻿/* 全局CSS定义 */
+body{font-family:"Microsoft YaHei", "黑体";margin:0;border:0;padding:0;font-size:12px;color:#505050;}
+body{background:#fafafa;}
+div,form,ul,ol,li,dl,dt,dd,span,p,label {margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;display:block}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input{font-size:12px;padding:0;border-collapse:collapse;}
+/* 默认链接颜色 */
+a{outline-style:none;color:#505050;text-decoration:none}
+a:hover {color:#ff8302;text-decoration:none;}
+.font01 { color:#505050; font-size:14px; font-weight:bold;}
+.font01 a { color:#505050;text-decoration:none;}
+.font01 a:hover { color:#505050;text-decoration:none;}
+.font02 {color:#3475b8;}
+.font02 a { color:#3475b8;text-decoration:none;}
+.font02 a:hover { color:#3475b8;text-decoration:underline;}
+.font03 { color:#fff;}
+.font04 { color:#3475b8;}
+.font05 { color:#9b9b9b;}
+.font06 {color:#7f7f7f;}
+.font06 a { color:#3475b8;text-decoration:none;}
+.font06 a:hover { color:#3475b8;text-decoration:underline;}
+body .gray {color: #C7C7C7;}
+.h1_font01{ color:#282828;}
+.h6_font02 { color:#b7b7b7;}
+i,em { font-style:normal;}
+
+/* 清除链接虚框
+a,area {blr:expression(this.onFocus=this.blur()) }  for IE
+:focus {-moz-outline-style: none; }  for Firefox */
+
+/*文字对齐方式*/
+.txtLeft{text-align:left}
+.txtRight{text-align:right}
+.txtCenter{text-align:center}
+/* 下划线 */
+.unline,.unline a{text-decoration:underline}
+.nounline,.nounline a,.list12 .nounline{text-decoration:none}
+/* 通用属性 */
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;margin-top:0px!important;line-height:0}
+/* 清理浮动 */
+.rr-clear:after {visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
+.rr-clear{zoom:1;/* for IE6 IE7 */}
+.clear{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;margin-top:0px!important;*margin-top:-1px;line-height:0}
+
+/* 标准头 */
+.header { width:980px; margin:10px auto; height:50px;}
+.loginbar { height:46px;}
+.loginbar li { width:57px; height:36px; float:right; line-height:36px; background:url(../../images/iphone/bor.jpg) no-repeat right; text-align:center;}
+.navbox { height:78px;}
+.logo { width:245px; height:50px; float:left;}
+.logo img {display:inherit;}
+.andro { display:block; position:relative;}
+.andro img { width:15px; height:15px; position:absolute; left:58px; top:0;}
+.search .inputC { width:210px; height:34px; border:1px #ffc800 solid; background:url(../../images/iphone/fdj.jpg) no-repeat; padding-left:40px; color:#b7b7b7;}
+
+.container { width:980px; overflow:hidden; clear:both; margin:0 auto; background:#eeeeee; padding-bottom:50px; background: #fafafa}
+.main { width:980px; }
+.content { width:980px; overflow:hidden; margin-top:20px;}
+.banner { width:980px; height:80px; margin-top:9px;}
+.product { width:980px; height:41px;}
+.title_stat { height:84px; padding-left:201px;}
+.product_name { width:327px; padding-top:28px;}
+.product_name h1 { height:34px; color:#828282;}
+.product_name h1 span { font-size:24px; font-family:'宋体';}
+.product_name p { height:22px; font-size:14px;}
+.sharebox { height:30px; margin-top:48px; background:#fcfcfc; overflow:hidden;}
+.summary { width:678px; border:1px #dcdcdc solid; background:#fff; margin-bottom:20px; padding:20px 0 30px 26px;}
+.grade { width:142px; float:left; position:relative; left:0; top:0;}
+.grade_img { position:absolute; left:0; width:144px; height:144px; top:-76px; border-radius:15px; }
+.grade_img img { border-radius:25px; }
+.g_box { width:117px; height:24px; background:url(../../images/iphone/stars_bg.png) no-repeat; padding:5px 0 0 34px; margin-top:80px;}
+
+.summary_cont { width:481px; float:left; margin-left:32px; position:relative; left:0; top:0;}
+.edition { overflow:hidden;}
+.edition li { width:180px; height:25px; float:left; overflow:visible; white-space:nowrap;}
+.edition li div{ width:65px; float:left; color:#b7b7b7;}
+.mold { width:481px; }
+.mold a { height:24px; display:block; margin:10px 10px 0 0; float:left; line-height:24px; padding:0 10px 1px 10px; background:#cccccc; text-align:center; color:#fff; cursor: default;}
+.mold a.On,.mold a:hover { background:#ffa00a; color:#fff; }
+.sec-icon { display:inline-block;width:16px;height:16px;vertical-align:middle;margin:0 5px 0 0;}
+.sec-detail { width:160px; padding:15px 0;}
+.sec-detail li { height:22px; color:#d6d6d6;}
+.sec-detail li.pass .r {color:#6a0; float:right; padding-top:3px;}
+.icon-tencent,.icon-kingsoft,.icon-360{ background:url(../../images/iphone/newico.png) no-repeat;}
+.icon-tencent { width:16px;height:16px;background-position:0 0;}
+.icon-kingsoft {width:15px;height:17px;background-position:0 -16px;}
+.icon-360 {width:16px;height:16px;background-position:0 -49px;}
+.qrcode_box { margin-top:35px; height:48;}
+.bdxz_btn { width:180px; height:64px; display:block; float:left;}
+.qrcode { width:65px; height:64px; display:block; float:left; margin-left:30px;}
+
+/* 游戏介绍 */
+.game_news { width:704px; overflow:hidden; border:1px #dcdcdc solid; background:#fff; margin-top:20px;}
+.game_tab { height:39px; border-bottom:1px #dcdcdc solid; background:#f6f6f6; overflow-y:visible; }
+.game_tab li { width:118px; float:left; line-height:39px; font-size:16px; color:#000000; text-align:center; font-weight:bold; cursor:pointer;}
+.game_tab li.current { width:118px; height:40px; float:left; background:#fff; border-right:1px #dcdcdc solid; border-left:1px #dcdcdc solid; color:#404040;}
+.newsbox { width:644px; padding:30px 30px 40px 30px; font-size:14px; font-family:'宋体';}
+.newsbox p { text-indent:2em; line-height:22px; padding-bottom:15px;}
+.lists { width:644px;}
+.lists li { height:40px; line-height:40px; background:url(../../images/iphone/dd.jpg) no-repeat left 50%; padding-left:15px; border-bottom:1px #dcdcdc dashed;}
+.lists li.bor00  { border-bottom:0 none;}
+.gametit { height:39px; border-bottom:1px #dcdcdc solid; background:#f6f6f6; line-height:39px; font-size:16px; color:#000000; font-weight:bold; padding:0 10px;}
+.game_cont { padding:10px; overflow:hidden; font-size:14px;}
+.game_cont li { width:320px; height:26px; line-height:26px; background:url(../../images/iphone/dd.jpg) no-repeat left 50%; padding-left:10px; overflow:hidden; float:left;}
+.game_pc { padding:20px 0 20px 20px; overflow:hidden;}
+.game_pc li { width:150px; height:120px; float:left; margin-right:20px;}
+.game_pc li p { height:30px; line-height:30px; text-align:center; overflow:hidden;}
+
+/* 咨询内容页 */
+.content_text { width:644px; overflow:hidden; border:1px #dcdcdc solid; padding:28px 30px 30px 30px; background:#fff;}
+.news_tit { width:644px; height:78px; border-bottom:1px #dcdcdc dashed;}
+.news_tit h1 { height:42px; font-size:24px; text-align:center;}
+.ZwA_t { height:30px;}
+.ZwA_t h2 { width:269px; float:left; padding-top:13px;}
+.ZwA_t h3 { width:250px; float:left; padding-top:13px;}
+.news_cont { overflow:hidden; padding-top:20px; font-size:14px;}
+.news_cont p { text-indent:2em; line-height:22px;}
+.news_cont img { margin:0 auto;}
+.news_cont .news_content { padding-bottom: 20px; }
+.gfxz_box { height:92px; padding:40px 0 20px 0; font-size:12px; line-height:18px;}
+.APP_info { width:70px; height:70px; float:left; margin-top:2px; display:block;}
+.gfxz_box .info { width:340px; height:90px; float:left;}
+.gfxz_box .info .infoname { display:block;}
+.gfxz_box .info .ff { color:#ff5959; display:block;}
+.gfxz_box .info .infoname .gamejs { width:330px; display:block;}
+.game_jt { height:495px; margin-top:15px; position:relative; padding:0 66px 0 68px;}
+.bigimg { width:644px; height:320px; overflow:hidden;}
+.bigimg ul { width:5000px; height:320px; position:absolute; left:0; top:0;}
+.bigimg li{ width:644px; height:320px; float:left;}
+.game_js { overflow:hidden; margin-top:15px; position:relative;}
+.bigimgjs { width:644px; position:relative; overflow:hidden; margin:auto;}
+.bigimgjs ul { width:5000px;}
+.bigimgjs li{ width:644px; float:left;}
+.bigimgjs li img{ margin:auto;}
+.smallimg { height:110px; width:auto; margin:auto; position:relative; overflow:hidden;}
+/*.smallimg ul { width:auto; margin-left:72px;}*/
+.smallimg .flex-viewport {width:600px; margin: auto;}
+.smallimg li { width:110px; height:110px; padding:0px 5px 0px 5px; float:left; opacity:0.5; filter:alpha(opacity=50); cursor:pointer;}
+.smallimg .flex-active-slide { opacity:1; filter:alpha(opacity=100); cursor:default;}
+.page_num{ height:30px; line-height:30px; text-align:center; }
+
+.flex-direction-nav { position:absolute; top:124px;}
+.flex-direction-nav a { z-index: 10; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav .flex-next { width:54px; height:54px; position:absolute; left:587px; background:url(../../images/iphone/gd.png) no-repeat -54px 0;}
+.flex-direction-nav .flex-prev { width:54px; height:54px; position:absolute; left:2px; background:url(../../images/iphone/gd.png) no-repeat;}
+.flex-direction-nav .flex-next:hover {width:54px; height:54px; display:block; background:url(../../images/iphone/gd.png) no-repeat -54px -54px; }
+.flex-direction-nav .flex-prev:hover {width:54px; height:54px; display:block; background:url(../../images/iphone/gd.png) no-repeat 0 -54px;}
+.flex-direction-nav .flex-disabled {opacity: 0!important; filter:alpha(opacity=0); cursor: default;}
+
+.gf_xz { width:160px; height:64px; display:block; float:right;}
+.sharezb { height:50px; border-bottom:1px #dcdcdc dashed; }
+.zb { padding-top:8px; line-height:30px; font-size:12px;}
+.news_footer{ height:50px; line-height:30px;}
+#goToTop {width:60px; height:60px; background:url(../../images/iphone/top.jpg) no-repeat; position:absolute; top:2309px; left:706px; cursor:pointer; }
+
+
+/*论评*/
+.pf { width:150px; float:left; padding-left:255px;}
+.pf span { float:left; line-height:24px;}
+.comment_iframe { margin-top: 20px; }
+.review_box{ width:656px; border:1px #dcdcdc solid; background:#fff; padding:30px 24px; }
+.review_form .review_til { height:23px; color:#3475b8; }
+.review_form .review_til span { color:#3f3f3f; }
+.review_form .insert_review { width:644px; height:88px; border:1px #dfdfdf solid; padding:5px; color:#505050;}
+.review_form .review_sub { height:30px; padding-top:10px; }
+.review_form .review_sub .r_share { width:156px; float:left; height:30px; background:url(../../images/iphone/ico1.png) no-repeat 0 -34px;}
+.review_form .review_sub .r_share a { width:31px; height:30px; display:block; float:left;}
+.r_share a.sina:hover { background:url(../../images/iphone/ico1.png) no-repeat 0 -66px; }
+.r_share a.tx:hover { background:url(../../images/iphone/ico1.png) no-repeat -31px -66px; }
+.r_share a.qqkj:hover { background:url(../../images/iphone/ico1.png) no-repeat -62px -66px; }
+.r_share a.baidu:hover { background:url(../../images/iphone/ico1.png) no-repeat -93px -66px; }
+.r_share a.qq:hover { background:url(../../images/iphone/ico1.png) no-repeat -124px -66px; }
+.review_form .review_sub .r_sendbtn { width:80px; height:30px; float:right; }
+.send_btn_review{ width:80px; height:30px; background:url(../../images/iphone/ico1.png) no-repeat; overflow:hidden; cursor:pointer; border-bottom-style:none;  border-top-style:none;  border-left-style:none;  border-right-style:none; }
+.review_list { width:656px; overflow:hidden; }
+.review_list li { width:656px; padding:10px 0; border-bottom:1px #dfdfdf solid; overflow:hidden; }
+.review_list li .user_photo { width:40px; height:40px; float:left; padding-right:10px;}
+.review_list li .rev_list_contr{ width:594px; float:left; }
+.rev_list_contr .r_l_row1 { height:23px; }
+.rev_list_contr .r_l_row1 .username { display:block; float:left; margin-right:15px;}
+.rev_list_contr .r_l_row1 .rr { float:right; }
+.rev_list_contr .r_l_row1 .rr a { padding-left:5px;}
+.rev_list_contr .r_l_row2 { line-height:18px;}
+.rev_list_contr .r_l_row3 { line-height:18px; padding-top:14px;}
+.page_box { padding-top:10px; height:30px; }
+.box_r { float:right; }
+.page_box span, .page_box a { width:28px; height:28px;position:relative; border:1px #e2e2e2 solid; display:block; float:left; cursor:pointer;}
+.page_prev { border-right:none; background:url(../../images/iphone/ico1.png) no-repeat 6px -130px;}
+.page_next { border-left:none; background:url(../../images/iphone/ico1.png) no-repeat -22px -130px;}
+.page_box a { border-right:none; line-height:28px; text-align:center;}
+.page_box a:hover, .page_box a.active { background:url(../../images/iphone/ico1.png) no-repeat -126px 0; width:29px; height:30px; line-height:30px; text-align:center; color:#fff; font-weight:bold; border:none; }
+
+/* 游戏信息 */
+.game_info { width:252px; overflow:hidden; border:1px #dcdcdc solid; margin-bottom:20px; background:#fff;}
+.info_cont { padding: 0 10px 10px 10px; overflow:hidden;}
+.info_cont .infobox { height:70px; padding-top:10px;}
+.APP_info { width:70px; height:70px; float:left;}
+.info { width:154px; height:70px; float:left; margin-left:7px;}
+.info .infoname { height:18px; font-size:14px;}
+.info .cash { color:#ff5959;}
+.info .cash_free { color:#61d91f;}
+.info .time { height:18px; line-height:18px;}
+.introduce { line-height:20px; padding-top:8px; padding-bottom:20px;}
+
+.hot_game { height:150px; border-bottom:1px #dcdcdc dashed; padding-top:10px;}
+.hot_game .hotimg { width:232px; height:120px; display:block;}
+.hot_game a { height:30px; text-align:center; line-height:30px; display:block; font-size:14px;}
+
+.hot_news { overflow:hidden; padding-top:10px; font-family:'宋体'}
+.hot_news li { line-height:25px; background:url(../../images/iphone/dd.jpg) no-repeat left 50%; padding-left:10px;}
+.hot_cont { overflow:hidden;}
+.hot_cont li { height:80px; border-bottom:1px #dcdcdc solid; padding:10px;}
+.hot_cont li .info { height:70px;}
+.hot_cont li .info h3 { height:16px; font-size:14px;}
+.hot_cont li .info h5 { line-height:20px; color:#ff8302;}
+.hot_cont li.bornull { border:0; }
+.hot_cont li img { border-radius: 13px;}
+
+/* 列表页 */
+.listA { width:918px; height:210px; border:1px #dcdcdc solid; padding:12px 40px 0 20px; background:#fff;}
+.listA li { line-height:24px; padding-bottom:10px;}
+.listA li h2 { float:left; width:86px; height:24px; font-size:14px; color:#b7b7b7;}
+.listA li a {padding:6px; margin-right:6px;}
+.listA li a.On,.listA li a:hover { height:24px; background:#ffa00a; color:#fff;}
+.tab { width:978px; height:39px; border:1px #dcdcdc solid; margin-top:20px; background:#f6f6f6;}
+.tab li { width:120px; font-size:16px; line-height:39px; text-align:center; float:left; color:#404040; font-weight:bold; cursor:pointer;}
+.tab li.current0 { width:120px; height:39px; float:left; background:#fff; border-right:1px #dcdcdc solid; border-left:1px #dcdcdc solid;}
+.tab li.current1 { width:120px; height:39px; float:left; background:#fff; border-right:1px #dcdcdc solid; border-left:1px #dcdcdc solid;}
+.tab li.current2 { width:120px; height:39px; float:left; background:#fff; border-right:1px #dcdcdc solid; border-left:1px #dcdcdc solid;}
+.tab li.current3 { width:120px; height:39px; float:left; background:#fff; border-right:1px #dcdcdc solid; border-left:1px #dcdcdc solid;}
+
+.listB { width:980px; overflow:hidden; margin-top:20px;}
+.APP_list { width:182px; height:302px; border:1px #dcdcdc solid; margin:0 15px 20px 0; float:left; background:#fbfbfb; overflow: hidden;}
+.game_name { height:38px; border-bottom:1px #dcdcdc solid; padding:10px; background:#ffffff;}
+.game_name p { height:25px;font-size:14px; font-weight:bold; overflow:hidden; white-space: nowrap;}
+.game_name h5 { float:left; }
+.game_name h6 { float:right; color:#3475b8;}
+.game_name .ff { float:right; color:#ff5959;}
+.game_img { width:144px; height:175px; margin:11px 19px 0 19px; border-bottom:1px #dcdcdc solid;}
+.boximg { width:144px; height:144px; position:relative; left:0; top:0;}
+.boximg img { border-radius:25px;}
+
+/* 星星 */
+.star_num{ width:110px; height:16px; float:left; padding:5px 0 0 33px;}
+.star_num1{ width:154px; float:left; padding-top:5px;}
+.star{ width:76px; height:12px; float:left; overflow:hidden; background:url(../../images/iphone/starbg.png) no-repeat; display:block;}
+.star0{ background-position:0 -60px;}
+.star1{ background-position:0 -48px;}
+.star2{ background-position:0 -36px;}
+.star3{ background-position:0 -24px;}
+.star4{ background-position:0 -12px;}
+.star5{ background-position:0 0;}
+.game_txt { padding:5px 15px; color:#505050;}
+.nullm { margin-right:0;}
+.ico_lm1 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -76px 0; position:absolute; top:-5px; left:-5px;}
+.ico_lm2 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat 0 -76px; position:absolute; top:-5px; left:-5px;}
+.ico_lm3 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -76px -76px; position:absolute; top:-5px; left:-5px;}
+.ico_lm4 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -152px -76px; position:absolute; top:-5px; left:-5px;}
+.ico_lm5 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat; position:absolute; top:-5px; left:-5px;}
+.ico_lm6 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -152px 0; position:absolute; top:-5px; left:-5px;}
+
+
+/* 咨询列表页 */
+.entry { width:980px; height:28px; padding-top:13px;}
+.entry .cur_pos { color:#b7b7b7; }
+.bor { width:980px; height:2px; background:url(../../images/iphone/ico00.jpg) repeat-x;}
+.column706 { width:706px; float:left;}
+.column254 { width:254px; float:left; margin-left:20px; display:inline;}
+.wzlist { width:650px; border:1px #dcdcdc solid; padding:28px 30px 20px 24px; margin-bottom:20px; background:#fff;}
+.wzimg { width:146px; height:146px; float:left; border-radius:20px; margin-right:18px; display:inline;}
+.wzcont { }
+.wzcont h1 { font-size:24px; line-height:36px;}
+.wzcont h6 { font-size:12px; line-height:12px; padding-top:10px;}
+.writing { line-height:20px; padding-top:30px; font-size:14px; font-family:'宋体'; overflow:hidden;}
+.ydqw { display:block; float:right; font-size:14px; margin-top:23px;}
+/*page*/
+.page{clear:both;width:100%;height:30px;padding:16px 0 12px;overflow:hidden;}
+.page .inn{clear:both;text-align:center;}
+.page a.pagenum, .page a.on, .page a.end, .page span.end {border-left:0; }
+.page a,.page a.on,.page span{display:inline-block;text-align:center;text-decoration:none;font-family:"宋体";color:#505050;height:28px;line-height:28px;_line-height:28px;border:1px solid #e2e2e2;background:#fff;overflow:hidden;width: 30px; text-align:center;}
+.page a:hover {text-decoration:underline;}
+.page a.on,.page a.on:hover {font-weight:normal;text-decoration:none;border:1px solid #a0c9e1;background:#ffb345;color:#fff;font-weight:bold;}
+.page .firstgray,.page .endgray{line-height:28px;*line-height:28px;_line-height:28px;width:auto; padding:0 10px;}
+.page span{color:#333;}
+.page .first,.page .end{background:#fff;}
+.page .first{ text-align:center;}
+.page .end{text-align:center;background-position:50px -22px;}
+.page span.first{background-position:7px -52px;}
+.page span.end{background-position:50px -82px;}
+body .page span.first , body .page span.end , body .page a.end , body .page a.first , body .a1{
+  font-family: "黑体";
+  font-size: 16px;
+  font-weight: bold;
+}
+/* 热点资讯 */
+.rdzx { width:252px; overflow:hidden; border:1px #dcdcdc solid; margin-bottom:20px; background:#fff;}
+.rdzx_tit { height:40px; line-height:40px; font-size:16px; border-bottom:1px #dcdcdc solid; padding:0 10px; background:#f6f6f6; font-weight:bold;}
+.more { float:right; display:block; }
+.rdzx_con { padding:0 10px 10px; font-size:14px;}
+.rdzx_con li { line-height:20px; background:url(../../images/iphone/dd.jpg) no-repeat left top 15px; padding: 5px 0 5px 10px; border-bottom:1px #dcdcdc dashed; padding-top:5px; overflow:hidden;}
+.rdzx_con li.bor00  { border-bottom:0 none;}
+.jcgl { width:252px; overflow:hidden; border:1px #dcdcdc solid; margin-bottom:20px; background:#fff;}
+.jdpc { width:252px; overflow:hidden; border:1px #dcdcdc solid; margin-bottom:20px; background:#fff;}
+.jdpc_con { width:232px; padding:10px; overflow:hidden;}
+.pcimg { width:232px; height:120px; float:left; position:relative; top:0; left:0; margin-bottom:16px;}
+.bgimg { width:212px; height:34px; position:absolute; top:87px; left:0; background:#000; opacity:0.5; filter:alpha(opacity=60); -moz-opacity:0.5; z-index:2; line-height:34px; padding:0 10px; color:#fff; text-align:center; font-size:14px;}
+
+/*分享*/
+.share_til,.share_list li a.sina, .share_list li a.tx, .share_list li a.kj, .share_list li a.baidu, .share_list li a.qq,.close_btn,.open_btn{background:url(../../images/iphone/ico1.png) no-repeat;}
+.share_box { height:30px; overflow:hidden; }
+.share_til { width:49px; height:30px; padding-right:5px; float:left; background-position:-163px 0; text-align:center; line-height:30px; }
+.share_list { float:left; }
+.share_list li { width:30px; height:28px; border:1px #dcdcdc solid; float:left; border-left:none;}
+.share_list li a { width:30px; height:28px; display:block; }
+.share_list li a.sina { background-position:0 -101px;}
+.share_list li a.tx { background-position:-32px -101px;}
+.share_list li a.kj { background-position:-63px -101px;}
+.share_list li a.baidu { background-position:-94px -101px;}
+.share_list li a.qq { background-position:-125px -101px;}
+.close_btn,.open_btn { width:29px; height:28px; border:1px #dcdcdc solid; float:left; border-left:none; cursor:pointer; }
+.close_btn {background-position:-45px -129px; }
+.open_btn { background-position:-70px -129px; }
+
+/*评分*/
+.grade_box { overflow:hidden; }
+.grade_box li { width:16px; height:18px; margin:3px 1px; float:left; cursor:pointer; }
+.grade_box li a { width:12px; height:12px; margin:3px; background:url(../../images/iphone/stars.png) no-repeat -12px 0px; float:left; }
+.grade_box li.active a { background:url(../../images/iphone/stars.png) no-repeat 0px 0px; }
+#scoreBox { height:24px; line-height:24px; text-align:center; }
+
+/* footer */
+.footer { width:100%; overflow:hidden; background:#fafafa; padding-top:10px; padding-bottom:20px; text-align:center;}
+.link  { padding:10px 0;}
+.link a { padding:0 10px;}
+.copyright { border-top:1px #d9d9d9 solid; padding-top:10px; line-height:25px;}
+
+
+
+/* 导航部分 date:06/18/2013 by WangDawei */
+.navbox{
+	width:980px;
+	margin:10px auto;
+}
+.logo{
+	float:left;
+	height:50px;
+	width:auto;
+}
+.nav{
+	float:left;
+	display:block;
+	margin:0 30px 0 65px;
+}
+.nav li , .nav a{
+	display:block;
+	float:left;
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+	width:80px;
+	text-align:center;
+	font-weight:bold;
+	margin:0 5px;
+	color:#505050;
+	text-decoration:none;
+}
+.nav a.On, .nav a:hover {
+  background:#FFA00A;
+  color: #FFFFFF;
+}
+#serachGames{
+	border:1px solid #ffc800;
+	width:240px;
+	height:30px;
+	text-indent:12px;
+	float:left;
+}
+.search{margin-top:10px;float:left;}
+.serachGames_but{
+	background:url("http://test.mofang.com/www/statics/images/search_icon.png") no-repeat;
+	border:none;
+	width:32px;
+	height:32px;
+	float:left;
+	cursor:pointer;
+}
+/* 导航部分结束 */

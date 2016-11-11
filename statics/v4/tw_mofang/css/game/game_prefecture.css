@@ -1,0 +1,64 @@
+.game-pre-li a img{
+	width:290px;
+	height:163px;
+	display: block;
+}
+.game-pre-li{
+	position: relative;
+}
+.game-pre-txt{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 138px;
+	width: 60px;
+	padding: 15px 14px 10px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 88px 163px;
+	background-image: url(/statics/v4/tw_mofang/img/prev_bg.png);
+}
+.game-pre-txt h3{
+	color:#fff;
+	font-size: 14px;
+	margin-bottom: 2px;
+}
+.game-pre-txt h3 a{
+	font-size: 14px;
+	color: #fff;
+}
+.game-pre-txt p{
+	color:#fff;
+	margin-bottom: 3px;
+	line-height: 18px;
+	max-height: 90px;
+	overflow: hidden;
+}
+.game-pre-txt .enter-pre{
+	width:60px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color:#fff;
+	background-color: #EC981E;
+	border-radius: 3px;
+	display: block;
+	margin:auto;
+}
+.game-pre-txt .enter-pre:hover{
+	text-decoration: none;
+}
+.game-prefecture{
+	padding: 0 9px;
+	background-color: #fff;
+	border: 1px solid #D9D9D9;
+}
+.game-pre-li .imgarea{
+	width:290px;
+	height:163px;
+	display: block;
+	position: relative;
+}
+.game-prefecture-con{
+	padding-bottom: 10px;
+}

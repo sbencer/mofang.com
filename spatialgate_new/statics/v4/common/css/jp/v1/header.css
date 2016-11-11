@@ -1,0 +1,210 @@
+/** header **/
+.w1000{
+	width: 980px;
+	padding: 0 9px;
+	margin:auto;
+	border: 1px solid #D9D9D9;
+}
+.hw-mf-logo img{
+	width: 147px;
+	height: 48px;
+	display: block;
+}
+.hw-header{
+	height:100px;
+	background-color: #fff;
+	border-bottom: 1px solid #BFBEBE;
+}
+.hw-mf-logo{
+	padding-top: 23px;
+	margin-right: 45px;
+}
+.nav-lanmu{
+	padding-top: 21px;
+	font-size: 0;
+}
+.nav-lanmu a{
+	/*letter-spacing:-6px;*/
+	display: inline-block;
+	_display:inline;
+	margin: 0 20px 0 21px;
+	color:#212121;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+}
+.nav-lanmu a img{
+	display: block;
+	width: 36px;
+	height: 36px;
+	margin: 0 auto 5px;
+}
+.nav-lanmu a:hover{
+	text-decoration: none;
+	color:#f3981e;
+}
+.login-comm{
+	width:24px;
+	height: 24px;
+	display: inline-block;
+	_display:inline;
+	margin-right:8px;
+}
+.hw-login-no a{
+	margin-left: 4px;
+	font-size: 14px;
+	color: #333333;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+.login-comm img{
+	display: block;
+	width:24px;
+	height:24px;
+}
+.third-login-wrap{
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+.header-right{
+	padding-top: 19px;
+}
+.header-wrap{
+	border:0!important;
+	padding:0 10px!important;
+}
+.search-wrap{
+	font-size: 0;
+}
+.search-wrap input[type=text]{
+	height: 28px;
+	line-height: 28px;
+	padding:5px 0 5px 8px;
+	width:210px;
+	border: 1px solid #D8D8D8;
+	font-size: 14px;
+	color: #999;
+	vertical-align: middle;
+	border-right: 0;
+}
+.hw-login-had a#logined{
+	max-width: 41px;
+	overflow: hidden;
+}
+.hw-login-had a{
+	display: inline-block;
+	_display:inline;
+	margin:0 5px;
+	height:30px;
+	line-height: 28px;
+	vertical-align: middle;
+}
+.logined{
+	color:#f3981e;
+	font-size: 14px;
+}
+.logined img{
+	display: block;
+	float:left;
+	width:24px;
+	height:24px;
+	margin-right: 8px;
+	border-radius: 50%;
+}
+.logout{
+	color:#666;
+	font-size: 14px;
+}
+.search-wrap form{
+	font-size: 0;
+}
+.search-wrap input[type=submit]{
+	background: url(/statics/v4/common/img/hw/v1/search.png) center no-repeat;
+	font-size: 0;
+	width: 40px;
+	height: 40px;
+	background-size: cover;
+	border: 0;
+	cursor: hand;
+	cursor: pointer;
+	vertical-align: middle;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+.mf-global span{
+	color:#666;
+	font-size: 14px;
+}
+.mf-list{
+	background-color: #F4F0F0;
+	height: 30px;
+}
+.mf-list a{
+	display: block;
+	width:100px;
+	background-color: #F4F4F4;
+	line-height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: 20px;
+}
+.mf-list a.mf-tw{
+	background-repeat: no-repeat;
+	background-size: 9px 8px;
+	background-position: 80px 11px;
+	background-image: url(/statics/v4/common/img/hw/v1/jiao_d.png);
+}
+.hw-login-user{
+	line-height: 30px;
+}
+.mf-list-con{
+	display: none;
+}
+.mf-list-hover a.mf-tw{
+	background-image: url(/statics/v4/common/img/hw/v1/jiao_u.png);
+}
+/*.mf-list a.mf-tw{
+	background-image: url(../../../img/hw/v1/taiwan.png);
+}
+.mf-list a.mf-zh{
+	background-image: url(../../../img/hw/v1/china.png);
+}
+.mf-list a.mf-jp{
+	background-image: url(../../../img/hw/v1/japan.png);
+}
+.mf-list a.mf-usa{
+	background-image: url(../../../img/hw/v1/usa.png);
+}*/
+.mf-list a:hover{
+	background-color: #E1E1E1;
+}
+.mf-list{
+	float:left;
+
+}
+.mf-global{
+	line-height: 30px;
+	width:170px;
+	position: relative;
+}

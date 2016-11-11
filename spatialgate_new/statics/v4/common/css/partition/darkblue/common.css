@@ -1,0 +1,167 @@
+/** Header **/
+.header {
+  height: 35px;
+  background: #333;
+  line-height: 35px;
+}
+.header,
+.header a {
+  color: #ccc;
+}
+.header-slogo a{ font-size:14px; color:#ccc; font-weight:normal;}
+.header a:hover{ text-decoration: none;}
+.header-info {
+  font-size: 14px;
+  float: left;
+}
+.header-login {
+  float: right;
+}
+.header-login .icon,
+.text-list table a,
+.text-list table .nodown,
+.newgame-test table a,
+.newgame-test table .nodown,
+.top-ft-search-btn {
+	background:url(http://sts0.mofang.com/statics/images/mofang/partition/darkblue/down.png) no-repeat;
+}
+.header-login .icon {
+    margin-right:18px;
+}
+.header-login-user {
+    margin-right: 10px;
+}
+.header-login-nav {
+  position: relative;
+}
+.header-slogo{ float:left; display:inline; height: 35px; overflow: hidden; margin:0 30px 0 0;}
+.header-slogo a{ display:inline-block; height:35px; font-size: 14px; padding-left:28px; background:url(http://sts0.mofang.com/statics/images/mofang/partition/darkblue/mf_top_logo.png) no-repeat left center;}
+.header-sitNav{ overflow:hidden; float:left; display:inline; height: 35px;}
+.header-sitNav li{ float:left; display:inline;}
+.header-sitNav li a{ font-size: 14px; display: inline-block;}
+.header-sitNav li b{ display: inline-block; margin: 0 5px; color: #494949;}
+/** Header End **/
+@charset "utf-8";
+/* 
+ * @description:topic themes
+ * @author:mofang fe
+ * @version:1.0.0
+ * @update:2013-10-18
+*/
+/* CSS Reset */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body,button,input,select,textarea{ font:12px/1.5 "Microsoft Yahei","Hiragino Sans GB",Helvetica,Arial,sans-serif;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,cite,dfn,em,var{font-style:normal;}
+ol,ol li, ul,ul li {list-style: none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select,button {font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select ,button{*font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend {color:#000;}
+:focus {outline: 0;}
+code, kbd, samp, tt{font-family:"Courier New",monospace;}
+
+/* CSS clearfix */
+.clearfix:before, .clearfix:after {content: '.';display: block;overflow: hidden;visibility: hidden;font-size: 0;line-height: 0;width: 0;height: 0}
+.clearfix:after {clear: both}
+.clearfix {zoom: 1}
+
+/* layout t:topic */
+body{ color:#CCC; background-color:#101416;}
+a{ color:#CCC; text-decoration:none;}
+a:hover{ color:#F1CC76; text-decoration:underline;}
+.t-wrap{  width:980px; margin: 0 auto;}
+
+.t-container{ width: 100%; float: left; display: inline;}
+.t-main{ margin-left: 200px; overflow: hidden; position: relative;}
+.t-banner{ height: 300px; width: 980px; overflow: hidden;}
+.w980{ width:980px;}
+.mb10{ margin-bottom:10px;}
+.mb20{ margin-bottom:20px;}
+.disno{ display:none;}
+.fl { float:left; display: inline;}
+.fr { float:right; display: inline;}
+.w700{ width: 700px;}
+.w280{ width: 280px;}
+.mbg1{ background: #262B39;}
+.mbg2{ background: #181C24;}
+.mbg3{ background: #20242F;}
+
+/* top menu */
+.header-login .mf-icon{ background: url("http://sts0.mofang.com/statics/images/mofang/partition/darkblue/mf_product_logo.png") no-repeat left center; padding-left: 25px;}
+.header-login-nav{ height: 35px; display: inline-block; z-index: 99; margin-right: 20px;}
+.header-login-nav a.map-site{ display: inline-block; height: 35px; line-height: 35px; padding: 0 15px 0 10px;}
+.header-login-nav a.map-site:hover{ background: #292A2B; color: #FFF!important;}
+.ui-tring{ left: 62px; border-width: 4px; top: 16px;}
+.map-box{ position:absolute;  top:35px; right:0; display:none; z-index:9999; padding-top: 2px;}
+.map-box-con{ background:#333; width:436px; overflow: hidden;border:1px solid #292A2B;border-left: none; }
+.map-box-con dl{ float:left; display:inline; width:108px; padding: 0 0 10px 0; overflow:hidden; border-left: 1px #292A2B solid;}
+.map-box-con dt{ display:block; border-bottom: 1px #292A2B solid; padding-left: 20px;}
+.map-box-con dt a{ color:#FFF; font-size:14px;}
+.map-box-con dt a:hover{ color: #FF7E00!important;}
+.map-box-con dd{ display:block; padding-left: 20px;}
+.map-box-con dd a{ font-size:12px; display:block; line-height: 24px;}
+.map-box-con dd a.m-more{ color:#999; text-decoration: underline;}
+.on-map .map-box{ display:block;}
+.on-map .ui-tring{border-color:#292A2B #292A2B #FFF; top: 12px;}
+.ui-tring {border-color: #CCCCCC #333333 #333333;border-style: solid dashed;border-width: 5px; display: inline-block;line-height: 0;overflow: hidden;position: absolute;}
+
+
+/* footer */
+.t-fooher{ color:#cccccc; width:100%;  margin-top: 20px; position: relative; z-index: 55;}
+.t-ft-inner{ padding:10px 0 70px; width: 1000px; margin: 0 auto;}
+.t-ft-inner a{ color:#2d3137;}
+.ft-logo{ height:62px; width:174px; overflow:hidden; margin:0 0 0 210px; border-right:1px solid #2D3137; padding-right:20px;float:left; display:inline;}
+.ft-logo a{ background:url("http://sts0.mofang.com/statics/images/mofang/partition/darkblue/logo.png") no-repeat; height:62px; width:174px; display:block; text-indent:-9999px;}
+.ft-nav{ float:left; display:inline; width:480px;font-size:14px; padding-top:10px; line-height:24px; overflow:hidden;}
+.ft-nav a{ display:inline-block; margin:0 10px;}
+.ft-nav p{ text-align:center; color:#2d3137;}
+
+/* links */
+.t-links,.t-links a{ color:#999; font-size:14px; font-weight:bold; line-height:24px;}
+.t-links{  width: 1000px; margin: 0 auto; text-align: center; line-height:40px; background:#2C3542;}
+.t-links a,.t-links span{ display:inline-block;}
+.t-links a{ padding-right:8px; margin-left:5px; background:url("http://sts0.mofang.com/statics/images/mofang/partition/darkblue/line_12.png") no-repeat right center;}
+.t-links span{ margin-left:20px;}
+.header-slogo {
+    display: inline;
+    float: left;
+    height: 35px;
+    margin: 0 30px 0 0;
+    overflow: hidden;
+}
+.header-index-slogo{
+	display: inline;
+    float: left;
+    height: 35px;
+    margin: 0 30px 0 0;
+    overflow: hidden;
+}
+.header-index-slogo a{ color:#ccc; font-weight:normal; font-size:14px;}
+.on-map .map-box{ display:block;}
+.header-login .icon-weibo {
+    background-position: 0 -222px;
+}
+.header-login .icon-weixin {
+    background-position: 0 -242px;
+}
+.header-login .mf-icon {
+    background: url("http://sts0.mofang.com/statics/images/mofang/partition/darkblue/mf_product_logo.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 25px;
+}
+.icon-weixin, .icon-weibo {
+    padding-left: 25px;
+}
+.container {
+    margin: 0 auto;
+    width: 980px;
+}

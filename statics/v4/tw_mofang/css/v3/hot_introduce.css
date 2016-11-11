@@ -1,0 +1,13 @@
+.hot-introduce .h3_title{margin-left:9px}
+.con-hd{border-top:3px solid #cdcdcd;background-color:#d9d9d9}
+.con-hd ul,.con-hd form{float:left;}
+.con-hd form{margin:9px 7px 0 9px}
+.con-hd ul li{float:left;width:143px;height:35px;line-height:35px;text-align:center;border:1px solid #d9d9d9;background-color:#e8e8e8;color:#000;cursor:pointer;font-size:18px;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;}
+.con-hd ul li.curr{border:none;background-color:#fff}
+.hot-introduce form input[type=text]{width:8.25em}
+.hot-introduce form input[type=submit]{width:16px;height:17px;border:0;font-size:0;background:url(/statics/v4/tw_mofang/img/v3/intro_search.png) center no-repeat;cursor:pointer;vertical-align:middle;}
+.con-cont{margin:20px 9px 7px}
+.con-cont .cont a{float:left;margin:0 10px 13px 0}
+.con-cont .cont a:nth-child(3),.con-cont .cont a:nth-child(6){margin-right:0}
+.con-cont .cont a img{display:block;width:320px;height:171px;overflow:hidden}
+.con-cont .cont a p{width:320px;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}

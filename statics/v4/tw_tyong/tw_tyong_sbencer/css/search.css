@@ -1,0 +1,8 @@
+.search-con table{
+	min-height: 0px;
+}
+
+.search-con th, td {
+	border: none;
+	padding: 0px;
+}

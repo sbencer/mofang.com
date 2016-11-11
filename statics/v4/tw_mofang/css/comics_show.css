@@ -1,0 +1,107 @@
+.acg-content{
+	padding-top:30px;
+}
+.comics_show{
+	padding:30px 36px 30px 46px;
+	position: relative;
+}
+.comics_list_box {
+	width: 898px;
+	height:578px;
+	overflow: hidden;
+	position: relative;
+}
+#anicomic .comics_list_box{
+	height: 248px;
+}
+.comics_list{
+	overflow: hidden;
+	position: absolute;
+}
+.comics_list li{
+	width: 898px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.comics_list dl{
+	width: 169px;
+	float: left;
+	margin:10px 10px 0 0;
+	_display:inline;
+	overflow: hidden;
+}
+.comics_list dl dt{
+	height: 220px;
+	background-color: #b9b9b9;
+	overflow: hidden;
+}
+#anicomic .comics_list dl dt{
+	height: 169px;
+}
+.comics_list dl dt img{
+	width: 100%; 
+	height: 100%;
+}
+.comics_list dl dd{
+	height: 45px;
+	padding:7px 0;
+	text-align: center;
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.comics_list dl dd a{
+	display: block;
+	font-size: 16px;
+	line-height: 22px;
+	font-family: "微軟正黑體";
+}
+.comics_list dl dd a:hover{
+	text-decoration: none;
+}
+.comics_list dl dd .icon_like{
+	display: inline-block;
+	line-height: 18px;
+	margin-top: 5px;
+	padding-left: 20px;
+	background: url(/statics/v4/tw_acg/img/icon_like.png) left 2px no-repeat;
+	cursor: pointer;
+}
+.comics_list dl dd .icon_like.already{
+	background: url(/statics/v4/tw_acg/img/icon_like.png) left -24px no-repeat;
+}
+.btn_prev,.btn_next{
+	width: 36px;
+	height: 36px;
+	position: absolute;
+	top:50%; 
+	margin-top: 10px;
+	background: url(/statics/v4/tw_acg/img/icon_arrow.png) no-repeat;
+	transition:none;
+	-webkit-transition:none;
+	-moz-transition:none;
+	-ms-transition:none;
+	overflow: hidden;
+}
+.btn_prev{
+	left: 0;
+	background-position: 0 0;
+}
+.btn_prev:hover{
+	left: 0;
+	background-position: 0 -72px;
+}
+.btn_next{
+	right: 0;
+	background-position: 0 -36px;
+}
+.btn_next:hover{
+	right: 0;
+	background-position: 0 -108px;
+}
+
+
+
+
+
+

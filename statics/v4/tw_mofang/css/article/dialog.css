@@ -1,0 +1,184 @@
+.article-dialog-wrap{
+	width:890px;
+	overflow: hidden;
+    background:#fff;
+}
+.dialog-wrap{
+    position:absolute;
+    z-index:999;
+}
+.mask{
+    background:#000;
+    opacity:0.6;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9;
+    width:100%;
+    height:100%;
+}
+.article-dialog-hd h3{
+	width:100%;
+	background-color: #EEEEEE;
+	color:#333;
+	font-size: 24px;
+	line-height: 60px;
+	text-align: center;
+}
+.article-dialog-hd span{
+	display: block;
+	width:32px;
+	height:32px;
+	margin:15px 20px 0 0;
+	background-position: left top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(/statics/v4/tw_mofang/img/dia_close.jpg);
+}
+.article-dialog-bd{
+	padding:10px 5px 20px;
+}
+.article-dialog-left{
+	width:546px;
+	margin:0 5px;
+	float: left;
+}
+.dialog-tuijian{
+	width:100%;
+	margin-bottom: 10px;
+	position: relative;
+}
+.dialog-tuijian .imgarea, .dialog-tuijian a img{
+	width: 546px;
+	display: block;
+	height: 310px;
+}
+.dialog-tuijian a .tuijian-tg{
+	position: absolute;
+	left:0;
+	top:0;
+	width:100px;
+	height:100px;
+	background: url(/statics/v4/tw_mofang/img/tuijian.png);
+}
+.d-look-more{
+	color:#fff;
+	font-size: 14px;
+	width:60px;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	position: absolute;
+	right:0;
+	top:0;
+	background-color:#CA3620;
+}
+.d-look-more:hover{
+    color:#fff;
+}
+.d-look-more b{
+    font-family:"宋体";
+}
+.dialog-tuijian a p{
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	left:0;
+	bottom:0;
+	width: 541px;
+	line-height: 40px;
+	line-height: 40px;
+	padding-left: 5px;
+	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.95)));
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+.dialog-hot{
+	margin:0 -5px;	
+}
+.dialog-hot-wrap{
+	width:550px;
+	overflow: hidden;
+}
+.dialog-hot a{
+	float:left;
+	width:268px;
+	height: 148px;
+	margin: 0 5px;
+	border: 1px solid #D9D9D9;
+	position: relative;	
+}
+.dialog-hot a img{
+	width:268px;
+	height: 148px;
+}
+.dialog-hot a p{
+	color:#fff;
+	line-height: 30px;
+	height: 30px;
+	position: absolute;
+	left:0;
+	width:258px;
+	padding-left: 10px;
+	bottom: 0;
+	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.95)));
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+.dialog-hot a .hot-tg{
+	position: absolute;
+	left:0;
+	top:0;
+	width:45px;
+	height: 45px;
+	display: block;
+	background: url(/statics/v4/tw_mofang/img/hot_tag.png) left center no-repeat;
+}
+.dialog-right-img1{
+	width:308px;
+	border: 1px solid #D9D9D9;
+	height:156px;
+}
+.dialog-right-img1 img{
+    width:308px;
+    height:156px;
+    display:block;
+}
+.dialog-right-img2{
+	width:308px;
+	height:88px;
+	border: 1px solid #D9D9D9;
+}
+.dialog-right-img2 img{
+	width:308px;
+	height:88px;
+}
+.fb-wraps{
+    border:1px solid #D9D9D9;
+}
+.fb-wraps iframe{
+    height:58px!important;
+    padding:2px 0 8px;
+}
+.fb-wraps h3{
+    height:28px;
+    line-height:28px;
+    color:#333;
+    font-size:14px;
+    padding-left:10px;
+    background:#eee;
+}
+.article-dialog-right{
+	width:310px;
+	float: right;
+}

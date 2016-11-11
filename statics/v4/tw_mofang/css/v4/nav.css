@@ -1,0 +1,42 @@
+.header-title{
+	height:50px;
+	background:#30a4dc;
+	z-index: 998;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #507d92;
+	width: 100%;
+}
+.title-wrap{
+	width: 1200px;
+	margin:auto;
+}
+.title-diff li{
+	float:left;
+	position:relative;
+	width:150px;
+	text-align: center;
+	font-weight:bold;
+	font-size:20px;
+}
+.title-diff .title-active a,.title-diff li:hover a{
+	position: relative;
+	background-color: #4fb2e2;
+}
+.title-diff .title-active a:after,.title-diff li:hover a:after{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+	width: 100%;
+	height: 5px;
+	background-color: #3c92bb;
+}
+
+.title-diff li a{
+	display: block;
+	color:#fff;
+}
+.title-diff li a.one{
+	display: block;
+	line-height: 50px;
+}

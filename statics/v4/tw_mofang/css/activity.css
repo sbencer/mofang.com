@@ -1,0 +1,213 @@
+.activity_list{
+	border:1px solid #66ccff;
+	padding:5px;
+	position: relative;
+}
+.activity_list h2{
+	font-size: 16px;
+	color: #00baff;
+	padding-bottom: 3px;
+}
+.activity_list ul{
+	height: 115px;
+	overflow: auto;
+}
+.activity_list ul li{
+	font-size: 14px;
+	line-height: 24px;
+}
+.activity_list ul li a{
+	padding-left: 14px; 
+	display: block;
+	background: url(/statics/v4/tw_acg/img/dotted.png) left center no-repeat;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+.icon_calendar{
+	width: 25px;
+	height: 25px;
+	background:url(/statics/v4/tw_acg/img/icon_calendar.png) no-repeat;
+	position: absolute;
+	right: 5px;
+	top: 3px;
+	cursor: pointer;
+}
+.mounth_tab{
+	height: 25px;
+	line-height: 24px;
+	text-align: center;
+	background-color: #6dc7f4;
+	color: #fff;
+	margin:0 -5px;
+	position: relative;
+}
+.mounth_tab p{
+	display: inline-block;
+	font-size:16px;
+	font-weight: bold;
+}
+.mounth_tab p span{
+	height: 25px;
+	float: left;
+	margin:0 10px;
+	cursor: pointer;
+}
+.mounth_tab p span.this_mounth{
+	background-color: #fd73a7;
+	padding: 0 3px;
+}
+.mounth_tab .icon_act_list{
+	width: 22px;
+	height: 17px;
+	background:url(/statics/v4/tw_acg/img/icon_act_list.png) no-repeat;
+	cursor: pointer;
+	position: absolute;
+	right: 4px;
+	top: 4px;
+}
+.prev_mounth{
+	padding-left: 15px;
+	background: url(/statics/v4/tw_acg/img/icon_prev.png) left center no-repeat; 
+}
+.next_mounth{
+	padding-right: 15px;
+	background: url(/statics/v4/tw_acg/img/icon_next.png) right center no-repeat; 
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0; 
+	margin-bottom: 0;
+}
+#calendar{
+	background-color: #ebf8ff;
+	padding: 0 5px;
+	display: none;
+}
+#calendar td, #calendar th {
+	width: 30px;
+	padding-right: 2px;
+	text-align: center;
+	vertical-align: middle;
+	color: #666;
+	font-size: 12px;
+	font-weight: normal; 
+	border:none;
+	padding:0;
+}
+#calendar th {
+	border-bottom: 1px solid #6dc7f4;
+	height: 16px; 
+	padding: 2px 0;
+}
+
+#calendar td {
+	cursor: pointer; 
+}
+
+#calendar td span,#calendar td a {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	color: #666;
+	overflow: hidden; 
+}
+#calendar td a:hover{
+	color: #666;
+	text-decoration: none;
+}
+#calendar td.today span,#calendar td.today a {
+	background-color: #81c3e4;
+	color: #fff;
+	border-radius: 100%; 
+}
+
+.other-month {
+	background: #eee; 
+}
+.remind {
+	background: url(/statics/v4/tw_acg/img/icon_remind.png) right 2px no-repeat;
+}
+.fancybox-skin{
+	background: none;
+}
+.fancybox-close{
+	display:none;
+}
+/*彈窗*/
+.activity_alert {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  display: none; 
+}
+
+.activity_title {
+  padding: 8px 0 10px;
+  text-align: center;
+  background-color: #6dc7f4;
+  color: #fff; 
+}
+
+.activity_title span {
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: Helvetica Regular,Helvetica; 
+}
+
+.activity_title span:nth-child(2) {
+  font-size: 18px;   
+  line-height: 30px; 
+}
+
+.activity_content {
+  padding: 12px 10px;
+  font-size: 16px;
+  color: #000; 
+  overflow: hidden;
+}
+
+.activity_content li {
+  clear: both;
+  line-height: 32px;
+  letter-spacing: 1px; 
+}
+
+.activity_content span {
+  color: #39bcfe;
+  float: left;
+  margin: 0 8px 2px 0; 
+}
+
+.activity_alert .close_btn {
+  width: 20px;
+  height: 20px;
+  background: url(/statics/v4/tw_acg/img/closeBg.png) no-repeat;
+  display: block;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  overflow: hidden; 
+  z-index: 9999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

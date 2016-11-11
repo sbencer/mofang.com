@@ -1,0 +1,149 @@
+.game-rank-title{
+	font-size: 14px;
+	color:#fff;
+}
+.rank-tab-tit {
+	font-size: 0;
+}
+.rank-tab-tit span{
+	width:160px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	color: #4e4e4e;
+	text-align: center;
+	background: #F2F2F2;
+	display: inline-block;
+	_display:inline;
+	cursor: hand;
+	cursor: pointer;
+}
+.game-rank-mf, .game-rank-ios, .game-rank-and{
+	width:320px;
+	float: left;
+	padding-bottom: 17px;
+}
+.rank-tab-tit span.curr{
+	height: 28px;
+}
+.game-rank-mf .rank-tab-tit span.curr{
+	border-bottom: 2px solid #EC981E;
+}
+.game-rank-ios .rank-tab-tit span.curr{
+	border-bottom: 2px solid #46AADF;
+}
+.game-rank-and .rank-tab-tit span.curr{
+	border-bottom: 2px solid #5CAD3B;
+}
+.rank-tab-con{
+	background: #FAFAFA;
+}
+.rank-game-li .rank-two{
+	background: #EC981E;
+}
+.rank-game-li .rank-three{
+	background: #43C3E8;
+}
+.rank-game-li .rank-common{
+	background: #D2D2D2;
+}
+.rank-bg-white{
+	background: #fff!important;
+}
+.ranking-num{
+	width:30px;
+	height:80px;
+	color:#fff;
+	line-height: 80px;
+	text-align: center;
+	font-size: 18px;
+	margin-right: 10px;
+	background: #F67500;
+}
+.rank-game-right a img{
+	display: block;
+	width:80px;
+	height: 80px;
+	margin-right: 18px;
+}
+.rank-game-right h3{
+	color: #333;
+	font-size: 14px;
+	padding-top: 3px;
+}
+.rank-game-right h3 a{
+	color: #333;
+	font-size: 14px;
+	overflow: hidden;
+}
+.rank-game-right h3 a:hover{
+	color: #FD9814;
+	font-size: 14px;
+	overflow: hidden;
+}
+.rank-game-right{
+	width:260px;
+}
+.game-space{
+	overflow: hidden;
+	font-size: 12px;
+	color:#999;
+	display: block;
+	margin-bottom: 9px;
+}
+.platform a{
+	display: inline-block;
+	width:70px;
+	height: 28px;
+	color:#666666;
+	font-size: 14px;
+	text-align: center;
+	line-height: 28px;
+	margin-right:10px;
+	background: #ECECEC;
+	border-radius: 3px;
+}
+.platform{
+	font-size: 0;
+	overflow: hidden;
+	margin-right: -10px;
+	width:160px;
+}
+.platform a:hover{
+	color: #fff;
+	background: #F67500;
+	text-decoration: none;
+}
+.rank-game-li{
+	padding:10px 10px;
+}
+.game-rank-mf .game-rank-title{
+	background-color: #EC981E;
+	padding-left: 46px;
+	width: 274px;
+	background-image: url(../../img/log_sm.png) ;
+	background-position: 11px center;
+	background-repeat:no-repeat;
+}
+.game-rank-ios .game-rank-title{
+	background-color: #46AADF;
+	padding-left: 40px;
+	width: 280px;
+	background-image: url(../../img/ios.png) ;
+	background-position:10px center ;
+	background-repeat:no-repeat;
+}
+.game-rank-and .game-rank-title{
+	background-color: #5CAD3B;
+	padding-left: 36px;
+	background-image: url(../../img/and.png) ;
+	background-position:10px center ;
+	background-repeat:no-repeat;
+	width: 284px;
+}
+.game-rank-title{
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}

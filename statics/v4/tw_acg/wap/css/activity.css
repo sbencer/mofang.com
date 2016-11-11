@@ -1,0 +1,113 @@
+.activity_mark {
+  height: 2.69136rem;
+  line-height: 2.71605rem;
+  background-color: #efefef;
+  overflow: hidden; }
+
+.activity_mark span {
+  font-size: 1.18519rem;
+  color: #000;
+  margin-left: 0.74074rem;
+  float: left; }
+
+.activity_mark a {
+  height: 1.67901rem;
+  line-height: 1.67901rem;
+  background-color: #fb75a7;
+  border-radius: 0.24691rem;
+  padding: 0 0.44444rem;
+  font-size: 0.88889rem;
+  color: #fff;
+  float: right;
+  margin: 0.5679rem 0.74074rem 0 0; }
+
+.month_list a {
+  width: 4.41975rem;
+  height: 2.46914rem;
+  text-align: center;
+  line-height: 2.46914rem;
+  font-size: 1.08642rem;
+  float: left;
+  background-color: #fb75a7;
+  font-family: "Helvetica" !important;
+  color: #fff;
+  margin-right: 0.02469rem;
+  position: relative; }
+
+.month_list a:last-child {
+  margin-right: 0; }
+
+.month_list a.curr {
+  background-color: #cd6efe; }
+
+.month_list a span {
+  width: 100%;
+  font-size: 0.66667rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: initial;
+  text-align: center; }
+
+.activity_list {
+  font-size: 0.88889rem;
+  clear: both;
+  overflow: hidden; }
+
+.activity_list p {
+  padding: 0 0.74074rem;
+  line-height: 2.41975rem;
+  text-align: right;
+  color: #999; }
+
+.activity_list ul {
+  overflow: hidden; }
+
+.activity_list ul li {
+  padding: 0 0.74074rem;
+  line-height: 1.48148rem;
+  color: #333;
+  letter-spacing: 0.04938rem;
+  clear: both;
+  overflow: hidden; }
+
+.activity_list ul li a {
+  padding: 0.49383rem 0;
+  display: block;
+  border-top: 0.07407rem dashed #e8e8e8;
+  overflow: hidden; }
+
+.activity_list ul li span {
+  width: 17.03704rem;
+  display: block;
+  font-size: 1.11111rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.activity_list ul li i {
+  display: block;
+  color: #999;
+  text-align: right; }
+
+.activity_list ul li:hover {
+  background-color: #cd6efe; }
+
+.activity_list ul li:hover a {
+  color: #fff !important;
+  border-color: transparent; }
+
+.activity_list ul li:hover i {
+  color: #fff !important; }
+
+/*ago*/
+.activityBox.ago .activity_mark a {
+  background-color: #ffbb3c; }
+
+.activityBox.ago .month_list a.curr {
+  background-color: #ffbb3c; }
+
+.activityBox.ago .activity_list ul li:hover {
+  background-color: #ffbb3c; }
+
+/*# sourceMappingURL=activity.css.map */

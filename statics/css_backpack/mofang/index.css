@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* 
+ * Author:mofang
+ * Update: 2013-07-10 
+*/
+
+/* index */
+
+.mmPicBox{ width:620px;}
+.mmPic-tit,.bagua-tit{ margin-bottom:5px;}
+.mmPic-tit h2,.bagua-tit h2{ font-size:20px; font-weight:normal; line-height:30px; height:30px; padding-left:30px;}
+.mmPic-tit h2{ color:#C587F9; background:url(../img/sprites_mf1.png) no-repeat 0 -844px;}
+.bagua-tit h2{ color:#FF74C3; background:url(../img/sprites_mf1.png) no-repeat 0 -786px;}
+.mmPic-con{ width:620px; height:368px; position:relative;}
+.mmPic1,.mmPic2,.mmPic3{ position:absolute; top:0;}
+.mmPic4,.mmPic5,.mmPic6,.mmPic7,.mmPic8{ position:absolute;}
+.mmPic1{ width:242px; height:242px; left:0;}
+.mmPic2{ width:116px; height:242px; left:252px;}
+.mmPic3{ height:116px; width:242px; left:378px;}
+.mmPic4{ width:116px; height:116px; left:378px; top:126px;}
+.mmPic5{ width:116px; height:242px; left:504px; top:126px;}
+.mmPic6{ height:116px; width:242px; left:0; top:252px;}
+.mmPic7{ width:116px; height:116px; left:252px; top:252px;}
+.mmPic8{ height:116px; width:116px; left:378px; top:252px;}
+.mmPic-con .mmTxt{ display:block; font-size:14px; color:#FFF; text-align:center; position:absolute; bottom:10px; left:0; width:100%; z-index:99;}
+.mmPic-inner{ display:block; background:url(../img/shade_bg.png) repeat-x left bottom; position:absolute; left:0; bottom:0; width:116px; height:116px; z-index:9;}
+.mmPic1 .mmPic-inner{ height:242px; width:242px;}
+.mmPic2 .mmPic-inner{ height:242px;}
+.mmPic3 .mmPic-inner{ width:242px;}
+.mmPic5 .mmPic-inner{ height:242px;}
+.mmPic6 .mmPic-inner{ width:242px}
+.baguaBox{ width:350px;}
+.bagua-con{ background:#F9F9F9; border:1px solid #DDD; height:366px; overflow:hidden;}
+.bagua-con .liBox1{ border-top:1px dashed #CCC; margin-top:-1px; border-bottom:none; padding:15px 0;}
+.bagua-con .liBox1 .liList1{ font-size:14px; line-height:25px; height:25px;}
+
+

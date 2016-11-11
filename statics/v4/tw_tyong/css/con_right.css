@@ -1,0 +1,24 @@
+.right_cont{
+	width: 720px;
+	float: right;
+}
+
+.right_top{
+	width: 720px;
+}
+
+table{
+	width: 720px;
+	border-color: #ccc;
+	margin:0 auto;
+}
+.table th{
+	border-color: black;
+}
+.f_weight{
+	width:137px;
+    font-weight: none;
+    font-family: 繁体;
+}
+.nicescroll-cursors{border:none!important;width:8px!important;}
+.nicescroll-rails-hr{display: none!important;}

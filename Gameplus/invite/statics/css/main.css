@@ -1,0 +1,50 @@
+.back{
+  width: 100%;
+  background: url(../mobile/img/wap_bg.png) repeat-x;
+  background-size: auto 100%;
+  margin: 0 auto;
+}
+a:focus {
+     outline:none;
+     -moz-outline:none;
+}
+.m-wrap li{
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.m-fter{
+  font-size: 12px;
+  background: #000;
+  padding: 0px 0 20px;
+  color: #CCC;
+  text-align: center;
+}
+.m-fter p{
+  line-height: 27px;
+}
+.m-wrap img{
+  display: block;
+  margin: 0 auto;
+}
+.m-fter-inner{
+  background: #2F2F2F;
+  padding: 12px 0;
+  color: #CCC;
+  font-size: 12px;
+  text-align: center;
+}
+.dt_link{
+  width: 100%;
+  outline:none;
+}
+a{outline:none;}
+
+.m-warp-fot{
+  margin: 0 auto;
+  width: 100%;
+  background: #444;
+}
+
+

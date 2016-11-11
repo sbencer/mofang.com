@@ -1,0 +1,38 @@
+.mf-game-li a.mf-game-li-left{
+	border: 3px solid #E1E1E1;
+	border-radius: 50%;
+	width: 44px;
+	height: 44px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.mf-game-li{
+	padding:5px 0;
+}
+.mf-game-li a img{
+	display: block;
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+}
+.mf-game-li h4 {
+	overflow: hidden;
+	padding: 6px 0 0;
+}
+.mf-game-li h4 a{
+	color:#333;
+	font-size: 14px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.mf-game-li span{
+	color:#666;
+	display: block;
+	overflow: hidden;
+}
+.mf-game-li:hover h4 a{
+	color:#f3981e;
+}
+.mf-game-li:hover .mf-game-li-left{
+	border: 3px solid #EC981E;
+}	

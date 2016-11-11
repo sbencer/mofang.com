@@ -1,0 +1,99 @@
+{template 'member', 'header'}
+<script type="text/javascript">
+<!--
+$(function(){
+	$.formValidator.initConfig({autotip:true,formid:"myform",onerror:function(msg){}});
+	$("#subject").formValidator({empty:true,onshow:"標題，可以為空",onfocus:"請輸入標題",oncorrect:"輸入正確！",onempty:"不填替標題了嗎？"}).inputValidator({min:1,onerror:"請輸入標題"});
+	$("#con").formValidator({onshow:"請輸入內容",onfocus:"內容不能為空"}).inputValidator({min:1,max:999,onerror:"內容不能為空"});
+	$("#code").formValidator({onshow:"請輸入驗證碼",onfocus:"驗證碼不能為空"}).inputValidator({min:1,max:999,onerror:"驗證碼不能為空"}).ajaxValidator({
+	    type : "get",
+		url : "",
+		data :"m=pay&c=deposit&a=public_checkcode",
+		datatype : "html",
+		async:'false',
+		success : function(data){	
+            if(data == 1)
+			{
+                return true;
+			}
+            else
+			{
+                return false;
+			}
+		},
+		buttons: $("#dosubmit"),
+		onerror : "驗證碼錯誤",
+		onwait : "驗證中"
+	});
+})
+//-->
+</script>
+<div id="memberArea">
+{template 'member', 'left'}
+<div class="col-auto">
+<div class="col-1 ">
+<h6 class="title">與  {$infos['send_from_id']} 的短消息記錄</h6>
+<div class="content">
+<form name="myform" action="?m=message&c=index&a=reply" method="post" id="myform">
+<table width="100%" cellspacing="0" class="table_form">
+ 
+     <tr>
+       <th><div align=center><img src="{IMG_PATH}member/nophoto.gif" width="50" height="50"><br><font color=red>{$infos['send_from_id']}</font></div></th>
+       <td>{$infos['subject']} - {date('Y-m-d H:i:s',$infos['message_time'])}<br><br><b>{$infos['content']}</b></td>
+     </tr>
+     
+     {loop $reply_infos $reply_info}  
+     <tr>
+       <th><div align=center><img src="{IMG_PATH}member/nophoto.gif" width="50" height="50"></img><br>{$reply_info['send_from_id']}</div></th>
+       <td>{$reply_info['subject']} - {date('Y-m-d H:i:s',$reply_info['message_time'])}<br><br></br><b>{$reply_info['content']}</b></td>
+     </tr> 
+     {/loop}
+     
+     
+         </label></td>
+     </tr>
+   </table>
+   </form>
+   </div>
+   <span class="o1"></span><span class="o2"></span><span class="o3"></span><span class="o4"></span>
+   </div>
+<div class="bk10"></div>
+
+
+ <div class="col-1 ">
+<h5 class="title">回復此消息 </h5>
+<div class="content">
+
+<form name="myform" action="?m=message&c=index&a=reply" method="post" id="myform">
+<table width="100%" cellspacing="0" class="table_form">
+<tr>
+<th>標 題：</th>
+<td><input name="info[subject]" type="text" id="subject" size="30" value="Re: {$infos[subject]}"  class="input-text"/></td>
+</tr> 
+<tr>
+<th>內 容：</th>
+<td><textarea name="info[content]"  id="con" rows="5" cols="50"></textarea></td>
+</tr>
+<input type="hidden" name="info[replyid]" value="{$infos['messageid']}" /> 
+<input type="hidden" name="info[send_to_id]" value="{$infos['send_from_id']}" /> 
+
+<tr>
+<th>驗證碼：</th>
+<td><input name="code" type="text" id="code" size="10"  class="input-text"/> {form::checkcode('code_img','4','14',110,30)}</td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2"><label>
+<input type="submit" name="dosubmit" id="dosubmit" value="確 定" class="button"/>
+</label></td>
+</tr>
+</table>
+</form>
+
+</div>
+<span class="o1"></span><span class="o2"></span><span class="o3"></span><span class="o4"></span>
+</div>
+   
+   </div>
+</div> 
+{template 'member', 'footer'}

@@ -1,0 +1,166 @@
+body {
+  font-family: "Hiragino Sans GB"  SimHei, "Microsoft YaHei", Arial, SimSun, sans-serif;
+  background: #bfbfbf;
+  overflow-x: hidden; }
+
+.wrapper {
+  width: 26.66667rem;
+  min-width: 13.33333rem;
+  overflow: hidden;
+  margin: 0 auto; }
+
+/* toolbar */
+.toolbar {
+  height: 3.66667rem;
+  background-color: #28282a;
+  position: relative; }
+
+.logo {
+  width: 7.58333rem;
+  height: 2.5rem;
+  background-image: url(/statics/v4/common/img/wap/logo.png);
+  position: absolute;
+  left: 0.54167rem;
+  top: 0.54167rem; }
+
+.btn-search {
+  background-image: url(/statics/v4/common/img/wap/btn_search.png);
+  position: absolute;
+  right: 4.79167rem;
+  top: 0.54167rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer; }
+
+.btn-tool {
+  background-image: url(/statics/v4/common/img/wap/btn_tool.png);
+  position: absolute;
+  right: 0.625rem;
+  top: 0.54167rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer; }
+
+.btn-user-icon {
+  display: none;
+  background-image: url(http://u.mofang.com/images/user.png);
+  position: absolute;
+  right: 0.625rem;
+  top: 0.54167rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer; }
+
+/* search */
+.search {
+  position: absolute;
+  width: 26.66667rem;
+  height: 4.58333rem;
+  background-color: #dedede;
+  top: 3.66667rem;
+  z-index: 100;
+  display: none;
+  box-shadow: 0rem 0.125rem 0.125rem rgba(0, 0, 0, 0.1); }
+
+.search .input_query {
+  width: 22.08333rem;
+  height: 2.5rem;
+  border-radius: 1.66667rem;
+  border: none;
+  float: left;
+  outline: none;
+  font-size: 1rem;
+  text-indent: 1em;
+  box-shadow: inset 0rem 0.04167rem 0.04167rem rgba(0, 0, 0, 0.2); }
+
+.search .btn_submit {
+  border: none;
+  background-image: url(/statics/v4/common/img/wap/ico_search.png);
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  padding: 0;
+  margin-left: 0.33333rem;
+  cursor: pointer;
+  background-color: #dedede; }
+
+.search .search_inner {
+  width: 26.66667rem;
+  margin-top: 0.83333rem;
+  margin-left: 0.83333rem; }
+
+/* jiajia tip */
+.jiajia-download-tip {
+  background-image: url(/statics/v4/common/img/wap/bg_jiajia_download.png);
+  width: 26.66667rem;
+  height: 4.45833rem;
+  position: relative;
+  display: none; }
+
+.jiajia-download-tip a {
+  text-indent: -41.66667rem;
+  overflow: hidden;
+  display: block;
+  width: 6.54167rem;
+  height: 2.66667rem;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.83333rem; }
+
+/**
+ * copyright
+ */
+.copyright {
+  background-color: #28282a;
+  width: 26.66667rem;
+  height: 16.66667rem;
+  color: #999999; }
+
+.copyright li {
+  color: #999999;
+  font-size: 1.20833rem;
+  text-align: center;
+  padding-bottom: 0.20833rem;
+  padding-top: 0.20833rem; }
+
+.copyright ul {
+  padding-top: 1.25rem; }
+
+.copyright .copyright-logo {
+  width: 7.58333rem;
+  height: 2.5rem;
+  background-image: url(/statics/v4/common/img/wap/logo.png);
+  display: block;
+  margin: 0 auto;
+  text-indent: -41.66667rem;
+  overflow: hidden;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem; }
+
+.copyright .switches {
+  width: 18.125rem;
+  height: 3.125rem;
+  margin: 0 auto;
+  border: solid 0.08333rem #171718;
+  border-radius: 0.83333rem; }
+
+.copyright .switches span,
+.copyright .switches a {
+  width: 9rem;
+  height: 3.125rem;
+  line-height: 3.125rem;
+  display: block;
+  float: left; }
+
+.copyright .switches span {
+  background-color: #090909;
+  border-radius: 0.70833rem 0 0 0.70833rem; }
+
+.copyright .switches a {
+  color: #999999;
+  text-decoration: none; }
+
+/*# sourceMappingURL=site.css.map */

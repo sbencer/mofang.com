@@ -1,0 +1,42 @@
+h1,h2,h3,h4,h5,h6{margin:0;padding:0}dl,menu,ol,ul,dd,p{padding:0;margin:0}ol,ul{list-style:none}html,body{width:100%;line-height:1;min-height:100%;overflow-x:hidden;font:12px/1.5 "Microsoft Yahei",Helvetica,Arial,sans-serif,"\5b8b\4f53"}a{color:#333;text-decoration:none}a:hover{text-decoration:underline}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}body{background:#EDEDED;height:100%;width:100%}header,
+.header-wrap{background:#00B02C;width:100%;height:60px}
+#header{margin:0 auto;width:1000px;line-height:60px;color:#FFF}
+#header a{color:#FFF}
+#header .jj-logo{float:left;display:inline;font-size:18px;}
+#header .jj-logo a{display:inline-block;background:url(../img/jj_logo_eb96222.png) no-repeat left center;padding:0 0 0 55px}
+#header .jj-logo a:hover{text-decoration:none}
+#header .jj-nav{float:right;display:inline;overflow:hidden}
+#header .jj-nav li{float:left;display:inline;margin-left:55px;font-size:18px}
+.disno{display:none}
+.jj-topWrap{width:100%}
+.jj-topMain{width:100%}
+.jj-topContainer{width:1050px;height:748px;margin:0 auto;position:relative;z-index:1}
+
+.jj-topL{width:975px;height:748px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/banner_59dbde7.jpg) no-repeat;position:absolute;left:-90px;top:0;z-index:2}
+
+.jj-topL b{/*background:url(http://sts0.mofang.com/statics/v4/jiajia/img/ty_bg_21ee776.png) no-repeat;*/ width:364px;height:23px;position:absolute;left:190px;bottom:-23px}
+.jj-topR{width:425px;float:right;display:inline;padding-top:45px;position:relative;z-index:3;}
+.jj-name{height:170px;width:397px;overflow:hidden; margin-top:-40px;text-indent:-9999px}
+.jj-intro{width:285px;height:42px;overflow:hidden;display: block;text-indent:48px;margin:0 0 75px; margin-top: 20px;font-size: 30px;color: #fff;line-height: 40px}
+.jj-intro2{width:316px;height:68px;overflow:hidden; text-indent:20px;margin:0 0 15px;margin-top: -40px;font-size:24px;color: #fff;text-align: center;}
+span.intro2-imp{color: #ffff00;}
+.jj-intro3{width:282px;height:115px;margin:25px;overflow: hidden;font-size:36px;line-height: 111px;padding-left:97px;color: #069933;}
+.jj-intro4{width:400px;height:43px;overflow: hidden;text-indent: -9999px;margin: 0 0 15px;margin-top: 80px;}
+.jj-download{margin:0 35px 0 0;}
+.jj-download a:hover{text-decoration:none;color:#FFF}
+.jj-ma{width:144px;height:144px;border-radius:4px;float:right;border:8px solid #FFF}
+
+.jj-btn{display:block;width:140px;height:70px;padding-left:70px;border-radius:5px;margin-left:0px; background:url(../img/google.png) no-repeat;}
+.jj-btn-2{display:block;width:140px;height:70px;padding-left:70px;border-radius:5px;margin-left:0px; background:url(../img/appstore.png) no-repeat;}
+.jj-btn span{display:block;color:#FFF;font-size:14px;}
+.jj-btn span.jj-dl-txt{font-size:18px;padding-top:12px}
+
+.jj-andd-btn{background: ;margin-bottom:20px}
+.jj-ios-btn{background:;}
+
+.jj-ios-btn span{color:#23CBF9}.jj-wrap{width:100%}.jj-container{width:1000px;height:100%;margin:0 auto;position:relative}#modMain-0,#modMain-1,#modMain-2,#modMain-3,#modMain-4,#modMain-5{position:relative;height:100%;min-height:893px;z-index:300;overflow:hidden}.enterLeft{/*height:650px;width:330px;*/position:absolute;/*background:url(http://sts0.mofang.com/statics/v4/jiajia/img/lb_img_3395f71.png) no-repeat;*/top:258px;/*left:10%*/}
+.enterRight{position:absolute;top:413px;right:3%}
+
+.m1-txt{/*width:385px;height:175px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/lb_txt_b262ebf.png) no-repeat;*/overflow:hidden;/*margin-bottom:80px*/}.enterTLeft{position:absolute;top:37%;left:5%}.enterBRight{/*height:650px;width:330px;*/position:absolute;/*background:url(http://sts0.mofang.com/statics/v4/jiajia/img/gh_img_7d15855.png) no-repeat;bottom:6.5%;right:9%*/}.m2-txt{/*width:340px;height:170px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/gh_txt_531aefd.png) no-repeat;*/overflow:hidden;/*margin-bottom:80px*/}.d3-left{/*height:650px;width:330px;*/position:absolute;/*background:url(http://sts0.mofang.com/statics/v4/jiajia/img/lt_img_4b8c61e.png) no-repeat;*/bottom:6%;left:10%;-webkit-animation:fadeIn 1s .2s ease both;-moz-animation:fadeIn 1s .2s ease both}.d3-right{position:absolute;top:38%;right:-12%}.m3-txt{/*width:382px;height:175px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/lt_txt_ec09deb.png) no-repeat;*/overflow:hidden;/*margin-bottom:80px*/}.d4-left{position:absolute;top:292px;left:5%;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;-o-transform-origin:0 0;transform-origin:0 0}.d4-right{/*height:650px;width:330px;*/ position:absolute;/*background:url(http://sts0.mofang.com/statics/v4/jiajia/img/jx_img_f97fa08.png) no-repeat;*/ top:274px;right:-18%}.m4-txt{/*width:385px;height:165px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/jx_txt_cc847b5.png) no-repeat;*/ overflow:hidden;/*margin-bottom:80px*/}#modMain-4{min-height:1192px}.d5-left{height:650px;width:330px;position:absolute;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/m5_pic_2ccea45.png) no-repeat;top:205px;left:10%}.d5-right{position:absolute;top:413px;right:3%}.m5-txt{width:385px;height:195px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/m5_txt_576b197.png) no-repeat;overflow:hidden;margin-bottom:80px}#modMain-0{min-height:953px}.d0-left{position:absolute;top:290px;left:0%;-webkit-transform-origin:0 0;-moz-transform-origin:0 0;-ms-transform-origin:0 0;-o-transform-origin:0 0;transform-origin:0 0}
+
+.d0-right{/*height:650px;width:330px;*/position:absolute;/*background:url(http://sts0.mofang.com/statics/v4/jiajia/img/yxq_img_94b4bd8.png) no-repeat;*/top:370px;right:-15%}.m0-txt{/*width:382px;height:165px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/yxq_txt_f1c2b9f.png) no-repeat;*/overflow:hidden;/*margin-bottom:80px*/}.tks-icon{margin:829px 0 0}.jj-menus{width:100%;background:#FFF;height:70px}.jj-menus-bar{width:1000px;margin:0 auto}.jj-menus-bar ul{overflow:hidden;text-align:center}.jj-menus-bar li{width:200px;text-align:center;display:inline-block;margin:0 50px;zoom:1}.jj-menus-bar li a{font-size:24px;color:#333;display:inline-block;width:200px;line-height:64px}.jj-menus-bar li a:hover{border-bottom:6px solid #00CA1C;text-decoration:none}.jj-menus-bar li.jj-active a{border-bottom:6px solid #00CA1C}.st-box{width:144px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/line_2x1_0fe0af4.png) repeat-y center;min-height:600px;position:absolute;left:50%;top:0;margin-left:-72px}.st0-box{top:60px;height:893px}.st1-box,.st2-box,.st3-box{height:893px}.st4-box{height:1117px}.st2-pic{position:absolute;left:-65px;bottom:65px}.support-num{height:48px;font-size:20px;display:block;width:188px;border-radius:24px;background:#00B941;text-align:center;overflow:hidden}.support-num span{display:inline-block;vertical-align:middle;line-height:48px}.support-icon{width:26px;margin-right:15px;height:48px;background:url(http://sts0.mofang.com/statics/v4/jiajia/img/zan_lv_icon_a7208b9.png) no-repeat center}.support-icon-no{color:#FFF}.support-icon-grey{cursor:default;color:#B4B4B4;background:#FFF}.support-icon-grey .support-icon{background:url(http://sts0.mofang.com/statics/v4/jiajia/img/zan_icon_3737e5d.png) no-repeat center}.active-con-wrap{width:100%}.active-con{height:190px;padding:30px}.active-con-list{position:relative}.active-con-list dt{margin-right:20px;float:left;display:inline}.active-con-list dt a img{height:190px;vertical-align:middle;width:340px}.active-con-dd{height:190px;overflow-x:hidden;zoom:1}.active-con-dd h3{font-size:24px;color:#333;margin-bottom:10px}.active-con-dd h3 b{font-weight:400;color:#ff5a00}.active-time{display:block;font-size:16px;color:#666;margin-bottom:10px}.active-time b{color:#10ba28}.active-section{font-size:16px;color:#666;line-height:24px}.jia-active-cont{margin-bottom:70px}.active-con-dd h3 a:hover{text-decoration:none;color:#333}.jj-tab-conts{min-height:600px}.jj-tab-conts a:hover{text-decoration:none}footer{width:100%;text-align:center;background:#FFF}#footer{width:100%;text-align:center;background:#FFF;clear:both;position:relative}#footer .copyright{padding:30px 0;width:1000px;margin:0 auto;color:#999;font-size:14px}#footer .copyright p{line-height:30px}#scrollUp{background-image:url(http://sts0.mofang.com/statics/v4/jiajia/img/top_9dcee44.png);bottom:120px;left:50%;width:38px;height:38px;margin-left:600px}#scrollUp:hover{background-image:url(http://sts0.mofang.com/statics/v4/jiajia/img/top_hover_c81fdf0.png)}

@@ -1,0 +1,1 @@
+INSERT INTO `phpcms_module` (`module`, `name`, `url`, `iscore`, `version`, `description`, `setting`, `listorder`, `disabled`, `installdate`, `updatedate`) VALUES ('statistics', '编辑绩效统计', '', 0, '1.0', '编辑绩效统计', '', 0, 0, '2014-01-02', '2014-01-02');

@@ -1,0 +1,34 @@
+.video-start{
+	width:660px;
+	height: 371px;
+	overflow: hidden;
+	/*background-color: orange;*/
+}
+.video-play-top{
+	padding:10px;
+}
+.video-intro{
+	width:638px;
+	border: 1px solid #F3F3F3;
+	padding: 9px 10px 9px;
+	border-top: 0;
+}
+.video-intro .video-tit a{
+	font-size: 16px;
+	color:#666;
+}
+.video-intro .video-tit{
+	font-size: 16px;
+	color:#666;
+	font-weight: bold;
+}
+.video-intro .video-tit a:hover{
+	font-size: 16px;
+	color: #FD9814;
+}
+.video-txt{
+	font-size:14px;
+	color:#666;
+	max-height: 84px;
+	overflow: hidden;
+}

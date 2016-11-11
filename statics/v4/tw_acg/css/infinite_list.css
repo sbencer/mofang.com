@@ -1,0 +1,66 @@
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.infiniteBox{
+	overflow: hidden;
+}
+.grid{
+	width:203px;
+	min-height:100px;
+	padding: 15px;
+	background:#fff;
+	margin:8px;
+	font-size:12px;
+	float:left;
+	box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	-moz-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	-webkit-box-shadow: 0 1px 3px rgba(34,25,25,0.4);
+	
+	-webkit-transition: top 1s ease, left 1s ease;
+	-moz-transition: top 1s ease, left 1s ease;
+	-o-transition: top 1s ease, left 1s ease;
+	-ms-transition: top 1s ease, left 1s ease;
+}
+
+.grid strong {
+	border-bottom:1px solid #ccc;
+	margin:10px 0;
+	display:block;
+	padding:0 0 5px;
+	font-size:17px;
+}
+.grid .meta{
+	text-align:right;
+	color:#777;
+	font-style:italic;
+}
+.grid .imgholder img{
+	width:100%;
+	min-height: 36px;
+	background:#ccc;
+	display:block;
+	background:url(/statics/v4/tw_acg/img/loding.gif) no-repeat center;
+	margin-right: 0;
+	cursor:-webkit-zoom-in;
+}
+.grid p{
+	font-size: 14px;
+	line-height: 22px;
+	font-family: "微软雅黑";
+	margin-top: 10px;
+}
+.icon_horologe{
+	padding-left: 22px;
+	background:url(/statics/v4/tw_acg/img/icon_horologe.png) left center no-repeat;
+}
+.icon_view{
+	padding-left: 30px;
+	background:url(/statics/v4/tw_acg/img/icon_view.png) left center no-repeat;
+}
+.load-img{
+	clear: both;
+	margin:15px auto;
+	display: none;
+}

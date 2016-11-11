@@ -1,0 +1,61 @@
+.industry-focus-con{
+	margin:0 -5px;
+}
+.industry-focus-li{
+	margin:0 5px 10px;
+	width:320px;
+}
+.industry-focus-li a{
+	display: block;
+	position: relative;
+	width: 320px;
+	height: 180px;
+	/* border: 1px solid #E1E1E1; */
+	/* border-bottom: 0; */
+}
+.industry-focus-li a img{
+	display: block;
+	width: 318px;
+	height: 179px;
+	border: 1px solid #E1E1E1;  border-bottom: 0;
+}
+.industry-focus-li a .zhuan-tag{
+	display: block;
+	width:80px;
+	height: 40px;
+	background-color: #56D6FF;
+	left:0;
+	bottom: 0;
+	text-align: center;
+	position: absolute;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	background: #56D6FF\9;
+	_background: #56D6FF;
+	background: rgba(86,214,255,.9);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=90);
+	filter: alpha(opacity=90);
+	filter: alpha(opacity=90);
+}
+.industry-focus-li h3{
+	color:#333;
+	font-size: 16px;
+	height: 24px;
+	overflow: hidden;
+	line-height: 24px;
+}
+.industry-wd{
+	width: 304px;
+	border: 1px solid #E1E1E1;
+	overflow:hidden; 
+	padding: 6px 7px 12px;
+	border-top: 0;
+}
+.industry-wd p{
+	font-size: 14px;
+	color:#666;
+	height: 60px;
+	overflow: hidden;
+	line-height: 20px;
+}

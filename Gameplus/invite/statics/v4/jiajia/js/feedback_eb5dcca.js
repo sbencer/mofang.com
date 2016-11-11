@@ -1,0 +1,1 @@
+define("feedback",["jquery"],function(require){var e=jquery=jQuery=require("jquery");e(function(){e(".add-upload-btn"),e("#inputfile"),e(".loading"),e(".jia-feedback-btn"),e("#message"),e(".jia-contact-info"),e("input[name='opt']")})});

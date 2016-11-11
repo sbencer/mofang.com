@@ -1,0 +1,549 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin:0;
+    padding:0
+}
+body {
+    font:12px/1.5"Microsoft YaHei", "Hiragino Sans GB", tahoma, arial, \5b8b\4f53;
+    color:#333
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size:100%;
+    font-weight:normal
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+ol, ul {
+    list-style:none
+}
+fieldset, img {
+    border:0 none
+}
+:focus {
+    outline:0
+}
+a {
+    text-decoration:none;
+    color:#333
+}
+a:hover {
+    text-decoration:underline;
+    color:#ff4e00!important
+}
+:focus {
+    outline:0
+}
+.clearfix:after {
+    content:'\0020';
+    display:block;
+    clear:both;
+    height:0
+}
+.clearfix {
+    *zoom:1
+}
+.fn-right {
+    float:right
+}
+.fn-left {
+    float:left
+}
+.fn-hide {
+    display:none
+}
+.fn-show {
+    display:block
+}
+.fn-invisible {
+    visibility:hidden
+}
+.fn-affix {
+    position:fixed;
+    top:0
+}
+.fn-ell {
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden
+}
+.fn-inb {
+    display:inline-block;
+    vertical-align:middle;
+    *display:inline;
+    *zoom:1
+}
+.fn-wrap {
+    word-wrap:break-word;
+    word-break:break-all
+}
+.grid-970 {
+    margin:0 5px 10px 5px;
+    width:970px
+}
+.top, .game, .news, #video, #mobile-game, #ios-game, #and-game, #game-industry, .gril {
+    margin:0 5px 10px 5px;
+    width:970px
+}
+.container {
+    width:980px;
+    margin:0 auto
+}
+.grid-9 {
+    width:305px
+}
+.grid-14 {
+    width:480px
+}
+.container {
+    width:980px;
+    margin:0 auto
+}
+.ui-line {
+    margin:0 2px;
+    font-weight:normal;
+    font-family:sans-serif
+}
+.ui-tring {
+    border-color:#ccc #333 #333;
+    border-style:solid dashed solid;
+    border-width:5px;
+    line-height:0;
+    position:absolute;
+    top:8px;
+    left:50px;
+    overflow:hidden;
+    display:inline-block
+}
+.ui-more {
+    font-family:"SimSun"
+}
+.tips {
+    color:#fe6e40
+}
+.ios-tips {
+    color:#16aaff
+}
+.and-tips {
+    color:#71bc52
+}
+.news-hd-info li a.tips {
+    color:#fe6e40
+}
+.news-hd-info li a.ios-tips {
+    color:#16aaff
+}
+.news-hd-info li a.and-tips {
+    color:#71bc52
+}
+.header {
+    height:35px;
+    background:#333;
+    line-height:35px;
+    margin-bottom:28px
+}
+.header, .header a {
+    color:#ccc
+}
+.header a:hover {
+    text-decoration:none
+}
+.header-info {
+    font-size:14px;
+    float:left
+}
+.header-login {
+    float:right
+}
+.header-login .icon, .text-list table a, .text-list table .nodown, .newgame-test table a, .newgame-test table .nodown, .header-login .icon {
+    margin-right:18px
+}
+.header-login-user {
+    margin-right:10px
+}
+.header-login-nav {
+    position:relative
+}
+.header-login .mf-icon {
+    background:url("http://www.mofang.com/statics/images/mofang_v2/mf_product_logo_e5b0340.png") no-repeat left center;
+    padding-left:25px
+}
+.header-login-nav {
+    height:35px;
+    display:inline-block;
+    z-index:99;
+    margin-right:20px
+}
+.header-login-nav a.map-site {
+    display:inline-block;
+    height:35px;
+    line-height:35px;
+    padding:0 15px 0 10px
+}
+.header-login-nav a.map-site:hover {
+    background:#292a2b;
+    color:#FFF!important
+}
+.ui-tring {
+    left:62px;
+    border-width:4px;
+    top:16px
+}
+.map-box {
+    position:absolute;
+    top:35px;
+    right:0;
+    display:none;
+    z-index:9999;
+    padding-top:2px
+}
+.map-box-con {
+    background:#333;
+    width:436px;
+    overflow:hidden;
+    border:1px solid #292a2b;
+    border-left:none
+}
+.map-box-con dl {
+    float:left;
+    display:inline;
+    width:108px;
+    padding:0 0 10px 0;
+    overflow:hidden;
+    border-left:1px #292a2b solid
+}
+.map-box-con dt {
+    display:block;
+    border-bottom:1px #292a2b solid;
+    padding-left:20px
+}
+.map-box-con dt a {
+    color:#FFF;
+    font-size:14px
+}
+.map-box-con dt a:hover {
+    color:#ff7e00!important
+}
+.map-box-con dd {
+    display:block;
+    padding-left:20px
+}
+.map-box-con dd a {
+    font-size:12px;
+    display:block;
+    line-height:24px
+}
+.map-box-con dd a.m-more {
+    color:#999;
+    text-decoration:underline
+}
+.on-map .map-box {
+    display:block
+}
+.on-map .ui-tring {
+    border-color:#292a2b #292a2b #FFF;
+    top:12px
+}
+.header-slogo {
+    float:left;
+    display:inline;
+    height:35px;
+    overflow:hidden;
+    margin:0 30px 0 0
+}
+.header-slogo a {
+    display:inline-block;
+    height:35px;
+    font-size:14px;
+    padding-left:28px;
+    background:url(http://www.mofang.com/statics/images/mofang_v2/mf_top_logo_2179ba7.png) no-repeat left center
+}
+.header-sitNav {
+    overflow:hidden;
+    float:left;
+    display:inline;
+    height:35px
+}
+.header-sitNav li {
+    float:left;
+    display:inline
+}
+.header-sitNav li a {
+    font-size:14px;
+    display:inline-block
+}
+.header-sitNav li b {
+    display:inline-block;
+    margin:0 5px;
+    color:#494949
+}
+.errorBox {
+    overflow:hidden;
+    padding:20px 0;
+}
+.error404 {
+    padding:200px 0 50px;
+    background:url(../img/logo_404.jpg) no-repeat center top;
+    margin-bottom:30px;
+}
+.errorSearch h1 {
+    text-align:center;
+    clear:both;
+    font-size:24px;
+    margin-bottom:30px
+}
+.errorSearch p {
+    text-align:center;
+    margin:20px 0 0;
+    font-size:14px;
+    color:#666
+}
+.errorSearch .inside-search {
+    padding-top:11px;
+    width:260px;
+    height:30px;
+    overflow:hidden
+}
+.errorSearch .keyWord {
+    width:258px;
+    height:24px;
+    line-height:24px;
+    font-size:14px;
+    border:1px solid #CCC;
+    border-right:0;
+    float:left;
+    display:inline;
+    padding:2px 0 2px 10px
+}
+.errorSearch .goSearch {
+    float:left;
+    display:inline;
+    background:#f5f5f5;
+    height:28px;
+    width:88px;
+    overflow:hidden;
+    border:1px solid #CCC;
+    cursor:pointer
+}
+.errorSearch .submit-btn {
+    background:0;
+    border:0;
+    height:26px;
+    width:88px;
+    cursor:pointer;
+    font-size:14px;
+    color:#666
+}
+.errorSearch .errorSearch-bar {
+    width:360px;
+    margin:0 auto
+}
+.error-tags {
+    padding:30px 180px 60px
+}
+.error-tags a {
+    font-size:14px;
+    border:1px solid #cfe4f1;
+    margin:0 10px 10px 0;
+    display:inline-block;
+    padding:1px 6px 2px;
+    background:#e7f2f9
+}
+.error-tags a:hover {
+    text-decoration:none
+}
+.error-tags a.hot-c1 {
+    background:#f9f4e7;
+    border:1px solid #efe3c5
+}
+.error-tags a.hot-c2 {
+    background:#e9f9e7;
+    border:1px solid #d6f1cf
+}
+.error-tags h3 {
+    font-size:16px;
+    font-weight:normal;
+    color:#f64b00;
+    margin-bottom:20px;
+    clear:both
+}
+.error-map {
+    padding:30px 0 90px
+}
+.error-map h3 {
+    font-size:16px;
+    font-weight:normal;
+    color:#f64b00;
+    margin-bottom:10px;
+    padding-left:50px
+}
+.error-map dl {
+    width:180px;
+    float:left;
+    display:inline;
+    margin:0 15px 0 50px
+}
+.error-map dt {
+    font-size:14px;
+    color:#000
+}
+.error-map dt a{
+    color:#f64b00;
+}
+.error-map dd {
+    line-height:23px
+}
+.error-map dd a {
+    display:inline-block;
+    margin-right:10px
+}
+.footer {
+    color:#666;
+    border-top:2px solid #333;
+    background:#f3f3f3;
+    font-size:14px;
+    padding-bottom:20px
+}
+.footer-hd {
+    margin:0 auto 20px;
+    border-bottom:1px solid #e9e9e9;
+    padding:25px 0 20px 0
+}
+.footer-hd-wrap .footer-hd-item {
+    width:163px;
+    margin:0 0 0 20px;
+    float:left;
+    display:inline;
+    line-height:26px;
+    border-right:1px solid #e9e9e9;
+    padding-right:10px;
+    min-height:105px
+}
+.footer-hd-item dd {
+    overflow:hidden
+}
+.footer-hd-item dd ul {
+    overflow:hidden
+}
+.footer-hd-item dd li {
+    float:left;
+    display:inline;
+    background:url("http://www.mofang.com/statics/images/mofang_v2/line_1x13_720e55f.png") no-repeat left center;
+    margin-left:-1px;
+    padding-left:10px;
+    margin-right:10px
+}
+.footer-hd dt {
+    font-size:16px;
+    padding-left:10px
+}
+.footer .ui-line {
+    color:#ccc;
+    margin:0 6px
+}
+.footer-hd .footer-hd-last {
+    margin-right:0;
+    padding-right:0
+}
+.footer a {
+    color:#666;
+    font-size:14px;
+    text-shadow:0 -1px 1px #e4e4e4
+}
+.footer-bd {
+    margin:0 auto
+}
+.footer-bd-log {
+    float:left;
+    margin:0 50px 0 20px;
+    border-right:1px solid #555;
+    padding-right:50px;
+    color:#555!important;
+}
+.footer-bd-log a {
+    float:left;
+    width:166px;
+    height:59px;
+    overflow:hidden;
+    text-indent:-999px;
+    background-position:0 -85px
+}
+.footer-bd-copy ul {
+    margin:5px 0
+}
+.footer-bd-copy, .footer-bd-copy a {
+    overflow:hidden;
+    color:#999
+}
+.footer-bd-copy li {
+    float:left
+}
+.footer-friend {
+    border-bottom:1px solid #e9e9e9;
+    margin-bottom:26px;
+    padding:30px 0;
+    display:table
+}
+.footer-friend-hd {
+    font-size:18px;
+    color:#999;
+    width:100px;
+    margin:0 20px 0 30px;
+    border-right:1px solid #e9e9e9;
+    display:table-cell;
+    vertical-align:middle
+}
+.footer-bd-friend {
+    overflow:hidden;
+    width:800px;
+    float:right
+}
+.footer-bd-friend li {
+    float:left
+}
+.footer-bd-friend li a {
+    float:left;
+    width:100px;
+    white-space:nowrap;
+    padding-bottom:5px;
+    overflow:hidden;
+    margin-right:10px;
+    display:inline;
+    color:#666
+}
+
+.fixed{
+  height:100%;
+}
+.fixed .footer{
+  position:absolute;
+  width:100%;
+  bottom:0;
+}
+.container{
+  height:470px;
+}
+.errorBox{
+padding-top:0px;
+}
+.header{
+  margin-bottom:1px;
+}
+.error404{
+  padding-top:230px;
+  background-position: center -10px;
+  padding-bottom:0px;
+  margin-bottom:0px;
+}
+.error-map{
+  padding-bottom:0px;
+}
+.scroll .container{
+  padding-bottom:20px;
+}
+.scroll .errorBox{
+  padding-top:20px;
+}
+.error-page .mf-container{
+    min-height: 720;
+}

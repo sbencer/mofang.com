@@ -1,0 +1,260 @@
+/* 全局CSS定义 */
+body{font-family:"Microsoft YaHei";margin:0;border:0;padding:0;font-size:12px;color:#505050;background:#fafafa;}
+div,form,ul,ol,li,dl,dt,dd,p,lable{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;display:block}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input{font-size:12px;padding:0;border-collapse:collapse;}
+/* 默认链接颜色 */
+a{outline-style:none;color:#505050;text-decoration:none}
+a:hover{color:#ff8302;text-decoration:none;}
+.font01 { color:#505050; font-size:14px; font-weight:bold;}
+.font01 a { color:#505050;text-decoration:none;}
+.font01 a:hover { color:#505050;text-decoration:none;}
+.font02 {color:#3475b8;}
+.font02 a { color:#3475b8;text-decoration:none;}
+.font02 a:hover { color:#3475b8;text-decoration:underline;}
+.APP_info { width:70px; height:70px; float:left;}
+.APP_info img { border-radius: 13px;}
+.font03 { color:#333!important; }
+.font04 { color:#9f723e;}
+.font04 a { color:#9f723e;text-decoration:none;}
+.font04 a:hover { color:#9f723e;text-decoration:none;}
+.font05 { color:#8d8d8d; }
+body .red{color:#ff0000;}
+body .gray{color:#c7c7c7;}
+.h1_font01{ color:#282828;}
+.h6_font02 { color:#b7b7b7;}
+/* 清除链接虚框
+a,area {blr:expression(this.onFocus=this.blur()) }  for IE
+:focus {-moz-outline-style: none; }  for Firefox */
+
+/*文字对齐方式*/
+.txtLeft{text-align:left}
+.txtRight{text-align:right}
+.txtCenter{text-align:center}
+/* 下划线 */
+.unline,.unline a{text-decoration:underline}
+.nounline,.nounline a,.list12 .nounline{text-decoration:none}
+/* 通用属性 */
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;margin-top:0px!important;line-height:0}
+
+
+.header { width:980px; margin:10px auto 0 auto;}
+.andro { display:block; position:relative;}
+.andro img { width:15px; height:15px; position:absolute; left:58px; top:0;}
+.lunbobox { height:330px;}
+.lunbo { width:706px; height:330px; float:left; position:relative;}
+.box_img { width:706px; height:330px; overflow:hidden; background-color:#000; }
+.pic_img { position:relative; left:0; top:0; }
+.pic_img li { width:706px; height:300px; position:absolute; left:0; top:0; }
+
+.box_nav_bg { width:706px; height:64px; position:absolute;top:266px;background:#000;opacity:0.8;filter:alpha(opacity=80);-moz-opacity:0.8; z-index:90;}
+.imgtit { width:290px; height:64px; float:left; padding:0 10px; font-size:16px; line-height:28px; color:#fff; z-index:20px; position:absolute; z-index:99; top:268px; left:0;}
+.imgtit p {position:absolute; left:5px; top:0;}
+.imgtit a,.imgtit a:hover { color:#fff; }
+.simg { width:396px; height:57px; float:left; padding-top:7px; position:absolute; top:265px; left:310px; z-index:98}
+.simg span { width:92px; height:50px; float:left; margin-right:7px; position:relative; cursor:pointer; display:block;background:#000;}
+.simg img {opacity:0.6;filter:alpha(opacity=60);-moz-opacity:0.6;}
+.simg span.active .ico_upjt { display:block; }
+.simg span.active img { opacity:1;filter:alpha(opacity=100);-moz-opacity:1; }
+.ico_upjt{ width:7px; height:4px; position:absolute; left:42px; top:-4px; background:url(../../images/iphone/up.png) no-repeat; z-index:10; display:inline-block; display:none; }
+
+.jrtj { width:228px; height:310px; float:left; border:1px #dcdcdc solid; padding:18px 20px 0 24px; background:#fff;}
+.jrtj h1 { font-size:24px; color:#ffba00; border-bottom:1px #dadada solid; padding-bottom:10px;}
+.tjbox { width:228px; height:70px; padding-top:20px;}
+.tjbox .info { height:70px; padding-left:7px; float:left;}
+.tjbox .info h3 { height:20px; font-size:14px;color:#282828;}
+.tjbox .info .cash { color:#505050;}
+.tjbox .info .cash_free{ color:#61d91f;}
+.tjbox .info .time { line-height:18px; color:#b7b7b7; }
+.qrcode { margin-left: 30px; float:left; }
+.tjjs { height:93px; padding-top:15px; line-height:20px;}
+.button01 { width:90px; height:40px; float:left; display:block;}
+.button02 { width:90px; height:40px; float:left; display:block;}
+.ad_img { width:706px; height:330px; position:relative; overflow:hidden; }
+.ad_img h2 { width:520px; height:32px; background:url(../../images/iphone/tbg.jpg) no-repeat; position:absolute; left:0; bottom:0; line-height:32px; padding-left:8px; font-size:14px; font-weight:bold; z-index:9; opacity:0.8;}
+.ad_img p {position:absolute; left:0; top:0; width:528px; height:233px; z-index:8;}
+.mark01 { width:4px; height:19px; background:#23bcee; margin-right:10px; float:left;}
+.mark02 { width:4px; height:19px; background:#77d425; margin-right:10px; float:left;}
+.mark03 { width:4px; height:19px; background:#b36ef4; margin-right:10px; float:left;}
+.mark04 { width:4px; height:19px; background:#ff7ca0; margin-right:10px; float:left;}
+.mark05 { width:4px; height:19px; background:#ffa200; margin-right:10px; float:left;}
+.mark06 { width:4px; height:19px; background:#7ab5ff; margin-right:10px; float:left;}
+
+.container { width:100%; margin:0; overflow:hidden;background:#fafafa url(../../images/iphone/bg00.png) no-repeat center top;}
+.content { width:980px; margin:auto; overflow:hidden; }
+.gamezx01 { width:938px; height:196px; border:1px #dcdcdc solid; padding:12px 20px 0 20px; background:#fff; margin-top:10px;}
+.game_zx { padding-top:10px;}
+.listA .tj { width:115px; float:left;}
+.listB .tj { width:115px; height:64px; float:left;}
+.listC .tj { width:115px; float:left;}
+.listA .tj p { background:#c184ff;}
+.listB .tj p { background:#67c4ff;}
+.listC .tj p { background:#1adda4;}
+.listA .tj p, .listB .tj p, .listC .tj p { width:84px; height:24px; color:#fff; line-height:24px; text-align:center; letter-spacing: 1px;}
+.listA li, .listB li, .listC li { width:100px; height:24px; line-height:24px; float:left; padding-bottom:14px;}
+.listA li img, .listB li img, .listC li img { width:24px; height:24px; float:left; border-radius:4px;}
+.listA li p, .listB li p, .listC li p { width:74px; float:left; padding-left:2px;overflow: hidden; white-space: nowrap;}
+
+.main { margin-top:10px;}
+.column706 { width:706px; float:left;}
+.gamezx02 { width:664px; border:1px #dcdcdc solid; padding:12px 20px 10px 20px; margin-bottom:10px; background:#fff;}
+.gametit { height:30px; border-bottom:1px #dadada solid;}
+.gametit .more { float:right; display:block; line-height:25px;}
+.gametit .zxtit { font-size:16px; font-weight:bold; line-height:20px; color:#302f2f;}
+.zx_cont { padding-top:11px; overflow:hidden;}
+.zximg { width:250px; height:200px; float:left; padding-top:7px;}
+.zximg a { width:250px; height:156px;}
+.zximg p { height:40px; line-height:40px; font-size:14px; text-align:left;}
+.zxnews { width:394px; margin-left:20px; float:left; font-size:14px;}
+.zxnews li { height:28px; line-height:28px; background:url(../../images/iphone/dd.jpg) no-repeat left 50%; padding-left:10px;}
+.zxnews .topnews a { font-weight: bolder; color:#000;}
+.zxnews .topnews a:hover { font-weight: bolder; color:#ff8302;}
+.game_pc { overflow:hidden; padding-top:16px;}
+.game_pc li { width:150px; height:120px; float:left; margin-right:20px;}
+.game_pc li p { height:30px; line-height:30px; text-align:center; overflow:hidden;}
+.game_pc li.marginnull { margin-right:0;}
+.newest li.marginnull { padding-right:0;}
+.newest { padding-top:16px; overflow:hidden;}
+.newest li { width:202px; height:80px; float:left; padding-right:28px; padding-bottom:30px;}
+.newest li .APP_info { display:block;}
+.newest li .info { width:125px; height:70px; float:left; padding-left:6px;}
+.newest li .info h3 { height:20px; font-size:14px; font-weight:bold;}
+.newest li .info h5 { line-height:18px;}
+
+/* 星星 */
+.star_num{ width:110px; height:16px; float:left; padding:5px 0 0 33px;}
+.star_num1{ width:125px; float:left; margin:2px 0 2px 0;}
+.star{ width:76px; height:12px; float:left; overflow:hidden; background:url(../../images/iphone/starbg.png) no-repeat; display:block;}
+.star0{ background-position:0 -60px;}
+.star1{ background-position:0 -48px;}
+.star2{ background-position:0 -36px;}
+.star3{ background-position:0 -24px;}
+.star4{ background-position:0 -12px;}
+.star5{ background-position:0 0;}
+.game_txt { padding:5px 15px; color:#ff8302;}
+.nullm { margin-right:0;}
+.ico_lm1 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat; position:absolute; top:-5px; left:-5px;}
+.ico_lm2 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -76px 0; position:absolute; top:-5px; left:-5px;}
+.ico_lm3 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -152px 0; position:absolute; top:-5px; left:-5px;}
+.ico_lm4 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat 0 -76px; position:absolute; top:-5px; left:-5px;}
+.ico_lm5 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -76px -76px; position:absolute; top:-5px; left:-5px;}
+.ico_lm6 { width:76px; height:76px; background:url(../../images/iphone/tit.png) no-repeat -152px -76px; position:absolute; top:-5px; left:-5px;}
+
+
+/* 右栏 */
+.column264 { width:264px; float:left; margin-left:10px;}
+.game_info { width:222px; overflow:hidden; border:1px #dcdcdc solid; margin-bottom:10px; background:#fff; padding:10px 20px 0px 20px;}
+.hot_cont { overflow:hidden;}
+.hot_cont li { border-bottom:1px #dcdcdc solid; padding:10px 10px 10px 0; height:70px;}
+.hot_cont li .APP_info { padding-right:7px;}
+.hot_cont li .info { height:70px; width: 130px; float:left;}
+.hot_cont li .info h3 { height:20px; font-size:14px; overflow:hidden;}
+.hot_cont li .info h5 { line-height:18px; height:36px; width:135px; overflow: hidden;}
+.hot_cont li.bornull { border-bottom:0;}
+
+.game_rankings { width:222px; overflow:hidden; border:1px #dcdcdc solid; margin-bottom:10px; background:#fff; padding:10px 20px 0px 20px;}
+.rankings_tit { height:38px; border-bottom:1px #dadada solid; font-size:16px; font-weight:bold;}
+.rankings_tit li { width:96px; height:30px; float:left; color:#2f2f2f; line-height:30px; text-align:center; margin-right:10px; cursor:pointer;}
+.rankings_tit li.current { width:96px; height:30px; background:#ffba00; color:#fff;cursor:default;}
+.rankings_box { width:224px;}
+.rankings_box li { width:224px; height:40px; border-bottom:1px #dcdcdc solid;}
+.rankings_box li .top1 { width:16px; height:16px; background:#ff9000; text-align:center; line-height:16px; float:left; display:block; margin:12px 14px 0 0; color:#fff;}
+.rankings_box li .top2 { width:16px; height:16px; background:#ffc90d; text-align:center; line-height:16px; float:left; display:block; margin:12px 14px 0 0; color:#fff;}
+.rankings_box li .top3 { width:16px; height:16px; background:#95d23d; text-align:center; line-height:16px; float:left; display:block; margin:12px 14px 0 0; color:#fff;}
+.rankings_box li .top0 { width:16px; height:16px; background:#fff; text-align:center; line-height:16px; float:left; display:block; margin:12px 14px 0 0;}
+.rankings_box li .ranking_name { width:193px; font-size:14px; line-height:40px;}
+.rankings_box li.first { height:90px; padding-top:10px;}
+.rankings_box li.first .info { width:118px; float:left; padding-left:5px;}
+.rankings_box li.first .info img { display:block; float:left; padding-right:5px; margin-top:2px; }
+.rankings_box li.first .info .down { display:block; color:#ffba00;}
+.rankings_box li.first .info h3 { height:20px; font-size:14px; overflow:hidden;}
+.rankings_box li.first .info h5 { line-height:18px;}
+.rankings_box li.bornull { border-bottom:0;}
+
+.glcp { width:222px; overflow:hidden; border:1px #dcdcdc solid; margin-bottom:10px; background:#fff; padding:10px 20px;}
+.glcpcont { width:222px;}
+.glcpimg { height:150px; border-bottom:1px #dcdcdc dashed; padding-top:10px;}
+.glcpimg .cpimg { width:232px; height:120px; display:block; margin:0 auto;}
+.glcpimg a { height:30px; text-align:center; line-height:30px; display:block; font-size:14px;}
+.glcpnews { overflow:hidden; padding-top:10px;}
+
+.glcpnews li {
+  background: url("../../images/iphone/dd.jpg") no-repeat scroll left 9px transparent;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+/* footer */
+.footer {
+  background: none repeat scroll 0 0 #FAFAFA;
+  overflow: hidden;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+.link {padding: 10px 0;}
+.footer a {
+  padding: 0 10px;
+  color:#505050;
+}
+.copyright{
+	border-top:1px #d9d9d9 solid;
+	padding-top:10px;
+	line-height:25px;
+}
+
+/* 导航部分 date:06/18/2013 by WangDawei */
+.navbox{
+	width:980px;
+	margin:10px auto;
+}
+.logo{
+	float:left;
+	height:50px;
+	width:auto;
+}
+.nav{
+	float:left;
+	display:block;
+	margin:0 30px 0 65px;
+} 
+.nav li , .nav a{
+	display:block;
+	float:left;
+	font-size:16px;
+	height:40px;
+	line-height:40px;
+	width:80px;
+	text-align:center;
+	font-weight:bold;
+	margin:0 5px;
+	color:#505050;
+	text-decoration:none;
+}
+.nav a.On, .nav a:hover {
+  background:#FFA00A;
+  color: #FFFFFF;
+}
+#serachGames{
+	border:1px solid #ffc800;
+	width:260px;
+	height:30px;
+	text-indent:12px;
+	float:left;
+}
+.search{margin-top:10px;float:left;}
+.serachGames_but{
+	background:url("http://test.mofang.com/www/statics/images/search_icon.png") no-repeat;
+	border:none;
+	width:32px;
+	height:32px;
+	float:left;
+	cursor:pointer;
+}
+/* 导航部分结束 */

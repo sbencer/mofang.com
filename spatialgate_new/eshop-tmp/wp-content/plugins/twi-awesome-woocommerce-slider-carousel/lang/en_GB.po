@@ -1,0 +1,1999 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TWI Logo Carousel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-03 13:17+0600\n"
+"PO-Revision-Date: 2014-06-03 13:17+0600\n"
+"Last-Translator: \n"
+"Language-Team: TWI Team <khairulalamruet@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/options/options.php:5 ../config.php:49
+msgid "TWI Awesome Woocommerce Grid/Slider/Carousel Options"
+msgstr ""
+
+#: ../admin/options/options.php:9
+msgid "Upsells Slider"
+msgstr ""
+
+#: ../admin/options/options.php:16
+msgid "Upsells Slider Options"
+msgstr ""
+
+#: ../admin/options/options.php:22 ../admin/options/options.php:164
+#: ../admin/options/options.php:307
+msgid "Do you want to active Up sells slider/Carousel ?"
+msgstr ""
+
+#: ../admin/options/options.php:23 ../admin/options/options.php:165
+#: ../admin/options/options.php:308
+msgid "Enable/Disable options"
+msgstr ""
+
+#: ../admin/options/options.php:33 ../admin/options/options.php:175
+#: ../admin/options/options.php:318
+msgid "Caroseul/Slider options"
+msgstr ""
+
+#: ../admin/options/options.php:45 ../admin/options/options.php:187
+#: ../admin/options/options.php:330
+#: ../admin/shortcode_generator/shortcodes.php:2521
+#: ../admin/shortcode_generator/shortcodes.php:3727
+msgid "Autoplay"
+msgstr ""
+
+#: ../admin/options/options.php:61 ../admin/options/options.php:203
+#: ../admin/options/options.php:346
+#: ../admin/shortcode_generator/shortcodes.php:2539
+#: ../admin/shortcode_generator/shortcodes.php:3745
+msgid "Navigation"
+msgstr ""
+
+#: ../admin/options/options.php:77 ../admin/options/options.php:219
+#: ../admin/options/options.php:362
+#: ../admin/shortcode_generator/shortcodes.php:2557
+#: ../admin/shortcode_generator/shortcodes.php:3763
+msgid "Pagination"
+msgstr ""
+
+#: ../admin/options/options.php:100 ../admin/options/options.php:242
+#: ../admin/options/options.php:385
+msgid "Product show options"
+msgstr ""
+
+#: ../admin/options/options.php:112 ../admin/options/options.php:254
+#: ../admin/options/options.php:397
+msgid "Desktop"
+msgstr ""
+
+#: ../admin/options/options.php:113 ../admin/options/options.php:122
+#: ../admin/options/options.php:131 ../admin/options/options.php:255
+#: ../admin/options/options.php:264 ../admin/options/options.php:273
+#: ../admin/options/options.php:398 ../admin/options/options.php:407
+#: ../admin/options/options.php:416
+msgid "How many products shows"
+msgstr ""
+
+#: ../admin/options/options.php:121 ../admin/options/options.php:263
+#: ../admin/options/options.php:406
+msgid "Tablet"
+msgstr ""
+
+#: ../admin/options/options.php:130 ../admin/options/options.php:272
+#: ../admin/options/options.php:415
+msgid "Mobile"
+msgstr ""
+
+#: ../admin/options/options.php:151
+msgid "Cross-sells Slider"
+msgstr ""
+
+#: ../admin/options/options.php:158
+msgid "Cross Sell Slider Options"
+msgstr ""
+
+#: ../admin/options/options.php:294
+msgid "Related Products Slider"
+msgstr ""
+
+#: ../admin/options/options.php:301
+msgid "Related Products Slider Options"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:5
+#: ../admin/shortcode_generator/shortcodes.php:9
+msgid "Special Categories Grid"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:15
+#: ../admin/shortcode_generator/shortcodes.php:1108
+#: ../admin/shortcode_generator/shortcodes.php:2146
+#: ../admin/shortcode_generator/shortcodes.php:3376
+msgid "I don't want hover effects."
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:22
+#: ../admin/shortcode_generator/shortcodes.php:1115
+#: ../admin/shortcode_generator/shortcodes.php:2153
+#: ../admin/shortcode_generator/shortcodes.php:3383
+msgid "Hover Effects"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:26
+#: ../admin/shortcode_generator/shortcodes.php:1119
+#: ../admin/shortcode_generator/shortcodes.php:2157
+#: ../admin/shortcode_generator/shortcodes.php:3387 ../widget/fields1.php:71
+#: ../widget/fields2.php:75 ../widget/fields3.php:71 ../widget/fields4.php:73
+msgid "Fade"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:31
+#: ../admin/shortcode_generator/shortcodes.php:1124
+#: ../admin/shortcode_generator/shortcodes.php:2162
+#: ../admin/shortcode_generator/shortcodes.php:3392 ../widget/fields1.php:72
+#: ../widget/fields2.php:76 ../widget/fields3.php:72 ../widget/fields4.php:74
+msgid "No Hover, only shows image"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:36
+#: ../admin/shortcode_generator/shortcodes.php:1129
+#: ../admin/shortcode_generator/shortcodes.php:2167
+#: ../admin/shortcode_generator/shortcodes.php:3397 ../widget/fields1.php:73
+#: ../widget/fields2.php:77 ../widget/fields3.php:73 ../widget/fields4.php:75
+msgid "Bottom to top"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:41
+#: ../admin/shortcode_generator/shortcodes.php:1134
+#: ../admin/shortcode_generator/shortcodes.php:2172
+#: ../admin/shortcode_generator/shortcodes.php:3402 ../widget/fields1.php:74
+#: ../widget/fields2.php:78 ../widget/fields3.php:74 ../widget/fields4.php:76
+msgid "Top to bottom"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:46
+#: ../admin/shortcode_generator/shortcodes.php:1139
+#: ../admin/shortcode_generator/shortcodes.php:2177
+#: ../admin/shortcode_generator/shortcodes.php:3407 ../widget/fields1.php:75
+#: ../widget/fields2.php:79 ../widget/fields3.php:75 ../widget/fields4.php:77
+msgid "Left to right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:51
+#: ../admin/shortcode_generator/shortcodes.php:1144
+#: ../admin/shortcode_generator/shortcodes.php:2182
+#: ../admin/shortcode_generator/shortcodes.php:3412 ../widget/fields1.php:76
+#: ../widget/fields2.php:80 ../widget/fields3.php:76 ../widget/fields4.php:78
+msgid "Right to left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:56
+#: ../admin/shortcode_generator/shortcodes.php:1149
+#: ../admin/shortcode_generator/shortcodes.php:2187
+#: ../admin/shortcode_generator/shortcodes.php:3417 ../widget/fields1.php:77
+#: ../widget/fields2.php:81 ../widget/fields3.php:77 ../widget/fields4.php:79
+msgid "Rotate in"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:61
+#: ../admin/shortcode_generator/shortcodes.php:1154
+#: ../admin/shortcode_generator/shortcodes.php:2192
+#: ../admin/shortcode_generator/shortcodes.php:3422 ../widget/fields1.php:78
+#: ../widget/fields2.php:82 ../widget/fields3.php:78 ../widget/fields4.php:80
+msgid "Rotate out"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:66
+#: ../admin/shortcode_generator/shortcodes.php:1159
+#: ../admin/shortcode_generator/shortcodes.php:2197
+#: ../admin/shortcode_generator/shortcodes.php:3427 ../widget/fields1.php:79
+#: ../widget/fields2.php:83 ../widget/fields3.php:79 ../widget/fields4.php:81
+msgid "Open up"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:71
+#: ../admin/shortcode_generator/shortcodes.php:1164
+#: ../admin/shortcode_generator/shortcodes.php:2202
+#: ../admin/shortcode_generator/shortcodes.php:3432 ../widget/fields1.php:80
+#: ../widget/fields2.php:84 ../widget/fields3.php:80 ../widget/fields4.php:82
+msgid "Open down"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:76
+#: ../admin/shortcode_generator/shortcodes.php:1169
+#: ../admin/shortcode_generator/shortcodes.php:2207
+#: ../admin/shortcode_generator/shortcodes.php:3437 ../widget/fields1.php:81
+#: ../widget/fields2.php:85 ../widget/fields3.php:81 ../widget/fields4.php:83
+msgid "Open left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:81
+#: ../admin/shortcode_generator/shortcodes.php:1174
+#: ../admin/shortcode_generator/shortcodes.php:2212
+#: ../admin/shortcode_generator/shortcodes.php:3442 ../widget/fields1.php:82
+#: ../widget/fields2.php:86 ../widget/fields3.php:82 ../widget/fields4.php:84
+msgid "Open right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:86
+#: ../admin/shortcode_generator/shortcodes.php:1179
+#: ../admin/shortcode_generator/shortcodes.php:2217
+#: ../admin/shortcode_generator/shortcodes.php:3447 ../widget/fields1.php:83
+#: ../widget/fields2.php:87 ../widget/fields3.php:83 ../widget/fields4.php:85
+msgid "Come left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:91
+#: ../admin/shortcode_generator/shortcodes.php:1184
+#: ../admin/shortcode_generator/shortcodes.php:2222
+#: ../admin/shortcode_generator/shortcodes.php:3452 ../widget/fields1.php:84
+#: ../widget/fields2.php:88 ../widget/fields3.php:84 ../widget/fields4.php:86
+msgid "Come right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:102
+#: ../admin/shortcode_generator/shortcodes.php:2233
+msgid "Special category"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:106
+#: ../admin/shortcode_generator/shortcodes.php:2237 ../widget/fields1.php:54
+#: ../widget/fields3.php:54
+msgid "Featured"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:111
+#: ../admin/shortcode_generator/shortcodes.php:2242 ../widget/fields1.php:56
+#: ../widget/fields3.php:56
+msgid "Recently viewed products"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:116
+#: ../admin/shortcode_generator/shortcodes.php:2247 ../widget/fields1.php:55
+#: ../widget/fields3.php:55
+msgid "Products on sale"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:121
+#: ../admin/shortcode_generator/shortcodes.php:2252
+msgid "Latest/Recent products"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:125
+#: ../admin/shortcode_generator/shortcodes.php:2256 ../widget/fields1.php:57
+#: ../widget/fields3.php:57
+msgid "Best Sellers"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:130
+#: ../admin/shortcode_generator/shortcodes.php:2261 ../widget/fields1.php:58
+#: ../widget/fields3.php:58
+msgid "Top rated products"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:140
+#: ../admin/shortcode_generator/shortcodes.php:1194
+#: ../admin/shortcode_generator/shortcodes.php:2271
+#: ../admin/shortcode_generator/shortcodes.php:3477
+msgid "Desktop grid"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:144
+#: ../admin/shortcode_generator/shortcodes.php:183
+#: ../admin/shortcode_generator/shortcodes.php:222
+#: ../admin/shortcode_generator/shortcodes.php:1198
+#: ../admin/shortcode_generator/shortcodes.php:1237
+#: ../admin/shortcode_generator/shortcodes.php:1276
+#: ../admin/shortcode_generator/shortcodes.php:2275
+#: ../admin/shortcode_generator/shortcodes.php:2344
+#: ../admin/shortcode_generator/shortcodes.php:2414
+#: ../admin/shortcode_generator/shortcodes.php:3481
+#: ../admin/shortcode_generator/shortcodes.php:3550
+#: ../admin/shortcode_generator/shortcodes.php:3620 ../widget/fields1.php:98
+#: ../widget/fields1.php:115 ../widget/fields1.php:132
+#: ../widget/fields1.php:178 ../widget/fields2.php:102
+#: ../widget/fields2.php:119 ../widget/fields2.php:136
+#: ../widget/fields2.php:182 ../widget/fields3.php:163
+#: ../widget/fields4.php:165
+msgid "1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:149
+#: ../admin/shortcode_generator/shortcodes.php:188
+#: ../admin/shortcode_generator/shortcodes.php:227
+#: ../admin/shortcode_generator/shortcodes.php:1203
+#: ../admin/shortcode_generator/shortcodes.php:1242
+#: ../admin/shortcode_generator/shortcodes.php:1281
+#: ../admin/shortcode_generator/shortcodes.php:2280
+#: ../admin/shortcode_generator/shortcodes.php:2349
+#: ../admin/shortcode_generator/shortcodes.php:2419
+#: ../admin/shortcode_generator/shortcodes.php:3486
+#: ../admin/shortcode_generator/shortcodes.php:3555
+#: ../admin/shortcode_generator/shortcodes.php:3625 ../widget/fields1.php:99
+#: ../widget/fields1.php:116 ../widget/fields1.php:133
+#: ../widget/fields2.php:103 ../widget/fields2.php:120
+#: ../widget/fields2.php:137
+msgid "2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:154
+#: ../admin/shortcode_generator/shortcodes.php:193
+#: ../admin/shortcode_generator/shortcodes.php:232
+#: ../admin/shortcode_generator/shortcodes.php:1208
+#: ../admin/shortcode_generator/shortcodes.php:1247
+#: ../admin/shortcode_generator/shortcodes.php:1286
+#: ../admin/shortcode_generator/shortcodes.php:2285
+#: ../admin/shortcode_generator/shortcodes.php:2354
+#: ../admin/shortcode_generator/shortcodes.php:2424
+#: ../admin/shortcode_generator/shortcodes.php:3491
+#: ../admin/shortcode_generator/shortcodes.php:3560
+#: ../admin/shortcode_generator/shortcodes.php:3630 ../widget/fields1.php:100
+#: ../widget/fields1.php:117 ../widget/fields1.php:134
+#: ../widget/fields2.php:104 ../widget/fields2.php:121
+#: ../widget/fields2.php:138
+msgid "3"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:159
+#: ../admin/shortcode_generator/shortcodes.php:198
+#: ../admin/shortcode_generator/shortcodes.php:237
+#: ../admin/shortcode_generator/shortcodes.php:1213
+#: ../admin/shortcode_generator/shortcodes.php:1252
+#: ../admin/shortcode_generator/shortcodes.php:1291
+#: ../admin/shortcode_generator/shortcodes.php:2290
+#: ../admin/shortcode_generator/shortcodes.php:2359
+#: ../admin/shortcode_generator/shortcodes.php:2429
+#: ../admin/shortcode_generator/shortcodes.php:3496
+#: ../admin/shortcode_generator/shortcodes.php:3565
+#: ../admin/shortcode_generator/shortcodes.php:3635 ../widget/fields1.php:101
+#: ../widget/fields1.php:118 ../widget/fields1.php:135
+#: ../widget/fields2.php:105 ../widget/fields2.php:122
+#: ../widget/fields2.php:139
+msgid "4"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:164
+#: ../admin/shortcode_generator/shortcodes.php:203
+#: ../admin/shortcode_generator/shortcodes.php:242
+#: ../admin/shortcode_generator/shortcodes.php:1218
+#: ../admin/shortcode_generator/shortcodes.php:1257
+#: ../admin/shortcode_generator/shortcodes.php:1296
+#: ../admin/shortcode_generator/shortcodes.php:2300
+#: ../admin/shortcode_generator/shortcodes.php:2369
+#: ../admin/shortcode_generator/shortcodes.php:2439
+#: ../admin/shortcode_generator/shortcodes.php:3506
+#: ../admin/shortcode_generator/shortcodes.php:3575
+#: ../admin/shortcode_generator/shortcodes.php:3645 ../widget/fields1.php:102
+#: ../widget/fields1.php:119 ../widget/fields1.php:136
+#: ../widget/fields2.php:106 ../widget/fields2.php:123
+#: ../widget/fields2.php:140
+msgid "6"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:169
+#: ../admin/shortcode_generator/shortcodes.php:208
+#: ../admin/shortcode_generator/shortcodes.php:247
+#: ../admin/shortcode_generator/shortcodes.php:1223
+#: ../admin/shortcode_generator/shortcodes.php:1262
+#: ../admin/shortcode_generator/shortcodes.php:1301
+#: ../admin/shortcode_generator/shortcodes.php:2330
+#: ../admin/shortcode_generator/shortcodes.php:2399
+#: ../admin/shortcode_generator/shortcodes.php:2469
+#: ../admin/shortcode_generator/shortcodes.php:3536
+#: ../admin/shortcode_generator/shortcodes.php:3605
+#: ../admin/shortcode_generator/shortcodes.php:3675 ../widget/fields1.php:103
+#: ../widget/fields1.php:120 ../widget/fields1.php:137
+#: ../widget/fields2.php:107 ../widget/fields2.php:124
+#: ../widget/fields2.php:141
+msgid "12"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:179
+#: ../admin/shortcode_generator/shortcodes.php:1233
+#: ../admin/shortcode_generator/shortcodes.php:2340
+#: ../admin/shortcode_generator/shortcodes.php:3546
+msgid "Tablet grid"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:218
+#: ../admin/shortcode_generator/shortcodes.php:1272
+#: ../admin/shortcode_generator/shortcodes.php:2410
+#: ../admin/shortcode_generator/shortcodes.php:3616
+msgid "Mobile grid"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:258
+#: ../admin/shortcode_generator/shortcodes.php:1311
+#: ../admin/shortcode_generator/shortcodes.php:2480
+#: ../admin/shortcode_generator/shortcodes.php:3686
+msgid "Show per page"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:267
+#: ../admin/shortcode_generator/shortcodes.php:1320
+#: ../admin/shortcode_generator/shortcodes.php:2489
+#: ../admin/shortcode_generator/shortcodes.php:3695
+msgid "Hover caption background"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:275
+#: ../admin/shortcode_generator/shortcodes.php:1328
+#: ../admin/shortcode_generator/shortcodes.php:2497
+#: ../admin/shortcode_generator/shortcodes.php:3703
+msgid "Rating Display"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:292
+#: ../admin/shortcode_generator/shortcodes.php:1345
+#: ../admin/shortcode_generator/shortcodes.php:2574
+#: ../admin/shortcode_generator/shortcodes.php:3780
+msgid "<h3>Aminations</h3>"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:301
+#: ../admin/shortcode_generator/shortcodes.php:1354
+#: ../admin/shortcode_generator/shortcodes.php:2583
+#: ../admin/shortcode_generator/shortcodes.php:3789
+msgid "Cart button animation"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:305
+#: ../admin/shortcode_generator/shortcodes.php:500
+#: ../admin/shortcode_generator/shortcodes.php:694
+#: ../admin/shortcode_generator/shortcodes.php:888
+#: ../admin/shortcode_generator/shortcodes.php:1358
+#: ../admin/shortcode_generator/shortcodes.php:1553
+#: ../admin/shortcode_generator/shortcodes.php:1747
+#: ../admin/shortcode_generator/shortcodes.php:1941
+#: ../admin/shortcode_generator/shortcodes.php:2587
+#: ../admin/shortcode_generator/shortcodes.php:2782
+#: ../admin/shortcode_generator/shortcodes.php:2976
+#: ../admin/shortcode_generator/shortcodes.php:3170
+#: ../admin/shortcode_generator/shortcodes.php:3793
+#: ../admin/shortcode_generator/shortcodes.php:3988
+#: ../admin/shortcode_generator/shortcodes.php:4182
+#: ../admin/shortcode_generator/shortcodes.php:4376
+msgid "No animation"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:310
+#: ../admin/shortcode_generator/shortcodes.php:505
+#: ../admin/shortcode_generator/shortcodes.php:699
+#: ../admin/shortcode_generator/shortcodes.php:893
+#: ../admin/shortcode_generator/shortcodes.php:1363
+#: ../admin/shortcode_generator/shortcodes.php:1558
+#: ../admin/shortcode_generator/shortcodes.php:1752
+#: ../admin/shortcode_generator/shortcodes.php:1946
+#: ../admin/shortcode_generator/shortcodes.php:2592
+#: ../admin/shortcode_generator/shortcodes.php:2787
+#: ../admin/shortcode_generator/shortcodes.php:2981
+#: ../admin/shortcode_generator/shortcodes.php:3175
+#: ../admin/shortcode_generator/shortcodes.php:3798
+#: ../admin/shortcode_generator/shortcodes.php:3993
+#: ../admin/shortcode_generator/shortcodes.php:4187
+#: ../admin/shortcode_generator/shortcodes.php:4381 ../widget/fields1.php:206
+#: ../widget/fields1.php:258 ../widget/fields1.php:308
+#: ../widget/fields1.php:358 ../widget/fields2.php:210
+#: ../widget/fields2.php:262 ../widget/fields2.php:312
+#: ../widget/fields2.php:362 ../widget/fields3.php:228
+#: ../widget/fields3.php:280 ../widget/fields3.php:330
+#: ../widget/fields3.php:380 ../widget/fields4.php:231
+#: ../widget/fields4.php:281 ../widget/fields4.php:331
+#: ../widget/fields4.php:381
+msgid "Bounce"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:315
+#: ../admin/shortcode_generator/shortcodes.php:510
+#: ../admin/shortcode_generator/shortcodes.php:704
+#: ../admin/shortcode_generator/shortcodes.php:898
+#: ../admin/shortcode_generator/shortcodes.php:1368
+#: ../admin/shortcode_generator/shortcodes.php:1563
+#: ../admin/shortcode_generator/shortcodes.php:1757
+#: ../admin/shortcode_generator/shortcodes.php:1951
+#: ../admin/shortcode_generator/shortcodes.php:2597
+#: ../admin/shortcode_generator/shortcodes.php:2792
+#: ../admin/shortcode_generator/shortcodes.php:2986
+#: ../admin/shortcode_generator/shortcodes.php:3180
+#: ../admin/shortcode_generator/shortcodes.php:3803
+#: ../admin/shortcode_generator/shortcodes.php:3998
+#: ../admin/shortcode_generator/shortcodes.php:4192
+#: ../admin/shortcode_generator/shortcodes.php:4386 ../widget/fields1.php:207
+#: ../widget/fields1.php:259 ../widget/fields1.php:309
+#: ../widget/fields1.php:359 ../widget/fields2.php:211
+#: ../widget/fields2.php:263 ../widget/fields2.php:313
+#: ../widget/fields2.php:363 ../widget/fields3.php:229
+#: ../widget/fields3.php:281 ../widget/fields3.php:331
+#: ../widget/fields3.php:381 ../widget/fields4.php:232
+#: ../widget/fields4.php:282 ../widget/fields4.php:332
+#: ../widget/fields4.php:382
+msgid "Flash"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:320
+#: ../admin/shortcode_generator/shortcodes.php:515
+#: ../admin/shortcode_generator/shortcodes.php:709
+#: ../admin/shortcode_generator/shortcodes.php:903
+#: ../admin/shortcode_generator/shortcodes.php:1373
+#: ../admin/shortcode_generator/shortcodes.php:1568
+#: ../admin/shortcode_generator/shortcodes.php:1762
+#: ../admin/shortcode_generator/shortcodes.php:1956
+#: ../admin/shortcode_generator/shortcodes.php:2602
+#: ../admin/shortcode_generator/shortcodes.php:2797
+#: ../admin/shortcode_generator/shortcodes.php:2991
+#: ../admin/shortcode_generator/shortcodes.php:3185
+#: ../admin/shortcode_generator/shortcodes.php:3808
+#: ../admin/shortcode_generator/shortcodes.php:4003
+#: ../admin/shortcode_generator/shortcodes.php:4197
+#: ../admin/shortcode_generator/shortcodes.php:4391 ../widget/fields1.php:208
+#: ../widget/fields1.php:260 ../widget/fields1.php:310
+#: ../widget/fields1.php:360 ../widget/fields2.php:212
+#: ../widget/fields2.php:264 ../widget/fields2.php:314
+#: ../widget/fields2.php:364 ../widget/fields3.php:230
+#: ../widget/fields3.php:282 ../widget/fields3.php:332
+#: ../widget/fields3.php:382 ../widget/fields4.php:233
+#: ../widget/fields4.php:283 ../widget/fields4.php:333
+#: ../widget/fields4.php:383
+msgid "Pulse"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:325
+#: ../admin/shortcode_generator/shortcodes.php:520
+#: ../admin/shortcode_generator/shortcodes.php:714
+#: ../admin/shortcode_generator/shortcodes.php:908
+#: ../admin/shortcode_generator/shortcodes.php:1378
+#: ../admin/shortcode_generator/shortcodes.php:1573
+#: ../admin/shortcode_generator/shortcodes.php:1767
+#: ../admin/shortcode_generator/shortcodes.php:1961
+#: ../admin/shortcode_generator/shortcodes.php:2607
+#: ../admin/shortcode_generator/shortcodes.php:2802
+#: ../admin/shortcode_generator/shortcodes.php:2996
+#: ../admin/shortcode_generator/shortcodes.php:3190
+#: ../admin/shortcode_generator/shortcodes.php:3813
+#: ../admin/shortcode_generator/shortcodes.php:4008
+#: ../admin/shortcode_generator/shortcodes.php:4202
+#: ../admin/shortcode_generator/shortcodes.php:4396 ../widget/fields1.php:209
+#: ../widget/fields1.php:261 ../widget/fields1.php:311
+#: ../widget/fields1.php:361 ../widget/fields2.php:213
+#: ../widget/fields2.php:265 ../widget/fields2.php:315
+#: ../widget/fields2.php:365 ../widget/fields3.php:231
+#: ../widget/fields3.php:283 ../widget/fields3.php:333
+#: ../widget/fields3.php:383 ../widget/fields4.php:234
+#: ../widget/fields4.php:284 ../widget/fields4.php:334
+#: ../widget/fields4.php:384
+msgid "Rubber Band"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:330
+#: ../admin/shortcode_generator/shortcodes.php:525
+#: ../admin/shortcode_generator/shortcodes.php:719
+#: ../admin/shortcode_generator/shortcodes.php:913
+#: ../admin/shortcode_generator/shortcodes.php:1383
+#: ../admin/shortcode_generator/shortcodes.php:1578
+#: ../admin/shortcode_generator/shortcodes.php:1772
+#: ../admin/shortcode_generator/shortcodes.php:1966
+#: ../admin/shortcode_generator/shortcodes.php:2612
+#: ../admin/shortcode_generator/shortcodes.php:2807
+#: ../admin/shortcode_generator/shortcodes.php:3001
+#: ../admin/shortcode_generator/shortcodes.php:3195
+#: ../admin/shortcode_generator/shortcodes.php:3818
+#: ../admin/shortcode_generator/shortcodes.php:4013
+#: ../admin/shortcode_generator/shortcodes.php:4207
+#: ../admin/shortcode_generator/shortcodes.php:4401 ../widget/fields1.php:210
+#: ../widget/fields1.php:262 ../widget/fields1.php:312
+#: ../widget/fields1.php:362 ../widget/fields2.php:214
+#: ../widget/fields2.php:266 ../widget/fields2.php:316
+#: ../widget/fields2.php:366 ../widget/fields3.php:232
+#: ../widget/fields3.php:284 ../widget/fields3.php:334
+#: ../widget/fields3.php:384 ../widget/fields4.php:235
+#: ../widget/fields4.php:285 ../widget/fields4.php:335
+#: ../widget/fields4.php:385
+msgid "Shake"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:335
+#: ../admin/shortcode_generator/shortcodes.php:530
+#: ../admin/shortcode_generator/shortcodes.php:724
+#: ../admin/shortcode_generator/shortcodes.php:918
+#: ../admin/shortcode_generator/shortcodes.php:1388
+#: ../admin/shortcode_generator/shortcodes.php:1583
+#: ../admin/shortcode_generator/shortcodes.php:1777
+#: ../admin/shortcode_generator/shortcodes.php:1971
+#: ../admin/shortcode_generator/shortcodes.php:2617
+#: ../admin/shortcode_generator/shortcodes.php:2812
+#: ../admin/shortcode_generator/shortcodes.php:3006
+#: ../admin/shortcode_generator/shortcodes.php:3200
+#: ../admin/shortcode_generator/shortcodes.php:3823
+#: ../admin/shortcode_generator/shortcodes.php:4018
+#: ../admin/shortcode_generator/shortcodes.php:4212
+#: ../admin/shortcode_generator/shortcodes.php:4406 ../widget/fields1.php:211
+#: ../widget/fields1.php:263 ../widget/fields1.php:313
+#: ../widget/fields1.php:363 ../widget/fields2.php:215
+#: ../widget/fields2.php:267 ../widget/fields2.php:317
+#: ../widget/fields2.php:367 ../widget/fields3.php:233
+#: ../widget/fields3.php:285 ../widget/fields3.php:335
+#: ../widget/fields3.php:385 ../widget/fields4.php:236
+#: ../widget/fields4.php:286 ../widget/fields4.php:336
+#: ../widget/fields4.php:386
+msgid "Swing"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:340
+#: ../admin/shortcode_generator/shortcodes.php:535
+#: ../admin/shortcode_generator/shortcodes.php:729
+#: ../admin/shortcode_generator/shortcodes.php:923
+#: ../admin/shortcode_generator/shortcodes.php:1393
+#: ../admin/shortcode_generator/shortcodes.php:1588
+#: ../admin/shortcode_generator/shortcodes.php:1782
+#: ../admin/shortcode_generator/shortcodes.php:1976
+#: ../admin/shortcode_generator/shortcodes.php:2622
+#: ../admin/shortcode_generator/shortcodes.php:2817
+#: ../admin/shortcode_generator/shortcodes.php:3011
+#: ../admin/shortcode_generator/shortcodes.php:3205
+#: ../admin/shortcode_generator/shortcodes.php:3828
+#: ../admin/shortcode_generator/shortcodes.php:4023
+#: ../admin/shortcode_generator/shortcodes.php:4217
+#: ../admin/shortcode_generator/shortcodes.php:4411 ../widget/fields1.php:212
+#: ../widget/fields1.php:264 ../widget/fields1.php:314
+#: ../widget/fields1.php:364 ../widget/fields2.php:216
+#: ../widget/fields2.php:268 ../widget/fields2.php:318
+#: ../widget/fields2.php:368 ../widget/fields3.php:234
+#: ../widget/fields3.php:286 ../widget/fields3.php:336
+#: ../widget/fields3.php:386 ../widget/fields4.php:237
+#: ../widget/fields4.php:287 ../widget/fields4.php:337
+#: ../widget/fields4.php:387
+msgid "Tada"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:345
+#: ../admin/shortcode_generator/shortcodes.php:540
+#: ../admin/shortcode_generator/shortcodes.php:734
+#: ../admin/shortcode_generator/shortcodes.php:928
+#: ../admin/shortcode_generator/shortcodes.php:1398
+#: ../admin/shortcode_generator/shortcodes.php:1593
+#: ../admin/shortcode_generator/shortcodes.php:1787
+#: ../admin/shortcode_generator/shortcodes.php:1981
+#: ../admin/shortcode_generator/shortcodes.php:2627
+#: ../admin/shortcode_generator/shortcodes.php:2822
+#: ../admin/shortcode_generator/shortcodes.php:3016
+#: ../admin/shortcode_generator/shortcodes.php:3210
+#: ../admin/shortcode_generator/shortcodes.php:3833
+#: ../admin/shortcode_generator/shortcodes.php:4028
+#: ../admin/shortcode_generator/shortcodes.php:4222
+#: ../admin/shortcode_generator/shortcodes.php:4416 ../widget/fields1.php:213
+#: ../widget/fields1.php:265 ../widget/fields1.php:315
+#: ../widget/fields1.php:365 ../widget/fields2.php:217
+#: ../widget/fields2.php:269 ../widget/fields2.php:319
+#: ../widget/fields2.php:369 ../widget/fields3.php:235
+#: ../widget/fields3.php:287 ../widget/fields3.php:337
+#: ../widget/fields3.php:387 ../widget/fields4.php:238
+#: ../widget/fields4.php:288 ../widget/fields4.php:338
+#: ../widget/fields4.php:388
+msgid "Wobble"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:350
+#: ../admin/shortcode_generator/shortcodes.php:545
+#: ../admin/shortcode_generator/shortcodes.php:739
+#: ../admin/shortcode_generator/shortcodes.php:933
+#: ../admin/shortcode_generator/shortcodes.php:1403
+#: ../admin/shortcode_generator/shortcodes.php:1598
+#: ../admin/shortcode_generator/shortcodes.php:1792
+#: ../admin/shortcode_generator/shortcodes.php:1986
+#: ../admin/shortcode_generator/shortcodes.php:2632
+#: ../admin/shortcode_generator/shortcodes.php:2827
+#: ../admin/shortcode_generator/shortcodes.php:3021
+#: ../admin/shortcode_generator/shortcodes.php:3215
+#: ../admin/shortcode_generator/shortcodes.php:3838
+#: ../admin/shortcode_generator/shortcodes.php:4033
+#: ../admin/shortcode_generator/shortcodes.php:4227
+#: ../admin/shortcode_generator/shortcodes.php:4421 ../widget/fields1.php:214
+#: ../widget/fields1.php:266 ../widget/fields1.php:316
+#: ../widget/fields1.php:366 ../widget/fields2.php:218
+#: ../widget/fields2.php:270 ../widget/fields2.php:320
+#: ../widget/fields2.php:370 ../widget/fields3.php:236
+#: ../widget/fields3.php:288 ../widget/fields3.php:338
+#: ../widget/fields3.php:388 ../widget/fields4.php:239
+#: ../widget/fields4.php:289 ../widget/fields4.php:339
+#: ../widget/fields4.php:389
+msgid "Bounce In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:355
+#: ../admin/shortcode_generator/shortcodes.php:550
+#: ../admin/shortcode_generator/shortcodes.php:744
+#: ../admin/shortcode_generator/shortcodes.php:938
+#: ../admin/shortcode_generator/shortcodes.php:1408
+#: ../admin/shortcode_generator/shortcodes.php:1603
+#: ../admin/shortcode_generator/shortcodes.php:1797
+#: ../admin/shortcode_generator/shortcodes.php:1991
+#: ../admin/shortcode_generator/shortcodes.php:2637
+#: ../admin/shortcode_generator/shortcodes.php:2832
+#: ../admin/shortcode_generator/shortcodes.php:3026
+#: ../admin/shortcode_generator/shortcodes.php:3220
+#: ../admin/shortcode_generator/shortcodes.php:3843
+#: ../admin/shortcode_generator/shortcodes.php:4038
+#: ../admin/shortcode_generator/shortcodes.php:4232
+#: ../admin/shortcode_generator/shortcodes.php:4426 ../widget/fields1.php:215
+#: ../widget/fields1.php:267 ../widget/fields1.php:317
+#: ../widget/fields1.php:367 ../widget/fields2.php:219
+#: ../widget/fields2.php:271 ../widget/fields2.php:321
+#: ../widget/fields2.php:371 ../widget/fields3.php:237
+#: ../widget/fields3.php:289 ../widget/fields3.php:339
+#: ../widget/fields3.php:389 ../widget/fields4.php:240
+#: ../widget/fields4.php:290 ../widget/fields4.php:340
+#: ../widget/fields4.php:390
+msgid "Bounce In Down"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:360
+#: ../admin/shortcode_generator/shortcodes.php:555
+#: ../admin/shortcode_generator/shortcodes.php:749
+#: ../admin/shortcode_generator/shortcodes.php:943
+#: ../admin/shortcode_generator/shortcodes.php:1413
+#: ../admin/shortcode_generator/shortcodes.php:1608
+#: ../admin/shortcode_generator/shortcodes.php:1802
+#: ../admin/shortcode_generator/shortcodes.php:1996
+#: ../admin/shortcode_generator/shortcodes.php:2642
+#: ../admin/shortcode_generator/shortcodes.php:2837
+#: ../admin/shortcode_generator/shortcodes.php:3031
+#: ../admin/shortcode_generator/shortcodes.php:3225
+#: ../admin/shortcode_generator/shortcodes.php:3848
+#: ../admin/shortcode_generator/shortcodes.php:4043
+#: ../admin/shortcode_generator/shortcodes.php:4237
+#: ../admin/shortcode_generator/shortcodes.php:4431 ../widget/fields1.php:216
+#: ../widget/fields1.php:268 ../widget/fields1.php:318
+#: ../widget/fields1.php:368 ../widget/fields2.php:220
+#: ../widget/fields2.php:272 ../widget/fields2.php:322
+#: ../widget/fields2.php:372 ../widget/fields3.php:238
+#: ../widget/fields3.php:290 ../widget/fields3.php:340
+#: ../widget/fields3.php:390 ../widget/fields4.php:241
+#: ../widget/fields4.php:291 ../widget/fields4.php:341
+#: ../widget/fields4.php:391
+msgid "Bounce In Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:365
+#: ../admin/shortcode_generator/shortcodes.php:560
+#: ../admin/shortcode_generator/shortcodes.php:754
+#: ../admin/shortcode_generator/shortcodes.php:948
+#: ../admin/shortcode_generator/shortcodes.php:1418
+#: ../admin/shortcode_generator/shortcodes.php:1613
+#: ../admin/shortcode_generator/shortcodes.php:1807
+#: ../admin/shortcode_generator/shortcodes.php:2001
+#: ../admin/shortcode_generator/shortcodes.php:2647
+#: ../admin/shortcode_generator/shortcodes.php:2842
+#: ../admin/shortcode_generator/shortcodes.php:3036
+#: ../admin/shortcode_generator/shortcodes.php:3230
+#: ../admin/shortcode_generator/shortcodes.php:3853
+#: ../admin/shortcode_generator/shortcodes.php:4048
+#: ../admin/shortcode_generator/shortcodes.php:4242
+#: ../admin/shortcode_generator/shortcodes.php:4436 ../widget/fields1.php:217
+#: ../widget/fields1.php:269 ../widget/fields1.php:319
+#: ../widget/fields1.php:369 ../widget/fields2.php:221
+#: ../widget/fields2.php:273 ../widget/fields2.php:323
+#: ../widget/fields2.php:373 ../widget/fields3.php:239
+#: ../widget/fields3.php:291 ../widget/fields3.php:341
+#: ../widget/fields3.php:391 ../widget/fields4.php:242
+#: ../widget/fields4.php:292 ../widget/fields4.php:342
+#: ../widget/fields4.php:392
+msgid "Bounce In Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:370
+#: ../admin/shortcode_generator/shortcodes.php:565
+#: ../admin/shortcode_generator/shortcodes.php:759
+#: ../admin/shortcode_generator/shortcodes.php:953
+#: ../admin/shortcode_generator/shortcodes.php:1423
+#: ../admin/shortcode_generator/shortcodes.php:1618
+#: ../admin/shortcode_generator/shortcodes.php:1812
+#: ../admin/shortcode_generator/shortcodes.php:2006
+#: ../admin/shortcode_generator/shortcodes.php:2652
+#: ../admin/shortcode_generator/shortcodes.php:2847
+#: ../admin/shortcode_generator/shortcodes.php:3041
+#: ../admin/shortcode_generator/shortcodes.php:3235
+#: ../admin/shortcode_generator/shortcodes.php:3858
+#: ../admin/shortcode_generator/shortcodes.php:4053
+#: ../admin/shortcode_generator/shortcodes.php:4247
+#: ../admin/shortcode_generator/shortcodes.php:4441 ../widget/fields1.php:218
+#: ../widget/fields1.php:270 ../widget/fields1.php:320
+#: ../widget/fields1.php:370 ../widget/fields2.php:222
+#: ../widget/fields2.php:274 ../widget/fields2.php:324
+#: ../widget/fields2.php:374 ../widget/fields3.php:240
+#: ../widget/fields3.php:292 ../widget/fields3.php:342
+#: ../widget/fields3.php:392 ../widget/fields4.php:243
+#: ../widget/fields4.php:293 ../widget/fields4.php:343
+#: ../widget/fields4.php:393
+msgid "Bounce In Up"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:375
+#: ../admin/shortcode_generator/shortcodes.php:570
+#: ../admin/shortcode_generator/shortcodes.php:764
+#: ../admin/shortcode_generator/shortcodes.php:958
+#: ../admin/shortcode_generator/shortcodes.php:1428
+#: ../admin/shortcode_generator/shortcodes.php:1623
+#: ../admin/shortcode_generator/shortcodes.php:1817
+#: ../admin/shortcode_generator/shortcodes.php:2011
+#: ../admin/shortcode_generator/shortcodes.php:2657
+#: ../admin/shortcode_generator/shortcodes.php:2852
+#: ../admin/shortcode_generator/shortcodes.php:3046
+#: ../admin/shortcode_generator/shortcodes.php:3240
+#: ../admin/shortcode_generator/shortcodes.php:3863
+#: ../admin/shortcode_generator/shortcodes.php:4058
+#: ../admin/shortcode_generator/shortcodes.php:4252
+#: ../admin/shortcode_generator/shortcodes.php:4446 ../widget/fields1.php:219
+#: ../widget/fields1.php:271 ../widget/fields1.php:321
+#: ../widget/fields1.php:371 ../widget/fields2.php:223
+#: ../widget/fields2.php:275 ../widget/fields2.php:325
+#: ../widget/fields2.php:375 ../widget/fields3.php:241
+#: ../widget/fields3.php:293 ../widget/fields3.php:343
+#: ../widget/fields3.php:393 ../widget/fields4.php:244
+#: ../widget/fields4.php:294 ../widget/fields4.php:344
+#: ../widget/fields4.php:394
+msgid "Fade In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:380
+#: ../admin/shortcode_generator/shortcodes.php:575
+#: ../admin/shortcode_generator/shortcodes.php:769
+#: ../admin/shortcode_generator/shortcodes.php:963
+#: ../admin/shortcode_generator/shortcodes.php:1433
+#: ../admin/shortcode_generator/shortcodes.php:1628
+#: ../admin/shortcode_generator/shortcodes.php:1822
+#: ../admin/shortcode_generator/shortcodes.php:2016
+#: ../admin/shortcode_generator/shortcodes.php:2662
+#: ../admin/shortcode_generator/shortcodes.php:2857
+#: ../admin/shortcode_generator/shortcodes.php:3051
+#: ../admin/shortcode_generator/shortcodes.php:3245
+#: ../admin/shortcode_generator/shortcodes.php:3868
+#: ../admin/shortcode_generator/shortcodes.php:4063
+#: ../admin/shortcode_generator/shortcodes.php:4257
+#: ../admin/shortcode_generator/shortcodes.php:4451 ../widget/fields1.php:220
+#: ../widget/fields1.php:272 ../widget/fields1.php:322
+#: ../widget/fields1.php:372 ../widget/fields2.php:224
+#: ../widget/fields2.php:276 ../widget/fields2.php:326
+#: ../widget/fields2.php:376 ../widget/fields3.php:242
+#: ../widget/fields3.php:294 ../widget/fields3.php:344
+#: ../widget/fields3.php:394 ../widget/fields4.php:245
+#: ../widget/fields4.php:295 ../widget/fields4.php:345
+#: ../widget/fields4.php:395
+msgid "Fade In Down"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:385
+#: ../admin/shortcode_generator/shortcodes.php:580
+#: ../admin/shortcode_generator/shortcodes.php:774
+#: ../admin/shortcode_generator/shortcodes.php:968
+#: ../admin/shortcode_generator/shortcodes.php:1438
+#: ../admin/shortcode_generator/shortcodes.php:1633
+#: ../admin/shortcode_generator/shortcodes.php:1827
+#: ../admin/shortcode_generator/shortcodes.php:2021
+#: ../admin/shortcode_generator/shortcodes.php:2667
+#: ../admin/shortcode_generator/shortcodes.php:2862
+#: ../admin/shortcode_generator/shortcodes.php:3056
+#: ../admin/shortcode_generator/shortcodes.php:3250
+#: ../admin/shortcode_generator/shortcodes.php:3873
+#: ../admin/shortcode_generator/shortcodes.php:4068
+#: ../admin/shortcode_generator/shortcodes.php:4262
+#: ../admin/shortcode_generator/shortcodes.php:4456 ../widget/fields1.php:221
+#: ../widget/fields1.php:273 ../widget/fields1.php:323
+#: ../widget/fields1.php:373 ../widget/fields2.php:225
+#: ../widget/fields2.php:277 ../widget/fields2.php:327
+#: ../widget/fields2.php:377 ../widget/fields3.php:243
+#: ../widget/fields3.php:295 ../widget/fields3.php:345
+#: ../widget/fields3.php:395 ../widget/fields4.php:246
+#: ../widget/fields4.php:296 ../widget/fields4.php:346
+#: ../widget/fields4.php:396
+msgid "Fade In Down Big"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:390
+#: ../admin/shortcode_generator/shortcodes.php:585
+#: ../admin/shortcode_generator/shortcodes.php:779
+#: ../admin/shortcode_generator/shortcodes.php:973
+#: ../admin/shortcode_generator/shortcodes.php:1443
+#: ../admin/shortcode_generator/shortcodes.php:1638
+#: ../admin/shortcode_generator/shortcodes.php:1832
+#: ../admin/shortcode_generator/shortcodes.php:2026
+#: ../admin/shortcode_generator/shortcodes.php:2672
+#: ../admin/shortcode_generator/shortcodes.php:2867
+#: ../admin/shortcode_generator/shortcodes.php:3061
+#: ../admin/shortcode_generator/shortcodes.php:3255
+#: ../admin/shortcode_generator/shortcodes.php:3878
+#: ../admin/shortcode_generator/shortcodes.php:4073
+#: ../admin/shortcode_generator/shortcodes.php:4267
+#: ../admin/shortcode_generator/shortcodes.php:4461 ../widget/fields1.php:222
+#: ../widget/fields1.php:274 ../widget/fields1.php:324
+#: ../widget/fields1.php:374 ../widget/fields2.php:226
+#: ../widget/fields2.php:278 ../widget/fields2.php:328
+#: ../widget/fields2.php:378 ../widget/fields3.php:244
+#: ../widget/fields3.php:296 ../widget/fields3.php:346
+#: ../widget/fields3.php:396 ../widget/fields4.php:247
+#: ../widget/fields4.php:297 ../widget/fields4.php:347
+#: ../widget/fields4.php:397
+msgid "Fade In Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:395
+#: ../admin/shortcode_generator/shortcodes.php:590
+#: ../admin/shortcode_generator/shortcodes.php:784
+#: ../admin/shortcode_generator/shortcodes.php:978
+#: ../admin/shortcode_generator/shortcodes.php:1448
+#: ../admin/shortcode_generator/shortcodes.php:1643
+#: ../admin/shortcode_generator/shortcodes.php:1837
+#: ../admin/shortcode_generator/shortcodes.php:2031
+#: ../admin/shortcode_generator/shortcodes.php:2677
+#: ../admin/shortcode_generator/shortcodes.php:2872
+#: ../admin/shortcode_generator/shortcodes.php:3066
+#: ../admin/shortcode_generator/shortcodes.php:3260
+#: ../admin/shortcode_generator/shortcodes.php:3883
+#: ../admin/shortcode_generator/shortcodes.php:4078
+#: ../admin/shortcode_generator/shortcodes.php:4272
+#: ../admin/shortcode_generator/shortcodes.php:4466 ../widget/fields1.php:223
+#: ../widget/fields1.php:275 ../widget/fields1.php:325
+#: ../widget/fields1.php:375 ../widget/fields2.php:227
+#: ../widget/fields2.php:279 ../widget/fields2.php:329
+#: ../widget/fields2.php:379 ../widget/fields3.php:245
+#: ../widget/fields3.php:297 ../widget/fields3.php:347
+#: ../widget/fields3.php:397 ../widget/fields4.php:248
+#: ../widget/fields4.php:298 ../widget/fields4.php:348
+#: ../widget/fields4.php:398
+msgid "Fade In Left Big"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:400
+#: ../admin/shortcode_generator/shortcodes.php:595
+#: ../admin/shortcode_generator/shortcodes.php:789
+#: ../admin/shortcode_generator/shortcodes.php:983
+#: ../admin/shortcode_generator/shortcodes.php:1453
+#: ../admin/shortcode_generator/shortcodes.php:1648
+#: ../admin/shortcode_generator/shortcodes.php:1842
+#: ../admin/shortcode_generator/shortcodes.php:2036
+#: ../admin/shortcode_generator/shortcodes.php:2682
+#: ../admin/shortcode_generator/shortcodes.php:2877
+#: ../admin/shortcode_generator/shortcodes.php:3071
+#: ../admin/shortcode_generator/shortcodes.php:3265
+#: ../admin/shortcode_generator/shortcodes.php:3888
+#: ../admin/shortcode_generator/shortcodes.php:4083
+#: ../admin/shortcode_generator/shortcodes.php:4277
+#: ../admin/shortcode_generator/shortcodes.php:4471 ../widget/fields1.php:224
+#: ../widget/fields1.php:276 ../widget/fields1.php:326
+#: ../widget/fields1.php:376 ../widget/fields2.php:228
+#: ../widget/fields2.php:280 ../widget/fields2.php:330
+#: ../widget/fields2.php:380 ../widget/fields3.php:246
+#: ../widget/fields3.php:298 ../widget/fields3.php:348
+#: ../widget/fields3.php:398 ../widget/fields4.php:249
+#: ../widget/fields4.php:299 ../widget/fields4.php:349
+#: ../widget/fields4.php:399
+msgid "Fade In Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:405
+#: ../admin/shortcode_generator/shortcodes.php:600
+#: ../admin/shortcode_generator/shortcodes.php:794
+#: ../admin/shortcode_generator/shortcodes.php:988
+#: ../admin/shortcode_generator/shortcodes.php:1458
+#: ../admin/shortcode_generator/shortcodes.php:1653
+#: ../admin/shortcode_generator/shortcodes.php:1847
+#: ../admin/shortcode_generator/shortcodes.php:2041
+#: ../admin/shortcode_generator/shortcodes.php:2687
+#: ../admin/shortcode_generator/shortcodes.php:2882
+#: ../admin/shortcode_generator/shortcodes.php:3076
+#: ../admin/shortcode_generator/shortcodes.php:3270
+#: ../admin/shortcode_generator/shortcodes.php:3893
+#: ../admin/shortcode_generator/shortcodes.php:4088
+#: ../admin/shortcode_generator/shortcodes.php:4282
+#: ../admin/shortcode_generator/shortcodes.php:4476 ../widget/fields1.php:225
+#: ../widget/fields1.php:277 ../widget/fields1.php:327
+#: ../widget/fields1.php:377 ../widget/fields2.php:229
+#: ../widget/fields2.php:281 ../widget/fields2.php:331
+#: ../widget/fields2.php:381 ../widget/fields3.php:247
+#: ../widget/fields3.php:299 ../widget/fields3.php:349
+#: ../widget/fields3.php:399 ../widget/fields4.php:250
+#: ../widget/fields4.php:300 ../widget/fields4.php:350
+#: ../widget/fields4.php:400
+msgid "Fade In Right Big"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:410
+#: ../admin/shortcode_generator/shortcodes.php:605
+#: ../admin/shortcode_generator/shortcodes.php:799
+#: ../admin/shortcode_generator/shortcodes.php:993
+#: ../admin/shortcode_generator/shortcodes.php:1463
+#: ../admin/shortcode_generator/shortcodes.php:1658
+#: ../admin/shortcode_generator/shortcodes.php:1852
+#: ../admin/shortcode_generator/shortcodes.php:2046
+#: ../admin/shortcode_generator/shortcodes.php:2692
+#: ../admin/shortcode_generator/shortcodes.php:2887
+#: ../admin/shortcode_generator/shortcodes.php:3081
+#: ../admin/shortcode_generator/shortcodes.php:3275
+#: ../admin/shortcode_generator/shortcodes.php:3898
+#: ../admin/shortcode_generator/shortcodes.php:4093
+#: ../admin/shortcode_generator/shortcodes.php:4287
+#: ../admin/shortcode_generator/shortcodes.php:4481 ../widget/fields1.php:226
+#: ../widget/fields1.php:278 ../widget/fields1.php:328
+#: ../widget/fields1.php:378 ../widget/fields2.php:230
+#: ../widget/fields2.php:282 ../widget/fields2.php:332
+#: ../widget/fields2.php:382 ../widget/fields3.php:248
+#: ../widget/fields3.php:300 ../widget/fields3.php:350
+#: ../widget/fields3.php:400 ../widget/fields4.php:251
+#: ../widget/fields4.php:301 ../widget/fields4.php:351
+#: ../widget/fields4.php:401
+msgid "Fade In Up"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:415
+#: ../admin/shortcode_generator/shortcodes.php:610
+#: ../admin/shortcode_generator/shortcodes.php:804
+#: ../admin/shortcode_generator/shortcodes.php:998
+#: ../admin/shortcode_generator/shortcodes.php:1468
+#: ../admin/shortcode_generator/shortcodes.php:1663
+#: ../admin/shortcode_generator/shortcodes.php:1857
+#: ../admin/shortcode_generator/shortcodes.php:2051
+#: ../admin/shortcode_generator/shortcodes.php:2697
+#: ../admin/shortcode_generator/shortcodes.php:2892
+#: ../admin/shortcode_generator/shortcodes.php:3086
+#: ../admin/shortcode_generator/shortcodes.php:3280
+#: ../admin/shortcode_generator/shortcodes.php:3903
+#: ../admin/shortcode_generator/shortcodes.php:4098
+#: ../admin/shortcode_generator/shortcodes.php:4292
+#: ../admin/shortcode_generator/shortcodes.php:4486 ../widget/fields1.php:227
+#: ../widget/fields1.php:279 ../widget/fields1.php:329
+#: ../widget/fields1.php:379 ../widget/fields2.php:231
+#: ../widget/fields2.php:283 ../widget/fields2.php:333
+#: ../widget/fields2.php:383 ../widget/fields3.php:249
+#: ../widget/fields3.php:301 ../widget/fields3.php:351
+#: ../widget/fields3.php:401 ../widget/fields4.php:252
+#: ../widget/fields4.php:302 ../widget/fields4.php:352
+#: ../widget/fields4.php:402
+msgid "Fade In Up Big"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:420
+#: ../admin/shortcode_generator/shortcodes.php:615
+#: ../admin/shortcode_generator/shortcodes.php:809
+#: ../admin/shortcode_generator/shortcodes.php:1003
+#: ../admin/shortcode_generator/shortcodes.php:1473
+#: ../admin/shortcode_generator/shortcodes.php:1668
+#: ../admin/shortcode_generator/shortcodes.php:1862
+#: ../admin/shortcode_generator/shortcodes.php:2056
+#: ../admin/shortcode_generator/shortcodes.php:2702
+#: ../admin/shortcode_generator/shortcodes.php:2897
+#: ../admin/shortcode_generator/shortcodes.php:3091
+#: ../admin/shortcode_generator/shortcodes.php:3285
+#: ../admin/shortcode_generator/shortcodes.php:3908
+#: ../admin/shortcode_generator/shortcodes.php:4103
+#: ../admin/shortcode_generator/shortcodes.php:4297
+#: ../admin/shortcode_generator/shortcodes.php:4491 ../widget/fields1.php:228
+#: ../widget/fields1.php:280 ../widget/fields1.php:330
+#: ../widget/fields1.php:380 ../widget/fields2.php:232
+#: ../widget/fields2.php:284 ../widget/fields2.php:334
+#: ../widget/fields2.php:384 ../widget/fields3.php:250
+#: ../widget/fields3.php:302 ../widget/fields3.php:352
+#: ../widget/fields3.php:402 ../widget/fields4.php:253
+#: ../widget/fields4.php:303 ../widget/fields4.php:353
+#: ../widget/fields4.php:403
+msgid "Flip"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:425
+#: ../admin/shortcode_generator/shortcodes.php:620
+#: ../admin/shortcode_generator/shortcodes.php:814
+#: ../admin/shortcode_generator/shortcodes.php:1008
+#: ../admin/shortcode_generator/shortcodes.php:1478
+#: ../admin/shortcode_generator/shortcodes.php:1673
+#: ../admin/shortcode_generator/shortcodes.php:1867
+#: ../admin/shortcode_generator/shortcodes.php:2061
+#: ../admin/shortcode_generator/shortcodes.php:2707
+#: ../admin/shortcode_generator/shortcodes.php:2902
+#: ../admin/shortcode_generator/shortcodes.php:3096
+#: ../admin/shortcode_generator/shortcodes.php:3290
+#: ../admin/shortcode_generator/shortcodes.php:3913
+#: ../admin/shortcode_generator/shortcodes.php:4108
+#: ../admin/shortcode_generator/shortcodes.php:4302
+#: ../admin/shortcode_generator/shortcodes.php:4496 ../widget/fields1.php:229
+#: ../widget/fields1.php:281 ../widget/fields1.php:331
+#: ../widget/fields1.php:381 ../widget/fields2.php:233
+#: ../widget/fields2.php:285 ../widget/fields2.php:335
+#: ../widget/fields2.php:385 ../widget/fields3.php:251
+#: ../widget/fields3.php:303 ../widget/fields3.php:353
+#: ../widget/fields3.php:403 ../widget/fields4.php:254
+#: ../widget/fields4.php:304 ../widget/fields4.php:354
+#: ../widget/fields4.php:404
+msgid "Flip In X"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:430
+#: ../admin/shortcode_generator/shortcodes.php:625
+#: ../admin/shortcode_generator/shortcodes.php:819
+#: ../admin/shortcode_generator/shortcodes.php:1013
+#: ../admin/shortcode_generator/shortcodes.php:1483
+#: ../admin/shortcode_generator/shortcodes.php:1678
+#: ../admin/shortcode_generator/shortcodes.php:1872
+#: ../admin/shortcode_generator/shortcodes.php:2066
+#: ../admin/shortcode_generator/shortcodes.php:2712
+#: ../admin/shortcode_generator/shortcodes.php:2907
+#: ../admin/shortcode_generator/shortcodes.php:3101
+#: ../admin/shortcode_generator/shortcodes.php:3295
+#: ../admin/shortcode_generator/shortcodes.php:3918
+#: ../admin/shortcode_generator/shortcodes.php:4113
+#: ../admin/shortcode_generator/shortcodes.php:4307
+#: ../admin/shortcode_generator/shortcodes.php:4501 ../widget/fields1.php:230
+#: ../widget/fields1.php:282 ../widget/fields1.php:332
+#: ../widget/fields1.php:382 ../widget/fields2.php:234
+#: ../widget/fields2.php:286 ../widget/fields2.php:336
+#: ../widget/fields2.php:386 ../widget/fields3.php:252
+#: ../widget/fields3.php:304 ../widget/fields3.php:354
+#: ../widget/fields3.php:404 ../widget/fields4.php:255
+#: ../widget/fields4.php:305 ../widget/fields4.php:355
+#: ../widget/fields4.php:405
+msgid "Flip In Y"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:435
+#: ../admin/shortcode_generator/shortcodes.php:630
+#: ../admin/shortcode_generator/shortcodes.php:824
+#: ../admin/shortcode_generator/shortcodes.php:1018
+#: ../admin/shortcode_generator/shortcodes.php:1488
+#: ../admin/shortcode_generator/shortcodes.php:1683
+#: ../admin/shortcode_generator/shortcodes.php:1877
+#: ../admin/shortcode_generator/shortcodes.php:2071
+#: ../admin/shortcode_generator/shortcodes.php:2717
+#: ../admin/shortcode_generator/shortcodes.php:2912
+#: ../admin/shortcode_generator/shortcodes.php:3106
+#: ../admin/shortcode_generator/shortcodes.php:3300
+#: ../admin/shortcode_generator/shortcodes.php:3923
+#: ../admin/shortcode_generator/shortcodes.php:4118
+#: ../admin/shortcode_generator/shortcodes.php:4312
+#: ../admin/shortcode_generator/shortcodes.php:4506 ../widget/fields1.php:231
+#: ../widget/fields1.php:283 ../widget/fields1.php:333
+#: ../widget/fields1.php:383 ../widget/fields2.php:235
+#: ../widget/fields2.php:287 ../widget/fields2.php:337
+#: ../widget/fields2.php:387 ../widget/fields3.php:253
+#: ../widget/fields3.php:305 ../widget/fields3.php:355
+#: ../widget/fields3.php:405 ../widget/fields4.php:256
+#: ../widget/fields4.php:306 ../widget/fields4.php:356
+#: ../widget/fields4.php:406
+msgid "Light Speed In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:440
+#: ../admin/shortcode_generator/shortcodes.php:635
+#: ../admin/shortcode_generator/shortcodes.php:829
+#: ../admin/shortcode_generator/shortcodes.php:1023
+#: ../admin/shortcode_generator/shortcodes.php:1493
+#: ../admin/shortcode_generator/shortcodes.php:1688
+#: ../admin/shortcode_generator/shortcodes.php:1882
+#: ../admin/shortcode_generator/shortcodes.php:2076
+#: ../admin/shortcode_generator/shortcodes.php:2722
+#: ../admin/shortcode_generator/shortcodes.php:2917
+#: ../admin/shortcode_generator/shortcodes.php:3111
+#: ../admin/shortcode_generator/shortcodes.php:3305
+#: ../admin/shortcode_generator/shortcodes.php:3928
+#: ../admin/shortcode_generator/shortcodes.php:4123
+#: ../admin/shortcode_generator/shortcodes.php:4317
+#: ../admin/shortcode_generator/shortcodes.php:4511 ../widget/fields1.php:232
+#: ../widget/fields1.php:284 ../widget/fields1.php:334
+#: ../widget/fields1.php:384 ../widget/fields2.php:236
+#: ../widget/fields2.php:288 ../widget/fields2.php:338
+#: ../widget/fields2.php:388 ../widget/fields3.php:254
+#: ../widget/fields3.php:306 ../widget/fields3.php:356
+#: ../widget/fields3.php:406 ../widget/fields4.php:257
+#: ../widget/fields4.php:307 ../widget/fields4.php:357
+#: ../widget/fields4.php:407
+msgid "Rotate In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:445
+#: ../admin/shortcode_generator/shortcodes.php:640
+#: ../admin/shortcode_generator/shortcodes.php:834
+#: ../admin/shortcode_generator/shortcodes.php:1028
+#: ../admin/shortcode_generator/shortcodes.php:1498
+#: ../admin/shortcode_generator/shortcodes.php:1693
+#: ../admin/shortcode_generator/shortcodes.php:1887
+#: ../admin/shortcode_generator/shortcodes.php:2081
+#: ../admin/shortcode_generator/shortcodes.php:2727
+#: ../admin/shortcode_generator/shortcodes.php:2922
+#: ../admin/shortcode_generator/shortcodes.php:3116
+#: ../admin/shortcode_generator/shortcodes.php:3310
+#: ../admin/shortcode_generator/shortcodes.php:3933
+#: ../admin/shortcode_generator/shortcodes.php:4128
+#: ../admin/shortcode_generator/shortcodes.php:4322
+#: ../admin/shortcode_generator/shortcodes.php:4516 ../widget/fields1.php:233
+#: ../widget/fields1.php:285 ../widget/fields1.php:335
+#: ../widget/fields1.php:385 ../widget/fields2.php:237
+#: ../widget/fields2.php:289 ../widget/fields2.php:339
+#: ../widget/fields2.php:389 ../widget/fields3.php:255
+#: ../widget/fields3.php:307 ../widget/fields3.php:357
+#: ../widget/fields3.php:407 ../widget/fields4.php:258
+#: ../widget/fields4.php:308 ../widget/fields4.php:358
+#: ../widget/fields4.php:408
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:450
+#: ../admin/shortcode_generator/shortcodes.php:645
+#: ../admin/shortcode_generator/shortcodes.php:839
+#: ../admin/shortcode_generator/shortcodes.php:1033
+#: ../admin/shortcode_generator/shortcodes.php:1503
+#: ../admin/shortcode_generator/shortcodes.php:1698
+#: ../admin/shortcode_generator/shortcodes.php:1892
+#: ../admin/shortcode_generator/shortcodes.php:2086
+#: ../admin/shortcode_generator/shortcodes.php:2732
+#: ../admin/shortcode_generator/shortcodes.php:2927
+#: ../admin/shortcode_generator/shortcodes.php:3121
+#: ../admin/shortcode_generator/shortcodes.php:3315
+#: ../admin/shortcode_generator/shortcodes.php:3938
+#: ../admin/shortcode_generator/shortcodes.php:4133
+#: ../admin/shortcode_generator/shortcodes.php:4327
+#: ../admin/shortcode_generator/shortcodes.php:4521 ../widget/fields1.php:234
+#: ../widget/fields1.php:286 ../widget/fields1.php:336
+#: ../widget/fields1.php:386 ../widget/fields2.php:238
+#: ../widget/fields2.php:290 ../widget/fields2.php:340
+#: ../widget/fields2.php:390 ../widget/fields3.php:256
+#: ../widget/fields3.php:308 ../widget/fields3.php:358
+#: ../widget/fields3.php:408 ../widget/fields4.php:259
+#: ../widget/fields4.php:309 ../widget/fields4.php:359
+#: ../widget/fields4.php:409
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:455
+#: ../admin/shortcode_generator/shortcodes.php:650
+#: ../admin/shortcode_generator/shortcodes.php:844
+#: ../admin/shortcode_generator/shortcodes.php:1038
+#: ../admin/shortcode_generator/shortcodes.php:1508
+#: ../admin/shortcode_generator/shortcodes.php:1703
+#: ../admin/shortcode_generator/shortcodes.php:1897
+#: ../admin/shortcode_generator/shortcodes.php:2091
+#: ../admin/shortcode_generator/shortcodes.php:2737
+#: ../admin/shortcode_generator/shortcodes.php:2932
+#: ../admin/shortcode_generator/shortcodes.php:3126
+#: ../admin/shortcode_generator/shortcodes.php:3320
+#: ../admin/shortcode_generator/shortcodes.php:3943
+#: ../admin/shortcode_generator/shortcodes.php:4138
+#: ../admin/shortcode_generator/shortcodes.php:4332
+#: ../admin/shortcode_generator/shortcodes.php:4526 ../widget/fields1.php:235
+#: ../widget/fields1.php:287 ../widget/fields1.php:337
+#: ../widget/fields1.php:387 ../widget/fields2.php:239
+#: ../widget/fields2.php:291 ../widget/fields2.php:341
+#: ../widget/fields2.php:391 ../widget/fields3.php:257
+#: ../widget/fields3.php:309 ../widget/fields3.php:359
+#: ../widget/fields3.php:409 ../widget/fields4.php:260
+#: ../widget/fields4.php:310 ../widget/fields4.php:360
+#: ../widget/fields4.php:410
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:460
+#: ../admin/shortcode_generator/shortcodes.php:655
+#: ../admin/shortcode_generator/shortcodes.php:849
+#: ../admin/shortcode_generator/shortcodes.php:1043
+#: ../admin/shortcode_generator/shortcodes.php:1513
+#: ../admin/shortcode_generator/shortcodes.php:1708
+#: ../admin/shortcode_generator/shortcodes.php:1902
+#: ../admin/shortcode_generator/shortcodes.php:2096
+#: ../admin/shortcode_generator/shortcodes.php:2742
+#: ../admin/shortcode_generator/shortcodes.php:2937
+#: ../admin/shortcode_generator/shortcodes.php:3131
+#: ../admin/shortcode_generator/shortcodes.php:3325
+#: ../admin/shortcode_generator/shortcodes.php:3948
+#: ../admin/shortcode_generator/shortcodes.php:4143
+#: ../admin/shortcode_generator/shortcodes.php:4337
+#: ../admin/shortcode_generator/shortcodes.php:4531 ../widget/fields1.php:236
+#: ../widget/fields1.php:288 ../widget/fields1.php:338
+#: ../widget/fields1.php:388 ../widget/fields2.php:240
+#: ../widget/fields2.php:292 ../widget/fields2.php:342
+#: ../widget/fields2.php:392 ../widget/fields3.php:258
+#: ../widget/fields3.php:310 ../widget/fields3.php:360
+#: ../widget/fields3.php:410 ../widget/fields4.php:261
+#: ../widget/fields4.php:311 ../widget/fields4.php:361
+#: ../widget/fields4.php:411
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:465
+#: ../admin/shortcode_generator/shortcodes.php:660
+#: ../admin/shortcode_generator/shortcodes.php:854
+#: ../admin/shortcode_generator/shortcodes.php:1048
+#: ../admin/shortcode_generator/shortcodes.php:1518
+#: ../admin/shortcode_generator/shortcodes.php:1713
+#: ../admin/shortcode_generator/shortcodes.php:1907
+#: ../admin/shortcode_generator/shortcodes.php:2101
+#: ../admin/shortcode_generator/shortcodes.php:2747
+#: ../admin/shortcode_generator/shortcodes.php:2942
+#: ../admin/shortcode_generator/shortcodes.php:3136
+#: ../admin/shortcode_generator/shortcodes.php:3330
+#: ../admin/shortcode_generator/shortcodes.php:3953
+#: ../admin/shortcode_generator/shortcodes.php:4148
+#: ../admin/shortcode_generator/shortcodes.php:4342
+#: ../admin/shortcode_generator/shortcodes.php:4536 ../widget/fields1.php:237
+#: ../widget/fields1.php:289 ../widget/fields1.php:339
+#: ../widget/fields1.php:389 ../widget/fields2.php:241
+#: ../widget/fields2.php:293 ../widget/fields2.php:343
+#: ../widget/fields2.php:393 ../widget/fields3.php:259
+#: ../widget/fields3.php:311 ../widget/fields3.php:361
+#: ../widget/fields3.php:411 ../widget/fields4.php:262
+#: ../widget/fields4.php:312 ../widget/fields4.php:362
+#: ../widget/fields4.php:412
+msgid "Slide In Down"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:470
+#: ../admin/shortcode_generator/shortcodes.php:665
+#: ../admin/shortcode_generator/shortcodes.php:859
+#: ../admin/shortcode_generator/shortcodes.php:1053
+#: ../admin/shortcode_generator/shortcodes.php:1523
+#: ../admin/shortcode_generator/shortcodes.php:1718
+#: ../admin/shortcode_generator/shortcodes.php:1912
+#: ../admin/shortcode_generator/shortcodes.php:2106
+#: ../admin/shortcode_generator/shortcodes.php:2752
+#: ../admin/shortcode_generator/shortcodes.php:2947
+#: ../admin/shortcode_generator/shortcodes.php:3141
+#: ../admin/shortcode_generator/shortcodes.php:3335
+#: ../admin/shortcode_generator/shortcodes.php:3958
+#: ../admin/shortcode_generator/shortcodes.php:4153
+#: ../admin/shortcode_generator/shortcodes.php:4347
+#: ../admin/shortcode_generator/shortcodes.php:4541 ../widget/fields1.php:238
+#: ../widget/fields1.php:290 ../widget/fields1.php:340
+#: ../widget/fields1.php:390 ../widget/fields2.php:242
+#: ../widget/fields2.php:294 ../widget/fields2.php:344
+#: ../widget/fields2.php:394 ../widget/fields3.php:260
+#: ../widget/fields3.php:312 ../widget/fields3.php:362
+#: ../widget/fields3.php:412 ../widget/fields4.php:263
+#: ../widget/fields4.php:313 ../widget/fields4.php:363
+#: ../widget/fields4.php:413
+msgid "Slide In Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:475
+#: ../admin/shortcode_generator/shortcodes.php:670
+#: ../admin/shortcode_generator/shortcodes.php:864
+#: ../admin/shortcode_generator/shortcodes.php:1058
+#: ../admin/shortcode_generator/shortcodes.php:1528
+#: ../admin/shortcode_generator/shortcodes.php:1723
+#: ../admin/shortcode_generator/shortcodes.php:1917
+#: ../admin/shortcode_generator/shortcodes.php:2111
+#: ../admin/shortcode_generator/shortcodes.php:2757
+#: ../admin/shortcode_generator/shortcodes.php:2952
+#: ../admin/shortcode_generator/shortcodes.php:3146
+#: ../admin/shortcode_generator/shortcodes.php:3340
+#: ../admin/shortcode_generator/shortcodes.php:3963
+#: ../admin/shortcode_generator/shortcodes.php:4158
+#: ../admin/shortcode_generator/shortcodes.php:4352
+#: ../admin/shortcode_generator/shortcodes.php:4546 ../widget/fields1.php:239
+#: ../widget/fields1.php:291 ../widget/fields1.php:341
+#: ../widget/fields1.php:391 ../widget/fields2.php:243
+#: ../widget/fields2.php:295 ../widget/fields2.php:345
+#: ../widget/fields2.php:395 ../widget/fields3.php:261
+#: ../widget/fields3.php:313 ../widget/fields3.php:363
+#: ../widget/fields3.php:413 ../widget/fields4.php:264
+#: ../widget/fields4.php:314 ../widget/fields4.php:364
+#: ../widget/fields4.php:414
+msgid "Slide In Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:480
+#: ../admin/shortcode_generator/shortcodes.php:675
+#: ../admin/shortcode_generator/shortcodes.php:869
+#: ../admin/shortcode_generator/shortcodes.php:1063
+#: ../admin/shortcode_generator/shortcodes.php:1533
+#: ../admin/shortcode_generator/shortcodes.php:1728
+#: ../admin/shortcode_generator/shortcodes.php:1922
+#: ../admin/shortcode_generator/shortcodes.php:2116
+#: ../admin/shortcode_generator/shortcodes.php:2762
+#: ../admin/shortcode_generator/shortcodes.php:2957
+#: ../admin/shortcode_generator/shortcodes.php:3151
+#: ../admin/shortcode_generator/shortcodes.php:3345
+#: ../admin/shortcode_generator/shortcodes.php:3968
+#: ../admin/shortcode_generator/shortcodes.php:4163
+#: ../admin/shortcode_generator/shortcodes.php:4357
+#: ../admin/shortcode_generator/shortcodes.php:4551 ../widget/fields1.php:240
+#: ../widget/fields1.php:292 ../widget/fields1.php:342
+#: ../widget/fields1.php:392 ../widget/fields2.php:244
+#: ../widget/fields2.php:296 ../widget/fields2.php:346
+#: ../widget/fields2.php:396 ../widget/fields3.php:262
+#: ../widget/fields3.php:314 ../widget/fields3.php:364
+#: ../widget/fields3.php:414 ../widget/fields4.php:265
+#: ../widget/fields4.php:315 ../widget/fields4.php:365
+#: ../widget/fields4.php:415
+msgid "Hinge"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:485
+#: ../admin/shortcode_generator/shortcodes.php:680
+#: ../admin/shortcode_generator/shortcodes.php:874
+#: ../admin/shortcode_generator/shortcodes.php:1068
+#: ../admin/shortcode_generator/shortcodes.php:1538
+#: ../admin/shortcode_generator/shortcodes.php:1733
+#: ../admin/shortcode_generator/shortcodes.php:1927
+#: ../admin/shortcode_generator/shortcodes.php:2121
+#: ../admin/shortcode_generator/shortcodes.php:2767
+#: ../admin/shortcode_generator/shortcodes.php:2962
+#: ../admin/shortcode_generator/shortcodes.php:3156
+#: ../admin/shortcode_generator/shortcodes.php:3350
+#: ../admin/shortcode_generator/shortcodes.php:3973
+#: ../admin/shortcode_generator/shortcodes.php:4168
+#: ../admin/shortcode_generator/shortcodes.php:4362
+#: ../admin/shortcode_generator/shortcodes.php:4556 ../widget/fields1.php:241
+#: ../widget/fields1.php:293 ../widget/fields1.php:343
+#: ../widget/fields1.php:393 ../widget/fields2.php:245
+#: ../widget/fields2.php:297 ../widget/fields2.php:347
+#: ../widget/fields2.php:397 ../widget/fields3.php:263
+#: ../widget/fields3.php:315 ../widget/fields3.php:365
+#: ../widget/fields3.php:415 ../widget/fields4.php:266
+#: ../widget/fields4.php:316 ../widget/fields4.php:366
+#: ../widget/fields4.php:416
+msgid "Roll In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:496
+#: ../admin/shortcode_generator/shortcodes.php:1549
+#: ../admin/shortcode_generator/shortcodes.php:2778
+#: ../admin/shortcode_generator/shortcodes.php:3984
+msgid "Title animation"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:690
+#: ../admin/shortcode_generator/shortcodes.php:1743
+#: ../admin/shortcode_generator/shortcodes.php:2972
+#: ../admin/shortcode_generator/shortcodes.php:4178
+msgid "Price animation"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:884
+#: ../admin/shortcode_generator/shortcodes.php:1937
+#: ../admin/shortcode_generator/shortcodes.php:3166
+#: ../admin/shortcode_generator/shortcodes.php:4372
+msgid "Rating animation"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:1083
+#: ../admin/shortcode_generator/shortcodes.php:1087
+msgid "Woocommerce categories grid"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:1093
+#: ../admin/shortcode_generator/shortcodes.php:3463
+msgid "Select Category"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2136
+#: ../admin/shortcode_generator/shortcodes.php:2140
+msgid "Special categories carousel"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2295
+#: ../admin/shortcode_generator/shortcodes.php:2364
+#: ../admin/shortcode_generator/shortcodes.php:2434
+#: ../admin/shortcode_generator/shortcodes.php:3501
+#: ../admin/shortcode_generator/shortcodes.php:3570
+#: ../admin/shortcode_generator/shortcodes.php:3640
+msgid "5"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2305
+#: ../admin/shortcode_generator/shortcodes.php:2374
+#: ../admin/shortcode_generator/shortcodes.php:2444
+#: ../admin/shortcode_generator/shortcodes.php:3511
+#: ../admin/shortcode_generator/shortcodes.php:3580
+#: ../admin/shortcode_generator/shortcodes.php:3650
+msgid "7"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2310
+#: ../admin/shortcode_generator/shortcodes.php:2379
+#: ../admin/shortcode_generator/shortcodes.php:2449
+#: ../admin/shortcode_generator/shortcodes.php:3516
+#: ../admin/shortcode_generator/shortcodes.php:3585
+#: ../admin/shortcode_generator/shortcodes.php:3655
+msgid "8"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2315
+#: ../admin/shortcode_generator/shortcodes.php:2384
+#: ../admin/shortcode_generator/shortcodes.php:2454
+#: ../admin/shortcode_generator/shortcodes.php:3521
+#: ../admin/shortcode_generator/shortcodes.php:3590
+#: ../admin/shortcode_generator/shortcodes.php:3660
+msgid "9"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2320
+#: ../admin/shortcode_generator/shortcodes.php:2389
+#: ../admin/shortcode_generator/shortcodes.php:2459
+#: ../admin/shortcode_generator/shortcodes.php:3526
+#: ../admin/shortcode_generator/shortcodes.php:3595
+#: ../admin/shortcode_generator/shortcodes.php:3665
+msgid "10"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2325
+#: ../admin/shortcode_generator/shortcodes.php:2394
+#: ../admin/shortcode_generator/shortcodes.php:2464
+#: ../admin/shortcode_generator/shortcodes.php:3531
+#: ../admin/shortcode_generator/shortcodes.php:3600
+#: ../admin/shortcode_generator/shortcodes.php:3670
+msgid "11"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:2514
+#: ../admin/shortcode_generator/shortcodes.php:3720
+msgid "<h3>Slider/Carousel Control Options</h3>"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:3366
+#: ../admin/shortcode_generator/shortcodes.php:3370
+msgid "Woocommerce categories carousel"
+msgstr ""
+
+#: ../config.php:19 ../config.php:20
+msgid "TWI Awesome Woocommerce Grid/Slider/Carousel Shortcodes"
+msgstr ""
+
+#: ../config.php:50
+msgid "TWI Woo Options"
+msgstr ""
+
+#: ../inc/bootstrap.php:88 ../inc/classes/option.php:357
+#: ../inc/classes/option.php:382
+msgid "Successful"
+msgstr ""
+
+#: ../inc/bootstrap.php:99
+msgid "Unauthorized function"
+msgstr ""
+
+#: ../inc/classes/metabox.php:35
+msgid "[Development Mode] "
+msgstr ""
+
+#: ../inc/classes/metabox.php:564 ../inc/classes/metabox/alchemy.php:493
+msgid "Remove"
+msgstr ""
+
+#: ../inc/classes/metabox.php:586 ../inc/classes/metabox/alchemy.php:515
+msgid "Add More"
+msgstr ""
+
+#: ../inc/classes/option.php:47 ../inc/classes/option.php:48
+msgid "Vafpress Options"
+msgstr ""
+
+#: ../inc/classes/option.php:54
+msgid "Option Key is required"
+msgstr ""
+
+#: ../inc/classes/option.php:56
+msgid "Template Array/File is required"
+msgstr ""
+
+#: ../inc/classes/option.php:58
+msgid "Page Slug is required"
+msgstr ""
+
+#: ../inc/classes/option.php:160
+msgid ""
+"Development Mode is Active, options' values won't be saved into database."
+msgstr ""
+
+#: ../inc/classes/option.php:299
+msgid "Can not be empty"
+msgstr ""
+
+#: ../inc/classes/option.php:324
+msgid "Invalid data"
+msgstr ""
+
+#: ../inc/classes/option.php:387
+msgid "Unverified Access"
+msgstr ""
+
+#: ../inc/classes/option.php:453
+msgid "Invalid template supplied"
+msgstr ""
+
+#: ../inc/classes/option.php:466
+msgid "Utility"
+msgstr ""
+
+#: ../inc/classes/option.php:472 ../inc/views/option/restore.php:13
+msgid "Restore Default"
+msgstr ""
+
+#: ../inc/classes/option.php:481
+msgid "Export/Import"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr ""
+
+#: ../inc/classes/shortcodegenerator.php:260
+msgid "Insert"
+msgstr ""
+
+#: ../inc/classes/shortcodegenerator.php:261
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr ""
+
+#: ../inc/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr ""
+
+#: ../inc/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr ""
+
+#: ../inc/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr ""
+
+#: ../inc/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr ""
+
+#: ../inc/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr ""
+
+#: ../inc/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr ""
+
+#: ../inc/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr ""
+
+#: ../inc/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr ""
+
+#: ../inc/config/messages.php:22
+msgid "This is required"
+msgstr ""
+
+#: ../inc/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr ""
+
+#: ../inc/config/messages.php:30
+msgid "Import failed"
+msgstr ""
+
+#: ../inc/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr ""
+
+#: ../inc/config/messages.php:32
+msgid "Export failed"
+msgstr ""
+
+#: ../inc/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr ""
+
+#: ../inc/config/messages.php:34
+msgid "Options identical to default"
+msgstr ""
+
+#: ../inc/config/messages.php:35
+msgid "Restoration failed"
+msgstr ""
+
+#: ../inc/config/messages.php:43
+msgid "Select option(s)"
+msgstr ""
+
+#: ../inc/config/messages.php:45
+msgid "Select an Icon"
+msgstr ""
+
+#: ../inc/views/control/upload.php:5
+msgid "Choose File"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:4 ../inc/views/option/impexp.php:14
+msgid "Import"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:7
+msgid "Import Options"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:27 ../inc/views/option/impexp.php:37
+msgid "Export"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:30
+msgid "Export Options"
+msgstr ""
+
+#: ../inc/views/option/restore.php:4
+msgid "Restore Default Options"
+msgstr ""
+
+#: ../inc/views/option/restore.php:7
+msgid "Restore options to initial default values."
+msgstr ""
+
+#: ../inc/views/option/restore.php:14
+msgid ""
+"** Please make sure you have already make a backup data of your current "
+"settings. Once you click this button, your current settings will be gone."
+msgstr ""
+
+#: ../inc/views/option/set.php:69 ../inc/views/option/set.php:84
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/views/option/set.php:70 ../inc/views/option/set.php:85
+msgid "Saving Now"
+msgstr ""
+
+#: ../inc/views/option/set.php:93
+#, php-format
+msgid ""
+"This option panel is built using <a href=\"http://vafpress.com/vafpress-"
+"framework\">Vafpress Framework %s</a> powered by <a href=\"http://vafpress."
+"com\">Vafpress</a>"
+msgstr ""
+
+#: ../shortcodes/shortcode-grid1.php:33
+#: ../shortcodes/shortcode-grid_carousel1.php:36
+msgid "You have not viewed any product yet!"
+msgstr ""
+
+#: ../twi-awesome-woocommerce-slider-carousel.php:34
+msgid ""
+"<i><b><span style=\"color:#9C5D90\">You must need to install \"Woocommerce\" "
+"plugin first to show the options of \"TWI Awesome Woocommerce Grid/Slider/"
+"Carousel\" plugin.</span></b></i>"
+msgstr ""
+
+#: ../widget/fields1.php:16 ../widget/fields2.php:16 ../widget/fields3.php:16
+#: ../widget/fields4.php:16
+msgid "Title:"
+msgstr ""
+
+#: ../widget/fields1.php:25 ../widget/fields2.php:25 ../widget/fields3.php:25
+#: ../widget/fields4.php:25
+msgid "Hide title"
+msgstr ""
+
+#: ../widget/fields1.php:32 ../widget/fields2.php:32 ../widget/fields3.php:32
+#: ../widget/fields4.php:32
+msgid "I don't want hover effects :"
+msgstr ""
+
+#: ../widget/fields1.php:37 ../widget/fields1.php:190 ../widget/fields2.php:37
+#: ../widget/fields2.php:194 ../widget/fields3.php:37
+#: ../widget/fields3.php:174 ../widget/fields3.php:188
+#: ../widget/fields3.php:200 ../widget/fields3.php:212
+#: ../widget/fields4.php:37 ../widget/fields4.php:176
+#: ../widget/fields4.php:190 ../widget/fields4.php:202
+#: ../widget/fields4.php:214
+msgid "Yes"
+msgstr ""
+
+#: ../widget/fields1.php:38 ../widget/fields1.php:191 ../widget/fields2.php:38
+#: ../widget/fields2.php:195 ../widget/fields3.php:38
+#: ../widget/fields3.php:175 ../widget/fields3.php:189
+#: ../widget/fields3.php:201 ../widget/fields3.php:213
+#: ../widget/fields4.php:38 ../widget/fields4.php:177
+#: ../widget/fields4.php:191 ../widget/fields4.php:203
+#: ../widget/fields4.php:215
+msgid "No"
+msgstr ""
+
+#: ../widget/fields1.php:48 ../widget/fields3.php:48
+msgid "Special Category:"
+msgstr ""
+
+#: ../widget/fields1.php:53 ../widget/fields3.php:53
+msgid "Recent Products"
+msgstr ""
+
+#: ../widget/fields1.php:66 ../widget/fields2.php:70 ../widget/fields3.php:66
+#: ../widget/fields4.php:68
+msgid "Hover Effects :"
+msgstr ""
+
+#: ../widget/fields1.php:92 ../widget/fields2.php:96 ../widget/fields3.php:92
+#: ../widget/fields4.php:94
+msgid "Desktop :"
+msgstr ""
+
+#: ../widget/fields1.php:109 ../widget/fields2.php:113
+#: ../widget/fields3.php:104 ../widget/fields4.php:106
+msgid "Tablet :"
+msgstr ""
+
+#: ../widget/fields1.php:126 ../widget/fields2.php:130
+#: ../widget/fields3.php:116 ../widget/fields4.php:118
+msgid "Mobile :"
+msgstr ""
+
+#: ../widget/fields1.php:144 ../widget/fields2.php:148
+#: ../widget/fields3.php:129 ../widget/fields4.php:131
+msgid "Products Per Page:"
+msgstr ""
+
+#: ../widget/fields1.php:156 ../widget/fields2.php:160
+#: ../widget/fields3.php:141 ../widget/fields4.php:143
+msgid "Hover Background:"
+msgstr ""
+
+#: ../widget/fields1.php:162 ../widget/fields2.php:166
+#: ../widget/fields3.php:147 ../widget/fields4.php:149
+msgid "Opacity of Hover Background:"
+msgstr ""
+
+#: ../widget/fields1.php:168 ../widget/fields2.php:172
+#: ../widget/fields3.php:153 ../widget/fields4.php:155
+msgid "0"
+msgstr ""
+
+#: ../widget/fields1.php:169 ../widget/fields2.php:173
+#: ../widget/fields3.php:154 ../widget/fields4.php:156
+msgid "0.1"
+msgstr ""
+
+#: ../widget/fields1.php:170 ../widget/fields2.php:174
+#: ../widget/fields3.php:155 ../widget/fields4.php:157
+msgid "0.2"
+msgstr ""
+
+#: ../widget/fields1.php:171 ../widget/fields2.php:175
+#: ../widget/fields3.php:156 ../widget/fields4.php:158
+msgid "0.3"
+msgstr ""
+
+#: ../widget/fields1.php:172 ../widget/fields2.php:176
+#: ../widget/fields3.php:157 ../widget/fields4.php:159
+msgid "0.4"
+msgstr ""
+
+#: ../widget/fields1.php:173 ../widget/fields2.php:177
+#: ../widget/fields3.php:158 ../widget/fields4.php:160
+msgid "0.5"
+msgstr ""
+
+#: ../widget/fields1.php:174 ../widget/fields2.php:178
+#: ../widget/fields3.php:159 ../widget/fields4.php:161
+msgid "0.6"
+msgstr ""
+
+#: ../widget/fields1.php:175 ../widget/fields2.php:179
+#: ../widget/fields3.php:160 ../widget/fields4.php:162
+msgid "0.7"
+msgstr ""
+
+#: ../widget/fields1.php:176 ../widget/fields2.php:180
+#: ../widget/fields3.php:161 ../widget/fields4.php:163
+msgid "0.8"
+msgstr ""
+
+#: ../widget/fields1.php:177 ../widget/fields2.php:181
+#: ../widget/fields3.php:162 ../widget/fields4.php:164
+msgid "0.9"
+msgstr ""
+
+#: ../widget/fields1.php:185 ../widget/fields2.php:189
+#: ../widget/fields3.php:169 ../widget/fields4.php:171
+msgid "Rating Display :"
+msgstr ""
+
+#: ../widget/fields1.php:196 ../widget/fields2.php:200
+#: ../widget/fields3.php:218 ../widget/fields4.php:221
+msgid "Animations :"
+msgstr ""
+
+#: ../widget/fields1.php:199 ../widget/fields2.php:203
+#: ../widget/fields3.php:221 ../widget/fields4.php:224
+msgid "Cart button animation :"
+msgstr ""
+
+#: ../widget/fields1.php:205 ../widget/fields1.php:257
+#: ../widget/fields1.php:307 ../widget/fields1.php:357
+#: ../widget/fields2.php:209 ../widget/fields2.php:261
+#: ../widget/fields2.php:311 ../widget/fields2.php:361
+#: ../widget/fields3.php:227 ../widget/fields3.php:279
+#: ../widget/fields3.php:329 ../widget/fields3.php:379
+#: ../widget/fields4.php:230 ../widget/fields4.php:280
+#: ../widget/fields4.php:330 ../widget/fields4.php:380
+msgid "No animtion"
+msgstr ""
+
+#: ../widget/fields1.php:251 ../widget/fields2.php:255
+#: ../widget/fields3.php:273 ../widget/fields4.php:274
+msgid "Title animation :"
+msgstr ""
+
+#: ../widget/fields1.php:301 ../widget/fields2.php:305
+#: ../widget/fields3.php:323 ../widget/fields4.php:324
+msgid "Price animation :"
+msgstr ""
+
+#: ../widget/fields1.php:351 ../widget/fields2.php:355
+#: ../widget/fields3.php:373 ../widget/fields4.php:374
+msgid "Rating animation :"
+msgstr ""
+
+#: ../widget/fields2.php:48 ../widget/fields4.php:46
+msgid "Woocommerce Category:"
+msgstr ""
+
+#: ../widget/fields2.php:53 ../widget/fields4.php:51
+msgid "All"
+msgstr ""
+
+#: ../widget/fields3.php:180 ../widget/fields4.php:182
+msgid "Carousel/Slider Options"
+msgstr ""
+
+#: ../widget/fields3.php:183 ../widget/fields4.php:185
+msgid "Autoplay :"
+msgstr ""
+
+#: ../widget/fields3.php:195 ../widget/fields4.php:197
+msgid "Navigation :"
+msgstr ""
+
+#: ../widget/fields3.php:207 ../widget/fields4.php:209
+msgid "Pagination :"
+msgstr ""
+
+#: ../widget/widget1.php:7
+msgid "Woo Grid (Special Category)"
+msgstr ""
+
+#: ../widget/widget1.php:10
+msgid "This is widget for TWI Woocommerce Grid (Special Category"
+msgstr ""
+
+#: ../widget/widget2.php:7
+msgid "Woo Grid (Woo Category)"
+msgstr ""
+
+#: ../widget/widget2.php:10
+msgid "This is widget for TWI Woocommerce Grid (Woocommerce Category"
+msgstr ""
+
+#: ../widget/widget3.php:7
+msgid "Woo Carousel (Special Category)"
+msgstr ""
+
+#: ../widget/widget3.php:10
+msgid "This is widget for TWI Woocommerce Grid Carousel (Special Category"
+msgstr ""
+
+#: ../widget/widget4.php:7
+msgid "Woo Carousel (Woo Category)"
+msgstr ""
+
+#: ../widget/widget4.php:10
+msgid "This is widget for TWI Woocommerce Grid Carousel (Woocommerce Category"
+msgstr ""

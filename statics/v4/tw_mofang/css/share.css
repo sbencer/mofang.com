@@ -1,0 +1,53 @@
+.hw-share-wrap{
+	height:50px;
+	line-height: 50px;
+}
+.hw-share-wrap span{
+	color:#333;
+	font-size: 18px;
+	margin-right: 10px;
+	display: inline-block;
+	padding-left: 10px;
+	_display:inline;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.hw-share-wrap{
+	font-size: 0px;
+}
+.hw-share-wrap a{
+	display: inline-block;
+	_display:inline;
+	margin:0 10px;
+	width:24px;
+	height:24px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.hw-share-wrap a.share-fb{
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+	background-image: url(/statics/v4/tw_mofang/img/share_fb.png);
+}
+.hw-share-wrap a.share-tt{
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+	background-image: url(/statics/v4/tw_mofang/img/share_tt.png);
+}
+.hw-share-wrap a.share-gg{
+	background-position: center;
+	background-size: 24px;
+	background-repeat: no-repeat;
+	background-image: url(/statics/v4/tw_mofang/img/share_gg.png);
+}
+.hw-share-wrap a.share-fb:hover{
+	background-image: url(/statics/v4/tw_mofang/img/share_fb_h.png);
+}
+.hw-share-wrap a.share-gg:hover{
+	background-image: url(/statics/v4/tw_mofang/img/share_gg_h.png);
+}
+.hw-share-wrap a.share-tt:hover{
+	background-image: url(/statics/v4/tw_mofang/img/share_tt_h.png);
+}

@@ -1,0 +1,106 @@
+.rank-title h3 {
+	color: #000;
+	padding-right: 80px;
+	font-size: 30px;
+	padding-left: 15px;
+	border-left: 6px solid #f39800;
+	line-height: 36px;
+	height: 36px;
+	display: inline-block;
+	background: url(/statics/v4/tw_mofang/img/title_rank.jpg) 180px center no-repeat;
+}
+.rank-title p{
+	display: inline-block;
+	color: #000;
+	font-size: 20px;
+	line-height: 36px;
+	height: 36px;
+}
+.rank-title {
+	border-bottom:1px solid #f39800;
+	padding-bottom: 10px;
+}
+.rank-title em{
+	font-style: normal;
+}
+.rank-num{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	color:#000;
+	margin-right: 15px;
+	vertical-align: middle;
+}
+.rank-list a{
+	vertical-align: middle;
+	color:#666;
+	font-size: 14px;
+}
+.rank-list a:hover{
+	color:#FD9814;
+}
+.rank-content ul{
+	width:477px;
+}
+.rank-list .icon{
+	vertical-align: middle;
+	width:30px;
+	height: 14px;
+	display: inline-block;
+	background: url(/statics/v4/tw_mofang/img/new.jpg) left top no-repeat;
+}
+.rank-content ul li:nth-child(odd){
+	background:#f5f0e8;
+	height:30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.rank-content ul li:nth-child(even){
+	background: #fff;
+	height: 44px;
+	line-height: 44px;
+}
+.rank-wrap{
+	padding-top: 15px;
+}
+.rank-title a{
+	margin-top: 10px;
+	color: #FD9814;
+ 	font-size: 14px;
+ 	font-weight: bold;
+}
+.rank-content{
+	padding-top: 17px;
+}
+.rank-content ul.left li:nth-child(1) .rank-num{
+	background: #ffb232;
+}
+.rank-content ul.left li:nth-child(2) .rank-num{
+	background: #e4c591;
+}
+.rank-content ul.left li:nth-child(3) .rank-num{
+	background: #e6dac6;
+}
+
+.rank-num{
+	background: #e3e3e3;
+}
+.rank-view{
+	margin:0px 3px 0 0;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+.con_nav {
+	margin: auto;
+	width: 1000px;
+	height: 70px;
+	background: url(/statics/v4/tw_tyong/img/con_bg_03.jpg) no-repeat;
+	margin-top: 180px;
+}
+.con_nav a {
+	font-size: 14px;
+	color: #fff;
+	padding-left: 20px;
+	display: inline-block;
+}
+.con_nav em {
+	color: #fff;
+	font-size: 14px;
+	font-family: "宋体";
+	font-style: normal;
+}
+.uk-search {
+	width: 240px;
+	height: 35px;
+	background-color: #fff;
+	margin: 16px 40px 0 0;
+	float: right;
+	border-radius: 20px;
+	position: relative;
+	  overflow: hidden;
+}
+.uk-search input {
+	-moz-box-shadow:2px 2px 2px #999 inset;
+	-webkit-box-shadow:2px 2px 2px #999 inset;
+	box-shadow:2px 5px 2px #999 inset;
+	width: 240px;
+	height: 35px;
+	border: none;
+	position: absolute;
+  top: 0;
+  left:-49px;
+  padding-left: 60px;
+  border-radius: 20px;
+}
+.uk-search input:focus {
+	outline:none;
+}
+.uk-search button {
+	width: 40px;
+	height: 26px;
+	position: absolute;
+	top: 5px;
+	left: 202px;
+	border: 0;
+	
+	background: none;
+	background:url(/statics/v4/tw_tyong/img/search.png) no-repeat;
+	cursor: pointer;
+}
+/*live*/
+.con_nav.live_nav{height:50px; line-height:50px; font-family:"微软雅黑"; overflow:hidden;}
+.con_nav span.fl{color: #fff; font-size: 16px; font-weight:700; padding-left:30px;}
+.con_nav a.close_live{padding-right:23px; background:url(/statics/v4/tw_tyong/img/close_white.png) right 17px no-repeat; margin-right:10px; color: #fff; font-size: 14px; font-weight:700; display:none;}
+.live{width:980px; padding:10px; margin:0 auto 10px; background-color:#fff; overflow:hidden;}
+.live h2{font-size:16px; display:none;}
+.live_list{padding:10px 0; overflow:hidden;}
+.status{height:18px; padding:0 10px; line-height:18px; text-align:center; background-color:#e60012; color:#fff; float:left; margin-top:2px; font-family:Helvetica,"微软雅黑"; font-weight:700; border-radius:20px; font-size:12px;}
+#marquee_box{width:785px; margin-left:20px; float:left; display:inline; font-size:14px; overflow:hidden;}
+.marquee_table td{padding:0 10px; border:none; white-space:nowrap; color:#666; overflow:hidden;}
+.marquee_table td a{color:#666;}
+.marquee_table td a:hover{color:#FD9814;}
+.iframe_live{display:none;}

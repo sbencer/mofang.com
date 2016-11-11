@@ -1,0 +1,168 @@
+@charset "utf-8";
+/*
+ * Author:mofang
+ * Update: 2013-08-19
+*/
+/* CSS Reset */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body,button,input,select,textarea{ font:12px/1.5 "Microsoft Yahei","Hiragino Sans GB",Helvetica,Arial,sans-serif;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,cite,dfn,em,var{font-style:normal;}
+ol,ol li, ul,ul li {list-style: none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select,button {font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select ,button{*font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend {color:#000;}
+:focus {outline: 0;}
+code, kbd, samp, tt{font-family:宋体;}
+
+/* CSS clearfix */
+.clearfix:before, .clearfix:after {content: '.';display: block;overflow: hidden;visibility: hidden;font-size: 0;line-height: 0;width: 0;height: 0}
+.clearfix:after {clear: both}
+.clearfix {zoom: 1}
+
+/* index */
+body{ color:#333; background-color:#FFEFCC;font-family:宋体;}
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#FFA239; text-decoration:underline;}
+.top-header{ height:70px; background:url(../../images/duihua/banner_top.jpg) no-repeat  center top; width:100%; padding-top:150px;}
+.top-nav{ background:url(http://c.mofang.com/statics/images/duihua/nav_bg.png) repeat-x; height:70px;}
+.w1000{ width:1000px; margin:0 auto; background:#FFFFFF; height:100%;}
+.w1000-nobg{ width:1000px; margin:0 auto; height:100%;}
+.mt20{ margin-bottom:20px;}
+.top-nav-inner{ height:70px; width:1000px; margin:0 auto;}
+.top-nav-inner ul{ overflow:hidden;}
+.top-nav-inner li{ float:left; height:50px; display:inline; line-height:50px; width:135px; padding:10px 0; overflow:hidden;}
+.top-nav-inner li a{ display:block; height:50px;overflow:hidden; text-indent:-9999px; text-align:center;
+  background:url(../../images/duihua/mlx_logo.png) no-repeat -9999px -9999px;
+}
+.top-nav-inner li a:hover{ background:url(../../images/duihua/mlx_logo_hover.png) no-repeat -9999px -9999px;}
+.top-nav-inner li.top-n1{margin-right: 5px;}
+.top-nav-inner li.top-n1 a{ background-position: 0 0px;}
+.top-nav-inner li.top-n1 a:hover{ background-position: 0 0;}
+.top-nav-inner li.top-n2{ width: 100px;}
+.top-nav-inner li.top-n2 a{background-position: -141px 0;}
+.top-nav-inner li.top-n2 a:hover{ background-position: -141px 0;}
+.top-nav-inner li.top-n3{width: 100px;}
+.top-nav-inner li.top-n3 a{background-position: -242px 0;}
+.top-nav-inner li.top-n3 a:hover{ background-position: -242px 0;}
+.top-nav-inner li.top-n4{width: 100px; margin-right: 10px;}
+.top-nav-inner li.top-n4 a{background-position:-348px 0;}
+.top-nav-inner li.top-n4 a:hover{ background-position: -348px 0;}
+.top-nav-inner li.top-n5{width: 100px;margin-right: 10px;}
+.top-nav-inner li.top-n5 a{background-position: -457px 0;}
+.top-nav-inner li.top-n5 a:hover{  background-position: -457px 0;}
+.top-nav-inner li.top-n6{width: 100px;margin-right: 10px;}
+.top-nav-inner li.top-n6 a{ background-position: -569px 0; }
+.top-nav-inner li.top-n6 a:hover{background-position: -569px 0;}
+.top-nav-inner li.top-n7{width: 100px;}
+.top-nav-inner li.top-n7 a{ background-position: -680px 0;}
+.top-nav-inner li.top-n7 a:hover{ background-position: -680px 0;}
+.top-nav-inner li.top-n8{width: 100px;margin-right: 5px;}
+.top-nav-inner li.top-n8 a{background-position: -784px 0;}
+.top-nav-inner li.top-n8 a:hover {background-position: -784px 0;}
+.top-nav-inner li.top-n9{width: 100px;}
+.top-nav-inner li.top-n9 a{background-position: -887px 0;}
+.top-nav-inner li.top-n9 a:hover{ background-position: -887px 0;}
+
+
+
+
+.vadio-box{ height:400px; width:450px; overflow:hidden; float:left; display:inline; margin:20px 50px 0 20px;}
+.r-box{ float:right; width:470px; display:inline; margin-right:10px;}
+.intro-con{ padding-top:20px; border-bottom:1px dashed #D7D7D7; padding-bottom:13px; margin-bottom:15px;}
+.intro-con h3{ height:40px; text-indent:-9999px; background:url(../../images/duihua/introdution.png) no-repeat left center; overflow:hidden; margin-bottom:15px;}
+.intro-con p{ background:#EEE; text-indent:24px; padding:10px 20px 30px; line-height:24px;font-size: 12px;}
+.intro-con p a,.intro-con p a:hover{ color:#F58D3E;}
+.guest-con h3{ background:url(../../images/duihua/guest.png) no-repeat left center; height:42px; text-indent:-9999px; overflow:hidden; margin-bottom:12px;}
+.guest-con dl{ width:100%; overflow:hidden; display:block;}
+.guest-con dt{ height:130px; width:130px; float:left; display:inline; margin-right:20px;}
+.guest-con dd{ width:320px; overflow:hidden; float:left; display:inline;}
+.guest-con dd .txt1{ font-size:16px;}
+.guest-con dd .txt2{ color:#FFA239; margin-bottom:20px;}
+.guest-con dd .txt3{ line-height:22px;}
+.share-box{ padding:30px 0 20px; height:20px; margin-left:300px;}
+
+.mTit{ height:38px; border-bottom:1px solid #EEEEEE; margin-bottom:15px; margin-left:40px; position:relative;}
+.mTit span{ width:120px; border-top:4px solid #F58D3E; font-size:20px; display:inline-block; line-height:20px; font-weight:normal;padding-top:8px; position:absolute; left:-40px; top:0;}
+.mTit span em{ background:#F58D3E; color:#FFF; float:left; margin-left:36px;}
+.vadio-chf{ float:left; width:450px; margin-left:20px; padding-top:5px;}
+.chf-list{ float:right; width:500px;}
+.chf-list ul{ overflow:hidden;}
+.chf-list li{ float:left; display:inline; width:200px; height:154px; margin:0 20px 20px 30px; padding-top:5px; overflow:hidden;}
+.chf-pic{ display:block; height:180px; height:112px; border:1px solid #EEEEEE; padding:4px 10px; margin-bottom:10px;}
+.chf-infor{ height:22px; line-height:22px; background:#F6F6F6; text-align:center;}
+.yulu{ padding: 0 10px 0 9px;}
+.yulu-box{ background:url(../../images/duihua/ylbg.png) no-repeat; width:270px; border:1px solid #DDDDDD; height:77px; padding:10px 20px 10px 15px; overflow:hidden; float:left; display:inline; position:relative; margin:5px 10px 20px 10px;}
+.yulu-box p{ text-indent:24px;}
+.yulu-box i{ color:#F58D3E; font-style:normal; position:absolute; height:20px; line-height:20px; width:16px; padding-left:4px; text-align:center; right:0; bottom:0;}
+.shilu{ padding:5px 20px 20px;}
+.shilu p{ text-indent:24px; line-height:22px;}
+.shilu p.shilu-ask{ color:#F58D3E; margin-bottom:5px;}
+.shilu-more{height:12px; width:100%; background:#eeeeee; margin-bottom:0px; text-align:center;}
+.shilu-more .shilu_btndown{margin:auto; background:url(../../images/duihua/dowm.png) no-repeat 0 3px; display:block; width:11px; height:9px;}
+.shilu-more .shilu_btnup{margin:auto; background:url(../../images/duihua/up.png) no-repeat 0 3px; display:block; width:11px; height:9px;}
+.left-col{ width:610px; float:left; background:#FFF; height:325px;}
+.right-col{ width:370px; float:right; background:#FFF;height:325px;}
+.wangqi{ overflow:hidden; padding:5px 5px 15px;}
+.wangqi li{ float:left; width:150px; margin:0 25px; display:inline;}
+.wangqi .wq-pic{ display:block; overflow:hidden; border:1px solid #F58D3E; width:120px; height:160px; padding:5px 14px; background:#F6F6F6; margin-bottom:10px;}
+.wangqi .wq-infor{ line-height:22px;}
+.wangqi .wq-infor span{ display:block; color:#EE8C3C;}
+.wangqi .wq-infor:hover span{color:#EE8C3C;}
+.wangqi .wq-infor:hover{ color:#333;}
+.lianxi{ padding:5px 20px 20px; line-height:24px;}
+
+/*  carousel  */
+.carousel{}
+.carousel_top ul li{float:left; width:96px; height:40px; cursor:hand; cursor:pointer; margin-top:20px; text-align:left; text-align:center;}
+.carousel_top ul li a {color:#333; font-size:14px; direction:none;}
+.carousel_top ul li a:hover{color:#f58d3e; text-decoration:none;}
+
+.carousel_con div{ float:left; width:960px;}
+.forward{margin:auto; text-align:center;}
+.forward h3{font-size:14px; color:#333; height:30px; line-height:30px;}
+.forward p{color:#333; font-size:14px; line-height:30px;}
+/*2013.8.23 修改*/
+.carousel_top{ text-align:center; height:60px; margin:auto; width:1000px;}
+.carousel_center{ position:relative; width:960px; height:440px; overflow:hidden; margin:0 auto;}
+.carousel_top ul{ margin:auto; display:inline-block;}
+.carousel_top ul .carousel_cent{background:url(../../images/duihua/btn.png) no-repeat -56px 25px; text-align:center;}
+.carousel_top ul .carousel_first{ background:url(../../images/duihua/btn.png) no-repeat 40px 25px;}
+.carousel_top ul .carousel_last{ background:url(../../images/duihua/btn.png) no-repeat -444px 25px;}
+.carousel_con{margin-top:10px; width:99999px; position:absolute; height:410px;}
+
+
+.FengMianbg{background:#e7e7e7;}
+.FengMian { width:1000px; margin:80px auto 170px; overflow:hidden;}
+.F_left { float:left; width:390px; overflow:hidden;}
+.F_left_top { overflow:hidden; line-height:30px;}
+.F_left_top strong { float:left; color:#ff6000; font-size:24px;}
+.F_left_top a { float:right; font-size:14px; color:#6a6a6a; font-weight:bold;}
+.F_left_top a:hover{ text-decoration:none;}
+.F_left ul { overflow:hidden; width:420px; padding-top:14px;}
+.F_left ul li { float:left; width:184px; height:220px; overflow:hidden; margin:0 22px 21px 0; display:inline; position:relative;}
+.F_left ul li p { position:absolute; bottom:0px; left:0px; height:40px; background:#000; opacity:.70; filter:Alpha(opacity=70); width:184px;}
+.F_left ul li span { position:absolute; left:0px; bottom:10px; height:22px; width:184px; text-align:center; overflow:hidden; color:#fff; font-size:16px;}
+.F_right {padding-top:45px; float:right; overflow:hidden; width:580px; position:relative; height:701px;}
+.F_right p { position:absolute; bottom:0px; left:0px; height:140px; background:#000; opacity:.70; filter:Alpha(opacity=70); width:581px;}
+.F_right h1 { position:absolute; left:18px; font-size:24px; font-weight:bold; bottom:98px; color:#fff;}
+.F_right span { position:absolute;bottom:20px; left:18px; width:543px; overflow:hidden; color:#fff; font-size:16px;}
+.footer { background:#262626; height:109px; overflow:hidden;}
+.F_footer {margin:0 auto; width:1001px; overflow:hidden; text-align:center;}
+.footer div { padding:18px 0 10px 0; overflow:hidden; width:1001px;}
+.footer p { color:#474747; font-size:14px;}
+.footer div a { color:#aeaeae; padding-right:30px; font-size:14px;}
+
+
+
+

@@ -1,0 +1,119 @@
+.video-zhuan-wrap{
+	margin:0 -5px;
+}
+.video-zhuan-wrap li{
+	margin:0 5px 10px;
+	width:233px;
+	position: relative;
+	overflow: hidden;
+}
+.video-zhuan-wrap li:nth-child(3),.video-zhuan-wrap li:nth-child(6) {
+    margin-right:0;
+}
+.video-zhuan-wrap li a img, .video-zhuan-wrap li a{
+	display: block;
+	width:233px;
+	height: 131px;
+}
+.video-zhuan-wrap li a img{
+	height:131px;
+}
+.video-zhuan-wrap li .p{
+	background: rgba(0,0,0,.5);
+	line-height: 20px;
+	height: 120px;
+	width: 193px;
+	color: #fff;
+	padding: 10px 20px 0 20px;
+	font-size: 14px;
+	position: absolute;
+	bottom: -90px;
+	left: 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	-webkit-transition: bottom .1s ease-in-out;
+	-moz-transition: bottom .1s ease-in-out;
+	-o-transition: bottom .1s ease-in-out;
+	transition: bottom .1s ease-in-out;
+}
+.video-zhuan-wrap li .video-hover,.video-zhuan-wrap li .video-hovers{
+  width: 105px;
+  height: 40px;
+  margin-top: 30px;
+  text-align: right;
+  padding: 0 15px 0 0;
+  line-height: 40px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 99;
+}
+.video-zhuan-wrap li .video-hovers{
+	background-color: #f3981e;
+}
+.video-zhuan-wrap li .video-hover span{
+	display:block;
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+	background: rgba(255,255,255,.3);
+	position: absolute;
+	top: 40px;
+	left: 85%;
+	border-radius: 50%;
+}
+.video-zhuan-wrap li .video-hover span i{
+	margin-left: 22px;
+   
+	margin-top: 15px;                
+   
+	border-width: 10px;
+   
+	border-color: transparent transparent transparent #fff;
+   border-style: dashed dashed dashed solid;
+   display: block;
+}
+.video-zhuan-wrap li .p .video-hovers span{
+	display:block;width: 30px;
+	height:30px;
+	background-color: #fff;
+	position: absolute;
+	top: 65px;
+	left: 50px;
+	border-radius: 50%;
+}
+.video-zhuan-wrap li .p .video-hovers span i{
+	margin-left: 13px;
+   margin-top: 10px;                
+   border-width: 6px;
+   border-color: transparent transparent transparent #f3981e;
+   border-style: dashed dashed dashed solid;
+   display: block;
+}
+.video-zhuan-wrap li a{
+	position: relative;
+	display: block;
+
+}
+.video-zhuan-wrap li a span{
+	display: block;
+	width: 78px;
+	height: 78px;
+	position: absolute;
+	top: 50%;
+	margin-top: -60px;
+	left: 50%;
+	margin-left: -39px;
+}
+.video-zhuan-wrap li a:hover .p{
+	  bottom:0;
+	  -webkit-transition: bottom .1s ease-in;
+	  -moz-transition: bottom .1s ease-in;
+	  -o-transition: bottom .1s ease-in;
+	  transition: bottom .1s ease-in;
+}
+.video-zhuan-wrap li a:hover .video-hover{
+	display:none;
+}

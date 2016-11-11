@@ -1,0 +1,48 @@
+.prize-last-li{
+	width:163px;
+	height:150px;
+	padding-top: 14px;
+}
+.prize-last-li img{
+	width:72px;
+	height:72px;
+	display: block;
+	margin: 0 auto 10px;
+	border-radius: 9px;
+}
+.prize-last-li .get-prize{
+	width:80px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #289A49;
+	display: block;
+	margin:auto;
+	border-radius: 3px;
+	color:#047536;
+	font-size: 14px;
+}
+.prize-last-con{
+	padding-bottom: 20px;
+}
+.prize-last-li a.get-prize:hover{
+	background-color: #289A49;
+	color:#fff;
+	text-decoration: none;
+}
+.bg-one{
+	background-color: #EEEEEE;
+}
+.bg-two{
+	background-color: #F4F4F4;
+}
+.prize-name{
+	color:#666;
+    display:block;
+	font-size: 14px;
+    padding-top:3px;
+    overflow:hidden;
+    height:20px;
+	text-align: center;
+	line-height: 20px;
+}

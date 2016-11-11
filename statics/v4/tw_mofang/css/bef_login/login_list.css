@@ -1,0 +1,179 @@
+.bef-login-wrap{
+	width:1090px;
+	margin:auto;
+}
+.bef-login-tag{
+	background: #fff;
+    box-shadow: -2px 0 5px #CECECE,0 0 0 #CECECE,2px 0 5px #CECECE,0 0 0 #CECECE;
+	height: 44px;
+	padding:13px 50px 0; 
+	font-size: 0px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+.bef-login-tag span{
+	color:#000000;
+	font-size: 16px;
+	margin-right: 100px;
+	vertical-align: middle;
+}
+.bef-login-tag  a {
+	width:69px;
+	height: 32px;
+	background: #E5E5E5;
+	color:#000;
+	vertical-align: middle;
+	font-size: 14px;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 10px;
+	margin-right: 35px;
+	display: inline-block;
+	_display:inline;
+}
+.bef-login-wrap {
+	padding-top: 22px;
+}
+.bef-login-list{
+	margin:0 -15px;
+}
+.login-li{
+    box-shadow: -2px 0 5px #CECECE,0 0 0 #CECECE,2px 0 5px #CECECE,0 0 0 #CECECE;
+	background: #fff;
+	float:left;
+	width:246px;
+	border-radius: 10px;
+	margin:0 14px 30px;
+	padding:3px;
+}
+.login-li a img{
+	display: block;
+	width:170px;
+	display: block;
+	margin:auto;
+	border-radius: 15px;
+}
+.effect-1 div.animate {
+	-webkit-animation: fadeIn 0.65s ease forwards;
+	animation: fadeIn 0.65s ease forwards;
+}
+@-webkit-keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+@keyframes fadeIn {
+	0% { }
+	100% { opacity: 1; }
+}
+div.invis {
+	padding:0;
+	width: 1px;
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+}
+.login-li .img-area{
+	display: block;
+	width:100%;
+	height:170px;
+	padding:25px 0;
+	position: relative;
+}
+.login-li .txt-area{
+	border-radius: 0 0 10px 10px;
+	background: #EDEDED;
+	padding:12px 10px;
+	border-top: 1px solid #E0E0DF;
+	overflow: hidden; 
+}
+.login-li .sanjiao{
+	position: absolute;
+	left:50%;
+	margin-left: -8px;
+	bottom:-9px;
+	width:16px;
+	height: 16px;
+	display: block;
+	background: #fff;
+	border: 1px solid #D4D4D4;
+	border-left: none;
+	border-top: none;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+.txt-area p{
+	margin-bottom: 19px;
+	font-size: 16px;
+	color: #000;
+	padding:10px 0;
+	border-bottom:1px dashed #C3C3C3; 
+}
+.login-time span{
+	width:92px;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	background: #515151;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	margin-right: 15px;
+}
+.login-time{
+	color:#d23927;
+	padding-left: 5px;
+	font-size: 14px;
+	margin-bottom: 14px;
+}
+.login-li-style h3{
+    cursor:hand;
+    cursor:pointer;
+	color:#fff;
+	border-radius: 12px 12px 0 0;
+	padding-left: 55px;
+	height: 42px;
+	line-height: 42px;
+	background: url(/statics/v4/tw_mofang/img/login_prize.png) 10px center no-repeat #515151;
+}
+.login-li-style{
+	width:212px;
+	margin:auto;
+	background: #CDCDCD;
+	border-radius: 12px;
+	margin-bottom: 13px;
+}
+.login-game-enter{
+	margin:0 -8px;
+	padding-top: 15px;
+}
+.login-style-li ul li{
+	font-size: 14px;
+	color:#000;
+}
+.login-game-enter a{
+	display: inline-block;
+	_display:inline;
+	margin:0 8px;
+	color:#fff;
+	width:78px;
+	height:80px;
+	padding:5px 10px 0;
+	border-radius: 10px;
+	font-size: 24px;
+	text-align: center;
+	background: url(/statics/v4/tw_mofang/img/grep_log.jpg) center no-repeat #515151;
+}
+.login-game-enter a:hover{
+	text-decoration: none;
+	color:#fff;
+	background: url(/statics/v4/tw_mofang/img/yellow_log.jpg) center no-repeat #EC981D;
+}
+.login-style-li ul{
+	padding:10px 20px;
+}
+.login-game-enter-wrap{
+	border-top:1px dashed #C3C3C3;
+}

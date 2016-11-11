@@ -1,0 +1,74 @@
+.login-mess-con{
+	padding:10px 14px 20px;
+}
+.login-title{
+	margin-bottom: 13px;
+	font-size: 18px;
+	color:#000;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 6px;
+	border-bottom: 2px solid #C9C9C9;
+}
+.login-notice-title a{
+    color: #f3981e;
+    margin-top: 14px;
+}
+.login-game{
+	padding-left:7px;
+}
+.login-game a.img-area{
+	margin-right: 26px;
+	width:165px;
+	height:150px;
+	padding-top: 13px;
+	display: block;
+	border: 1px solid #BDBDBD;
+}
+.login-game a.img-area img{
+	display: block;
+	margin:auto;
+	width:138px;
+	height: 138px;
+	vertical-align: middle;
+}
+.login-game .txt-area{
+	overflow: hidden;
+	padding-top: 19px;
+}
+.log-game-det{
+	color:#000;
+    height:28px;
+    line-height:28px;
+    overflow:hidden;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.log-game-det span{
+	background: #F4F4F4;
+	font-size: 12px;
+	border-radius: 10px;
+	display: inline-block;
+	_display:inline;
+	margin-right: 25px;
+	color:#000;
+	font-size: 16px;
+	width:102px;
+	line-height: 25px;
+	height: 25px;
+	text-align: center;
+}
+.enter-login-list{
+	display: block;
+	width:430px;
+	letter-spacing: 8px;
+	height: 53px;
+	line-height: 53px;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 23px;
+	background: url(/statics/v4/tw_mofang/img/log_start.png) #F7F7F7 274px center no-repeat;
+}
+.enter-login-list:hover{
+	text-decoration: none;
+}

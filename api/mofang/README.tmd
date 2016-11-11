@@ -1,0 +1,36 @@
+###################
+# 魔方新API标准格式
+###################
+<?php
+defined('IN_PHPCMS') or exit('No permission resources.');
+header('Content-Type: application/json');
+
+/**
+ * 本文件功能注释
+ * @author 作者
+ * 时间
+ */
+class mofangapi {
+}
+
+// 基础代码
+$mofangapi = new mofangapi;
+$true_action = trim($_GET['action']);
+$return = array();
+
+if(!method_exists($mofangapi,$true_action)){
+    $return['code'] = -1;
+    $return['message'] = '接口方法不存在，请检查!';
+    $return['data'] = array();
+} else {
+    $return = $mofangapi->$true_action($_GET);
+}
+$callback = isset($_GET['jsonpcallback']) ? trim($_GET['jsonpcallback']) : ( isset($_GET['callback']) ? trim($_GET['callback']) : "" );
+if($callback){
+    echo $callback."(".json_encode($return).")";
+}else{
+    echo json_encode($return);
+}
+exit;
+
+?>

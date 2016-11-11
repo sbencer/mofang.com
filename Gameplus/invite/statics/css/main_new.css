@@ -1,0 +1,407 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.m-Wrap{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+a{outline:none;}
+a:focus {
+     outline:none;
+     -moz-outline:none;
+}
+.m-main{
+    background: #2CA641;
+    width: 100%;
+    /*min-width: 380px;*/
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+}
+.page-home{
+    background-color: #00a53d;
+}
+.m-banner{
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 319px) {
+    .m-banner{
+        width: 65%;
+    }
+}
+
+/* iPhone 2G-4S in portrait & landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .m-banner{
+        width: 65%;
+    }
+}
+
+/* iPhone 5 in portrait & landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .m-banner{
+        width: 75%;
+    }
+}
+
+.m-logo{
+    position: absolute;
+    left: 36%;
+    top: 7%;
+    margin-left: -79px;
+    z-index: 3;
+    width: 34px;
+}
+.m-title{
+  position: absolute;
+  color: #fff;
+  left: 36%;
+  top: 7%;
+  margin-left: -37px;
+  z-index: 3;
+  font-size: 19px;
+  line-height: 38px;
+  overflow: hidden;
+}
+.m-content{
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 20%;
+  margin-left: -119px;
+  z-index:3;
+  font-size: 19px;
+  width: 220px;
+  text-align: center;
+  overflow: hidden;
+}
+span.font-important{
+  color: #ffff00;
+}
+.m-share{
+  position: absolute;
+  left: 50%;
+  top: 33%;
+  overflow:hidden;
+  padding-left: 26px;
+  margin-left: -126px;
+  z-index: 4;
+  font-size: 29px;
+  width: 225px;
+  height: 114px;
+/*  color: #009933;*/
+  line-height: 110px;
+  text-align: center;
+  background: url(../img/invite_img_03.png) no-repeat;
+}
+span.code{
+  text-decoration: none;
+  color: #009933;
+  font-size: 29px;
+}
+.m-carton{
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  bottom: 12%;
+  margin-left: -127px;
+  z-index:3;
+  width: 276px;
+  height: 232px;
+  text-align: center;
+  background: url(../img/carton_img.png) no-repeat;
+}
+.m-download{
+    display: block;
+    position: absolute;
+    bottom:8%;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    text-align: center;
+}
+.m-download img{
+    width: 135px;
+}
+.m-download img.ios-dlbtn{
+    width: 160px;
+}
+/*向下一動游標*/
+.m-next{
+    width: 14px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    z-index: 999;
+    margin-left: -7px;
+    overflow: hidden;
+}
+.m-next img{
+    width: 14px;
+}
+
+.shake-vertical {
+  -webkit-animation-name: shake-vertical;
+  -ms-animation-name: shake-vertical;
+  animation-name: shake-vertical;
+  -webkit-animation-duration: 1000ms;
+  -ms-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+  -webkit-animation-delay: 0ms;
+  -ms-animation-delay: 0ms;
+  animation-delay: 0ms;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-play-state: running;
+  -ms-animation-play-state: running;
+  animation-play-state: running;
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+ -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+}
+
+@-webkit-keyframes shake-vertical {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+  5% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(0px, 4px) rotate(0deg);
+  }
+  15% {
+    -webkit-transform: translate(0px, 6px) rotate(0deg);
+  }
+  20% {
+    -webkit-transform: translate(0px, 8px) rotate(0deg);
+  }
+  25% {
+    -webkit-transform: translate(0px, 10px) rotate(0deg);
+  }
+  30% {
+    -webkit-transform: translate(0px, 8px) rotate(0deg);
+  }
+  35% {
+    -webkit-transform: translate(0px, 6px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(0px, 4px) rotate(0deg);
+  }
+  45% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+  55% {
+    -webkit-transform: translate(0px, -2px) rotate(0deg);
+  }
+  60% {
+    -webkit-transform: translate(0px, -4px) rotate(0deg);
+  }
+  65% {
+    -webkit-transform: translate(0px, -6px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(0px, -8px) rotate(0deg);
+  }
+  75% {
+    -webkit-transform: translate(0px, -10px) rotate(0deg);
+  }
+  80% {
+    -webkit-transform: translate(0px, -8px) rotate(0deg);
+  }
+  85% {
+    -webkit-transform: translate(0px, -6px) rotate(0deg);
+  }
+  90% {
+    -webkit-transform: translate(0px, -4px) rotate(0deg);
+  }
+  95% {
+    -webkit-transform: translate(0px, -2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@-moz-keyframes shake-vertical {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  5% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+  10% {
+    transform: translate(0px, 4px) rotate(0deg);
+  }
+  15% {
+    transform: translate(0px, 6px) rotate(0deg);
+  }
+  20% {
+    transform: translate(0px, 8px) rotate(0deg);
+  }
+  25% {
+    transform: translate(0px, 10px) rotate(0deg);
+  }
+  30% {
+    transform: translate(0px, 8px) rotate(0deg);
+  }
+  35% {
+    transform: translate(0px, 6px) rotate(0deg);
+  }
+  40% {
+    transform: translate(0px, 4px) rotate(0deg);
+  }
+  45% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+  50% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  55% {
+    transform: translate(0px, -2px) rotate(0deg);
+  }
+  60% {
+    transform: translate(0px, -4px) rotate(0deg);
+  }
+  65% {
+    transform: translate(0px, -6px) rotate(0deg);
+  }
+  70% {
+    transform: translate(0px, -8px) rotate(0deg);
+  }
+  75% {
+    transform: translate(0px, -10px) rotate(0deg);
+  }
+  80% {
+    transform: translate(0px, -8px) rotate(0deg);
+  }
+  85% {
+    transform: translate(0px, -6px) rotate(0deg);
+  }
+  90% {
+    transform: translate(0px, -4px) rotate(0deg);
+  }
+  95% {
+    transform: translate(0px, -2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+/*內文上部圖*/
+.mp-1{
+    width:80%;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    margin-left: -40%;
+    -webkit-transform:translatey(-150%);
+    -moz-transform:translatey(-150%);
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+}
+
+/*內文下部圖*/
+.mp-2{
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    -webkit-transform:translatey(100%);
+    -moz-transform:translatey(100%);
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    backface-visibility:hidden;
+    z-index: 99;
+}
+
+/*至頂小按鈕*/
+.popBar{
+    position: absolute;
+    z-index: 30;
+    right: 10px;
+    top: 40%;
+    width: 25px;
+    text-align: center;
+    overflow: hidden;
+}
+.popBar span{
+    display: inline-block;
+    color: #66EC6F;
+    font-size: 1em;
+}
+.popBar span.m-dlbtn{
+    margin-bottom: 20px;
+}
+.popBar span a{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+.popBar span.m-dlbtn a{
+    background: #FFF url(../img/dl_icon.png) no-repeat center;
+    background-size: 50% auto;
+}
+.popBar span.m-top a{
+    background: #FFF url(../img/top_icon.png) no-repeat center;
+    background-size: 50% auto;
+}
+
+/*分頁豆豆位置*/
+.pagination {
+    position: absolute;
+    z-index: 20;
+    left: 10px;
+    top: 40%;
+}
+.swiper-pagination-switch {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background: #00832e;
+    margin: 0 0px 5px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.swiper-visible-switch {
+  background: #aaa;
+}
+
+.swiper-active-switch {
+    background: #fff;
+}

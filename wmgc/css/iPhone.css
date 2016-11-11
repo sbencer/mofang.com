@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* 
+ * Company:mofang.com
+ * Author:Eilvein 
+ * Update: 2013-07-14 
+*/
+
+/* CSS Reset */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 Arial,Tahoma,Helvetica,SimSun,san-serif;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,cite,dfn,em,var{font-style:normal;}
+ol,ol li, ul,ul li {list-style: none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select,button {font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select ,button{*font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend {color:#000;}
+:focus {outline: 0;}
+code, kbd, samp, tt{font-family:"Courier New",monospace;}
+
+/* CSS clearfix */
+.clearfix:before, .clearfix:after { content: '.';display: block;overflow: hidden;visibility: hidden;font-size: 0;line-height: 0;width: 0;height: 0}
+.clearfix:after {clear: both}
+.clearfix {zoom: 1}
+
+/* main */
+
+img {width: 100%; }
+img { -ms-interpolation-mode: bicubic; }
+body{ font: normal 100% "Microsoft Yahei","Lantinghei SC",Helvetica,Arial,sans-serif; color:#FFF;}
+a{ color:#FFF; text-decoration:none;}
+a:hover{ text-decoration:none;}
+.wrapper{ width:100%; margin:0 auto; background:#FFF;}
+.top-header{ height:640px; height:40px; background:#333 url(../images/iPhone_01.png) no-repeat; overflow:hidden;}
+.site-banner{ width:100%; overflow:hidden;}
+.mode-box{ width:100%; position:relative; overflow:hidden; padding:20px 0;}
+.mode-box i{ position:absolute; height:35px; width:46px; overflow:hidden; background:url(../images/iPhone_cs.png) no-repeat 0 0; right:2%; top:37px;}
+.mode-box h2{ font-size:36px; font-weight:normal; padding:0 0 0 20px;}
+.mode-box h2 span{ font-size:60px; display:inline-block; margin-right:25px;}
+.mode-box p { display:inline; background:url(../images/iPhone_cs.png) no-repeat 0 -159px; margin-left:45px; padding-left:40px; font-size:1.5em;}
+
+.c1Box{ background:#D34C16;}
+.c2Box{ background:#D5820E;}
+.c3Box{ background:#5DAF74;}
+.c4Box{ background:#2F92C2; border-bottom:2px solid #fff;}
+.infro{ font-size:1.5em; height:35px; line-height:35px; width:100%; overflow:hidden; padding-top:20px; display:inline;}
+.infro .tel,.infro .email{ display:inline-block; width:220px;}
+.infro .tel{ padding-left:35px;background:url(../images/iPhone_cs.png) no-repeat 0 -55px; margin-left:20px;}
+.infro .email{ padding-left:40px;background:url(../images/iPhone_cs.png) no-repeat 0 -102px;}
+.infro a:hover{ color:#FFF;}
+.footer{ background:#535353; width:100%; color:#BDBDBD; padding:10px 0; text-align:center;}
+.footer p{ font-size:0.875em;}
+.footer a{ color:#BDBDBD;}
+.shouyou p { text-align:center; font-size:1.5em; height:60px; line-height:60px; color:#fff; font-weight:bold;}
+.shouyou p.igame { background:#b72700;}
+.shouyou p.agame { background:#e84700;}
+.shouyou p.mgame { background:#ff8a00; border-bottom:2px solid #fff;}
+.footer img { width:auto;}
+
+@media screen and (max-width : 320px){
+.mode-box h2{ font-size:1.25em; line-height:1.25em;}
+.mode-box h2 span{ font-size:2.25em; }
+.infro{font-size:0.7em;display:block;}
+.shouyou p {font-size:0.75em;}
+.mode-box p { display:block; margin:20px 0 0 20px; line-height:35px; height:35px; font-size:0.7em;}
+}
+
+@media screen and (min-width: 320px) and (max-width : 479px){
+.mode-box h2{ font-size:1.25em; line-height:1.25em;}
+.mode-box h2 span{ font-size:2.25em;}
+.infro{font-size:0.7em;display:block;}
+.shouyou p {font-size:0.75em;}	
+.mode-box p { display:block; margin:20px 0 0 20px; line-height:35px; height:35px; font-size:0.7em;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+.mode-box h2{ font-size:1.25em; line-height:1.25em;}
+.mode-box h2 span{ font-size:2.25em;}
+.infro{font-size:1em;display:block;}	
+.shouyou p {font-size:0.875em;}
+.mode-box p { display:block; margin:20px 0 0 20px; line-height:35px; height:35px; font-size:1em;}
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) { 
+.mode-box h2{ font-size:1.25em; line-height:1.25em;}
+.mode-box h2 span{ font-size:2.25em;}
+.infro{font-size:1em;display:block;}
+.shouyou p {font-size:0.875em;}
+.mode-box p { display:block; margin:20px 0 0 20px; line-height:35px; height:35px; font-size:1em;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px)  { 
+.mode-box h2{ font-size:1.25em; line-height:1.25em;}
+.mode-box h2 span{ font-size:2.25em;}
+.infro{font-size:1em;display:block;}
+.shouyou p {font-size:1.5em;}
+.mode-box p { display:block; margin:20px 0 0 20px; line-height:35px; height:35px; font-size:1em;}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) { 
+.mode-box h2{ font-size:1.75em; line-height:1.75em;}
+.mode-box h2 span{ font-size:2.25em;}
+.infro{font-size:1.5em;display:block;}
+.shouyou p {font-size:1.5em;}
+.mode-box p { display:block; margin:20px 0 0 20px; line-height:35px; height:35px;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) { 
+.mode-box h2{ font-size:1.75em; line-height:1.75em;}
+.mode-box h2 span{ font-size:2.25em;}
+.infro{font-size:1.5em;display:block;}
+.shouyou p {font-size:1.5em;}
+.mode-box p { display:block; margin:20px 0 0 20px; line-height:35px; height:35px;}
+}

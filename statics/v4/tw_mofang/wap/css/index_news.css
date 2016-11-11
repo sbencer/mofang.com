@@ -1,0 +1,39 @@
+.news .list_title h2 {
+  background: url(/statics/v4/tw_acg/wap/images/list_title_18.png) no-repeat 0 center;
+  background-size: 1.80247rem 2.96296rem; }
+
+.substance {
+  margin: 0 0.74074rem; }
+
+.substance li {
+  border-bottom: 0.07407rem #e8e8e8 dashed; }
+
+.substance h3 {
+  margin-top: 0.74074rem;
+  font-size: 1.11111rem;
+  color: #333333;
+  width: 22.71605rem;
+  height: 1.62963rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.list_content {
+  overflow: hidden;
+  margin-bottom: 0.74074rem;
+  margin-top: 0.51852rem; }
+
+.list_content img {
+  width: 8.64198rem;
+  height: 4.8642rem; }
+
+.list_content p {
+  font-size: 1.03704rem;
+  width: 15.7037rem;
+  height: 4.83951rem;
+  overflow: hidden;
+  line-height: 1.23457rem;
+  margin-left: 0.83951rem;
+  color: #999999; }
+
+/*# sourceMappingURL=index_news.css.map */

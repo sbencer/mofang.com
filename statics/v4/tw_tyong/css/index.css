@@ -1,0 +1,160 @@
+/** stylesheet **/
+body{
+	overflow-x:hidden
+}
+
+.disno{
+	display: block;
+	background:#fff;
+	overflow:hidden;
+}
+
+.disno,.select-list{
+	display: block;
+	background:#fff;
+	
+}
+
+.disnos{
+	display: none;
+	background:#fff;
+}
+.w720{
+	width:720px;
+	overflow: hidden;
+}
+.title1-bg{
+	background: url(../../statics/img/title1_bg.jpg) left center no-repeat;
+}
+.title2-bg{
+	background: url(../../statics/img/title2_bg.jpg) left center no-repeat;
+}
+.w120 li{
+	width:120px;
+	padding:0!important;
+}
+.w120 li a{
+	width:120px;
+	padding:0!important;
+}
+.nav-common .more-common em{
+	font-style: normal;
+}
+.nav-com-list li{
+	
+	float:left;
+	font-size: 16px;
+	color:#fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.nav-com-list li a{
+	padding: 0 20px;
+	font-size: 16px;
+	color:#fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.nav-com-list li a:hover{
+	text-decoration: none;
+}
+.nav-com-list li.curr{
+	background: url(../../statics/img/tit_active.jpg) left center no-repeat;
+	background-size: cover;
+	-webkit-box-shadow: 0 0 20px #ffff00;
+	-moz-box-shadow: 0 0 20px #ffff00;
+	-o-box-shadow: 0 0 20px #ffff00;
+	box-shadow: 0 0 20px #ffff00;
+	/*-webkit-box-shadow: 0 0 20px #ffff00;
+	-moz-box-shadow: 0 0 20px #ffff00;
+	-o-box-shadow: 0 0 20px #ffff00;
+	box-shadow: 0 0 20px #ffff00;*/
+}
+.nav-com-list li.bg-line a{
+	display: block;
+	line-height: 50px;
+}
+.common-con{
+	border: 1px solid #DCDCDC;
+	border-top: none;
+	background: #FAFAFA;
+	width:720px;
+	overflow:hidden;
+}
+.game-con{
+	height:90px;
+}
+.common-con-nobd{
+
+}
+.ty-content{
+	width: 990px;
+	margin:auto;
+	background: rgba(255,255,255,0.5);
+	padding: 10px 10px 30px 0;
+}
+.more-common{
+	color:#fff;
+}
+.more-common em{
+	font-family: "宋体";
+	padding-left: 5px;
+	color:#fff;
+	margin-right: 10px;
+	line-height: 50px;
+}
+.more-common:hover{
+	text-decoration: none;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.tyong-bg{
+	display: block;
+	position: absolute;
+	left:0;
+	top: 0;
+	z-index: 0;
+	width:100%;
+	height:100%;
+	background: url(/statics/v4/tw_tyong/img/bg_div_02.jpg);
+	background-position:center -35px;
+	background-repeat:no-repeat;
+}
+.tyong-main{
+	position: relative;
+	overflow: hidden;
+	margin-top: -59px;
+	padding-top: 242px;
+}
+.tyong-main-con{
+	position: relative;
+	z-index: 1;
+}
+#demo{ width:30px; position:relative; float:right;}
+.demo{
+	width: 180px;
+	height: 180px;
+	position: fixed;
+	top: 316px;
+	left: 50%;
+	margin-left: 510px;
+	z-index: 1000;
+}
+
+.demo a{
+	width: 38px;
+	height: 38px;
+	display: block;
+	margin-top: -184px;
+}
+.demo img{
+	display: block;
+	margin-top:-38px;
+    cursor: pointer;
+}
+.class1{
+	padding-left:20px;
+}

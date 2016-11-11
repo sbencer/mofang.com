@@ -1,0 +1,45 @@
+.login-notice-con{
+	padding:20px 14px 10px;
+}
+.login-notice-con h3{
+	color:#000;
+	font-size: 18px;
+	letter-spacing: 2px;
+	height: 46px;
+	line-height: 46px;
+	padding-left: 60px;
+	background: url(/statics/v4/tw_mofang/img/hot_tag_log.png) left center no-repeat;
+	margin-bottom: 13px;
+}
+.login-notice-list ul li{
+	padding:0 20px;
+	line-height:34px;
+	height: 34px;
+	color:#000;
+	margin-bottom: 7px;
+	background: #E0E0E0;
+}
+.login-notice-list ul li a{
+    font-size:14px;
+}
+.login-notice-list ul li.log-look-more{
+	background: #F5F5F5;
+}
+.login-notice-list ul li.grey-1{
+	background: #E0E0E0;
+}
+.login-notice-list ul li.grey-2{
+	background: #F0F0F0;
+}
+.login-notice-list ul li.log-look-more a{
+	display: block;
+	text-align: center;
+	background: #F5F5F5;
+	letter-spacing: 18px;
+}
+.w680 {
+	width: 658px;
+	padding: 0 10px;
+	background-color: #fff;
+	border: 1px solid #D9D9D9;
+}

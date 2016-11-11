@@ -1,0 +1,56 @@
+.picture {
+  margin-top: 0.76543rem;
+  overflow: hidden; }
+
+.picture ul {
+  margin: 0 0.24691rem;
+  margin-right: -0.96296rem; }
+
+.picture ul li {
+  float: left;
+  margin: 0 0.46914rem 0.74074rem;
+  position: relative;
+  width: 12.09877rem;
+  height: 6.96296rem;
+  overflow: hidden; }
+
+.picture li span {
+  position: absolute;
+  top: 0rem;
+  left: 0rem; }
+
+.picture li a img {
+  width: 12.12346rem;
+  height: 6.96296rem;
+  display: block; }
+
+.picture li span img {
+  width: 1.75309rem;
+  height: 1.75309rem;
+  display: block; }
+
+.picture li p {
+  width: 10.22222rem;
+  height: 1.23457rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0.93827rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem;
+  margin-bottom: 0.19753rem;
+  margin-left: 0.44444rem;
+  color: #fff;
+  font-weight: bold; }
+
+.shadow {
+  background: rgba(0, 0, 0, 0.5);
+  width: 12.12346rem;
+  height: 1.58025rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 0rem; }
+
+/*# sourceMappingURL=picture.css.map */

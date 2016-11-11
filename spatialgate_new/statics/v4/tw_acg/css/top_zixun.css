@@ -1,0 +1,33 @@
+.w_bg{
+	top: 87px;
+}
+.top_zixun{
+	padding-bottom:10px; 
+	border-bottom: 1px dotted #999;
+	margin-bottom: 20px;
+ 	overflow: hidden;
+}
+.top_zx_list{
+	width: 510px;
+	height: 95px;
+	float: left;
+	overflow: auto;
+}
+.top_zx_list li{
+	width: 236px;
+	line-height: 18px;
+	margin-left: 10px;
+	float: left;
+	display: inline;
+	border-bottom: 1px dotted #999;
+	font-size: 12px;
+	overflow: hidden;
+}
+.top_zx_list li a{
+	padding-left:14px;
+	background: url(/statics/v4/tw_acg/img/dotted.png) 2px 8px no-repeat;
+	display: block;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}

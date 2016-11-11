@@ -1,0 +1,92 @@
+.pic-detail h3{
+    text-align: center;
+    font-size: 18px;
+    color:#333;
+    margin-bottom: 27px;
+}
+.pic-big img, .pic-big li a{
+    display: block;
+    margin:auto;
+    max-width:640px;
+}
+.pic-big li{
+    float:left;
+    width:640px;
+}
+.pic-smll li{
+    cursor: hand;
+    cursor: pointer;
+    float:left;
+    width:100px;
+    height:100px;
+    margin:0 10px;
+    position: relative;
+}
+.pic-smll li img{
+    display: block;
+    width:100px;
+    height:100px;
+
+}
+.pic-detail{
+    padding-top:14px;
+    padding-bottom: 20px;
+}
+.pic-con{
+    width:640px;
+    margin:auto;
+}
+.big-pic .flex-prev, .big-pic .flex-next{
+    position: absolute;
+    top:50%;
+    margin-top: -31px;
+    display: block;
+    width:31px;
+    height:62px;
+    text-indent: -9999px; 
+}
+.pic-detail .flex-prev{
+    left:0;
+    background: url(/statics/v4/tw_mofang/img/pic_prev.png) left center no-repeat;
+}
+.big-pic .flex-next{
+    right:0;
+    background: url(/statics/v4/tw_mofang/img/pic_next.png) left center no-repeat;
+}
+.big-pic{
+    position: relative;
+    margin-bottom: 24px;
+}
+#carousel{
+    padding:0 30px;
+    position: relative;
+    overflow: hidden;
+    margin:0 -10px;
+}
+#carousel .flex-active-slide .mask{
+    display: block;
+    width:94px;
+    height:94px;
+    border: 3px solid #EC981E;
+    position: absolute;
+    left:0;
+    top:0;
+}
+#carousel .flex-prev, #carousel .flex-next{
+    width:20px;
+    height:100px;
+    display: block;
+    position: absolute;
+    top:0;
+    text-indent: -9999px;
+}
+#carousel .flex-prev{
+    background: url(/statics/v4/tw_mofang/img/pic_prev.png) left center no-repeat #EBEBEB;
+    background-size:18px auto;
+    left:0;
+}
+#carousel .flex-next{
+    background: url(/statics/v4/tw_mofang/img/pic_next.png) right center no-repeat #EBEBEB;
+    background-size: 18px auto;
+    right:0;
+}

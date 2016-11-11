@@ -1,0 +1,11 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+.picture{ margin-top:mfe-px2rem(31); overflow:hidden;}
+.picture ul{ margin:0 mfe-px2rem(10);margin-right:mfe-px2rem(-39);}
+.picture ul li{ float:left; margin:0 mfe-px2rem(19) mfe-px2rem(30); position:relative; width:mfe-px2rem(490); height:mfe-px2rem(282); overflow:hidden;}
+.picture li span{ position:absolute; top:mfe-px2rem(0); left:mfe-px2rem(0);}
+.picture li a img{ width:mfe-px2rem(491); height:mfe-px2rem(282); display:block;}
+.picture li span img{ width:mfe-px2rem(71); height:mfe-px2rem(71); display:block;}
+.picture li p{ width:mfe-px2rem(414); height:mfe-px2rem(50); white-space:nowrap; text-overflow:ellipsis; overflow:hidden; text-align:center; font-size:mfe-px2rem(38);position:absolute; bottom:mfe-px2rem(0); left:mfe-px2rem(0); margin-bottom:mfe-px2rem(8); margin-left:mfe-px2rem(18); color:#fff; font-weight:bold;}
+.shadow{ background:rgba(0,0,0,.5); width:mfe-px2rem(491); height:mfe-px2rem(64);position:absolute; bottom:mfe-px2rem(0); left:mfe-px2rem(0);}

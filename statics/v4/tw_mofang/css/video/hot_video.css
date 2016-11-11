@@ -1,0 +1,62 @@
+.hot-video-imgarea{
+	display: block;
+	width:147px;
+	height:84px;
+	margin-right: 10px;
+	position: relative;
+}
+.hot-video-imgarea img{
+	display: block;
+	width:147px;
+	height:84px;
+}
+.hot-video-imgarea span{
+	text-indent: -9999px;
+	display: block;
+	width:39px;
+	height:22px;
+	background-image: url(/statics/v4/tw_mofang/img/hot_jiao.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.hot-video-txtarea{
+	overflow: hidden;
+}
+.hot-video-txtarea h3{
+	margin-bottom: 5px;
+}
+.hot-video-txtarea h3 a{
+	color:#666;
+	font-size: 14px;
+	max-height: 36px;
+	overflow: hidden;
+	display: block;
+	line-height: 18px;
+}
+.hot-video-txtarea h3 a:hover{
+	color:#f3981e;
+	text-decoration: none;
+}
+.hot-video-num{
+	display: block;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 16px 12px;
+	background-image: url(/statics/v4/tw_mofang/img/start_grey.png);
+	color:#666;
+	margin-bottom: 5px;
+}
+.hot-video-time{
+	color:#666;
+	display: block;
+}
+.hot-video{
+	padding: 10px 9px;
+	background-color: #fff;
+	border: 1px solid #D9D9D9;
+}

@@ -1,0 +1,61 @@
+.most-info {margin-right:6px;}
+.most-info ul {
+	width: 357px;
+	overflow: hidden;
+}
+.most-info ul li {border-bottom: 1px dotted #999;overflow: hidden;height:65px;padding:10px 0;}
+.most-info ul li a {display: block;overflow: hidden;}
+.most-info ul li a img {width:116px;height:65px;margin-right:10px;}
+.most-info ul li a img,.most-info ul li a h3,.most-info ul li a span{
+	float: left;
+}
+.most-info ul li a h3,.most-info ul li a span {
+	width: 222px;
+	overflow: hidden;
+	white-space: pre-wrap;
+	text-overflow: ellipsis;
+}
+.most-info ul li a h3 {font-size:14px;color:#333333;line-height:17px;margin-bottom:5px;}
+.most-info ul li a span {font-size:12px;color:#999999;line-height:14px;height: 28px;}
+/*game_introduce*/
+.game-intro {overflow: hidden;}
+.game-intro ul li a {
+	display: block;
+	width: 244px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border:1px solid #54c8ff;
+}
+.game-intro ul li:last-child a {margin-bottom:0;}
+.game-intro ul li a img {width: 100%;height:96px;overflow: hidden;}
+.game-intro ul li a.special_img img {width: 244px;height:136px;overflow: hidden;border:1px solid #54c8ff;}
+.game-intro ul li a.special_img {
+	width: 245px;
+	height: 138px;
+	overflow: hidden;
+	border:none;
+}
+.game-intro ul li a {width: 244px;height:96px;}
+/*choose*/
+.choose ul {overflow: hidden;margin:10px -10px 20px 0;}
+.choose ul li {float: left;}
+.choose ul li {
+	background-color: #f8f8f8;
+	float: left;
+	height: 135px;
+	margin-right: 10px;
+	overflow: hidden;
+	text-align: center;
+	width: 155px;
+}
+.choose ul li a img {
+	width: 155px;
+	height: 87px;
+	overflow: hidden;
+}
+.choose ul li a span {
+	display: block;
+	padding: 4px 7px;
+	font-size: 12px;
+	overflow: hidden;
+}

@@ -1,0 +1,212 @@
+// 魔方网注册和登陆
+var MFLogin = MFLogin || {};
+
+MFLogin = {
+
+    // 各焦点
+    objName : {
+        "usernameReg"    : $("#usernameReg"),     // 登陆用户名
+        "emailReg"   : $("#emailReg"),    // 密码
+        "faceReg" : $("#faceReg"),  // 验证码
+        "applyTermReg" : $("#applyTermReg"),  // 验证码
+        "submitReg"   : $("#submitReg"),    // 记住密码
+        "usernameLogin"     : $("#usernameLogin"),      // 注册用户名
+        "passwordLogin"     : $("#passwordLogin"),      // 邮箱
+        "faceLogin"     : $("#faceLogin"),      // 邮箱
+        "submitLogin"     : $("#submitLogin"),      // 登陆按钮
+        "msgBox"          : $("#msgBox"),      // 登录提示窗口
+    },
+
+    regStr: {
+        usReg  : /^[A-Z0-9._%+-]{5,20}$/i,        // 用户名6-32位字母和数字，以字母开头
+        pwReg  : /^.{6,20}$/,
+        mailReg: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i        // 邮箱
+    },
+
+    urlBase: {
+        loginURL      : "?m=member&c=index&a=ajax_login",      // 登陆send url
+        regURL        : "?m=member&c=index&a=ajax_register",      // 注册send url
+    },
+
+    // 错误提示
+    msgPrompt: function(obj, msg){
+        obj.slideDown().find("p").html(msg);
+    },
+
+    // 输入正确
+    msgRight: function(obj){
+         obj.slideUp().find("p").html("");
+    },
+
+    /*
+     * 注册块
+     * */
+    usernameReg: function(){     // 效验用户名
+        var _namePath = MFLogin.objName;
+        var usernameVal = $.trim(_namePath.usernameReg.val());
+        if(!MFLogin.regStr.usReg.test(usernameVal)){
+            MFLogin.msgPrompt(_namePath.msgBox, "用户名格式错误");
+            _namePath.usernameReg.focus();
+            return false;
+        }
+        else{
+            MFLogin.msgRight(_namePath.msgBox);
+            return true;
+        }
+    },
+
+    emailReg: function(){    // 效验邮箱
+        var _namePath = MFLogin.objName;
+        var mailVal = $.trim(_namePath.emailReg.val());
+        if(!MFLogin.regStr.mailReg.test(mailVal)){
+            MFLogin.msgPrompt(_namePath.msgBox, "请正确填写Email地址");
+            _namePath.emailReg.focus();
+            return false;
+        }
+        else{
+            MFLogin.msgRight(_namePath.msgBox);
+            return true;
+        }
+    },
+
+    applyTermReg: function(){    // 效验证码
+        var _namePath = MFLogin.objName;
+        var applyTermVal = $.trim(_namePath.applyTermReg.attr('checked'));
+        if(!(applyTermVal)){
+            MFLogin.msgPrompt(_namePath.msgBox, "必须同意网站服务条款才能继续注册");
+            return false;
+        }
+        else{
+            MFLogin.msgRight(_namePath.msgBox);
+            return true;
+        }
+    },
+
+    reg: function(){   // 注册
+        var _namePath = MFLogin.objName;
+        var username = $.trim(_namePath.usernameReg.val());
+        var mail = $.trim(_namePath.emailReg.val());
+        var connect_avatar = _namePath.faceReg.attr('checked') ? 1 : 0;
+
+        if(!MFLogin.usernameReg()){ return false; }
+        if(!MFLogin.emailReg()){ return false; }
+        if(!MFLogin.applyTermReg()){ return false; }
+
+        $.ajax({
+            url:MFLogin.urlBase.regURL,
+            type: "post",
+            data: "username=" + username + "&email=" + mail + "&connect_avatar=" + connect_avatar,
+            success: function(data){
+                // 返回格式 {returtate:0}  0 注册成功  1、注册失败
+		data = $.parseJSON(data);
+                switch (data.code){
+                    case 0:
+			location.reload();
+                        break;
+                    case 1:
+                        MFLogin.msgPrompt(_namePath.msgBox, data.msg);
+                        break;
+                }
+            }
+        });
+    },
+
+    /*
+    * 登陆块
+    * */
+    usernameLogin: function(){    // 效验用户名
+        var _namePath = MFLogin.objName;
+        var _usernameVal = $.trim(_namePath.usernameLogin.val());
+        if(!MFLogin.regStr.usReg.test(_usernameVal)){
+            MFLogin.msgPrompt(_namePath.msgBox, "用户名格式错误");
+            _namePath.usernameLogin.focus();
+            return false;
+        }
+        else{
+            MFLogin.msgRight(_namePath.msgBox);
+            return true;
+        }
+    },
+
+    passwordLogin:function(){    // 效验登陆密码
+        var _namePath = MFLogin.objName;
+        var _passwordVal = $.trim(_namePath.passwordLogin.val());
+        if(!MFLogin.regStr.pwReg.test(_passwordVal)){
+            MFLogin.msgPrompt(_namePath.msgBox, "密码格式错误");
+            _namePath.passwordLogin.focus();
+            return false;
+        }
+        else{
+            MFLogin.msgRight(_namePath.msgBox);
+            return true;
+        }
+	},
+
+    login: function(){     // 登陆
+        var _namePath = MFLogin.objName;
+        if(!MFLogin.usernameLogin()){ return false;}
+        if(!MFLogin.passwordLogin()){ return false; }
+        //if(!MFLogin.regVerifyCodeLogin()){ return false; }
+
+        var username = _namePath.usernameLogin.val();
+        var password = _namePath.passwordLogin.val();
+        //var verifyCode = _namePath.verifyCodeLogin.val();
+        var sendURL = MFLogin.urlBase.loginURL;
+        $.ajax({
+            url: sendURL,
+            type: "post",
+            //data: "username=" + username + "&password=" + password + "&code=" + verifyCode,
+            data: "username=" + username + "&password=" + password,
+            success: function(data){
+                // 返回格式 {login:0}  0 成功  1、验证码错误
+				data = $.parseJSON(data);
+                switch (data.code){
+                    case 0:
+						location.reload();
+                        break;
+                    case 1:
+                        MFLogin.msgPrompt(_namePath.msgBox, data.msg);
+                        break;
+                }
+            }
+        });
+    },
+
+    // 注册和登陆切换
+    tag: function(initial){
+        var _ind = initial;
+        $(".register_tab li").removeClass("current").eq(_ind).addClass("current");
+        $("#fmBox .register_cont").hide().eq(_ind).show();
+    },
+
+    // 初始配置
+    init: function(){
+        var _name = MFLogin.objName;
+
+        $(".register_tab li").bind("click", function(){ // 注册/登陆切换
+            var cur = $(this).index();
+            MFLogin.tag(cur);
+        });
+
+        _name.usernameReg.blur(function(){ MFLogin.usernameReg(); })
+        _name.emailReg.blur(function(){ MFLogin.emailReg(); })
+        _name.applyTermReg.click(function(){ MFLogin.applyTermReg(); })
+
+        _name.submitReg.click(function(){
+            MFLogin.reg();
+        });
+
+        _name.usernameLogin.blur(function(){ MFLogin.usernameLogin(); });
+        _name.passwordLogin.blur(function(){ MFLogin.passwordLogin(); });
+
+        _name.submitLogin.bind("click", function(){// 登陆
+		MFLogin.login();
+        });
+
+        // 关闭提示框
+        $("#msgBox .prompt_close").click(function(){
+			MFLogin.msgRight($(this).parent());
+        })
+    }
+};
+MFLogin.init();

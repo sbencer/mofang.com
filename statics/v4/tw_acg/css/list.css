@@ -1,0 +1,115 @@
+.top_img{
+	margin-bottom: 8px;
+}
+.top_img a{
+	width: 100%;
+	height: 274px;
+	display: block;
+	overflow: hidden;
+}
+.top_img img{
+	width: 100%;
+	height: 274px;
+	overflow: hidden;
+}
+.listBox{
+	font-family: "微軟正黑體";
+	letter-spacing: 1px;
+	overflow: hidden;
+}
+.news_list_ul li{
+	padding: 20px 0;
+	border-bottom: 1px dotted #999;
+	color: #333;
+	overflow: hidden;
+}
+.news_list_ul li:last-child{
+	border-bottom: none;
+}
+.news_list_ul li a.fl,.news_list_ul li a.fl img{
+	display: block;
+	width: 254px;
+	height: 143px;
+	overflow: hidden;
+} 
+.news_list_ul li div.fr{
+	width:460px;
+}
+.news_list_ul li h4{
+	font-size: 16px;
+	line-height: 18px;
+	padding-bottom: 1px;
+}
+.news_list_ul li p{
+	font-size: 12px;
+	color: #999;
+	line-height: 18px;
+	font-family: "微軟正黑體";
+}
+.news_info{
+	line-height: 24px;
+	padding:7px 0 5px;
+	overflow: hidden;
+}
+.news_info span{
+	float: left;
+	margin-right: 36px;
+	display: inline;
+	font-weight: 600;
+}
+.icon_horologe{
+	padding-left: 22px;
+	background:url(/statics/v4/tw_acg/img/icon_horologe.png) left center no-repeat;
+}
+.icon_view{
+	padding-left: 30px;
+	background:url(/statics/v4/tw_acg/img/icon_view.png) left center no-repeat;
+}
+.news_info a.fr{
+	width: 64px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	background-color: #65b9ee;
+	color:#fff;
+}
+.news_info a.fr:hover{
+	text-decoration: none;
+	opacity: 0.8;
+}
+.news_keywords{
+	color:#999;
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

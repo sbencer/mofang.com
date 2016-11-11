@@ -1,0 +1,14 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+#calendar{padding:0 mfe-px2rem(30); background-color:#ebf8ff; overflow:hidden;}
+table{border-collapse:collapse; border-spacing: 0;}
+#calendar td,#calendar th{width:mfe-px2rem(100); height:mfe-px2rem(90); padding-right:mfe-px2rem(52); text-align:center; vertical-align:middle; color:#666; font-size:mfe-px2rem(36); font-weight:normal;}
+#calendar th:nth-child(7n),#calendar td:nth-child(7n){padding-right:0;}
+#calendar th{border-bottom:mfe-px2rem(2) solid #6dc7f4; height:mfe-px2rem(103);}
+#calendar td{cursor:pointer;}
+#calendar td span{width:mfe-px2rem(70); height:mfe-px2rem(70); display:inline-block; line-height:mfe-px2rem(70); vertical-align:middle; overflow:hidden;}
+#calendar td.today span{background-color:#81c3e4; color:#fff; border-radius:100%;}
+.other-month{background:#eee;}
+.calendar .list_title h2{background-position:0 mfe-px2rem(-413);}
+.remind{background:url(/statics/v4/tw_acg/wap/images/icon_remind.png) right mfe-px2rem(6) no-repeat; background-size:mfe-px2rem(16) auto;}

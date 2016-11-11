@@ -1,0 +1,44 @@
+.go-back {
+    margin-left: 510px;     
+    width: 110px;
+    background: url(/statics/v4/tw_acg/img/top_img.png) center top no-repeat;
+    background-size: 110px 73px;
+    overflow: hidden;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -107px;
+    z-index: 9999;
+}
+.back-content {
+    margin-top: 73px;
+    background-color: #fff;
+}
+.back-content a {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    font-family: "微軟正黑體";
+}
+.back-content a.con {
+    line-height: 50px;
+}
+.back-content a.con:first-child {
+    border-bottom: 1px solid #8cd7ff;
+}
+.back-content a:hover.con {
+    color: #8cd7ff;
+}
+.back-content a.top {
+    padding-left: 45px;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: url(/statics/v4/tw_acg/img/icon_top.png) 22px center no-repeat #6dc7f4;
+}
+.back-content a.top:hover{
+    background-color: #1bb1fc;
+}

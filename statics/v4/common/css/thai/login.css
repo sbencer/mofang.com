@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/* 注册登录 */
+.loginbar { height:25px; color:#b7b7b7; text-align:right;}
+.loginbar li { width:57px; height:36px; float:right; line-height:36px; background:url(../img/iphone/bor.jpg) no-repeat right; text-align:center;}
+/*#login {margin-right:15px;}
+#logout {margin-left:15px;}
+#reg {margin-left:15px;}
+#login , #logout , #reg{color:#FFF;}*/
+.register_box { width:480px; background:#FFF; position:relative; z-index:30px;}
+.loginbar .infobox { width:500px; padding:0 10px 30px 10px;}
+.register_tab { height:36px; border-bottom:1px #dddddd solid; padding-top:20px; font-size:18px; padding-left:75px;}
+.register_tab li {  height:34px; float:left; margin-right:36px; color:#989898; font-weight:bold; text-align:center; cursor:pointer;}
+.register_tab li.current { height:34px; border-bottom:3px #ffa837 solid; color:#585858;}
+.register_cont { width:400px; padding:8px 35px 10px 50px; position:relative; top:0; left:0;}
+.register_cont form { margin-top: 9px; }
+.register_cont input { background:#FFF; color:#818181; font-size: 14px;}
+.register_cont input.active { background:#fff; color:#818181;}
+
+.prompt { width:330px; height:32px; line-height:32px; text-align:center; color:#a56f4f; background:url(../img/prompt.jpg) no-repeat; display:none;}
+.prompt p { line-height:32px; text-align:center; color:#a56f4f; margin-left:50px;}
+.prompt_close { width:30px; height:30px; float:right; display:block; cursor:pointer;}
+.login { width:328px; height:38px; border:1px #d1d1d1 solid; background:#fff; margin-bottom:20px;}
+.login input { width:249px; height:18px; float:left; border:0 none; padding:10px 20px; line-height: 18px;}
+.register_cont .password { width:328px; height:38px; border:1px #d1d1d1 solid; margin-bottom:20px; padding:0; float:none; font-size:14px; font-family:"Microsoft Yahei";}
+.password input { width:249px; height:18px; float:left; border:0 none; padding:10px 20px; line-height: 18px;}
+.img01 { width:38px; height:38px; background:url(../img/login.png) no-repeat; display:block; border-right:1px #d1d1d1 solid; float:left; }
+.img02 { width:38px; height:38px; background:url(../img/login.png) no-repeat -39px 0 ; display:block; border-right:1px #d1d1d1 solid; float:left;}
+.validate { width:385px; height:40px;}
+.validate1{ width:330px; height:40px;}
+.validate .W_input { width:170px; height:18px; line-height: 18px;  border:1px #d1d1d1 solid; background:#FFF; margin-right:15px; float:left; padding:10px 10px;}
+.validate1 .W_input { width:170px; height:18px; line-height: 18px; border:1px #d1d1d1 solid; background:#FFF; margin-right:15px; float:left; padding:10px 10px;}
+.validate .validatecode_img { width:118px; height:38px; display:block; border:1px #949494 solid; float:right;}
+.validate1 .validatecode_img { width:118px; height:38px; display:block; border:1px #949494 solid; float:right;}
+.validate1 img, .validate .validatecode_img img{width:118px;height:38px; display: block; cursor:hand; cursor: pointer;}
+.show-header-user .validatecode_img img{width:118px; height:38px; }
+.forget_password { margin-top:13px;}
+.dl_btn { margin-top:15px; margin-left:60px;}
+.dl_btn1 { margin-top:15px;}
+.dl_btn a:hover{ text-decoration:none; color:#FFF;}
+.Login_btn { width:330px; height:40px; background:#FF8400; border:0 none; display:block;}
+.Login_btn span { text-align:center; line-height:40px; color:#fff; display:block; font-size:16px; letter-spacing:5px;}
+/* 合作 */
+.cooperate { width:440px; height:30px; line-height:30px; background:#F9F9F9; padding:15px 20px 10px 20px; font-size:14px; margin-top:30px;}
+.weibobox { width:280px; float:left;}
+.weibobox .weibo01,.weibobox .weibo02{ font-size:14px; height:30px; line-height:30px; display:inline-block; padding-left:25px }
+.weibobox .weibo01 { background:url(../img/login.png) no-repeat 0 -180px; margin:0 0 0 5px; width:80px; }
+.weibobox .weibo02 { background:url(../img/login.png) no-repeat 0 -132px;width:60px; }
+.help { width:160px; height:30px; line-height:30px; float:right; color:#999;  font-size:12px;}
+.help a { padding:0 5px; }
+.reginfo { overflow:hidden; margin-top: 9px; }
+.reginfo li { width:398px; height:38px; margin-bottom:20px;}
+.reginfo li input { width:286px; height:18px; float:left; border:0 none; padding:10px 20px;  border: 1px solid #D1D1D1;}
+.reginfo li span { float:left; display:block; width:auto; height:38px; color:#000; font-size:12px; line-height:38px; background:#fff; padding-right:10px;}
+.close { width:15px; height:15px; background:url(../img/close.png) no-repeat; display:block; position:absolute; left:440px; top:20px; cursor:pointer; z-index:40px;}
+.reginfo li  .name_ios{ padding-left:23px;}
+.reginfo li .passwd, .reginfo li .mail{ padding-left:23px;}
+.yanzheng{padding-left:10px; padding-right:5px; float:left; display:block; height:38px;line-height:38px; color:#000; font-size:12px;padding-right:10px;}
+.reginfo li .agin{ padding-right:5px;}
+
+#fmBox1{ width:500px; margin:0 auto;}
+.register_box1 { width: 878px; margin:0 auto; background: #fff; padding:50px 50px 30px; height:560px; }
+.register_tab1 { border-bottom:1px #dddddd solid; font-size:18px; }
+
+.register_tab1 ul { height: 32px; }
+
+.register_tab1 li { height: 32px; display: block; float: left; width: 120px; margin-right: 40px; text-align: center; cursor:pointer;}
+
+.register_tab1 li.current { border-bottom:3px #ffa837 solid; color:#585858;}
+
+.register_cont1 { width:418px; padding-top:10px; position:relative; top:0; left:0;}
+
+.register_cont1 .item { height: 48px; color:#8e8e8e; font-size: 16px; line-height: 48px; display:block; text-align:right; margin-bottom:10px;}
+
+.register_cont1 .item input.textInput { height: 30px; color: #292929; font-size: 16px; text-indent: 6px; width: 330px; border: 1px solid #999; float:right; margin-top:9px; display:inline; text-align:left; margin-left:10px; display:inline;}
+
+.register_cont1 .item_text { height:48px; font-size: 12px; line-height: 24px; display:block; padding-left:86px; }
+.prompt_cont { width:418px; height:32px; padding-top:10px; position:relative; top:0; left:0;}
+.prompt1{ width:332px; height:32px; line-height:32px; text-align:center; color:#a56f4f; background:url(.../img/iphone/prompt.jpg) no-repeat; display:none; float:right;}
+.dl_btn1{ margin-top:15px;}
+.dl_btn1 a,.dl_btn1 a:hover{ text-decoration:none; color:#FFF;}
+.prompt_close1{ width:30px; height:30px; float:right; display:block; cursor:pointer;}
+/* 2013.7.24 */
+.before{ width:360px; margin:auto;}
+.dl_btn1{ margin-top:15px; margin-left:0px;}
+.promptfalse{margin-left:53px;}
+
+/*2014.6.16*/
+.login, .password, .validate1{
+    position: relative;
+}
+.reginfo ul li{
+    position: relative;
+}
+.input_tips{
+    font-size: 14px;
+    color: #ccc;
+    position: absolute;
+    display: block;
+    height:38px;
+    line-height: 38px;
+    cursor: text;
+}
+.login .input_tips, .password .input_tips {
+    left:59px;
+    top:0;
+}
+#accountLogin{
+    position: relative;
+    top:0;
+}
+.register_cont input {
+    background: none;
+    z-index: 999px;
+}
+.reginfo li .input_tips{
+    left:83px;
+}
+.register_cont input.active{
+    background: none;
+}
+.reginfo li input{
+    position: absolute;
+    z-index: 999px;
+}
+
+#passwordLogin{
+    position: absolute;
+}
+/* fb tt gg share */
+.fb-share{
+    background-image: url(../img/hw/v1/fb_s.png);
+}
+.gg-share{
+    background-image: url(../img/hw/v1/gg_s.png);
+}
+.tt-share{
+    background-image: url(../img/hw/v1/tt_s.png);
+}
+.hw-share a{
+    font-size: 14px;
+    margin-right: 10px;
+    background-size: 25px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}

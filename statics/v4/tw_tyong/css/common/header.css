@@ -1,0 +1,170 @@
+.header{
+	width: 100%;
+	height: 116px;
+	background: #fff;
+}
+
+/* 上边导航 */
+
+.head_nav{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+.nav_top{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 92px;
+	height: 30px;
+	padding: 8px 0 0 10px;
+	float: left;
+} 
+
+.n_link a{
+	display: block;
+	width:80px;
+}
+
+.top{
+	height: 50px;
+	line-height: 50px;
+	float: right;
+}
+
+.text,.icon,.ty-login{
+	float: left;
+}
+.text{
+	margin-right: 32px;
+	font-size: 0;
+}
+
+.icon a{
+	margin-right: 15px;
+	width: 30px;
+	display: inline-block;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.img{
+	width: 30px;
+	height: 30px;
+	background: url(/statics/v4/tw_tyong/img/nav_sea_03.jpg) no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 0 30px 30px 0;
+	border: none;
+}
+
+.text2{
+	width: 120px!important;
+	height: 28px;
+	line-height: 30px;
+	border-radius: 20px 0 0 20px;
+	margin-top: 0;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	vertical-align: middle;
+	outline: none;
+}
+
+.ty-login a{
+	color: #333;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* 下边导航 */
+
+.nav_bott{
+	width: 100%;
+	height: 66px;
+	min-width:1000px;
+	background: url(../../img/nav_bg_02.png) center no-repeat;
+	position: absolute;
+	z-index: 7;
+}
+
+.nav{
+	width: 1000px;
+	height: 66px;
+	margin: 0 auto;
+}
+
+.nav_list1{
+	height: 66px;
+	margin-top: 12px;
+	float: left;
+}
+
+.nav_list1 li{
+	float: left;
+	padding: 50px 28px;
+	text-align: center;
+	padding-top: 6px;
+	position:relative;
+}
+.nav_list1 li .dropdown{left:0;}
+.nav_select{
+	width: 100px;
+	height: 80px;
+	background: #954131;
+	margin-top: 10px; 
+}
+
+.nav_list1 li p a{
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.nav_list2{
+	height: 66px;
+	float: right;
+	margin-top: 12px;
+}
+
+.nav_list2 li{
+	float: left;
+	padding: 50px;
+	padding-top: 6px;
+	text-align: center;
+	position:relative;
+}
+
+.nav_list1 li a,.nav_list2 li a{
+	font-size: 18px;
+	color: #fff;
+}
+.nav_list2 .padd_28{
+	margin-right: 55px;
+}
+
+.nav .active{
+	width: 140px;
+	height: 60px;
+	background-color: #000;
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	opacity:0.5;
+	margin-top: -8px;
+}
+
+.nav .active a{
+	display: block;
+	margin-top: 10px;
+}
+.dropdown{width:140px; overflow:hidden; position:absolute; top:54px; left:16px; display:none;}
+.nav li .dropdown a{height:40px; line-height:40px; display:block; border-bottom:1px solid #fff; font-size:14px; text-align:center; background-color:rgb(11,123,86); background-color:rgba(11,123,86,0.5);overflow: hidden;}
+.nav li .dropdown a:hover{background-color:rgba(11,123,86,0.8);}
+.nav li .dropdown a:last-child{border:none;}
+.nav li:hover .dropdown{display:block;}
+.yt img{display:block;width:30px;height:30px;}

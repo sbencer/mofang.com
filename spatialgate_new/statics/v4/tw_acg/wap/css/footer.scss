@@ -1,0 +1,6 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+.footer{ height:mfe-px2rem(195); background:#6dc7f4; margin-top:mfe-px2rem(84);}
+.footer h2{ text-align:center; font-size:mfe-px2rem(36); color:#fff; padding-top:mfe-px2rem(52); line-height:mfe-px2rem(49);}
+.footer p{ text-align:center; font-size:mfe-px2rem(36); color:#fff;}

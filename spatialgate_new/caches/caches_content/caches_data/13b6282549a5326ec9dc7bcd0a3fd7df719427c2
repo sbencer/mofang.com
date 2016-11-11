@@ -1,0 +1,730 @@
+
+<!doctype html>
+<html>
+<head>
+
+    <meta charset="utf-8"/>
+
+    
+    <!--[if !IE]><!-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--<![endif]-->
+    
+    
+
+    
+    <meta name="renderer" content="webkit">
+
+    <title>魔方網 次元角落</title>
+
+    <meta name="keywords" content="ACG,次元角落,魔方網">
+
+    <meta name="description" content="">
+
+    
+    
+    <meta name="mobile-agent" content="format=html5; url=">
+    <meta name="mobile-agent" content="format=xhtml; url=">
+    <link rel="alternate" type="applicationnd.wap.xhtml+xml" media="handheld" href="" />
+    
+
+
+                    
+    
+    <link rel="shortcut icon" href="http://pic1.mofang.com/2015/0728/20150728113409872.ico" type="image/x-icon" />
+    
+    <!--[if IE 6]>
+        <script src="http://sts0.mofang.com/statics/v4/common/js/loader/dd_belatedpng_39d26a5.js"></script>
+        <script>
+            DD_belatedPNG.fix('.pngfix');
+        </script>
+    <![endif]-->
+
+
+    
+    <!--[if lt IE 9]>
+        <script src="http://sts0.mofang.com/statics/v4/common/js/loader/html5shiv_f09f4e2.js"></script>
+    <![endif]-->
+
+    <script>
+
+    
+    var MFE = {};
+
+    
+    var CONFIG = {};
+
+    
+    CONFIG['cnzz_code'] = '';
+
+    </script>
+
+    
+    
+
+    
+
+    
+                
+        
+    <script>
+        var lang_conf = "TW";
+        var defaultURL = "http://u.mofang.com.tw";
+    </script>
+                   
+
+<link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/common/css/global_be120e8.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/common/css/browser_update_71ffe34.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/common/css/login_2fac27a.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/common/css/common-ref_3b2e230.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/common_82eeaeb.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/top_zixun_9d96249.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/carouse_ff65794.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/news_44cf1e3.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/entrance_dedf4d9.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/information_f18cebd.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/recommend_c669887.css" /><link rel="stylesheet" type="text/css" href="http://sts0.mofang.com/statics/v4/tw_acg/css/coser_47d780a.css" /><script type="text/javascript" src="http://sts0.mofang.com/statics/v4/common/js/loader/sea_a7e0084.js"></script><script type="text/javascript" src="http://sts0.mofang.com/statics/v4/modules/js/sea-config_0395712.js"></script><script type="text/javascript" src="http://sts0.mofang.com/statics/v4/common/js/base-config_e9d79aa.js"></script><script type="text/javascript" src="http://sts0.mofang.com/statics/v4/common/js/hw/base-config_fe7ef65.js"></script></head>
+
+<body>
+
+    
+	        
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T2VNZ3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T2VNZ3');</script>
+    <!-- End Google Tag Manager -->
+    
+
+    
+    
+        <div class="acg-header clearfix">
+	<div class="header-wrap w1000 clearfix">
+		<div class="acg-logo"></div>
+		<div class="header-left">
+			<img src="http://sts0.mofang.com/statics/v4/tw_acg/img/header_left_d7d7273.png">
+		</div>
+		<div class="header-right">
+			<div class="right-share">
+				<h3>分享到:</h3>
+				<a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href))));" class="fb"></a>
+				<a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));" class="tw"></a>
+				<a href="javascript: void(window.open('https://plus.google.com/share?url='.concat(encodeURIComponent(location.href)), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'));" class="gp"></a>
+				<a href="javascript: void(window.open('http://line.me/R/msg/text/?'.concat(encodeURIComponent(document.title)) .concat(encodeURIComponent(location.href))));" class="line"></a>
+				<a href="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status=' .concat(encodeURIComponent(location.href)) .concat(' ') .concat('&#40;') .concat(encodeURIComponent(document.title)) .concat('&#41;')));" class="pu"></a>
+			</div>
+			<div class="right-login">
+				
+					<form style="font-size:0;overflow:hidden;float:left;">
+						<input type="hidden" name="m" value="search">
+						<input type="text" class="search-content" name="iwillfindu" placeholder="搜尋" onkeydown="">
+						<input type="submit" class="search-button" id="search" value="">
+					</form>
+			
+				<div class="hw-login-no" id="header-user-nologin">
+	                <a href="#2" id="login" class="login-in">登入</a>
+	                <a href="#2" id="sign" class="sign-in">註冊</a>
+	            </div>
+	            <div class="hw-login-had  disno" id="header-user-info">
+					<a href="#2" id="logined" target="_blank"></a>
+					<a href="#2" id="logout">退出</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="title-content clearfix">
+		<div class="content-wrap clearfix">
+			<ul class="clearfix">
+				<li><a href="http://www.spatialgate.com.tw/news/12-1.html">新聞</a></li>
+				<li><a href="http://www.spatialgate.com.tw/comic/9-1.html">漫畫</a></li>
+				<li><a href="http://www.spatialgate.com.tw/anime/6-1.html">動畫</a></li>
+				<li><a href="http://www.spatialgate.com.tw/novel/21-1.html">小說</a></li>
+				<li><a href="http://www.spatialgate.com.tw/game/23-1.html">遊戲</a></li>
+				<li><a href="http://www.spatialgate.com.tw/event/20-1.html">活動</a></li>
+				<li><a href="http://www.spatialgate.com.tw/SpecialColumn/16-1.html">專欄</a></li>
+				<li><a href="http://www.spatialgate.com.tw/ranks/11-1.html">排行</a></li>
+				<li><a href="http://www.spatialgate.com.tw/products/22-1.html">週邊</a></li>
+				<li><a href="http://www.spatialgate.com.tw/cosplay/14-1.html">COSPLAY</a></li>
+				<li><a href="http://www.spatialgate.com.tw/moemoeder/15-1.html">萌圖</a></li>
+			</ul>
+		</div>
+	</div>
+ 
+    
+
+    
+    
+    <div class="w_bg">
+        <div class="w_bg_1"></div>
+        <div class="w_bg_2"></div>
+        <div class="w_bg_3"></div>
+        <div class="w_bg_4"></div>
+    </div>
+    
+
+    
+    <div class="acg-content">
+        <div class="container">
+        
+	
+    <div class="top_zixun">
+	<a class="fl" href="http://www.spatialgate.com.tw/news/12-1.html"><img src='http://sts0.mofang.com/statics/v4/tw_acg/img/top_zixun_img_7e87b21.jpg' alt="新聞速報"></a>
+	<ul class="top_zx_list">
+					<li><a href="http://www.spatialgate.com.tw/new/24-1126-1.html">「JAPAN MEDIA MIX FESTIVAL」台灣《新世紀福音戰士》特展！</a></li>
+				<li><a href="http://www.spatialgate.com.tw/novel/21-1125-1.html">輕小說介紹－刀劍神域外傳 Gun Gale Online (1)－特攻強襲－</a></li>
+				<li><a href="http://www.spatialgate.com.tw/anime/6-1124-1.html">季中心得－流浪神差 ARAGOTO</a></li>
+				<li><a href="http://www.spatialgate.com.tw/anime/6-1123-1.html">季中心得－重裝武器</a></li>
+				<li><a href="http://www.spatialgate.com.tw/new/24-1122-1.html">《魔法少女什麼的已經夠了啦》公開最新聲優情報</a></li>
+				<li><a href="http://www.spatialgate.com.tw/new/24-1121-1.html">驚！拉拉熊吃人！</a></li>
+				<li><a href="http://www.spatialgate.com.tw/products/22-1120-1.html">為了艾爾而生！星海爭霸神族水晶塔行動電源！</a></li>
+				<li><a href="http://www.spatialgate.com.tw/new/24-1119-1.html">細田守最新力作《怪物的孩子》電影中文字幕預告</a></li>
+				<li><a href="http://www.spatialgate.com.tw/new/24-1118-1.html">K 第二期動畫遭嚴重劇透！</a></li>
+				<li><a href="http://www.spatialgate.com.tw/novel/21-1117-1.html">輕小說介紹－世界末日的世界錄（02）極光龍帝</a></li>
+				</ul>
+</div>
+  
+    <div class="sort">
+    	<div class="sort_left">
+    		<div class="carouse-wrap m12 clearfix">
+    			
+    			<div class="carouse-con-left fl">
+	<div class="carouse-list j_silder">
+					<div class="carouse-li">
+			<a href="http://www.spatialgate.com.tw/new/24-1057-1.html" target="_blank">
+				<img src="http://pic0.mofang.com/2015/1103/20151103014135882.jpg/800x450" alt="">
+                <p>
+                	<span>松來未佑38歲因病逝世　聲優界齊聲哀悼</span>
+                	　　本月 2 日，事務所８ 81 製作以社長南澤道義的名義公表旗下資深人氣聲優「松來未佑」已經不幸因病辭世的消息。享年 38 歲的松來...
+                </p>
+			</a>
+		</div>
+				<div class="carouse-li">
+			<a href="http://www.spatialgate.com.tw/new/24-1055-1.html" target="_blank">
+				<img src="http://pic0.mofang.com/2015/1102/20151102054922999.png/800x450" alt="">
+                <p>
+                	<span>《我的英雄學院》動畫化決定！</span>
+                	　　美式風格的英雄漫畫，短短時間就累計銷量達到 70 萬冊的熱門漫畫《我的英雄學院》果然也快速的決定要動畫化了。故事簡介：　　一開始...
+                </p>
+			</a>
+		</div>
+				<div class="carouse-li">
+			<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1040-1.html" target="_blank">
+				<img src="http://pic1.mofang.com/2015/1030/20151030024825974.gif/800x450" alt="">
+                <p>
+                	<span>經典作品—即使世界依然如此美麗    </span>
+                	經典作品&mdash;即使世界依然如此美麗  （それでも世界は美しい）　　在里維斯一世登基之後，世界在短短的三年間，被晴之王國通過併吞、聯盟、...
+                </p>
+			</a>
+		</div>
+				<div class="carouse-li">
+			<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1039-1.html" target="_blank">
+				<img src="http://pic0.mofang.com/2015/1030/20151030035052289.jpg/800x450" alt="">
+                <p>
+                	<span>劇情異常沉重的《スマガ》無限的輪迴中就只是為了她？</span>
+                	　　你喜歡歡喜大團圓、眾人過著幸福快樂的喜劇結局，還是主角已經盡了自己全力努力過，但最終還是抱著遺憾，賺人熱淚的悲劇結局呢？沒關係...
+                </p>
+			</a>
+		</div>
+				<div class="carouse-li">
+			<a href="http://www.spatialgate.com.tw/new/24-1034-1.html" target="_blank">
+				<img src="http://pic1.mofang.com/2015/1030/20151030034232155.jpg/800x450" alt="">
+                <p>
+                	<span>NBGI製作人解釋日式RPG自由度為何低 網友「少騙人」</span>
+                	　　本月 11 日，以主導川原礫的輕小說名作《刀劍神域》改編 RPG 開發聞名的 NBGI 名製作人「二見鷹介」，和《數碼寶貝物語 網路偵...
+                </p>
+			</a>
+		</div>
+				</div>
+</div>
+    			
+    			<div class="carouse-con-right fr">
+	<div class="title">
+		<h2>超次元話題</h2>
+		<span>大家都在看什麽？</span>
+	</div>
+	<ul class="article_list">
+		<li><a href="#2">1.以卡牌戰鬥遊戲來說，不僅要遊戲來.</a></li>
+		<li><a href="#2">2.以卡牌戰鬥遊戲來說，不僅要遊戲來.</a></li>
+		<li><a href="#2">3.以卡牌戰鬥遊戲來說，不僅要遊戲來.</a></li>
+		<li><a href="#2">4.以卡牌戰鬥遊戲來說，不僅要遊戲來.</a></li>
+		<li><a href="#2">5.以卡牌戰鬥遊戲來說，不僅要遊戲來.</a></li>
+		<li><a href="#2">6.以卡牌戰鬥遊戲來說，不僅要遊戲來.</a></li>
+	</ul>
+	<a class="see_more" href="#2"><span>查看更多</span></a>
+</div>
+    		</div>
+    		
+    		<div class="news clearfix">
+	<div class="title">
+		<h2 class="fl">鮮新聞</h2>
+		<a class="batch fr" href="javascript:;">换一批</a>
+	</div>
+	<ul>
+	        		<li>
+			<a href="http://www.spatialgate.com.tw/new/24-1126-1.html">
+				<img src="http://pic2.mofang.com/2015/1112/20151112061343570.jpg/320x180" alt="">
+				<span>「JAPAN MEDIA MIX FESTIVAL」台灣《新世紀福音戰士》特展！</span>
+			</a>
+		</li>
+				<li>
+			<a href="http://www.spatialgate.com.tw/new/24-1122-1.html">
+				<img src="http://pic2.mofang.com/2015/1112/20151112052857190.png/320x180" alt="">
+				<span>《魔法少女什麼的已經夠了啦》公開最新聲優情報</span>
+			</a>
+		</li>
+				<li>
+			<a href="http://www.spatialgate.com.tw/new/24-1121-1.html">
+				<img src="http://pic0.mofang.com/2015/1112/20151112052607513.jpg/320x180" alt="">
+				<span>驚！拉拉熊吃人！</span>
+			</a>
+		</li>
+				<li>
+			<a href="http://www.spatialgate.com.tw/products/22-1120-1.html">
+				<img src="http://pic2.mofang.com/2015/1112/20151112032849961.png/320x180" alt="">
+				<span>為了艾爾而生！星海爭霸神族水晶塔行動電源！</span>
+			</a>
+		</li>
+				<li>
+			<a href="http://www.spatialgate.com.tw/new/24-1119-1.html">
+				<img src="http://pic0.mofang.com/2015/1111/20151111095941441.jpg/320x180" alt="">
+				<span>細田守最新力作《怪物的孩子》電影中文字幕預告</span>
+			</a>
+		</li>
+				</ul>
+</div>
+    	</div>
+        <div class="sort_right">
+            
+            <div class="entrance clear">
+	<a href="#2" class="entrance-img"></a>
+</div>
+<div class="hot-font clearfix">
+	<h2>熱門關鍵字</h2>
+	<div class="font_list clearfix">
+	        		<a class="f13" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=動畫">動畫</a>
+				<a class="f17" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=心得">心得</a>
+				<a class="f11" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=遊戲">遊戲</a>
+				<a class="f16" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=漫畫">漫畫</a>
+				<a class="f13" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=輕小說">輕小說</a>
+				<a class="f14" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=週邊商品">週邊商品</a>
+				<a class="f14" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=話題">話題</a>
+				<a class="f14" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=手機遊戲">手機遊戲</a>
+				<a class="f13" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=經典">經典</a>
+				<a class="f13" href="http://www.spatialgate.com.tw/index.php?m=content&c=tag&tag=cosplay">cosplay</a>
+				</div>
+</div>
+             
+            <div class="hot-ranking clearfix">
+	<div class="title">
+		<h2 class="fl">人氣排行</h2>
+		<div class="tab fr">
+			<a class="curr" href="javascript:void(0);">動畫<i></i></a>
+			<a href="javascript:void(0);">小說<i></i></a>
+			<a href="javascript:void(0);">漫畫<i></i></a>
+		</div>
+	</div>
+	<div class="tab_con">
+		<ul class="article_list">
+								<li><a href="http://www.spatialgate.com.tw/anime/6-346-1.html">1.《受讚頌者》新作動畫PV公佈</a></li>
+						<li><a href="http://www.spatialgate.com.tw/anime/6-1099-1.html">2.季中心得－魯邦三世 新系列</a></li>
+						<li><a href="http://www.spatialgate.com.tw/anime/6-968-1.html">3.動畫介紹－牙狼 －紅蓮之月－</a></li>
+						<li><a href="http://www.spatialgate.com.tw/anime/6-783-1.html">4.推理型動畫《全部成為FTHE PERFECT INSIDER》</a></li>
+						<li><a href="http://www.spatialgate.com.tw/anime/6-302-1.html">5.3DS主題桌布－[暗殺教室]テーマの時間2</a></li>
+							</ul>
+		<ul class="article_list disno">
+								<li><a href="http://www.spatialgate.com.tw/novel/21-888-1.html">1.完結輕小說介紹－扉之外</a></li>
+						<li><a href="http://www.spatialgate.com.tw/novel/21-704-1.html">2.輕小說介紹－落第騎士英雄譚(06)</a></li>
+						<li><a href="http://www.spatialgate.com.tw/novel/21-706-1.html">3.輕小說介紹－艦隊Collection－鶴翼之絆 （02）</a></li>
+						<li><a href="http://www.spatialgate.com.tw/novel/21-690-1.html">4.輕小說介紹－在紫陽花開的季節我們彼此感應</a></li>
+						<li><a href="http://www.spatialgate.com.tw/novel/21-1068-1.html">5.小說介紹－異世界料理道（01）</a></li>
+							</ul>
+		<ul class="article_list disno">
+								<li><a href="http://www.spatialgate.com.tw/comic/9-84-1.html">1.漫畫介紹─偽姬日常(01)</a></li>
+						<li><a href="http://www.spatialgate.com.tw/comic/9-67-1.html">2.漫畫介紹－學戰都市 Asterrisk （01）</a></li>
+						<li><a href="http://www.spatialgate.com.tw/comic/9-81-1.html">3.漫畫介紹－聖哥傳（11）</a></li>
+						<li><a href="http://www.spatialgate.com.tw/comic/9-130-1.html">4.漫畫介紹－惡之娘：第二幕</a></li>
+						<li><a href="http://www.spatialgate.com.tw/comic/9-114-1.html">5.漫畫介紹－幽界靈語 （04）</a></li>
+							</ul>
+
+	</div>	
+</div>
+         </div>
+    </div>
+
+     <div class="sort">
+        <div class="sort_left">
+            
+            	<div class="most-info fl">
+		<div class="title">
+			<h2>最受關注的情報</h2>
+		</div>
+		<ul class="clearfix">
+								<li>
+				<a href="http://www.spatialgate.com.tw/products/22-882-1.html">
+					<img src="http://pic0.mofang.com/2015/1007/20151007021953671.png/260x146">
+					<h3>悠悠哉哉少女日和 一條螢 黏土人</h3>
+					<span>　　治癒系動畫《悠悠哉哉少女日和》，鄉下地方的孩子們過著和平的日子溫暖了人們的心靈，而身體大大，內心小小的「一條螢」出黏土人囉，還...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/new/24-351-1.html">
+					<img src="http://pic0.mofang.com/2015/0810/20150810035655176.png/260x146">
+					<h3>受讚頌者虛偽的假面 OP、ED確定</h3>
+					<span>　　《受讚頌者 虛偽的假面》動畫版的主題曲跟結尾曲確定由系列作歌姬「Suara」所演唱。　　主題曲是「不安定な神様」，結尾曲是「ユメカ...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/new/24-522-1.html">
+					<img src="http://pic0.mofang.com/2015/0820/20150820041513650.png/260x146">
+					<h3>《受讚頌者 虛偽的假面》主題曲 MV公開</h3>
+					<span>　　預計 2015年 10月開始撥映的動畫《 受讚頌者　虛偽的假面 》主題歌曲，由 Suara所演唱的「不安定な神様」PV公開。【其他精選新聞...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/products/22-626-1.html">
+					<img src="http://pic2.mofang.com/2015/0831/20150831052328899.png/260x146">
+					<h3>「等尻大」屁屁滑鼠墊開放預訂</h3>
+					<span>　　還記得我們之前介紹過的「等尻大」一比一完美重現屁屁滑鼠墊嗎？　　　　現在開始開放預訂了，有興趣的朋友快去地下街下訂吧！　　現在...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/products/22-476-1.html">
+					<img src="http://pic0.mofang.com/2015/0817/20150817074200511.jpg/260x146">
+					<h3>LoveLive 2016年月曆開放預定</h3>
+					<span>　　目前最紅的動畫之一，《 LoveLive！》推出了 2016年的月曆，配合四季的感覺加上精美的插畫，讓你的牆上更加美麗，教徒們快去準備預定...</span>
+				</a>
+			</li>
+							</ul>
+	</div>
+	<!--活动记事-->
+	<div class="most-info fl">
+		<div class="title">
+			<h2 class="fl">活動記事</h2>
+			<a href="http://www.spatialgate.com.tw/event/20-1.html" class="more">更多</a>
+		</div>
+		<ul class="clearfix">
+								<li>
+				<a href="http://www.spatialgate.com.tw/event/20-1106-1.html">
+					<img src="http://pic0.mofang.com/2015/1109/20151109060350919.jpg/260x146">
+					<h3>《知多娘》台北地下街演唱會活動紀錄！</h3>
+					<span>　　來自日本愛知縣知多半島的宣傳大使「知多娘」，於 11 月 7 日下午來到台北地下街 Y 區舉辦一場小型演唱會。　　本次來到台灣參與...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/event/20-1072-1.html">
+					<img src="http://pic2.mofang.com/2015/1104/20151104105030708.jpg/260x146">
+					<h3>PF23xRF2活動記錄 Day1 – Coser雨童</h3>
+					<span>　　10月是一年當中氣候最舒適的季節，這種涼爽的天氣最適合出門去走走了。這次選擇來到於10/24、10/25在台大體育館舉辦的《亞洲動漫創作展...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/event/20-843-1.html">
+					<img src="http://pic2.mofang.com/2015/1001/20151001061916743.jpg/260x146">
+					<h3>LIVE FORMOSA Nico「Stardusters of the Galaxy」 台北</h3>
+					<span>LIVE FORMOSA Nico「Stardusters of the Galaxy」 台北眺望這片星塵閃爍、大夥共享的夏日夜空，我們歡呼，我們夢想，我們飛向宇宙，...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/event/20-825-1.html">
+					<img src="http://pic0.mofang.com/2015/0902/20150902014314644.jpg/260x146">
+					<h3>Fancy Frontier開拓動漫祭26 Day2活動紀錄</h3>
+					<span>　　FF26 第二天早上的人潮，與前一日相差無幾，不過場內的攤位則是少了許多，相較之下走道則是放寬，由於 Day1 屬於衝鋒陷陣搶灘的戰場...</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/event/20-824-1.html">
+					<img src="http://pic1.mofang.com/2015/0902/20150902113753100.jpg/260x146">
+					<h3>Fancy Frontier開拓動漫祭26 Day1活動紀錄</h3>
+					<span>　　今年暑假動漫相關大型活動之一《Fancy Frontier 開拓動漫祭26》開始了，不論北、中、南部的朋友，還有香港、澳門與日本的社團與Coser...</span>
+				</a>
+			</li>
+							</ul>
+	</div>
+        </div>
+        <div class="sort_right">
+            
+            <div class="game-intro">
+	<ul>
+					
+					</ul>
+</div>
+        </div>
+    </div>
+    
+    	<div class="choose clearfix">
+		<div class="title">
+			<h2 class="fl">精選專欄</h2>
+			<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1.html" class="more">更多</a>
+		</div>
+		<ul>
+		        				<li>
+				<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1116-1.html">
+					<img src="http://pic0.mofang.com/2015/1111/20151111020119372.jpg/320x180" alt="">
+					<span>日本研發的暗黑破壞神－焰影神兵</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1097-1.html">
+					<img src="http://pic0.mofang.com/2015/1109/20151109104003793.jpg/320x180" alt="">
+					<span>經典遊戲介紹－星之夢</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1060-1.html">
+					<img src="http://pic2.mofang.com/2015/1103/20151103031022729.png/320x180" alt="">
+					<span>粉紅切開都是黑的，粉切黑最佳代言人－大久保瑠美</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1040-1.html">
+					<img src="http://pic1.mofang.com/2015/1030/20151030024825974.gif/320x180" alt="">
+					<span>經典作品—即使世界依然如此美麗    </span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1039-1.html">
+					<img src="http://pic0.mofang.com/2015/1030/20151030035052289.jpg/320x180" alt="">
+					<span>劇情異常沉重的《スマガ》無限的輪迴中就只是為了她？</span>
+				</a>
+			</li>
+						<li>
+				<a href="http://www.spatialgate.com.tw/SpecialColumn/16-1010-1.html">
+					<img src="http://pic0.mofang.com/2015/1027/20151027115801131.jpg/320x180" alt="">
+					<span>NICONICO歌手介紹－夏代孝明</span>
+				</a>
+			</li>
+							</ul>
+	</div>
+	    <div class="sort">
+    	<div class="sort_left">
+    		
+    		<div class="recommend">
+	<div class="title">
+		<h2>超次元編輯推薦</h2>
+	</div>
+	<div class="recom_con">
+		<div class="recom_list">
+			<div class="title_text">
+				<h3 class="fl">動畫</h3>
+				<a class="fr" href="http://www.spatialgate.com.tw/anime/6-1.html">更多</a>
+			</div>
+			<ul class="clearfix">
+			        						<li>
+					<a href="http://www.spatialgate.com.tw/anime/6-1112-1.html">
+						<img src="http://pic2.mofang.com/2015/1110/20151110042411123.gif/320x180" alt="季中心得－新妹魔王的契約者BURST">
+						<span>季中心得－新妹魔王的契約者BURST</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/anime/6-1099-1.html">
+						<img src="http://pic1.mofang.com/2015/1109/20151109121429341.gif/320x180" alt="季中心得－魯邦三世 新系列">
+						<span>季中心得－魯邦三世 新系列</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/anime/6-1044-1.html">
+						<img src="http://pic0.mofang.com/2015/1030/20151030110241242.jpg/320x180" alt="動畫介紹－彗星·路西法">
+						<span>動畫介紹－彗星·路西法</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/anime/6-1035-1.html">
+						<img src="http://pic2.mofang.com/2015/1030/20151030020316271.png/320x180" alt="動畫介紹－蒼穹之戰神 EXODUS 第二期">
+						<span>動畫介紹－蒼穹之戰神 EXODUS 第二期</span>
+					</a>
+				</li>
+										</ul>
+		</div>
+		<div class="recom_list">
+			<div class="title_text">
+				<h3 class="fl icon_novel">小說</h3>
+				<a class="fr" href="http://www.spatialgate.com.tw/novel/21-1.html">更多</a>
+			</div>
+			<ul class="clearfix">
+			        						<li>
+					<a href="http://www.spatialgate.com.tw/novel/21-1038-1.html">
+						<img src="http://pic0.mofang.com/2015/1030/20151030014206478.jpg/320x180" alt="輕小說介紹－異世界拉皇探求者 (01) 精靈公主光溜溜">
+						<span>輕小說介紹－異世界拉皇探求者 (01) 精靈公主光溜溜</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/novel/21-981-1.html">
+						<img src="http://pic0.mofang.com/2015/1023/20151023021400205.jpg/320x180" alt="輕小說介紹－五月茉莉">
+						<span>輕小說介紹－五月茉莉</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/novel/21-911-1.html">
+						<img src="http://pic0.mofang.com/2015/1013/20151013052933876.jpg/320x180" alt="輕小說介紹－B.A.D.事件簿 （10）繭墨佇足夢境與現實之間">
+						<span>輕小說介紹－B.A.D.事件簿 （10）繭墨佇足夢境與現實之間</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/novel/21-867-1.html">
+						<img src="http://pic0.mofang.com/2015/1006/20151006022702593.jpg/320x180" alt="輕小說介紹－《華氏9999》(01)">
+						<span>輕小說介紹－《華氏9999》(01)</span>
+					</a>
+				</li>
+										</ul>
+		</div>
+		<div class="recom_list">
+			<div class="title_text">
+				<h3 class="fl icon_cartoon">漫画</h3>
+				<a class="fr" href="http://www.spatialgate.com.tw/comic/9-1.html">更多</a>
+			</div>
+			<ul class="clearfix">
+			        						<li>
+					<a href="http://www.spatialgate.com.tw/comic/9-1098-1.html">
+						<img src="http://pic2.mofang.com/2015/1109/20151109115748841.jpg/320x180" alt="漫畫介紹－巴麻美的平凡日常 （02）">
+						<span>漫畫介紹－巴麻美的平凡日常 （02）</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/comic/9-1009-1.html">
+						<img src="http://pic0.mofang.com/2015/1027/20151027113316262.jpg/320x180" alt="漫畫介紹－尼采大師 領悟世代 新人降臨 便利店 (03)">
+						<span>漫畫介紹－尼采大師 領悟世代 新人降臨 便利店 (03)</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/comic/9-982-1.html">
+						<img src="http://pic2.mofang.com/2015/1023/20151023021512116.jpg/320x180" alt="漫畫介紹－歡樂公寓 （03）">
+						<span>漫畫介紹－歡樂公寓 （03）</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/comic/9-132-1.html">
+						<img src="http://pic0.mofang.com/2015/1013/20151013103918766.png/320x180" alt="漫畫介紹 - 在地下城尋求邂逅是否搞錯了什麼 (01)">
+						<span>漫畫介紹 - 在地下城尋求邂逅是否搞錯了什麼 (01)</span>
+					</a>
+				</li>
+										</ul>
+		</div>
+		<div class="recom_list">
+			<div class="title_text">
+				<h3 class="fl icon_game">遊戲</h3>
+				<a class="fr" href="http://www.spatialgate.com.tw/game/23-1.html">更多</a>
+			</div>
+			<ul class="clearfix">
+			        						<li>
+					<a href="http://www.spatialgate.com.tw/game/23-1084-1.html">
+						<img src="http://pic0.mofang.com/2015/1105/20151105062414142.jpg/320x180" alt="《進擊的巨人》X《魔物獵人Explore》狩獵巨人活動開跑！">
+						<span>《進擊的巨人》X《魔物獵人Explore》狩獵巨人活動開跑！</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/game/23-1007-1.html">
+						<img src="http://pic2.mofang.com/2015/1027/20151027110534192.jpg/320x180" alt="冒險遊戲新體驗《奇妙人生》這是無限作答次數的單選題">
+						<span>冒險遊戲新體驗《奇妙人生》這是無限作答次數的單選題</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/game/23-990-1.html">
+						<img src="http://pic2.mofang.com/2015/1023/20151023035219482.png/320x180" alt="《刀劍亂舞》待望的人氣新刀「物吉真宗」即將實裝">
+						<span>《刀劍亂舞》待望的人氣新刀「物吉真宗」即將實裝</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/game/23-914-1.html">
+						<img src="http://pic0.mofang.com/2015/1013/20151013063648303.png/320x180" alt="《生死格鬥:沙灘排球3》發售日決定！柔膚引擎2.0性能公開">
+						<span>《生死格鬥:沙灘排球3》發售日決定！柔膚引擎2.0性能公開</span>
+					</a>
+				</li>
+										</ul>
+		</div>
+		<div class="recom_list">
+			<div class="title_text">
+				<h3 class="fl icon_mmd">萌圖</h3>
+				<a class="fr" href="http://www.spatialgate.com.tw/moemoeder/15-1.html">更多</a>
+			</div>
+			<ul class="clearfix">
+			        						<li>
+					<a href="http://www.spatialgate.com.tw/moemoeder/15-43-1.html">
+						<img src="http://pic2.mofang.com/2015/0920/20150920014619613.jpg/320x180" alt="2015TGS ZODIAC SHOW GIRL 直擊！">
+						<span>2015TGS ZODIAC SHOW GIRL 直擊！</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/moemoeder/15-42-1.html">
+						<img src="http://pic0.mofang.com/2015/0920/20150920011059867.jpg/320x180" alt="2015TGS SEGA SHOW GIRL 直擊！">
+						<span>2015TGS SEGA SHOW GIRL 直擊！</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/moemoeder/15-41-1.html">
+						<img src="http://pic1.mofang.com/2015/0919/20150919113902575.jpg/320x180" alt="2015TGS KONAMI SHOW GIRL 直擊！">
+						<span>2015TGS KONAMI SHOW GIRL 直擊！</span>
+					</a>
+				</li>
+								<li>
+					<a href="http://www.spatialgate.com.tw/moemoeder/15-40-1.html">
+						<img src="http://pic1.mofang.com/2015/0919/20150919042958956.jpg/320x180" alt="2015TGS DMM SHOW GIRL 直擊！">
+						<span>2015TGS DMM SHOW GIRL 直擊！</span>
+					</a>
+				</li>
+										</ul>
+		</div>
+	</div>
+</div>
+    	</div>
+    	<div class="sort_right">
+    		
+    		<div class="coserBox">
+	<h4 class="blue">精彩COS集</h4>
+	<div class="coser">
+    				<a href="http://www.spatialgate.com.tw/cosplay/14-69-1.html"><img src="http://pic0.mofang.com/2015/1103/20151103014432661.jpg/320x180" alt="PF23XRF2 Cosplay照片總集 02"></a>
+				<a href="http://www.spatialgate.com.tw/cosplay/14-68-1.html"><img src="http://pic2.mofang.com/2015/1103/20151103014236608.jpg/320x180" alt="PF23XRF2 Cosplay照片總集 01"></a>
+				<a href="http://www.spatialgate.com.tw/cosplay/14-67-1.html"><img src="http://pic1.mofang.com/2015/1020/20151020030904620.jpg/320x180" alt="Coser專訪－小淚"></a>
+				<a href="http://www.spatialgate.com.tw/cosplay/14-66-1.html"><img src="http://pic2.mofang.com/2015/1012/20151012022912837.jpg/320x180" alt="Coser專訪－包子"></a>
+				<a href="http://www.spatialgate.com.tw/cosplay/14-57-1.html"><img src="http://pic2.mofang.com/2015/0902/20150902065345897.jpg/320x180" alt="FF26 Cosplay照片總集"></a>
+				</div>
+	<a class="see_more" href="http://www.spatialgate.com.tw/cosplay/14-1.html"><span>查看更多</span></a>
+</div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+    
+    
+
+    
+
+    
+    
+        <div class="footerBox">
+	<div class="footer">
+		<p>魔方數位資訊服務有限公司 版權所有 © 2015 Mofang Inc All Rights Reserved.</p>
+	</div>
+</div> 
+    
+    
+
+
+    
+    
+
+	<div style="display:none;">
+
+		<!-- Start Alexa Certify Javascript -->
+		<script type="text/javascript">
+		_atrk_opts = { atrk_acct:"yaoJi1a8Dy00w9", domain:"mofang.com.tw",dynamic: true};
+		(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+		</script>
+		<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=yaoJi1a8Dy00w9" style="display:none" height="1" width="1" alt="" /></noscript>
+		<!-- End Alexa Certify Javascript -->
+	</div>
+
+
+
+    
+    	<script>
+	    setTimeout(function(){
+            seajs.use(['jobs']);
+	    },100);
+	</script>
+    
+    
+
+    
+    
+    
+    
+</body><script type="text/javascript" src="http://sts0.mofang.com/statics/v4/tw_acg/js/common_42c6c02.js"></script><script type="text/javascript" src="http://sts0.mofang.com/statics/v4/tw_acg/js/carouse_f72dc8a.js"></script><script type="text/javascript">
+!function(){        seajs.use(["login/check"])
+    }();
+</script></html>

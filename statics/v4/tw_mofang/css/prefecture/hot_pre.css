@@ -1,0 +1,198 @@
+.hw-carouse-wrap{
+	padding:20px 0;
+}
+.hw-prefecture-top .hw-carouse-wrap{
+	padding:0;
+}
+.pre-carouse-left .carouse-list{
+	width:600px;
+	height:338px;
+	overflow: hidden;
+}
+.pre-carouse-left .carouse-li a, .pre-carouse-left .carouse-li a img{
+	display: block;
+	width:584px;
+	height:330px;
+}
+.pre-carouse-left{
+	width:584px;
+	height:330px;
+	position: relative;
+}
+.pre-carouse-left .pic-author em{
+	color:#f3981e;
+	font-style: normal;
+}
+.pic-author{
+	line-height: 60px;
+}
+.carouse-game{
+	padding: 10px 0;
+}
+.pre-carouse-left .carouse-game a img{
+	margin-right: 10px;
+	display: block;
+	width:60px;
+	height:60px;
+	border-radius: 8px;
+}
+.carouse-li a p{
+    font-size:18px;
+    color:#fff;
+    font-weight:bold;
+    height:50px;
+    line-height:50px;
+    padding:0 10px;
+    width:564px;
+    overflow:hidden;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.95)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+.pre-carouse-left .carouse-game h3 a {
+	color:#fff;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.pre-carouse-left .carouse-game span{
+	color:#fff;
+	font-size: 12px;
+}
+.pre-carouse-left .pic-detail p{
+	margin-bottom: 10px;
+	line-height: 20px;
+	max-height: 120px;
+	overflow: hidden;
+}
+.pre-carouse-left .enter-pre{
+	width:68px;
+	height:18px;
+	border:1px solid #4A97C8;
+	border-radius: 30px;
+	color:#fff;
+	text-align: center;
+	line-height: 18px;
+	display: block;
+}
+.pre-carouse-left .enter-pre:hover{
+	text-decoration: none;
+}
+.pre-carouse-left .pic-detail-wrap{
+	width:184px;
+	height:280px;
+	position: absolute;
+	right:0px;
+	bottom:0px;
+	padding: 50px 11px 0;
+	background: #000\9;
+	_background: #000;
+	background: rgba(0,0,0,.6);
+	color: #FFF;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+	filter: alpha(opacity=70);
+	filter: alpha(opacity=70);
+}
+
+/*right*/
+.pre-carouse-right{
+	width:385px;
+	border-right: 1px solid #EEEEEE;
+	border-top: 1px solid #EEEEEE;
+}
+.pre-carouse-wrap .pre-car-li{
+	width:126px;
+	height:145px;
+	padding-top: 19px;
+	float:left;
+	position: relative;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+}
+.pre-car-li .pre-tag{
+	display: block;
+	width:21px;
+	height:30px;
+	text-indent: -9999px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image: url(/statics/v4/tw_mofang/img/hot.png);
+	left:0;
+	top:-1px;
+	position: absolute;
+}
+.pre-car-li a:hover, .pre-car-li a:hover .pre-enter, .pre-car-li a:hover .pre-game-name{
+	text-decoration: none;
+}
+.pre-car-li img{
+	display: block;
+	margin:auto;
+	height:80px;
+	width: 80px;
+}
+.pre-car-li .pre-enter{
+	width:68px;
+	height:18px;
+	line-height: 18px;
+	text-align: center;
+	color: #33a1db;
+	border: 1px solid #33a1db;
+	border-radius:30px;
+	display: block;
+	margin:auto;
+}
+.pre-game-name{
+	color:#666;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	margin:auto;
+	line-height: 30px;
+	font-weight: bold;
+	overflow: hidden;
+	height: 30px;
+}
+
+/*carouse*/
+.pre-carouse-left .bx-controls-direction, .bx-controls-auto{
+	display: none;
+}
+.pre-carouse-left .bx-default-pager{
+	position: absolute;
+	display: block;
+	right:8px;
+	bottom: 15px;
+	z-index: 100;
+	text-align: center;
+}
+.pre-carouse-left .bx-default-pager .bx-pager-item{
+	display: inline-block;
+	_display:inline;
+	height: 10px;
+	border-radius: 10px;
+	background: #AAB5BD;
+	color:#fff;
+	text-align: center;
+	line-height: 10px;
+	overflow: hidden;
+	margin:0 6px;
+}
+.pre-carouse-left .bx-default-pager .bx-pager-item a{
+	background: #AAB5BD;
+	display: block;
+	width:10px;
+	height:10px;
+	color: #fff;
+	text-indent: -99999px;
+}
+.pre-carouse-left .bx-default-pager .bx-pager-item a.active{
+	background: #fff;
+    width:20px;
+}

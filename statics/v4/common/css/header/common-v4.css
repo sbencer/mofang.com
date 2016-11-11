@@ -1,0 +1,679 @@
+/*
+ * Mofang V4
+ *
+ */
+
+/* =Common
+-----------------------------------------------------------------------------*/
+/* Refactor Reset */
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+dl, menu, ol, ul, dd, p{
+    padding: 0;
+    margin: 0;
+}
+ol, ul{
+    list-style: none;
+}
+body{
+    font:12px/1.5 "Microsoft Yahei",Helvetica,Arial,sans-serif,"\5b8b\4f53";
+    color: #333;
+    background: #EEE;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    color:#FD9814 !important;
+    text-decoration:underline;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*向左向右*/
+.mf-right{
+    float:right;
+}
+.mf-left{
+    float:left;
+}
+
+/*显示隐藏*/
+.mf-hide {
+    display:none;
+}
+.mf-show {
+    display:block;
+}
+.mf-invisible {
+    visibility:hidden;
+}
+.mf-affix {
+    position:fixed;
+    top:0;
+}
+
+/*省略号*/
+.mf-ell {
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;}
+
+/*内联块*/
+.mf-inb {
+    display:inline-block;
+    vertical-align:middle;
+    *display:inline;
+    *zoom:1;
+ }
+
+/*强制文本换行*/
+.mf-wrap {
+     word-wrap:break-word;
+     word-break:break-all;
+}
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+
+#header{
+    width: 100%;
+    background:#FAFAFA;
+    min-height: 110px;
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+.mf-container{
+    width: 1000px;
+    margin: 0 auto;
+    background: #FFF;
+    position: relative;
+    z-index: 11;
+    padding: 0 0 40px;
+    box-shadow: 0 5px 10px rgba(153,153,153, 0.2);
+    min-height: 800px;
+}
+.mf-row{
+    padding: 0 20px;
+}
+.column-one{
+    display: inline;
+    width: 400px;
+    min-height: 10px;
+}
+.column-two{
+    display: inline;
+    width: 260px;
+    margin: 0 20px;
+    min-height: 10px;
+}
+.column-three{
+    display: inline;
+    width: 260px;
+    min-height: 10px;
+}
+.column-four{
+    display: inline;
+    width:680px;
+}
+.mf-mb20{
+    margin-bottom: 20px;
+}
+
+
+
+/* =Header
+-----------------------------------------------------------------------------*/
+
+
+/* =Nav
+-----------------------------------------------------------------------------*/
+
+
+
+/* =Buttons
+-----------------------------------------------------------------------------*/
+
+
+
+/* =Lists
+-----------------------------------------------------------------------------*/
+
+
+
+
+/* =Links
+-----------------------------------------------------------------------------*/
+
+
+
+/* =Images
+-----------------------------------------------------------------------------*/
+
+
+/* =分页
+-----------------------------------------------------------------------------*/
+.page-wrapper{
+    width:100%
+}
+.page-nav{
+    text-align:center;
+    height: 28px;
+    overflow: hidden;
+    padding:20px 0;
+}
+.page-nav a{
+    background:#FFF;
+    color:#666;
+    cursor:pointer;
+    width:26px;
+    height:26px;
+    line-height:26px;
+    display:inline-block;
+    text-align:center;
+    margin:0 3px;
+    border:1px #CCC solid;
+    overflow:hidden
+}
+.page-nav span{
+    background:#FFF;
+    color:#666;
+    width:28px;
+    height:28px;
+    line-height:28px;
+    display:inline-block;
+    text-align:center;
+    overflow:hidden
+}
+.page-nav a:hover,.page-nav a.page-on{
+    background:#FD9814;
+    color:#FFF!important;
+    border:1px #FD9814 solid;
+    text-decoration:none
+}
+.page-nav a.page-l,.page-nav a.page-r{
+    text-indent:-9999px;
+    border:1px #CCC solid;
+    background:url("/statics/img/s_page.png") no-repeat 0 0
+}
+.page-nav a.page-l{
+    background-position:0 0
+}
+.page-nav a.page-r{
+    background-position:0 -29px
+}
+.page-nav a.page-first,.page-nav a.page-end{
+    padding:0 10px
+}
+
+/* yii pager*/
+ul.yiiPager
+{
+    font-size:12px;
+    border:0;
+    margin:0;
+    padding:0;
+    line-height:100%;
+    text-align: center;
+}
+
+ul.yiiPager li
+{
+    display: inline-block;
+    _display:inline;
+    _zoom: 1;
+    margin: 0 3px;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+    background:#FD9814;
+    color:#FFF;
+    border:1px #FD9814 solid;
+    text-decoration:none
+}
+
+ul.yiiPager .page a,
+ul.yiiPager .first a,
+ul.yiiPager .previous a,
+ul.yiiPager .next a,
+ul.yiiPager .last a
+{
+    font-weight:normal;
+    background:#FFF;
+    color:#666;
+    cursor:pointer;
+    height:26px;
+    line-height:26px;
+    display:inline-block;
+    text-align:center;
+    border:1px #CCC solid;
+    overflow:hidden;
+    padding:0 10px;
+}
+
+ul.yiiPager a:hover,
+ul.yiiPager .selected a
+{
+    background:#FD9814;
+    color:#FFF!important;
+    border:1px #FD9814 solid;
+    text-decoration:none
+}
+ul.yiiPager .previous a,
+ul.yiiPager .next a{
+    text-indent: -9999px;
+    border: 1px #CCC solid;
+    background: url(http://sts0.mofang.com/statics/v4/content/img/s_page_47a6e3f.png) no-repeat 0 0;
+}
+ul.yiiPager .previous a{
+    background-position: 0 0;
+}
+ul.yiiPager .next a{
+    background-position: 0 -29px;
+}
+/* yii pager*/
+/* =video
+-----------------------------------------------------------------------------*/
+
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+
+.footer-wrap{
+    width: 100%;
+    background: #28282A;
+}
+.footer-top{
+    width: 100%;
+    background:#303032;
+    min-height: 245px;
+}
+.footer-inner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer-nav{
+    overflow: hidden;
+    padding:60px 0;
+    display: inline;
+    font-family: "Microsoft Yahei",Helvetica;
+}
+.footer-nav li{
+    float: left;
+    width: 90px;
+    display:inline;
+    margin:0 22px;
+}
+.footer-nav li img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.footer-nav li a{
+    color: #999;
+    font-size: 16px;
+    display: block;
+    padding-top:105px;
+}
+.footer-nav li a:hover{
+    color: #fc9914
+}
+.footer-nav li a.about-us{
+    background: url(../img/ft_about_icon.png) 0 0 no-repeat
+}
+.footer-nav li a.about-us:hover{
+    background: url(../img/ft_about_icon_h.png) 0 0 no-repeat
+}
+
+.footer-nav li a.sincere{
+    background: url(../img/ft_job_icon.png) 0 0 no-repeat
+}
+.footer-nav li a.sincere:hover{
+    background: url(../img/ft_job_icon_h.png) 0 0 no-repeat
+}
+
+.footer-nav li a.contect-us{
+    background: url(../img/ft_com_icon.png) 0 0 no-repeat
+}
+.footer-nav li a.contect-us:hover{
+    background: url(../img/ft_com_icon_h.png) 0 0 no-repeat
+}
+
+.footer-nav li a.service{
+    background: url(../img/ft_server_icon.png) 0 0 no-repeat
+}
+.footer-nav li a.service:hover{
+    background: url(../img/ft_server_icon_h.png) 0 0 no-repeat
+}
+
+.footer-nav li a.protect{
+    background: url(../img/ft_ql_icon.png) 0 0 no-repeat
+}
+.footer-nav li a.protect:hover{
+    background: url(../img/ft_ql_icon_h.png) 0 0 no-repeat
+}
+.footer-nav li a.flinks{
+    background: url(../img/ft_fl_icon.png) 0 0 no-repeat
+}
+.footer-nav li a.flinks:hover{
+    background: url(../img/ft_fl_icon_h.png) 0 0 no-repeat
+}
+.footer-nav li a:hover{
+    text-decoration: none;
+}
+.footer-nav li span{
+    display: block;
+    text-align: center;
+}
+.zhushou-2wm{
+    padding-top: 30px;
+    display: inline;
+}
+.zhushou-2wm span{
+    background: #28282A;
+    padding: 10px;
+    display:block;
+    height: 120px;
+    width: 120px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.zhushou-2wm span img{
+    height: 120px;
+    width: 120px;
+}
+.zhushou-2wm p{
+    color: #999;
+    font-weight: 700;
+    text-align: center;
+}
+.footer-bottom{
+    padding: 30px 0;
+    min-height: 128px;
+    color: #555;
+    font-weight: 700;
+}
+.friendlink{
+    border-bottom: 1px solid #303032;
+    padding: 0 0 30px;
+}
+.friendlink a{
+    color: #555;
+    display: inline-block;
+    margin:0 20px 7px 0;
+    word-wrap:break-word;
+    word-break:break-all;
+    vertical-align: middle;
+}
+.friendlink span{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 7px;
+}
+.copyright-mf{
+    padding: 30px 0 10px;
+    text-align: center;
+}
+.infor-mf{
+    padding: 0 0 30px;
+    text-align: center;
+
+}
+
+/**
+ *  ui show
+ *
+ **/
+.ui-rotate img{
+    width:54px;height:54px; /*设置图像的长和宽*/
+    border-radius: 27px;/*设置图像圆角效果,在这里我直接设置了超过width/2的像素，即为圆形了*/
+    -webkit-border-radius: 27px;/*圆角效果：兼容webkit浏览器*/
+    -moz-border-radius:27px;
+    box-shadow: inset 0 -1px 0 #3333sf;/*设置图像阴影效果*/
+    -webkit-box-shadow: inset 0 -1px 0 #3333sf;
+}
+
+.ui-rotate img{
+	width:54px;height:54px; /*设置图像的长和宽*/
+	border-radius: 27px;/*设置图像圆角效果,在这里我直接设置了超过width/2的像素，即为圆形了*/
+	-webkit-border-radius: 27px;/*圆角效果：兼容webkit浏览器*/
+	-moz-border-radius:27px;
+	box-shadow: inset 0 -1px 0 #3333sf;/*设置图像阴影效果*/
+	-webkit-box-shadow: inset 0 -1px 0 #3333sf;
+	-webkit-transition: 0.4s;
+	-webkit-transition: -webkit-transform 0.4s ease-out;
+	transition: transform 0.4s ease-out;/*变化时间设置为0.4秒(变化动作即为下面的图像旋转360读）*/
+    -moz-transition: -moz-transform 0.4s ease-out;
+}
+
+.ui-rotate img:hover{/*设置鼠标悬浮在头像时的CSS样式*/
+	box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	-webkit-box-shadow: 0 0 10px #fff; rgba(255,255,255,.6), inset 0 0 20px rgba(255,255,255,1);
+	transform: rotateZ(360deg);/*图像旋转360度*/
+	-webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+}
+
+
+.light {
+    *display: none;
+    position: absolute;
+    left: -57px;
+    top: 15px;
+    width: 57px;
+    height: 57px;
+    background-image: -moz-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,0));
+    background-image: -webkit-linear-gradient(0deg,rgba(255,255,255,0),rgba(255,255,255,.5),rgba(255,255,255,0));
+    transform: skewx(-25deg);
+    -o-transform: skewx(-25deg);
+    -moz-transform: skewx(-25deg);
+    -webkit-transform: skewx(-25deg);
+    -moz-transition: 0s;
+    -o-transition: 0s;
+    -webkit-transition: 0s;
+    transition: 0s
+}
+
+.light-hover {
+    position: relative;
+    overflow: hidden
+}
+
+.light-hover:hover .light {
+    left: 110px;
+    transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    -webkit-transition: .5s
+}
+
+/*gotop*/
+.go_top{
+    width:88px;
+    border:1px solid #3598E5;
+}
+.weibo_erwei{
+    color:#333;
+    padding:8px 10px;
+}
+.weibo_erwei span{
+    text-align: center;
+    height:24px;
+    line-height: 24px;
+    display: block;
+}
+.weibo_erwei img{
+    width:66px;
+    height:66px;
+}
+.watch-weibo{
+    padding:6px 5px;
+    color:#333;
+    display: block;
+    border-top:1px solid #D6E4EF;
+}
+.goTop{
+    height:34px;
+    width:75px;
+    padding-left:15px;
+    text-align:center;
+    line-height: 34px;
+    color:#fff;
+    display: block;
+    background: url(../img/gotop.png) 5px center no-repeat #379EED;
+    _position:absolute;
+}
+
+/*scrollup*/
+.go_top{
+    display: block;
+    z-index: 999999;
+    background: #fff;
+    overflow: hidden;
+    left: 50%;
+    margin-left: 500px;
+    _margin-left: 503px;
+}
+.side-abso{
+    top:676px;
+    position: absolute;
+}
+.side-fix{
+   bottom:150px;
+   position:fixed;
+}
+#gotop{
+    display: block;
+    overflow: hidden;
+    left: 50%;
+    margin-left: 500px;
+    bottom: 125px;
+    position:fixed;
+    _display: none !important;
+}
+a#gotop:hover{
+    text-decoration: none;
+    color:#fff!important;
+}
+
+/* 内页顶部banner */
+.top-banner{
+    height: 90px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0 0;
+}
+.top-banner img{
+    display: block;
+}
+/* breadcrumbs */
+.mf-breadcrumbs{
+    padding: 16px 0 6px;
+    border-bottom: 1px solid #E9E9E9;
+    color: #999;
+    height: 18px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.mf-breadcrumbs a:hover {
+  color:#FD9814;
+}
+
+.mf-breadcrumbs span,.mf-breadcrumbs a{
+    color: #999;
+}
+.mf-breadcrumbs b{
+    font-family: "\5b8b\4f53";
+    margin:0 5px;
+}
+
+
+/* 分享 代码 start */
+.content-fen-new li{
+    width: 24px;
+}
+.conten-fen-weibo,
+.conten-fen-kongjian,
+.conten-fen-weixin,
+.conten-fen-baidu{
+    height: 24px;
+    margin-bottom:8px;
+}
+.conten-fen-weibo{
+    background: url(../img/weibo.png) no-repeat;
+}
+.conten-fen-baidu{
+    background: url(../img/baidu.png) no-repeat;
+}
+.conten-fen-kongjian{
+    background: url(../img/kongjian.png) no-repeat;
+}
+.conten-fen-weixin{
+    background: url(../img/weixin.png) no-repeat;
+}
+.conten-fen-tqq{
+    background: url(../img/t_weibo.png) no-repeat;
+}
+.content-fen-new{
+    position: absolute;
+    _position: absolute;
+    right: 0px;
+    top: 30px;
+    _top:30px;
+    _right:0px;
+    z-index: 2;
+    transition: top 0.5s;
+    -webkit-transition: top 0.5s; /* Safari */
+}
+.content-fen-new li a{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
+.conten-fen-fenxiangdao{
+    width: 24px;
+    text-align: center;
+    height:60px;
+    background-color: #FAFAFA;
+     margin-bottom:8px;
+}
+.conten-fen-fenxiangdao span{
+    margin-top:4px;
+    width: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+body .hover{
+    color:#fc9914!important;
+    text-decoration: underline;
+}

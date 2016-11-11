@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* 
+ * Author:mofang
+ * Update: 2013-09-10 
+*/
+/* CSS Reset */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body,button,input,select,textarea{ font:12px/1.5 "Microsoft Yahei","Hiragino Sans GB",Helvetica,Arial,sans-serif;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,cite,dfn,em,var{font-style:normal;}
+ol,ol li, ul,ul li {list-style: none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {font-size:100%;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select,button {font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select ,button{*font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend {color:#000;}
+:focus {outline: 0;}
+code, kbd, samp, tt{font-family:"Courier New",monospace;}
+
+/* CSS clearfix */
+.clearfix:before, .clearfix:after {content: '.';display: block;overflow: hidden;visibility: hidden;font-size: 0;line-height: 0;width: 0;height: 0}
+.clearfix:after {clear: both}
+.clearfix {zoom: 1}
+
+/* index */
+body{ color:#666; background-color:#FFF;}
+a{ color:#666; text-decoration:none;}
+a:hover{ color:#5A81FD; text-decoration:underline;}
+.w970{ width:970px; margin:0 auto;}
+.mb10{ margin-bottom:10px;}
+.mt10{margin-top:10px;}
+.disno{display:none;}
+::-webkit-input-placeholder { color:#999; }
+input:-moz-placeholder { color:#999; }

@@ -1,0 +1,959 @@
+{
+    "res": {
+        "category.tpl": {
+            "uri": "templates/v4/tw_mofang/category.tpl",
+            "type": "tpl"
+        },
+        "category_befor.tpl": {
+            "uri": "templates/v4/tw_mofang/category_befor.tpl",
+            "type": "tpl"
+        },
+        "category_video.tpl": {
+            "uri": "templates/v4/tw_mofang/category_video.tpl",
+            "type": "tpl"
+        },
+        "category_zone.tpl": {
+            "uri": "templates/v4/tw_mofang/category_zone.tpl",
+            "type": "tpl"
+        },
+        "config.tpl": {
+            "uri": "templates/v4/tw_mofang/config.tpl",
+            "type": "tpl"
+        },
+        "dialog.tpl": {
+            "uri": "templates/v4/tw_mofang/dialog.tpl",
+            "type": "tpl"
+        },
+        "game.tpl": {
+            "uri": "templates/v4/tw_mofang/game.tpl",
+            "type": "tpl"
+        },
+        "hw_base.tpl": {
+            "uri": "templates/v4/tw_mofang/hw_base.tpl",
+            "type": "tpl"
+        },
+        "hw_base1.tpl": {
+            "uri": "templates/v4/tw_mofang/hw_base1.tpl",
+            "type": "tpl"
+        },
+        "hw_base_det.tpl": {
+            "uri": "templates/v4/tw_mofang/hw_base_det.tpl",
+            "type": "tpl"
+        },
+        "index.tpl": {
+            "uri": "templates/v4/tw_mofang/index.tpl",
+            "type": "tpl"
+        },
+        "list.tpl": {
+            "uri": "templates/v4/tw_mofang/list.tpl",
+            "type": "tpl"
+        },
+        "list_user.tpl": {
+            "uri": "templates/v4/tw_mofang/list_user.tpl",
+            "type": "tpl"
+        },
+        "list_zone.tpl": {
+            "uri": "templates/v4/tw_mofang/list_zone.tpl",
+            "type": "tpl"
+        },
+        "pic_detail.tpl": {
+            "uri": "templates/v4/tw_mofang/pic_detail.tpl",
+            "type": "tpl"
+        },
+        "pic_redetail.tpl": {
+            "uri": "templates/v4/tw_mofang/pic_redetail.tpl",
+            "type": "tpl"
+        },
+        "rank_list.tpl": {
+            "uri": "templates/v4/tw_mofang/rank_list.tpl",
+            "type": "tpl"
+        },
+        "search.tpl": {
+            "uri": "templates/v4/tw_mofang/search.tpl",
+            "type": "tpl"
+        },
+        "show.tpl": {
+            "uri": "templates/v4/tw_mofang/show.tpl",
+            "type": "tpl"
+        },
+        "show_new.tpl": {
+            "uri": "templates/v4/tw_mofang/show_new.tpl",
+            "type": "tpl"
+        },
+        "show_video.tpl": {
+            "uri": "templates/v4/tw_mofang/show_video.tpl",
+            "type": "tpl"
+        },
+        "test.tpl": {
+            "uri": "templates/v4/tw_mofang/test.tpl",
+            "type": "tpl"
+        },
+        "v3/index.tpl": {
+            "uri": "templates/v4/tw_mofang/v3/index.tpl",
+            "type": "tpl"
+        },
+        "v4/article.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/article.tpl",
+            "type": "tpl"
+        },
+        "v4/index.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/index.tpl",
+            "type": "tpl"
+        },
+        "v4/list.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/list.tpl",
+            "type": "tpl"
+        },
+        "v4/nav.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/nav.tpl",
+            "type": "tpl"
+        },
+        "v4/tw_base.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/tw_base.tpl",
+            "type": "tpl"
+        },
+        "v4/widget_index_cosplay.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/widget_index_cosplay.tpl",
+            "type": "tpl"
+        },
+        "v4/widget_index_focus.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/widget_index_focus.tpl",
+            "type": "tpl"
+        },
+        "v4/widget_index_live.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/widget_index_live.tpl",
+            "type": "tpl"
+        },
+        "v4/widget_index_main.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/widget_index_main.tpl",
+            "type": "tpl"
+        },
+        "v4/widget_latest_video.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/widget_latest_video.tpl",
+            "type": "tpl"
+        },
+        "v4/widget_news_list.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/widget_news_list.tpl",
+            "type": "tpl"
+        },
+        "v4/widget_raiders.tpl": {
+            "uri": "templates/v4/tw_mofang/v4/widget_raiders.tpl",
+            "type": "tpl"
+        },
+        "video.tpl": {
+            "uri": "templates/v4/tw_mofang/video.tpl",
+            "type": "tpl"
+        },
+        "statics/css/article/article_detail_con.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/article_detail_con.css",
+            "type": "css"
+        },
+        "statics/css/article/article_detail_con_new.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/article_detail_con_new.css",
+            "type": "css"
+        },
+        "statics/css/article/author_mess.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/author_mess.css",
+            "type": "css"
+        },
+        "statics/css/article/dialog.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/dialog.css",
+            "type": "css"
+        },
+        "statics/css/article/extend_read.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/extend_read.css",
+            "type": "css"
+        },
+        "statics/css/article/extend_read_new.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/extend_read_new.css",
+            "type": "css"
+        },
+        "statics/css/article/game_new.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/game_new.css",
+            "type": "css"
+        },
+        "statics/css/article/hot_peo.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/hot_peo.css",
+            "type": "css"
+        },
+        "statics/css/article/last_video.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/last_video.css",
+            "type": "css"
+        },
+        "statics/css/article/mf_game.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/mf_game.css",
+            "type": "css"
+        },
+        "statics/css/article/mf_gonglue.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/mf_gonglue.css",
+            "type": "css"
+        },
+        "statics/css/article/mf_prize.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/mf_prize.css",
+            "type": "css"
+        },
+        "statics/css/article/pic_enjoy.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/pic_enjoy.css",
+            "type": "css"
+        },
+        "statics/css/article/play_what.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/play_what.css",
+            "type": "css"
+        },
+        "statics/css/article/top_list.css": {
+            "uri": "/statics/v4/tw_mofang/css/article/top_list.css",
+            "type": "css"
+        },
+        "statics/css/bef_login/login_list.css": {
+            "uri": "/statics/v4/tw_mofang/css/bef_login/login_list.css",
+            "type": "css"
+        },
+        "statics/css/bef_login/login_mess.css": {
+            "uri": "/statics/v4/tw_mofang/css/bef_login/login_mess.css",
+            "type": "css"
+        },
+        "statics/css/bef_login/login_notice.css": {
+            "uri": "/statics/v4/tw_mofang/css/bef_login/login_notice.css",
+            "type": "css"
+        },
+        "statics/css/carouse.css": {
+            "uri": "/statics/v4/tw_mofang/css/carouse.css",
+            "type": "css"
+        },
+        "statics/css/footer.css": {
+            "uri": "/statics/v4/tw_mofang/css/footer.css",
+            "type": "css"
+        },
+        "statics/css/game/game_intro.css": {
+            "uri": "/statics/v4/tw_mofang/css/game/game_intro.css",
+            "type": "css"
+        },
+        "statics/css/game/game_pic.css": {
+            "uri": "/statics/v4/tw_mofang/css/game/game_pic.css",
+            "type": "css"
+        },
+        "statics/css/game/game_prefecture.css": {
+            "uri": "/statics/v4/tw_mofang/css/game/game_prefecture.css",
+            "type": "css"
+        },
+        "statics/css/game/game_recom.css": {
+            "uri": "/statics/v4/tw_mofang/css/game/game_recom.css",
+            "type": "css"
+        },
+        "statics/css/game/mf_app.css": {
+            "uri": "/statics/v4/tw_mofang/css/game/mf_app.css",
+            "type": "css"
+        },
+        "statics/css/game_rank.css": {
+            "uri": "/statics/v4/tw_mofang/css/game_rank.css",
+            "type": "css"
+        },
+        "statics/css/header.css": {
+            "uri": "/statics/v4/tw_mofang/css/header.css",
+            "type": "css"
+        },
+        "statics/css/hot_author.css": {
+            "uri": "/statics/v4/tw_mofang/css/hot_author.css",
+            "type": "css"
+        },
+        "statics/css/hot_game.css": {
+            "uri": "/statics/v4/tw_mofang/css/hot_game.css",
+            "type": "css"
+        },
+        "statics/css/hot_game_.css": {
+            "uri": "/statics/v4/tw_mofang/css/hot_game_.css",
+            "type": "css"
+        },
+        "statics/css/hot_news.css": {
+            "uri": "/statics/v4/tw_mofang/css/hot_news.css",
+            "type": "css"
+        },
+        "statics/css/hw_common.css": {
+            "uri": "/statics/v4/tw_mofang/css/hw_common.css",
+            "type": "css"
+        },
+        "statics/css/industry_focus.css": {
+            "uri": "/statics/v4/tw_mofang/css/industry_focus.css",
+            "type": "css"
+        },
+        "statics/css/page.css": {
+            "uri": "/statics/v4/tw_mofang/css/page.css",
+            "type": "css"
+        },
+        "statics/css/pic/hot_pic.css": {
+            "uri": "/statics/v4/tw_mofang/css/pic/hot_pic.css",
+            "type": "css"
+        },
+        "statics/css/pic/pic_detail.css": {
+            "uri": "/statics/v4/tw_mofang/css/pic/pic_detail.css",
+            "type": "css"
+        },
+        "statics/css/prefecture/hot_pre.css": {
+            "uri": "/statics/v4/tw_mofang/css/prefecture/hot_pre.css",
+            "type": "css"
+        },
+        "statics/css/prefecture/hot_pre_bttm.css": {
+            "uri": "/statics/v4/tw_mofang/css/prefecture/hot_pre_bttm.css",
+            "type": "css"
+        },
+        "statics/css/prefecture/new_game_pre.css": {
+            "uri": "/statics/v4/tw_mofang/css/prefecture/new_game_pre.css",
+            "type": "css"
+        },
+        "statics/css/prize_last.css": {
+            "uri": "/statics/v4/tw_mofang/css/prize_last.css",
+            "type": "css"
+        },
+        "statics/css/rank/fahao.css": {
+            "uri": "/statics/v4/tw_mofang/css/rank/fahao.css",
+            "type": "css"
+        },
+        "statics/css/rank/last_zhuan.css": {
+            "uri": "/statics/v4/tw_mofang/css/rank/last_zhuan.css",
+            "type": "css"
+        },
+        "statics/css/rank/rank_index.css": {
+            "uri": "/statics/v4/tw_mofang/css/rank/rank_index.css",
+            "type": "css"
+        },
+        "statics/css/rank/rank_list_left.css": {
+            "uri": "/statics/v4/tw_mofang/css/rank/rank_list_left.css",
+            "type": "css"
+        },
+        "statics/css/search/search.css": {
+            "uri": "/statics/v4/tw_mofang/css/search/search.css",
+            "type": "css"
+        },
+        "statics/css/share.css": {
+            "uri": "/statics/v4/tw_mofang/css/share.css",
+            "type": "css"
+        },
+        "statics/css/sidebar.css": {
+            "uri": "/statics/v4/tw_mofang/css/sidebar.css",
+            "type": "css"
+        },
+        "statics/css/sort_information.css": {
+            "uri": "/statics/v4/tw_mofang/css/sort_information.css",
+            "type": "css"
+        },
+        "statics/css/user/author_intro.css": {
+            "uri": "/statics/v4/tw_mofang/css/user/author_intro.css",
+            "type": "css"
+        },
+        "statics/css/user/game_new.css": {
+            "uri": "/statics/v4/tw_mofang/css/user/game_new.css",
+            "type": "css"
+        },
+        "statics/css/v3/brand.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/brand.css",
+            "type": "css"
+        },
+        "statics/css/v3/carouse.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/carouse.css",
+            "type": "css"
+        },
+        "statics/css/v3/evaluating.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/evaluating.css",
+            "type": "css"
+        },
+        "statics/css/v3/hot_game.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/hot_game.css",
+            "type": "css"
+        },
+        "statics/css/v3/hot_introduce.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/hot_introduce.css",
+            "type": "css"
+        },
+        "statics/css/v3/prize_last.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/prize_last.css",
+            "type": "css"
+        },
+        "statics/css/v3/rank_index.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/rank_index.css",
+            "type": "css"
+        },
+        "statics/css/v3/sort_information.css": {
+            "uri": "/statics/v4/tw_mofang/css/v3/sort_information.css",
+            "type": "css"
+        },
+        "statics/css/v4/article.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/article.css",
+            "type": "css"
+        },
+        "statics/css/v4/index.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/index.css",
+            "type": "css"
+        },
+        "statics/css/v4/list.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/list.css",
+            "type": "css"
+        },
+        "statics/css/v4/nav.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/nav.css",
+            "type": "css"
+        },
+        "statics/css/v4/swiper.min.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/swiper.min.css",
+            "type": "css"
+        },
+        "statics/css/v4/widget_index_cosplay.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/widget_index_cosplay.css",
+            "type": "css"
+        },
+        "statics/css/v4/widget_index_focus.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/widget_index_focus.css",
+            "type": "css"
+        },
+        "statics/css/v4/widget_index_main.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/widget_index_main.css",
+            "type": "css"
+        },
+        "statics/css/v4/widget_latest_video.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/widget_latest_video.css",
+            "type": "css"
+        },
+        "statics/css/v4/widget_news_list.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/widget_news_list.css",
+            "type": "css"
+        },
+        "statics/css/v4/widget_raiders.css": {
+            "uri": "/statics/v4/tw_mofang/css/v4/widget_raiders.css",
+            "type": "css"
+        },
+        "statics/css/video/carouse.css": {
+            "uri": "/statics/v4/tw_mofang/css/video/carouse.css",
+            "type": "css"
+        },
+        "statics/css/video/hot_read.css": {
+            "uri": "/statics/v4/tw_mofang/css/video/hot_read.css",
+            "type": "css"
+        },
+        "statics/css/video/hot_video.css": {
+            "uri": "/statics/v4/tw_mofang/css/video/hot_video.css",
+            "type": "css"
+        },
+        "statics/css/video/moke.css": {
+            "uri": "/statics/v4/tw_mofang/css/video/moke.css",
+            "type": "css"
+        },
+        "statics/css/video/rank_index.css": {
+            "uri": "/statics/v4/tw_mofang/css/video/rank_index.css",
+            "type": "css"
+        },
+        "statics/css/video/video_carouse.css": {
+            "uri": "/statics/v4/tw_mofang/css/video/video_carouse.css",
+            "type": "css"
+        },
+        "statics/css/video/video_top.css": {
+            "uri": "/statics/v4/tw_mofang/css/video/video_top.css",
+            "type": "css"
+        },
+        "statics/css/video_ce.css": {
+            "uri": "/statics/v4/tw_mofang/css/video_ce.css",
+            "type": "css"
+        },
+        "statics/js/carouse.js": {
+            "uri": "/statics/v4/tw_mofang/js/carouse.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/bxslider"
+            ]
+        },
+        "statics/js/cppaste.js": {
+            "uri": "/statics/v4/tw_mofang/js/cppaste.js",
+            "type": "js"
+        },
+        "statics/js/dialog.js": {
+            "uri": "/statics/v4/tw_mofang/js/dialog.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/fix.js": {
+            "uri": "/statics/v4/tw_mofang/js/fix.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "hw/fixed"
+            ]
+        },
+        "statics/js/gotop.js": {
+            "uri": "/statics/v4/tw_mofang/js/gotop.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/hover.js": {
+            "uri": "/statics/v4/tw_mofang/js/hover.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/hw_common.js": {
+            "uri": "/statics/v4/tw_mofang/js/hw_common.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/imgError.js": {
+            "uri": "/statics/v4/tw_mofang/js/imgError.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/index.js": {
+            "uri": "/statics/v4/tw_mofang/js/index.js",
+            "type": "js"
+        },
+        "statics/js/lazyBg.js": {
+            "uri": "/statics/v4/tw_mofang/js/lazyBg.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/masonry.js": {
+            "uri": "/statics/v4/tw_mofang/js/masonry.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "masonry"
+            ]
+        },
+        "statics/js/pbl.js": {
+            "uri": "/statics/v4/tw_mofang/js/pbl.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "pic/pubu"
+            ]
+        },
+        "statics/js/pic.js": {
+            "uri": "/statics/v4/tw_mofang/js/pic.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/flexslider"
+            ]
+        },
+        "statics/js/scroll.js": {
+            "uri": "/statics/v4/tw_mofang/js/scroll.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "article/dialog",
+                "article/scroll"
+            ]
+        },
+        "statics/js/show.js": {
+            "uri": "/statics/v4/tw_mofang/js/show.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/sort_tab.js": {
+            "uri": "/statics/v4/tw_mofang/js/sort_tab.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/tab.js": {
+            "uri": "/statics/v4/tw_mofang/js/tab.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/tabs",
+                "tw/tabs"
+            ]
+        },
+        "statics/js/tab_change.js": {
+            "uri": "/statics/v4/tw_mofang/js/tab_change.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v3/carouse.js": {
+            "uri": "/statics/v4/tw_mofang/js/v3/carouse.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/bxslider"
+            ]
+        },
+        "statics/js/v3/hot_introduce.js": {
+            "uri": "/statics/v4/tw_mofang/js/v3/hot_introduce.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v4/index.js": {
+            "uri": "/statics/v4/tw_mofang/js/v4/index.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/tabs",
+                "jquery/Swiper"
+            ]
+        },
+        "statics/js/v4/list.js": {
+            "uri": "/statics/v4/tw_mofang/js/v4/list.js",
+            "type": "js"
+        },
+        "statics/js/v4/side.js": {
+            "uri": "/statics/v4/tw_mofang/js/v4/side.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/tabs",
+                "jquery/Swiper"
+            ]
+        },
+        "statics/js/v_carouse.js": {
+            "uri": "/statics/v4/tw_mofang/js/v_carouse.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/bxslider"
+            ]
+        },
+        "widget/article/article_con_right.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/article_con_right.tpl",
+            "type": "tpl"
+        },
+        "widget/article/article_con_right_.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/article_con_right_.tpl",
+            "type": "tpl"
+        },
+        "widget/article/article_detail_con.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/article_detail_con.tpl",
+            "type": "tpl"
+        },
+        "widget/article/article_detail_con_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/article_detail_con_new.tpl",
+            "type": "tpl"
+        },
+        "widget/article/author_mess.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/author_mess.tpl",
+            "type": "tpl"
+        },
+        "widget/article/author_mess_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/author_mess_new.tpl",
+            "type": "tpl"
+        },
+        "widget/article/extend_read.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/extend_read.tpl",
+            "type": "tpl"
+        },
+        "widget/article/extend_read_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/extend_read_new.tpl",
+            "type": "tpl"
+        },
+        "widget/article/game_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/game_new.tpl",
+            "type": "tpl"
+        },
+        "widget/article/hot_peo.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/hot_peo.tpl",
+            "type": "tpl"
+        },
+        "widget/article/last_video.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/last_video.tpl",
+            "type": "tpl"
+        },
+        "widget/article/login_mes.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/login_mes.tpl",
+            "type": "tpl"
+        },
+        "widget/article/mf_game.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/mf_game.tpl",
+            "type": "tpl"
+        },
+        "widget/article/mf_gonglue.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/mf_gonglue.tpl",
+            "type": "tpl"
+        },
+        "widget/article/mf_prize.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/mf_prize.tpl",
+            "type": "tpl"
+        },
+        "widget/article/pic_enjoy.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/pic_enjoy.tpl",
+            "type": "tpl"
+        },
+        "widget/article/play_what.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/play_what.tpl",
+            "type": "tpl"
+        },
+        "widget/article/top_list.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/article/top_list.tpl",
+            "type": "tpl"
+        },
+        "widget/bef_login/login_list.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/bef_login/login_list.tpl",
+            "type": "tpl"
+        },
+        "widget/bef_login/login_mess.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/bef_login/login_mess.tpl",
+            "type": "tpl"
+        },
+        "widget/bef_login/login_notice.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/bef_login/login_notice.tpl",
+            "type": "tpl"
+        },
+        "widget/bef_login/login_notice_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/bef_login/login_notice_new.tpl",
+            "type": "tpl"
+        },
+        "widget/common/analyticstracking.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/analyticstracking.tpl",
+            "type": "tpl"
+        },
+        "widget/common/discuss.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/discuss.tpl",
+            "type": "tpl"
+        },
+        "widget/common/discuss_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/discuss_new.tpl",
+            "type": "tpl"
+        },
+        "widget/common/footer.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/footer.tpl",
+            "type": "tpl"
+        },
+        "widget/common/header.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/header.tpl",
+            "type": "tpl"
+        },
+        "widget/common/page.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/page.tpl",
+            "type": "tpl"
+        },
+        "widget/common/share.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/share.tpl",
+            "type": "tpl"
+        },
+        "widget/common/share_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/share_new.tpl",
+            "type": "tpl"
+        },
+        "widget/common/sidebar.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/common/sidebar.tpl",
+            "type": "tpl"
+        },
+        "widget/game/game_intro.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/game/game_intro.tpl",
+            "type": "tpl"
+        },
+        "widget/game/game_pic.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/game/game_pic.tpl",
+            "type": "tpl"
+        },
+        "widget/game/game_prefecture.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/game/game_prefecture.tpl",
+            "type": "tpl"
+        },
+        "widget/game/game_recom.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/game/game_recom.tpl",
+            "type": "tpl"
+        },
+        "widget/game/mf_app.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/game/mf_app.tpl",
+            "type": "tpl"
+        },
+        "widget/game/relev_movie.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/game/relev_movie.tpl",
+            "type": "tpl"
+        },
+        "widget/index/carouse.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/carouse.tpl",
+            "type": "tpl"
+        },
+        "widget/index/game_news.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/game_news.tpl",
+            "type": "tpl"
+        },
+        "widget/index/game_rank.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/game_rank.tpl",
+            "type": "tpl"
+        },
+        "widget/index/hot_author.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/hot_author.tpl",
+            "type": "tpl"
+        },
+        "widget/index/hot_game.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/hot_game.tpl",
+            "type": "tpl"
+        },
+        "widget/index/hot_game_.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/hot_game_.tpl",
+            "type": "tpl"
+        },
+        "widget/index/hot_news.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/hot_news.tpl",
+            "type": "tpl"
+        },
+        "widget/index/industry_focus.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/industry_focus.tpl",
+            "type": "tpl"
+        },
+        "widget/index/prize_last.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/prize_last.tpl",
+            "type": "tpl"
+        },
+        "widget/index/sort_information.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/sort_information.tpl",
+            "type": "tpl"
+        },
+        "widget/index/video_ce.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/index/video_ce.tpl",
+            "type": "tpl"
+        },
+        "widget/pic/guess_like.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/pic/guess_like.tpl",
+            "type": "tpl"
+        },
+        "widget/pic/hot_pic.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/pic/hot_pic.tpl",
+            "type": "tpl"
+        },
+        "widget/pic/pic_detail.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/pic/pic_detail.tpl",
+            "type": "tpl"
+        },
+        "widget/prefecture/hot_pre.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/prefecture/hot_pre.tpl",
+            "type": "tpl"
+        },
+        "widget/prefecture/hot_pre_bttm.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/prefecture/hot_pre_bttm.tpl",
+            "type": "tpl"
+        },
+        "widget/prefecture/new_game_pre.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/prefecture/new_game_pre.tpl",
+            "type": "tpl"
+        },
+        "widget/rank/bef_login.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/rank/bef_login.tpl",
+            "type": "tpl"
+        },
+        "widget/rank/fahao.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/rank/fahao.tpl",
+            "type": "tpl"
+        },
+        "widget/rank/last_zhuan.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/rank/last_zhuan.tpl",
+            "type": "tpl"
+        },
+        "widget/rank/rank.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/rank/rank.tpl",
+            "type": "tpl"
+        },
+        "widget/rank/rank_list_left.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/rank/rank_list_left.tpl",
+            "type": "tpl"
+        },
+        "widget/user/article_con_right.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/user/article_con_right.tpl",
+            "type": "tpl"
+        },
+        "widget/user/author_intro.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/user/author_intro.tpl",
+            "type": "tpl"
+        },
+        "widget/user/game_new.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/user/game_new.tpl",
+            "type": "tpl"
+        },
+        "widget/user/top_list.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/user/top_list.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/brand.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/brand.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/carouse.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/carouse.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/evaluating.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/evaluating.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/hot_game.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/hot_game.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/hot_introduce.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/hot_introduce.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/prize_last.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/prize_last.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/rank.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/rank.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/sort_information.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/sort_information.tpl",
+            "type": "tpl"
+        },
+        "widget/v3/index/video.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/v3/index/video.tpl",
+            "type": "tpl"
+        },
+        "widget/video/carouse.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/carouse.tpl",
+            "type": "tpl"
+        },
+        "widget/video/game_ce.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/game_ce.tpl",
+            "type": "tpl"
+        },
+        "widget/video/hot_read.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/hot_read.tpl",
+            "type": "tpl"
+        },
+        "widget/video/hot_video.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/hot_video.tpl",
+            "type": "tpl"
+        },
+        "widget/video/moke.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/moke.tpl",
+            "type": "tpl"
+        },
+        "widget/video/network.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/network.tpl",
+            "type": "tpl"
+        },
+        "widget/video/rank.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/rank.tpl",
+            "type": "tpl"
+        },
+        "widget/video/related_video.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/related_video.tpl",
+            "type": "tpl"
+        },
+        "widget/video/video_carouse.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/video_carouse.tpl",
+            "type": "tpl"
+        },
+        "widget/video/video_detail.tpl": {
+            "uri": "templates/v4/tw_mofang/widget/video/video_detail.tpl",
+            "type": "tpl"
+        }
+    },
+    "pkg": {}
+}

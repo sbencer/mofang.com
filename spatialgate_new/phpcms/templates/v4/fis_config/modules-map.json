@@ -1,0 +1,533 @@
+{
+    "res": {
+        "statics/coffee/hybrid_h5.coffee": {
+            "uri": "/statics/v4/modules/coffee/hybrid_h5.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "atom",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/css/animate.css": {
+            "uri": "/statics/v4/modules/css/animate.css",
+            "type": "css"
+        },
+        "statics/css/index.css": {
+            "uri": "/statics/v4/modules/css/index.css",
+            "type": "css"
+        },
+        "statics/css/jquery.fullPage.css": {
+            "uri": "/statics/v4/modules/css/jquery.fullPage.css",
+            "type": "css"
+        },
+        "statics/js/ad.js": {
+            "uri": "/statics/v4/modules/js/ad.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/atom.js": {
+            "uri": "/statics/v4/modules/js/atom.js",
+            "type": "js",
+            "deps": [
+                "base64"
+            ]
+        },
+        "statics/js/backbone.js": {
+            "uri": "/statics/v4/modules/js/backbone.js",
+            "type": "js",
+            "deps": [
+                "underscore"
+            ]
+        },
+        "statics/js/base64.js": {
+            "uri": "/statics/v4/modules/js/base64.js",
+            "type": "js"
+        },
+        "statics/js/bigpipe.js": {
+            "uri": "/statics/v4/modules/js/bigpipe.js",
+            "type": "js"
+        },
+        "statics/js/jquery/bxslider.js": {
+            "uri": "/statics/v4/modules/js/jquery/bxslider.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/carousel.js": {
+            "uri": "/statics/v4/modules/js/jquery/carousel.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/ui"
+            ]
+        },
+        "statics/js/jquery/carsouse.js": {
+            "uri": "/statics/v4/modules/js/jquery/carsouse.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/cookie.js": {
+            "uri": "/statics/v4/modules/js/jquery/cookie.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/easing.js": {
+            "uri": "/statics/v4/modules/js/jquery/easing.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/flexslider.js": {
+            "uri": "/statics/v4/modules/js/jquery/flexslider.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/fullpage.js": {
+            "uri": "/statics/v4/modules/js/jquery/fullpage.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/easings",
+                "jquery/slimscroll"
+            ]
+        },
+        "statics/js/jquery/iscroll.js": {
+            "uri": "/statics/v4/modules/js/jquery/iscroll.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jQueryRotate.js": {
+            "uri": "/statics/v4/modules/js/jquery/jQueryRotate.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.cookie.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.cookie.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.easings.min.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.easings.min.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.fancybox.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.fancybox.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.form.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.form.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.js",
+            "type": "js"
+        },
+        "statics/js/jquery/jquery.nicescroll.min.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.nicescroll.min.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.scrollUp.min.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.scrollUp.min.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.slimscroll.min.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.slimscroll.min.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.transit.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.transit.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.urldecoder.min.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.urldecoder.min.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/jquery.validate.js": {
+            "uri": "/statics/v4/modules/js/jquery/jquery.validate.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/json.js": {
+            "uri": "/statics/v4/modules/js/jquery/json.js",
+            "type": "js"
+        },
+        "statics/js/jquery/livequery.js": {
+            "uri": "/statics/v4/modules/js/jquery/livequery.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/query.js": {
+            "uri": "/statics/v4/modules/js/jquery/query.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/roundRank.js": {
+            "uri": "/statics/v4/modules/js/jquery/roundRank.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/scrollUp.js": {
+            "uri": "/statics/v4/modules/js/jquery/scrollUp.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/scrollbox.js": {
+            "uri": "/statics/v4/modules/js/jquery/scrollbox.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/swipe.js": {
+            "uri": "/statics/v4/modules/js/jquery/swipe.js",
+            "type": "js"
+        },
+        "statics/js/jquery/swiper.js": {
+            "uri": "/statics/v4/modules/js/jquery/swiper.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/swiper3.js": {
+            "uri": "/statics/v4/modules/js/jquery/swiper3.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/tabs.js": {
+            "uri": "/statics/v4/modules/js/jquery/tabs.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/transform2d.js": {
+            "uri": "/statics/v4/modules/js/jquery/transform2d.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/ui.js": {
+            "uri": "/statics/v4/modules/js/jquery/ui.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery/video.js": {
+            "uri": "/statics/v4/modules/js/jquery/video.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/lang/en.js": {
+            "uri": "/statics/v4/modules/js/lang/en.js",
+            "type": "js"
+        },
+        "statics/js/lang/jp.js": {
+            "uri": "/statics/v4/modules/js/lang/jp.js",
+            "type": "js"
+        },
+        "statics/js/lang/th.js": {
+            "uri": "/statics/v4/modules/js/lang/th.js",
+            "type": "js"
+        },
+        "statics/js/lang/zh-cn.js": {
+            "uri": "/statics/v4/modules/js/lang/zh-cn.js",
+            "type": "js"
+        },
+        "statics/js/lang/zh-tw.js": {
+            "uri": "/statics/v4/modules/js/lang/zh-tw.js",
+            "type": "js"
+        },
+        "statics/js/mfe/card.js": {
+            "uri": "/statics/v4/modules/js/mfe/card.js",
+            "type": "js",
+            "deps": [
+                "swfobject",
+                "jquery",
+                "mfe"
+            ]
+        },
+        "statics/js/mfe/carouses.js": {
+            "uri": "/statics/v4/modules/js/mfe/carouses.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "widget"
+            ]
+        },
+        "statics/js/mfe/countdown.js": {
+            "uri": "/statics/v4/modules/js/mfe/countdown.js",
+            "type": "js"
+        },
+        "statics/js/mfe/debug.js": {
+            "uri": "/statics/v4/modules/js/mfe/debug.js",
+            "type": "js"
+        },
+        "statics/js/mfe/dialog.js": {
+            "uri": "/statics/v4/modules/js/mfe/dialog.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/eggsui.js": {
+            "uri": "/statics/v4/modules/js/mfe/eggsui.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/fastclick.js": {
+            "uri": "/statics/v4/modules/js/mfe/fastclick.js",
+            "type": "js"
+        },
+        "statics/js/mfe/fixedScrollContent.js": {
+            "uri": "/statics/v4/modules/js/mfe/fixedScrollContent.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/handlebars.js": {
+            "uri": "/statics/v4/modules/js/mfe/handlebars.js",
+            "type": "js"
+        },
+        "statics/js/mfe/hiteggs.js": {
+            "uri": "/statics/v4/modules/js/mfe/hiteggs.js",
+            "type": "js",
+            "deps": [
+                "swfobject",
+                "jquery",
+                "mfe"
+            ]
+        },
+        "statics/js/mfe/hybrid_h5.js": {
+            "uri": "/statics/v4/modules/js/mfe/hybrid_h5.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "atom",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/mfe/isApp.js": {
+            "uri": "/statics/v4/modules/js/mfe/isApp.js",
+            "type": "js"
+        },
+        "statics/js/mfe/jquery.pic.amplify.js": {
+            "uri": "/statics/v4/modules/js/mfe/jquery.pic.amplify.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/jquery.pop.js": {
+            "uri": "/statics/v4/modules/js/mfe/jquery.pop.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/jquery.reluserurl.js": {
+            "uri": "/statics/v4/modules/js/mfe/jquery.reluserurl.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "config"
+            ]
+        },
+        "statics/js/mfe/jquery.slider.down.js": {
+            "uri": "/statics/v4/modules/js/mfe/jquery.slider.down.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/jquery.slider.mf.js": {
+            "uri": "/statics/v4/modules/js/mfe/jquery.slider.mf.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/jweixin_1.0.0-config.js": {
+            "uri": "/statics/v4/modules/js/mfe/jweixin_1.0.0-config.js",
+            "type": "js"
+        },
+        "statics/js/mfe/lang.js": {
+            "uri": "/statics/v4/modules/js/mfe/lang.js",
+            "type": "js"
+        },
+        "statics/js/mfe/luckydraw.js": {
+            "uri": "/statics/v4/modules/js/mfe/luckydraw.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/mfe.js": {
+            "uri": "/statics/v4/modules/js/mfe/mfe.js",
+            "type": "js"
+        },
+        "statics/js/mfe/mfshare.js": {
+            "uri": "/statics/v4/modules/js/mfe/mfshare.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/moveTop.js": {
+            "uri": "/statics/v4/modules/js/mfe/moveTop.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/scrollTop.js": {
+            "uri": "/statics/v4/modules/js/mfe/scrollTop.js",
+            "type": "js"
+        },
+        "statics/js/mfe/skrollr.ie.min.js": {
+            "uri": "/statics/v4/modules/js/mfe/skrollr.ie.min.js",
+            "type": "js"
+        },
+        "statics/js/mfe/skrollr.min.js": {
+            "uri": "/statics/v4/modules/js/mfe/skrollr.min.js",
+            "type": "js"
+        },
+        "statics/js/mfe/tabs.js": {
+            "uri": "/statics/v4/modules/js/mfe/tabs.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mfe",
+                "widget"
+            ]
+        },
+        "statics/js/mfe/templatable.js": {
+            "uri": "/statics/v4/modules/js/mfe/templatable.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "handlebars"
+            ]
+        },
+        "statics/js/mfe/tips_mod.js": {
+            "uri": "/statics/v4/modules/js/mfe/tips_mod.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "widget"
+            ]
+        },
+        "statics/js/mfe/ui.js": {
+            "uri": "/statics/v4/modules/js/mfe/ui.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/wapLoadMore.js": {
+            "uri": "/statics/v4/modules/js/mfe/wapLoadMore.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfe/wheel.js": {
+            "uri": "/statics/v4/modules/js/mfe/wheel.js",
+            "type": "js",
+            "deps": [
+                "swfobject",
+                "jquery",
+                "mfe"
+            ]
+        },
+        "statics/js/mfe/widget.js": {
+            "uri": "/statics/v4/modules/js/mfe/widget.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mfe"
+            ]
+        },
+        "statics/js/moment.js": {
+            "uri": "/statics/v4/modules/js/moment.js",
+            "type": "js"
+        },
+        "statics/js/sea-config.js": {
+            "uri": "/statics/v4/modules/js/sea-config.js",
+            "type": "js"
+        },
+        "statics/js/swfobject/swfobject.js": {
+            "uri": "/statics/v4/modules/js/swfobject/swfobject.js",
+            "type": "js"
+        },
+        "statics/js/underscore.js": {
+            "uri": "/statics/v4/modules/js/underscore.js",
+            "type": "js"
+        },
+        "statics/js/zepto.js": {
+            "uri": "/statics/v4/modules/js/zepto.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}

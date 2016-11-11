@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* 
+ * Company:mofang.com
+ * Author:Eilvein 
+ * Update: 2013-07-14 
+*/
+
+/* CSS Reset */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 Arial,Tahoma,Helvetica,SimSun,san-serif;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block;}
+table {border-collapse:collapse;border-spacing:0;}
+fieldset,img {border:0;}
+address,cite,dfn,em,var{font-style:normal;}
+ol,ol li, ul,ul li {list-style: none;}
+caption,th {text-align:left;}
+q:before,q:after {content:'';}
+abbr,acronym {border:0;font-variant:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+input,textarea,select,button {font-family:inherit;font-size:inherit;font-weight:inherit;}
+/*to enable resizing for IE*/
+input,textarea,select ,button{*font-size:100%;}
+/*because legend doesn't inherit in IE */
+legend {color:#000;}
+:focus {outline: 0;}
+code, kbd, samp, tt{font-family:"Courier New",monospace;}
+
+/* CSS clearfix */
+.clearfix:before, .clearfix:after { content: '.';display: block;overflow: hidden;visibility: hidden;font-size: 0;line-height: 0;width: 0;height: 0}
+.clearfix:after {clear: both}
+.clearfix {zoom: 1}
+
+/* main */
+
+video,embed,object {width:100%;height:auto;}
+img,object {max-width: 100%; }
+img { -ms-interpolation-mode: bicubic; }
+body{ font-family:"Microsoft Yahei","Lantinghei SC",Helvetica,Arial,sans-serif; color:#666;}
+a{ color:#666; text-decoration:none;}
+a:hover{ text-decoration:none;}
+body{ width:92%; margin:0 auto;padding:0 4% 4%;}
+h3.title {font-size:1.5em;line-height:1.2em;font-weight:bold;padding:0.3em 0 0 0;}
+em.inputtime {color:#B1B1B1;}
+div.hr {border-bottom:solid 1px #C5C5C5; width:auto; height:0.75em;}
+.word_content img { width:auto;text-align:center;height:auto;margin:1.5% 0 1.5% 0;}
+.word_content td img {width:auto;height:auto;}
+.word_content { font-size:1.25em; line-height:1.75em;padding-top:.5em;}
+
+
+@media screen and (max-width : 320px){
+.word_content { font-size:1.25em; line-height:1.5em;}
+}
+
+@media screen and (min-width: 320px) and (max-width : 479px){
+.word_content { font-size:1.25em; line-height:1.5em;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 639px) {
+.word_content { font-size:1.5em; line-height:1.5em;}
+h3.title {font-size:1.75em;}
+em.inputtime {font-size:1.25em;}
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px) { 
+.word_content { font-size:1.75em; line-height:1.5em;}
+h3.title {font-size:2em;}
+em.inputtime {font-size:1.5em;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px)  { 
+.word_content { font-size:2em; line-height:1.5em;}
+h3.title {font-size:2.5em;}
+em.inputtime {font-size:1.75em;}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) { 
+.word_content { font-size:2.5em; line-height:1.5em;}
+h3.title {font-size:3em;}
+em.inputtime {font-size:2em;}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+.word_content { font-size:2.5em; line-height:1.5em;}
+h3.title {font-size:3em;}
+em.inputtime {font-size:2em;}
+}

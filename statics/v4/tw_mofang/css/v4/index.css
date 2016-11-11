@@ -1,0 +1,179 @@
+.header-title{
+	height:50px;
+	background:#30a4dc;
+	z-index: 998;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #507d92;
+	width: 100%;
+}
+.title-wrap{
+	width: 1200px;
+	margin:auto;
+}
+.title-diff li{
+	float:left;
+	position:relative;
+	width:150px;
+	text-align: center;
+	font-weight:bold;
+	font-size:20px;
+}
+.title-diff .title-active a,.title-diff li:hover a{
+	position: relative;
+	background-color: #4fb2e2;
+}
+.title-diff .title-active a:after,.title-diff li:hover a:after{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	content: "";
+	width: 100%;
+	height: 5px;
+	background-color: #3c92bb;
+}
+
+.title-diff li a{
+	display: block;
+	color:#fff;
+}
+.title-diff li a.one{
+	display: block;
+	line-height: 50px;
+}
+.out-con{
+	position: relative;
+	padding-top: 130px;
+}
+/*index*/
+.index-ad{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 1240px;
+	top: 0px;
+	left: 0px;
+}
+.index-wrap{
+	position: relative;
+	z-index: 5;
+    padding-bottom: 105px;
+}
+/*index*/
+.all-border{
+	background-color: #fff;
+	border: 1px solid #c1c1c1;
+}
+.marginB10{
+	margin-bottom: 10px;
+}
+h3.title{
+	height: 39px;
+	line-height: 39px;
+	font-size: 16px;
+	color: #fff;
+	padding: 0px 22px;
+	background-color: #30a4dc;
+}
+.more{
+	float: right;
+	color: #fff;
+}
+.ell{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tag{
+	position: absolute;
+	display: block;
+	width: 56px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+	text-align: center;
+	right: 0px;
+	top: 0px;
+	color: #FFF;
+	font-style: normal;
+}
+.tag-qingbao{
+	background-color: #9c9c9c;
+}
+.tag-caifang{
+	background-color: #f66800;
+}
+.tag-chanye{
+	background-color: #002ab1;
+}
+.tag-quwei{
+	background-color: #44a024;
+}
+.tag-dongman{
+	background-color: #ffae00;
+}
+.tag-pingce{
+	background-color: #a025cd;
+}
+.tag-gonglve{
+	background-color: #0ec6c4;
+}
+.tag-zhuanfang{
+	background-color: #ff0048;
+}
+.tag-nvxingxiang{
+	background-color: #ff46fd;
+}
+/*列表页/内容页 导航下方的广告*/
+.ads-big{
+	width: 800px;
+	height: 90px;
+	background-color: #656565;
+	overflow: hidden;
+}
+.ads-small{
+	width: 390px;
+	height: 90px;
+	background-color: #656565;
+	overflow: hidden;
+}
+/*游戏icon(80 * 80)的border-radius*/
+.game-radius{
+	width: 80px;
+	height: 80px;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	-ms-border-radius: 13px;
+	-o-border-radius: 13px;
+	border-radius: 13px;
+}
+/*分页样式*/
+
+.list-page{
+	padding: 13px 0;
+	text-align: center;
+}
+.list-page a{
+	display: inline-block;
+	font-size: 14px;
+	color: #999;
+	margin-right: 10px;
+}
+.list-page a.page-prev,.list-page a.page-next{
+	color: #646464;
+}
+.list-page .page-normal{
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid #cecece;
+}
+.list-page .page-active{
+	color: #fff;
+	border: 1px solid #464646;
+	background-color: #464646;
+}

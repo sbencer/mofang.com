@@ -1,0 +1,127 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+*{margin:0; padding:0;}
+html{width:100%; height:100%; overflow-x:hidden; overflow-y:scroll;}
+body{font-family:'Microsoft Yahei',Arial, Helvetica, sans-serif; height:100%;}
+a{text-decoration:none;}
+ol,ul{list-style:none;}
+img{border:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.clearfix{
+  zoom : 1;
+}
+.clearfix:after{
+  content : ' ';
+  height : 0;
+  display : block;
+  overflow : hidden;
+  clear : both;
+}
+i{font-style:normal;}
+.wrapper{width:mfe-px2rem(1080); position:relative; left:0; top:0; transition:all .3s ease-out; -webkit-transition:all .3s ease-out; overflow:hidden;}
+/*header*/
+.zq_header{height:mfe-px2rem(128); line-height:mfe-px2rem(128); background-color:#6dc7f4; color:#fff; overflow:hidden; position:relative;}
+.icon-menu i,.icon-search i,.list_title h2{background:url(/statics/v4/tw_acg/wap/images/icon.png) no-repeat;}
+.icon-menu{width:mfe-px2rem(64); height:mfe-px2rem(45); padding:mfe-px2rem(42) mfe-px2rem(30); position:absolute; left:0; top:0;}
+.icon-menu i{width:mfe-px2rem(64); height:mfe-px2rem(45); background-position:0 0; background-size:mfe-px2rem(64) auto; display:block; overflow:hidden;}
+.topic{font-size:mfe-px2rem(48); text-align:center; letter-spacing:mfe-px2rem(5); font-weight:300; margin:mfe-px2rem(0);}
+.topic a{color:#fff;}
+.icon-search{width:mfe-px2rem(64); height:mfe-px2rem(64); padding:mfe-px2rem(30) mfe-px2rem(30) mfe-px2rem(34); position:absolute; right:0; top:0;}
+.icon-search i{width:mfe-px2rem(64); height:mfe-px2rem(64); background-position:0 mfe-px2rem(-48); background-size:mfe-px2rem(64) auto; cursor:pointer; display:block; overflow:hidden;}
+/*logo_nav*/
+.logo_nav{height:mfe-px2rem(120); overflow:hidden;}
+.icon_logo{width:mfe-px2rem(101); height:mfe-px2rem(91); background:url(/statics/v4/tw_acg/wap/images/logo.png) no-repeat; background-size:mfe-px2rem(101) mfe-px2rem(91); margin:mfe-px2rem(11) mfe-px2rem(29) 0  mfe-px2rem(30); float:left; display:inline; text-indent:mfe-px2rem(-9999); overflow:hidden;}
+.nav_template{width:mfe-px2rem(920); padding-bottom:15px; float:left; white-space:nowrap; display:inline-block; overflow-x:scroll;}
+.nav_template li{margin-right:mfe-px2rem(100); display:inline-block; font-size:mfe-px2rem(44);}
+.nav_template li a{color:#333; border-bottom:mfe-px2rem(8) solid #fff; line-height:mfe-px2rem(104); padding-top:mfe-px2rem(8); display:block;}
+.nav_template li:last-child{margin-right:mfe-px2rem(30);}
+.nav_template li.curr a{border-color:#33ccff;color:#33ccff}
+.m-content{clear:both; overflow:hidden;}
+/*list_title*/
+.list_title{height:mfe-px2rem(120); margin-top:mfe-px2rem(30); background:#6dc7f4; overflow:hidden;}
+.list_title h2{ font-size:mfe-px2rem(44); color:#fff; line-height:mfe-px2rem(120); padding-left:mfe-px2rem(103); margin-left:mfe-px2rem(30); background-size:mfe-px2rem(73) auto;letter-spacing: 1px;}
+.list_title p{ line-height:mfe-px2rem(120); margin-right:mfe-px2rem(50);}
+.list_title p a{font-size:mfe-px2rem(36);color:#fff;}
+/*mask*/
+.mask{width:100%; height:100%; position:fixed; left:0; top:0; background-color:rgba(0,0,0,.5); z-index:998; display:none;}
+.classify,.right_search{width:mfe-px2rem(790); height:100%; position:fixed; top:0; transition:all .3s ease-out; -webkit-transition:all .3s ease-out; background-color:#f6f6f6; overflow-x:hidden; overflow-y:auto; z-index:999;}
+.classify{border-right:2px solid #bebebe; left:mfe-px2rem(-792);}
+.right_search{border-left:2px solid #bebebe; right:mfe-px2rem(-792);}
+.right_search.sidebar{right:mfe-px2rem(0);}
+.classify.sidebar{left:mfe-px2rem(0);}
+.load_more{display:block; height:mfe-px2rem(100); text-align:center; line-height:mfe-px2rem(100); background-color:#6dc7f4; color:#fff; font-size:mfe-px2rem(40); transition:all .5s ease-out; -webkit-transition:all .5s ease-out; clear:both;}
+.load_more span{background:url(/statics/v4/tw_acg/wap/images/icon_more.png) 0 mfe-px2rem(10) no-repeat; background-size:mfe-px2rem(38) mfe-px2rem(38); padding-left:mfe-px2rem(46);}
+.go-up{width:mfe-px2rem(160); height:mfe-px2rem(160); background-size:cover; background-repeat:no-repeat; background-position:0 0; background-image:url(/statics/v4/tw_acg/wap/images/go_up.png); border-radius:mfe-px2rem(12); position:fixed; right:mfe-px2rem(15); bottom:mfe-px2rem(30); display:none; z-index:999; cursor:pointer}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

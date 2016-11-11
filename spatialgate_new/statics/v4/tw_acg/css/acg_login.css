@@ -1,0 +1,84 @@
+.acg_login_title {text-align:center;margin-top:20px;}
+.acg_login_title h2{font-size:24px;color:#00aaff;}
+.acg_login_title span{font-size:14px;color:#666666;}
+.login .input_tips, .password .input_tips {left:70px;top:0;}
+.login, .password, .validate1{position:relative;}
+.login,.password,.reginfo ul li{width:400px;height:57px;border:1px solid #e6e6e6;background-color:#fff;margin-bottom:25px;}
+.register_cont .password{width:400px;height:57px;border:1px solid #e6e6e6;background-color:#fff;margin-bottom:25px;}
+.input_tips{font-size:16px;color:#aaaaaa;line-height:57px;cursor:text;height:57px;}
+.img01,.img02,.reginfo li span.img01,.reginfo li span.img02{
+	width:58px;
+	height:58px;
+	background:url(/statics/v4/tw_acg/img/login_head.png) center no-repeat;
+	display:block;
+	border-right:1px solid #e6e6e6;
+	float:left;
+	text-indent:-9999px;
+	padding:0;
+}
+.img02,.reginfo li span.img02{background:url(/statics/v4/tw_acg/img/login_lock.png) center no-repeat;}
+.register_cont input{background:0 0;font-size:16px;color:#aaaaaa;}
+.login input,.password input,.reginfo li input{width:249px;height:18px;border:0 none;padding:20px 12px;line-height:18px;}
+.validate1{width:400px;height:57px;}
+.validate1 .W_input,.validate .W_input{width: 190px;padding:20px;height:18px;line-height:18px;border:1px solid #e6e6e6;background-color:#fff;float:left;margin-right:-15px;}
+.register_cont{padding:10px;position:relative;width:auto;}
+.before,.reginfo{width:402px; margin: 0 auto;}
+.validate1 .validatecode_img{float:right;}
+.Login_btn{width:400px;height:56px;}
+.dl_btn{margin-left: 0;}
+.register_box{width:460px;background-color:#fff;}
+.prompt{width:400px;height:40px;line-height:40px;background-size:400px auto;}
+.prompt p{line-height:40px;}
+.Login_btn span{line-height:56px;background-color:#6cc7f4; font-family: "微軟正黑體"; font-size: 24px;}
+.validate{width: 100%; height: auto; overflow: hidden;}
+.validate1 .validatecode_img,.validate .validatecode_img{width: 180px;height:58px;border:1px solid #e6e6e6;}
+.validate1 img, .validate .validatecode_img img{width:180px;height:58px;}
+.promptfalse{margin:0 auto;}
+.row_reg{
+	font-size: 14px;
+	color: #666;
+	overflow: hidden;
+}
+.close{
+	left: auto;
+	right: 20px;
+}
+
+.acg_cooperate{
+	width: 100%;
+	padding:28px 0 20px;
+	font-family: "微軟正黑體";
+	overflow: hidden;
+}
+.third-party h4{
+	text-align:center;
+	height:10px;
+	font-size:14px;
+	color: #666;
+	border-bottom:1px solid #e6e6e6
+}
+.third-party h4 span{
+	background:#fff;
+	padding:0 20px;
+}
+.third-party-list{
+	text-align:center;
+	margin-top:26px
+}
+.third-party-list a{
+	margin:0 18px
+}
+.third-party-list{
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.third-party-list a{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.uc-facebook-icon{
+	background: url(/statics/v4/tw_acg/img/fb_icon.png) no-repeat;
+}

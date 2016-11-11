@@ -1,0 +1,22 @@
+.side-raiders{
+}
+.side-raiders-wrap{
+	padding: 19px 15px 0;
+}
+.side-raiders-wrap dl{
+	margin-bottom: 16px;
+}
+.side-raiders-wrap dt{
+	width: 358px;
+	height: 190px;
+	margin-bottom: 5px;
+}
+.side-raiders-wrap dt img{
+	width: 358px;
+	height: 190px;
+}
+.side-raiders-wrap dd{
+	font-size: 14px;
+	line-height: 24px;
+	color: #464646;
+}

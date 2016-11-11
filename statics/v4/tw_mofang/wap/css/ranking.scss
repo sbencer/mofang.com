@@ -1,0 +1,16 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+.ranking .list_title h2{background-position:0 mfe-px2rem(-278);}
+.ranking_text{ margin:0 mfe-px2rem(30);}
+.ranking_text li{ padding:mfe-px2rem(28) 0; border-bottom:mfe-px2rem(3) #e8e8e8 dashed;}
+
+.no1{ width:mfe-px2rem(212); height:mfe-px2rem(80); border-radius:mfe-px2rem(40); background:#ff6600; display:inline-block; text-align:center; line-height:mfe-px2rem(80); font-size:mfe-px2rem(44); color:#fff; margin-left:mfe-px2rem(35);}
+.king_1{ background:url(/statics/v4/tw_acg/wap/images/NO1_28.png) no-repeat; width:mfe-px2rem(94); height:mfe-px2rem(76); display:inline-block; vertical-align:top; margin-left:mfe-px2rem(12); background-size:mfe-px2rem(94) mfe-px2rem(76)}
+.king_text{ margin-left:mfe-px2rem(126); font-size:mfe-px2rem(44); color:#333333; display:inline-block; width:mfe-px2rem(500); height:mfe-px2rem(60); overflow:hidden;}
+.no2{ width:mfe-px2rem(212); height:mfe-px2rem(80); border-radius:mfe-px2rem(40); background:#ff9000; display:inline-block; text-align:center; line-height:mfe-px2rem(80); font-size:mfe-px2rem(44); color:#fff; margin-left:mfe-px2rem(35);}
+.king_2{ background:url(/statics/v4/tw_acg/wap/images/NO2_31.png) no-repeat; width:mfe-px2rem(94); height:mfe-px2rem(76); display:inline-block; vertical-align:top; margin-left:mfe-px2rem(12);background-size:mfe-px2rem(94) mfe-px2rem(76)}
+.no3{ width:mfe-px2rem(212); height:mfe-px2rem(80); border-radius:mfe-px2rem(40); background:#fcc400; display:inline-block; text-align:center; line-height:mfe-px2rem(80); font-size:mfe-px2rem(44); color:#fff; margin-left:mfe-px2rem(35);}
+.king_3{ background:url(/statics/v4/tw_acg/wap/images/NO3_33.png) no-repeat; width:mfe-px2rem(94); height:mfe-px2rem(76); display:inline-block; vertical-align:top; margin-left:mfe-px2rem(12);background-size:mfe-px2rem(94) mfe-px2rem(76)}
+.no4{ width:mfe-px2rem(212); height:mfe-px2rem(80); border-radius:mfe-px2rem(40); background:#fffbbf; display:inline-block; text-align:center; line-height:mfe-px2rem(80); font-size:mfe-px2rem(44); color:#ff6600; margin-left:mfe-px2rem(35);}
+.king_4{width:mfe-px2rem(94); height:mfe-px2rem(76); display:inline-block; vertical-align:top; margin-left:mfe-px2rem(12);}

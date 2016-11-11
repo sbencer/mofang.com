@@ -1,0 +1,33 @@
+.batch{
+	padding-right: 28px;
+	background: url(/statics/v4/tw_acg/img/icon_batch.png) right center no-repeat;
+}
+.news .title{
+	border:none;
+}
+.news ul{
+	margin-right:-10px;
+}
+.news ul li{
+	width: 137px;
+	height: 121px;
+	float: left;
+	margin-right: 10px;
+	background-color: #f8f8f8;
+	overflow: hidden;
+}
+.news ul li a{
+	display: block;
+	line-height: 20px;
+	overflow: hidden;
+}
+.news ul li a img{
+	display: block;
+	width: 137px;
+	height: 77px;
+	overflow: hidden;
+}
+.news ul li a span{
+	display: block;
+	padding:2px 6px;
+}

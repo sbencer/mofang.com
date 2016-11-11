@@ -1,0 +1,94 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+.right-search {
+	width: mfe-px2rem(793);
+	font-size:0;
+	background-color: #6dc7f4;
+}
+.search-wrap input[type=text] {
+	height: mfe-px2rem(89);
+	line-height: mfe-px2rem(86);
+	margin: mfe-px2rem(20) mfe-px2rem(30);
+	width:mfe-px2rem(735);
+	border: none;
+	border-radius:mfe-px2rem(10);
+	font-size: mfe-px2rem(38);
+	color: #999;
+	vertical-align: middle;
+	text-align: center;
+}
+.search-content {
+	position: relative;
+	width: mfe-px2rem(793);
+	overflow:hidden;
+}
+.search-content ul {
+	overflow:hidden;
+}
+.search-content ul li {
+	font-size: mfe-px2rem(38);
+	padding:mfe-px2rem(30) mfe-px2rem(29);
+	border-bottom: mfe-px2rem(3) #cccccc dashed;
+	letter-spacing: mfe-px2rem(3);
+	overflow: hidden;
+}
+.right_search img.fl {
+	margin-right: mfe-px2rem(24);
+	width: mfe-px2rem(262);
+	height: mfe-px2rem(147);
+}
+.right_search img.fp {
+	width: mfe-px2rem(120);
+	height: mfe-px2rem(120);
+	border-radius:mfe-px2rem(20);
+}
+.fr.arrow {
+	font-size:mfe-px2rem(40);
+	color:#ccc;
+	font-family:'宋体';
+	line-height:mfe-px2rem(120);
+}
+em.fp {
+	line-height: mfe-px2rem(120);
+	font-style:normal;
+}
+.search-content ul li a {
+	width:100%;
+	display: block;
+	font-size: mfe-px2rem(38);
+	line-height: mfe-px2rem(50);
+	overflow: hidden;
+}
+.search-content ul li:hover{
+	background-color: #6dc7f4;
+	color: #fff
+}
+.search-content ul li:hover a ,.search-content ul li:hover span{color:#fff;}
+.search-content ul li a span {
+	color: #66ccff;
+}
+.list_titles {
+	height:mfe-px2rem(120); 
+	margin-top:mfe-px2rem(30); 
+	background:#6dc7f4; 
+	overflow:hidden;
+}
+.list_titles h2 {
+ 	font-size:mfe-px2rem(44); 
+ 	color:#fff; 
+ 	line-height:mfe-px2rem(120); 
+ 	margin-left:mfe-px2rem(30); 
+ 	background-size:mfe-px2rem(73) auto;
+ 	letter-spacing:mfe-px2rem(5); 
+ }
+ .search-content .empty {
+ 	height: mfe-px2rem(184);
+	line-height: mfe-px2rem(184);
+ 	font-size: mfe-px2rem(48);
+ 	border-bottom: mfe-px2rem(3) #cccccc dashed;
+ 	color: #999999;
+ 	letter-spacing: mfe-px2rem(3);
+ 	display: block;
+ 	text-align: center;
+ }

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<undefined0><![CDATA[項目名稱]]></undefined0>
+		<undefined1><![CDATA[項目內容]]></undefined1>
+		<undefined2><![CDATA[備註]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[網站名稱]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[請填寫全名 ex. Holga Web Stdio]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[網域名稱  ]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[ex. www.XXXXX.com.tw 
+可到https://www.whois365.com/tw/ 查詢]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[欲申請之伺服器型號]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[1.USA-GA-XS 空間：10G 流量400G/月 1260元/年
+2.USA-GA-S 空間：15G 流量800G/月 2520元/年
+3.USA-GA-M 空間：50G 流量1500G/月 5250元/年
+4.USA-GA-L 空間：100G 流量3000G/月 10500元/年]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[委託公司中文名]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[申請網域需要資料]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[委託公司統一編號]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[委託公司英文名]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[公司地址郵遞區號]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[公司中文地址]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[公司英文地址]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[負責人姓名]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[負責人身份字號]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[公司電話]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[網站管理者帳號]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[可留空由我為您設置]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[網站管理者密碼]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[網站管理者電子信箱]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[網站選單架構]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[首頁
+電腦遊戲
+動作類
+對戰類
+手機遊戲
+……….]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[需建置之電子郵件帳號與密碼]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[ex.mono@holgaweb.com/1234
+可留空不使用]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[需建置之ＦＴＰ帳號密碼]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[ex. mono / 1234]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[歐付寶帳號]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[可只提供歐付寶登入帳號密由我幫您設定]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[歐付寶密碼]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[歐付寶商店編號]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[歐付寶金鑰]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+	<node>
+		<undefined0><![CDATA[歐付寶向量]]></undefined0>
+		<undefined1><![CDATA[]]></undefined1>
+		<undefined2><![CDATA[]]></undefined2>
+	</node>
+</data>

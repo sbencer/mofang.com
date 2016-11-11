@@ -1,0 +1,42 @@
+.coserBox .blue{
+	height: 46px;
+	background-color: #66ccff;
+	font:18px/46px "微軟正黑體" normal;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+}
+.coserBox .blue a{
+	width: 50%;
+	text-align: center;
+	float: left;
+	color: #fff;
+}
+.coserBox .blue a.curr{
+	box-shadow: 0 0 40px #26a3e1 inset;
+}
+.coserBox .blue a:hover{
+	text-decoration: none;
+}
+.coser a{
+	width: 100%;
+	height: 138px;
+	display: block;
+	background-color: #dddcdc;
+	margin-bottom:10px;
+	overflow: hidden;
+}
+.coser img{
+	width: 100%;
+	display: block;
+	height: 138px;
+	overflow: hidden;
+}
+.coserBox .see_more{
+	margin-top:-10px;
+	height: 38px;
+	line-height: 38px;
+}
+.disno{
+	display:none;
+}

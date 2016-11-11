@@ -1,0 +1,44 @@
+.acg-content{
+    padding-top:30px;
+}
+.float_video {
+    background-color: #fff;
+}
+.video-con {
+    width: 640px;
+    margin: 0 auto;
+}
+.href {
+    margin-top: 22px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.href .third_logo{
+    display: inline-block;
+}
+.videos {
+    position: relative;
+}
+.videos a {
+    display: block;
+}
+.videos a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.videos a span {
+    display: block;
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    width: 63px;
+    height: 63px;
+    background: url(/statics/v4/tw_acg/img/video_icon.png) center no-repeat;
+    background-size:63px 63px;
+}
+.videos p{
+    font-size: 14px;
+    text-align: center;
+}

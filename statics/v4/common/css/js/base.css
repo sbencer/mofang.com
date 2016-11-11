@@ -1,0 +1,40 @@
+
+:focus{outline:none;}
+
+/*向左向右*/
+.fn-right{float:right;}
+.fn-left{float:left;}
+
+/*显示隐藏*/
+.fn-hide { display:none;}
+.fn-show { display:block;}
+
+.fn-invisible {visibility:hidden;}
+.fn-affix {position:fixed;top:0;}
+
+/*省略号*/
+.fn-ell { text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+/*内联块*/
+.fn-inb { display:inline-block; vertical-align:middle; *display:inline; *zoom:1;}
+
+/*强制文本换行*/
+.fn-wrap { word-wrap:break-word;word-break:break-all;}
+
+/*grid*/
+.grid-970 {
+    margin: 0 5px 10px 5px;
+    width: 970px;
+}
+.top,
+.game,
+.news,
+#video,
+#mobile-game,
+#ios-game,
+#and-game,
+#game-industry,
+.gril {
+    margin: 0 5px 10px 5px;
+    width: 970px;
+}

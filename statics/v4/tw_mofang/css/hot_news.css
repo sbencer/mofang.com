@@ -1,0 +1,42 @@
+.hot-news-li a img{
+	width:186px;
+	height: 104px;
+    border:1px solid #D2D2D2;
+	display: block;
+}
+.hot-news-li p{
+	padding: 9px 0 0 14px;
+	margin-left: -2px;
+	background: url(/statics/v4/tw_mofang/img/dian_bg.jpg) 0px top no-repeat;
+	width: 176px;
+	overflow: hidden;
+}
+.hot-news-li p span{
+	font-size: 12px;
+	color: #999;
+	line-height: 19px;
+	display: block;
+	max-height:38px;
+	width: 175px;
+	overflow: hidden;
+}
+.hot-news-li p a{
+	color:#333;
+	font-size: 12px;    
+	line-height: 19px;  
+	display: block;  
+	height: 38px;  
+	overflow: hidden;
+	margin-bottom: 2px;
+}
+.hot-news-li p a:hover{
+	color: #f3981e;
+}
+.hot-news-con{
+	margin:0 -5px;
+}
+.hot-news-li{
+	margin: 0 5px 15px;
+	width: 188px;
+	/* overflow: hidden; */
+}

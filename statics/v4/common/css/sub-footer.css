@@ -1,0 +1,104 @@
+.show-footer {
+    color: #555;
+    background: #28282a;
+    font-size: 14px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.show-footer .popup_bg {
+  margin-left: -2px;
+}
+
+.show-footer .ui-line {
+    color: #555;
+    margin: 0 6px
+}
+
+.show-footer a {
+    color: #666;
+    font-size: 14px;
+}
+
+.show-footer .footer-bd {
+    margin: 0 auto;
+    width:800px;
+}
+
+.show-footer .footer-bd-log {
+    float: left;
+    margin: 0 50px 0 20px;
+    padding-right: 50px;
+    border: none;
+}
+
+.show-footer .footer-bd-log a {
+    float: left;
+    width: 166px;
+    height: 59px;
+    overflow: hidden;
+    text-indent: -999px;
+    background-position: 0 -85px
+}
+
+.show-footer .footer-bd-copy ul {
+    margin: 5px 0 10px;
+}
+
+.show-footer .footer-bd-copy,.show-footer .footer-bd-copy a {
+    overflow: hidden;
+    color: #999
+}
+
+.show-footer .footer-bd-copy li {
+    float: left
+}
+
+.show-footer .footer-friend {
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 26px;
+    padding: 30px 0;
+    display: table
+}
+
+.show-footer .footer-friend-hd {
+    font-size: 18px;
+    color: #999;
+    width: 100px;
+    margin: 0 20px 0 30px;
+    border-right: 1px solid #e9e9e9;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.show-footer .footer-bd-friend {
+    overflow: hidden;
+    width: 800px;
+    float: right
+}
+
+.show-footer .footer-bd-friend li {
+    float: left
+}
+
+.show-footer .footer-bd-friend li a {
+    float: left;
+    width: 100px;
+    white-space: nowrap;
+    padding-bottom: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline;
+    color: #666
+}
+.show-footer .footer-bd-copy a:hover {
+  color:#ccc;
+}
+.friendlink a {
+    color: #555;
+    margin: 0 7px 7px 0;
+    word-wrap: break-word;
+    word-break: break-all;
+    vertical-align: middle;
+    font-size: 12px;
+}
+

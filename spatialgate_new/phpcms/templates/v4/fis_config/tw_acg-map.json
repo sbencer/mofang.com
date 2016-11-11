@@ -1,0 +1,815 @@
+{
+    "res": {
+        "base.tpl": {
+            "uri": "templates/v4/tw_acg/base.tpl",
+            "type": "tpl"
+        },
+        "base_test.tpl": {
+            "uri": "templates/v4/tw_acg/base_test.tpl",
+            "type": "tpl"
+        },
+        "category_comics.tpl": {
+            "uri": "templates/v4/tw_acg/category_comics.tpl",
+            "type": "tpl"
+        },
+        "float_video.tpl": {
+            "uri": "templates/v4/tw_acg/float_video.tpl",
+            "type": "tpl"
+        },
+        "full_screen.tpl": {
+            "uri": "templates/v4/tw_acg/full_screen.tpl",
+            "type": "tpl"
+        },
+        "header.tpl": {
+            "uri": "templates/v4/tw_acg/header.tpl",
+            "type": "tpl"
+        },
+        "header_new.tpl": {
+            "uri": "templates/v4/tw_acg/header_new.tpl",
+            "type": "tpl"
+        },
+        "header_new2.tpl": {
+            "uri": "templates/v4/tw_acg/header_new2.tpl",
+            "type": "tpl"
+        },
+        "index.tpl": {
+            "uri": "templates/v4/tw_acg/index.tpl",
+            "type": "tpl"
+        },
+        "list.tpl": {
+            "uri": "templates/v4/tw_acg/list.tpl",
+            "type": "tpl"
+        },
+        "list_pic.tpl": {
+            "uri": "templates/v4/tw_acg/list_pic.tpl",
+            "type": "tpl"
+        },
+        "search.tpl": {
+            "uri": "templates/v4/tw_acg/search.tpl",
+            "type": "tpl"
+        },
+        "show.tpl": {
+            "uri": "templates/v4/tw_acg/show.tpl",
+            "type": "tpl"
+        },
+        "show_anicomic.tpl": {
+            "uri": "templates/v4/tw_acg/show_anicomic.tpl",
+            "type": "tpl"
+        },
+        "show_comics.tpl": {
+            "uri": "templates/v4/tw_acg/show_comics.tpl",
+            "type": "tpl"
+        },
+        "show_manga.tpl": {
+            "uri": "templates/v4/tw_acg/show_manga.tpl",
+            "type": "tpl"
+        },
+        "wap/activity.tpl": {
+            "uri": "templates/v4/tw_acg/wap/activity.tpl",
+            "type": "tpl"
+        },
+        "wap/base.tpl": {
+            "uri": "templates/v4/tw_acg/wap/base.tpl",
+            "type": "tpl"
+        },
+        "wap/base_test.tpl": {
+            "uri": "templates/v4/tw_acg/wap/base_test.tpl",
+            "type": "tpl"
+        },
+        "wap/classify.tpl": {
+            "uri": "templates/v4/tw_acg/wap/classify.tpl",
+            "type": "tpl"
+        },
+        "wap/index.tpl": {
+            "uri": "templates/v4/tw_acg/wap/index.tpl",
+            "type": "tpl"
+        },
+        "wap/list.tpl": {
+            "uri": "templates/v4/tw_acg/wap/list.tpl",
+            "type": "tpl"
+        },
+        "wap/login.tpl": {
+            "uri": "templates/v4/tw_acg/wap/login.tpl",
+            "type": "tpl"
+        },
+        "wap/photo.tpl": {
+            "uri": "templates/v4/tw_acg/wap/photo.tpl",
+            "type": "tpl"
+        },
+        "wap/right_search.tpl": {
+            "uri": "templates/v4/tw_acg/wap/right_search.tpl",
+            "type": "tpl"
+        },
+        "wap/show.tpl": {
+            "uri": "templates/v4/tw_acg/wap/show.tpl",
+            "type": "tpl"
+        },
+        "wap/sign_up.tpl": {
+            "uri": "templates/v4/tw_acg/wap/sign_up.tpl",
+            "type": "tpl"
+        },
+        "wap/sort_list.tpl": {
+            "uri": "templates/v4/tw_acg/wap/sort_list.tpl",
+            "type": "tpl"
+        },
+        "wap/tag.tpl": {
+            "uri": "templates/v4/tw_acg/wap/tag.tpl",
+            "type": "tpl"
+        },
+        "statics/css/acg_login.css": {
+            "uri": "/statics/v4/tw_acg/css/acg_login.css",
+            "type": "css"
+        },
+        "statics/css/activity.css": {
+            "uri": "/statics/v4/tw_acg/css/activity.css",
+            "type": "css"
+        },
+        "statics/css/anicomic_con.css": {
+            "uri": "/statics/v4/tw_acg/css/anicomic_con.css",
+            "type": "css"
+        },
+        "statics/css/carouse.css": {
+            "uri": "/statics/v4/tw_acg/css/carouse.css",
+            "type": "css"
+        },
+        "statics/css/comics_show.css": {
+            "uri": "/statics/v4/tw_acg/css/comics_show.css",
+            "type": "css"
+        },
+        "statics/css/comics_slide.css": {
+            "uri": "/statics/v4/tw_acg/css/comics_slide.css",
+            "type": "css"
+        },
+        "statics/css/comics_video.css": {
+            "uri": "/statics/v4/tw_acg/css/comics_video.css",
+            "type": "css"
+        },
+        "statics/css/comics_works.css": {
+            "uri": "/statics/v4/tw_acg/css/comics_works.css",
+            "type": "css"
+        },
+        "statics/css/common.css": {
+            "uri": "/statics/v4/tw_acg/css/common.css",
+            "type": "css"
+        },
+        "statics/css/coser.css": {
+            "uri": "/statics/v4/tw_acg/css/coser.css",
+            "type": "css"
+        },
+        "statics/css/detail.css": {
+            "uri": "/statics/v4/tw_acg/css/detail.css",
+            "type": "css"
+        },
+        "statics/css/dialog.css": {
+            "uri": "/statics/v4/tw_acg/css/dialog.css",
+            "type": "css"
+        },
+        "statics/css/entrance.css": {
+            "uri": "/statics/v4/tw_acg/css/entrance.css",
+            "type": "css"
+        },
+        "statics/css/go_back.css": {
+            "uri": "/statics/v4/tw_acg/css/go_back.css",
+            "type": "css"
+        },
+        "statics/css/infinite_list.css": {
+            "uri": "/statics/v4/tw_acg/css/infinite_list.css",
+            "type": "css"
+        },
+        "statics/css/information.css": {
+            "uri": "/statics/v4/tw_acg/css/information.css",
+            "type": "css"
+        },
+        "statics/css/jquery.fancybox.css": {
+            "uri": "/statics/v4/tw_acg/css/jquery.fancybox.css",
+            "type": "css"
+        },
+        "statics/css/list.css": {
+            "uri": "/statics/v4/tw_acg/css/list.css",
+            "type": "css"
+        },
+        "statics/css/news.css": {
+            "uri": "/statics/v4/tw_acg/css/news.css",
+            "type": "css"
+        },
+        "statics/css/pop_box.css": {
+            "uri": "/statics/v4/tw_acg/css/pop_box.css",
+            "type": "css"
+        },
+        "statics/css/recommend.css": {
+            "uri": "/statics/v4/tw_acg/css/recommend.css",
+            "type": "css"
+        },
+        "statics/css/swiper.min.css": {
+            "uri": "/statics/v4/tw_acg/css/swiper.min.css",
+            "type": "css"
+        },
+        "statics/css/top_zixun.css": {
+            "uri": "/statics/v4/tw_acg/css/top_zixun.css",
+            "type": "css"
+        },
+        "statics/js/batch.js": {
+            "uri": "/statics/v4/tw_acg/js/batch.js",
+            "type": "js",
+            "deps": [
+                "handlebars",
+                "jquery"
+            ]
+        },
+        "statics/js/carouse.js": {
+            "uri": "/statics/v4/tw_acg/js/carouse.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/bxslider"
+            ]
+        },
+        "statics/js/comics.js": {
+            "uri": "/statics/v4/tw_acg/js/comics.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/Swiper3"
+            ]
+        },
+        "statics/js/comics_show.js": {
+            "uri": "/statics/v4/tw_acg/js/comics_show.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/fancybox",
+                "jScrollPane",
+                "jquery/jquery-pop"
+            ]
+        },
+        "statics/js/comics_video.js": {
+            "uri": "/statics/v4/tw_acg/js/comics_video.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/comics_works.js": {
+            "uri": "/statics/v4/tw_acg/js/comics_works.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jScrollPane"
+            ]
+        },
+        "statics/js/common.js": {
+            "uri": "/statics/v4/tw_acg/js/common.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/dialog.js": {
+            "uri": "/statics/v4/tw_acg/js/dialog.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/fancybox"
+            ]
+        },
+        "statics/js/go_back.js": {
+            "uri": "/statics/v4/tw_acg/js/go_back.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/fancybox",
+                "jScrollPane"
+            ]
+        },
+        "statics/js/iframe.js": {
+            "uri": "/statics/v4/tw_acg/js/iframe.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/infinite_list.js": {
+            "uri": "/statics/v4/tw_acg/js/infinite_list.js",
+            "type": "js",
+            "deps": [
+                "handlebars",
+                "jquery",
+                "lazyload",
+                "infinite",
+                "jquery/fancybox"
+            ]
+        },
+        "statics/js/jquery.infinite.js": {
+            "uri": "/statics/v4/tw_acg/js/jquery.infinite.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jquery.lazyload.min.js": {
+            "uri": "/statics/v4/tw_acg/js/jquery.lazyload.min.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jscrollpane.js": {
+            "uri": "/statics/v4/tw_acg/js/jscrollpane.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/login.js": {
+            "uri": "/statics/v4/tw_acg/js/login.js",
+            "type": "js",
+            "deps": [
+                "jquery/cookie",
+                "jquery",
+                "Transform",
+                "tpl"
+            ]
+        },
+        "statics/js/login_check.js": {
+            "uri": "/statics/v4/tw_acg/js/login_check.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf/login"
+            ]
+        },
+        "statics/js/login_tip.js": {
+            "uri": "/statics/v4/tw_acg/js/login_tip.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mfe",
+                "mf/login"
+            ]
+        },
+        "statics/js/mousewheel.js": {
+            "uri": "/statics/v4/tw_acg/js/mousewheel.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/scroll.js": {
+            "uri": "/statics/v4/tw_acg/js/scroll.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/swiper.min.js": {
+            "uri": "/statics/v4/tw_acg/js/swiper.min.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/tpl.js": {
+            "uri": "/statics/v4/tw_acg/js/tpl.js",
+            "type": "js",
+            "deps": [
+                "language"
+            ]
+        },
+        "statics/wap/css/activity.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/activity.css",
+            "type": "css"
+        },
+        "statics/wap/css/activity.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/activity.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/activity_alert.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/activity_alert.css",
+            "type": "css"
+        },
+        "statics/wap/css/activity_alert.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/activity_alert.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/calendar.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/calendar.css",
+            "type": "css"
+        },
+        "statics/wap/css/calendar.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/calendar.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/classify.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/classify.css",
+            "type": "css"
+        },
+        "statics/wap/css/classify.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/classify.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/commmon.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/commmon.css",
+            "type": "css"
+        },
+        "statics/wap/css/common.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/common.css",
+            "type": "css"
+        },
+        "statics/wap/css/common.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/common.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/footer.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/footer.css",
+            "type": "css"
+        },
+        "statics/wap/css/footer.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/footer.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/g.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/g.css",
+            "type": "css"
+        },
+        "statics/wap/css/hot_search.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/hot_search.css",
+            "type": "css"
+        },
+        "statics/wap/css/hot_search.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/hot_search.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/index_news.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/index_news.css",
+            "type": "css"
+        },
+        "statics/wap/css/index_news.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/index_news.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/login.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/login.css",
+            "type": "css"
+        },
+        "statics/wap/css/login.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/login.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/new_detail.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/new_detail.css",
+            "type": "css"
+        },
+        "statics/wap/css/news_detail.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/news_detail.css",
+            "type": "css"
+        },
+        "statics/wap/css/news_detail.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/news_detail.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/photo.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/photo.css",
+            "type": "css"
+        },
+        "statics/wap/css/photo.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/photo.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/picture.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/picture.css",
+            "type": "css"
+        },
+        "statics/wap/css/picture.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/picture.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/ranking.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/ranking.css",
+            "type": "css"
+        },
+        "statics/wap/css/ranking.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/ranking.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/right_search.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/right_search.css",
+            "type": "css"
+        },
+        "statics/wap/css/right_search.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/right_search.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/sign_up.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/sign_up.css",
+            "type": "css"
+        },
+        "statics/wap/css/sign_up.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/sign_up.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/sort_list.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/sort_list.css",
+            "type": "css"
+        },
+        "statics/wap/css/sort_list.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/sort_list.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/swipe_slider.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/swipe_slider.css",
+            "type": "css"
+        },
+        "statics/wap/css/swipe_slider.scss": {
+            "uri": "/statics/v4/tw_acg/wap/css/swipe_slider.scss",
+            "type": "scss"
+        },
+        "statics/wap/css/swipebox.css": {
+            "uri": "/statics/v4/tw_acg/wap/css/swipebox.css",
+            "type": "css"
+        },
+        "statics/wap/js/calendar.js": {
+            "uri": "/statics/v4/tw_acg/wap/js/calendar.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/wap/js/common.js": {
+            "uri": "/statics/v4/tw_acg/wap/js/common.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/wap/js/go_top.js": {
+            "uri": "/statics/v4/tw_acg/wap/js/go_top.js",
+            "type": "js",
+            "deps": [
+                "zepto"
+            ]
+        },
+        "statics/wap/js/load_more.js": {
+            "uri": "/statics/v4/tw_acg/wap/js/load_more.js",
+            "type": "js",
+            "deps": [
+                "handlebars",
+                "jquery"
+            ]
+        },
+        "statics/wap/js/search.js": {
+            "uri": "/statics/v4/tw_acg/wap/js/search.js",
+            "type": "js",
+            "deps": [
+                "handlebars",
+                "jquery"
+            ]
+        },
+        "statics/wap/js/swipe_slider.js": {
+            "uri": "/statics/v4/tw_acg/wap/js/swipe_slider.js",
+            "type": "js",
+            "deps": [
+                "swipe"
+            ]
+        },
+        "statics/wap/js/swipebox.js": {
+            "uri": "/statics/v4/tw_acg/wap/js/swipebox.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "widget/acg_topic.tpl": {
+            "uri": "templates/v4/tw_acg/widget/acg_topic.tpl",
+            "type": "tpl"
+        },
+        "widget/activity.tpl": {
+            "uri": "templates/v4/tw_acg/widget/activity.tpl",
+            "type": "tpl"
+        },
+        "widget/careful_choose.tpl": {
+            "uri": "templates/v4/tw_acg/widget/careful_choose.tpl",
+            "type": "tpl"
+        },
+        "widget/carouse.tpl": {
+            "uri": "templates/v4/tw_acg/widget/carouse.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/anicomics.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/anicomics.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/comics_index.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/comics_index.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/comics_slide.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/comics_slide.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/comics_video.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/comics_video.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/comics_works.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/comics_works.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/comics_works_con.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/comics_works_con.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/go_back.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/go_back.tpl",
+            "type": "tpl"
+        },
+        "widget/comics/manga.tpl": {
+            "uri": "templates/v4/tw_acg/widget/comics/manga.tpl",
+            "type": "tpl"
+        },
+        "widget/coser.tpl": {
+            "uri": "templates/v4/tw_acg/widget/coser.tpl",
+            "type": "tpl"
+        },
+        "widget/detail.tpl": {
+            "uri": "templates/v4/tw_acg/widget/detail.tpl",
+            "type": "tpl"
+        },
+        "widget/dialog.tpl": {
+            "uri": "templates/v4/tw_acg/widget/dialog.tpl",
+            "type": "tpl"
+        },
+        "widget/entrance.tpl": {
+            "uri": "templates/v4/tw_acg/widget/entrance.tpl",
+            "type": "tpl"
+        },
+        "widget/events.tpl": {
+            "uri": "templates/v4/tw_acg/widget/events.tpl",
+            "type": "tpl"
+        },
+        "widget/footer.tpl": {
+            "uri": "templates/v4/tw_acg/widget/footer.tpl",
+            "type": "tpl"
+        },
+        "widget/game_introduce.tpl": {
+            "uri": "templates/v4/tw_acg/widget/game_introduce.tpl",
+            "type": "tpl"
+        },
+        "widget/header.tpl": {
+            "uri": "templates/v4/tw_acg/widget/header.tpl",
+            "type": "tpl"
+        },
+        "widget/index_news.tpl": {
+            "uri": "templates/v4/tw_acg/widget/index_news.tpl",
+            "type": "tpl"
+        },
+        "widget/index_recommend.tpl": {
+            "uri": "templates/v4/tw_acg/widget/index_recommend.tpl",
+            "type": "tpl"
+        },
+        "widget/infinite_list.tpl": {
+            "uri": "templates/v4/tw_acg/widget/infinite_list.tpl",
+            "type": "tpl"
+        },
+        "widget/list.tpl": {
+            "uri": "templates/v4/tw_acg/widget/list.tpl",
+            "type": "tpl"
+        },
+        "widget/manga.tpl": {
+            "uri": "templates/v4/tw_acg/widget/manga.tpl",
+            "type": "tpl"
+        },
+        "widget/miss_information.tpl": {
+            "uri": "templates/v4/tw_acg/widget/miss_information.tpl",
+            "type": "tpl"
+        },
+        "widget/most_information.tpl": {
+            "uri": "templates/v4/tw_acg/widget/most_information.tpl",
+            "type": "tpl"
+        },
+        "widget/original_cartoon.tpl": {
+            "uri": "templates/v4/tw_acg/widget/original_cartoon.tpl",
+            "type": "tpl"
+        },
+        "widget/pop_box.tpl": {
+            "uri": "templates/v4/tw_acg/widget/pop_box.tpl",
+            "type": "tpl"
+        },
+        "widget/pop_video.tpl": {
+            "uri": "templates/v4/tw_acg/widget/pop_video.tpl",
+            "type": "tpl"
+        },
+        "widget/ranking.tpl": {
+            "uri": "templates/v4/tw_acg/widget/ranking.tpl",
+            "type": "tpl"
+        },
+        "widget/search.tpl": {
+            "uri": "templates/v4/tw_acg/widget/search.tpl",
+            "type": "tpl"
+        },
+        "widget/side_fix.tpl": {
+            "uri": "templates/v4/tw_acg/widget/side_fix.tpl",
+            "type": "tpl"
+        },
+        "widget/top_zixun.tpl": {
+            "uri": "templates/v4/tw_acg/widget/top_zixun.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/activity.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/activity.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/activity_alert.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/activity_alert.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/calendar.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/calendar.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/classify.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/classify.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/footer.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/footer.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/header.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/header.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/hot_search.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/hot_search.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/hots_list.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/hots_list.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/list_json.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/list_json.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/login.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/login.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/news.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/news.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/news_detail.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/news_detail.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/news_list.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/news_list.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/news_tag.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/news_tag.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/photo.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/photo.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/picture.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/picture.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/ranking.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/ranking.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/related.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/related.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/right_search.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/right_search.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/right_search_ajax.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/right_search_ajax.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/sign_up.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/sign_up.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/sort_list.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/sort_list.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/swipe_slider.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/swipe_slider.tpl",
+            "type": "tpl"
+        },
+        "widget/wap/tag_detail.tpl": {
+            "uri": "templates/v4/tw_acg/widget/wap/tag_detail.tpl",
+            "type": "tpl"
+        }
+    },
+    "pkg": {}
+}

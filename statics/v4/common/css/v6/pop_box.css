@@ -1,0 +1,251 @@
+/*弹出框样式开始*/
+.pop{
+	position: fixed;
+	z-index:99999;
+	width: 400px;
+	border-radius: 5px;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	box-sizing: border-box;
+	overflow: hidden;
+	display: none;
+    color:#333;
+	background: #fff;
+}
+.pop .out-html{
+    position: relative;
+    padding:15px; 
+    min-height:35px;
+}
+/*正常提示信息弹出框*/
+.pop-play .out-html{
+   min-width:250px;
+}
+.pop-play .pop-play-close{
+	text-align: right;
+	margin-bottom: 10px;
+}
+.pop-play .pop-play-close img{
+	cursor: pointer;
+}
+.pop-play .pop-play-word{
+	font-size: 16px;
+	line-height: 1.3em;
+}
+/* 确定，取消按钮 */
+.pop-play input{
+	width: 48%;
+	font-size: 14px;
+	line-height: 40px;
+	margin-top:15px;
+	border: none;
+	cursor:pointer;
+	border-radius:5px;
+}
+.pop-play .pop-play-cancel{
+	float: left;
+	color: #999;
+	background: #e9e9e9;
+}
+.pop-play .pop-play-ok{
+	float: right;
+	color: #fff;
+	background: #f90;
+}
+
+/*提示成功弹出框*/
+.pop-post-ok{
+    width:auto;
+    max-width: 400px;
+    min-width: 50px;
+    line-height: 1em;
+    font-size: 18px;
+    color: #77d35b;
+    text-align: center;
+    box-sizing: border-box;
+    background: #fff;
+}
+.pop-post-ok .out-html{
+    padding-left:60px;
+}
+.pop-post-ok img{
+    position: absolute;
+    left:15px;
+    top:50%;
+    margin-top: -20px;
+    width: 40px;
+    height:40px;
+    vertical-align: middle;
+}
+.pop-post-ok span.pop-msg{
+    width:100%;
+    display: inline-block;
+    line-height:21px;
+    text-align: left;
+    padding-top: 8px;
+}
+/*置顶失败*/
+.pop-top-fail{
+	width:auto;
+	max-width: 400px;
+	min-width: 50px;
+	line-height: 1em;
+	font-size: 18px;
+	color: #ec4747;
+	text-align: center;
+	box-sizing: border-box;
+	background: #fff;
+}
+.pop-top-fail .out-html{
+    padding-left:60px;
+}
+.pop-top-fail img{
+    position: absolute;
+    left:15px;
+    top:50%;
+    margin-top: -20px;
+	width: 40px;
+	height:40px;
+	vertical-align: middle;
+}
+.pop-top-fail span.pop-msg{
+    width:100%;
+    display: inline-block;
+    line-height:21px;
+    text-align: left;
+    padding-top: 8px;
+}
+
+@media (max-width:750px){
+	/*弹出框样式*/
+	.pop {
+        width:auto;
+		max-width: 86%;
+	}
+    .pop .out-html{
+       padding:10px; 
+    }
+	.pop-play .pop-play-word{
+		font-size: 14px;
+	}
+    .pop-play p.clearfix{
+        width:100%;
+    }
+	.pop-play input{
+        width:48.5%;
+		line-height: 30px;
+	}
+	
+	/*提示成功弹出框*/
+    .pop-post-ok{
+        font-size: 16px;
+    }
+    .pop-post-ok .out-html{
+        padding-left:50px;
+    }
+    .pop-post-ok img{
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top: -16px;
+        width:32px;
+        height:32px;
+    }
+    .pop-post-ok .pop-msg{
+        font-size: 14px;
+    }
+	/*置顶失败*/
+	.pop-top-fail{
+		font-size: 16px;
+	}
+    .pop-top-fail .out-html{
+        padding-left:50px;
+    }
+    .pop-top-fail img{
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top: -16px;
+		width:32px;
+		height:32px;
+	}
+    .pop-top-fail .pop-msg{
+        font-size: 14px;
+    }
+}
+.showPop{
+  -webkit-animation: showPop 0.3s;
+  animation: showPop 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+.hidePop{
+  -webkit-animation: hidePop 0.3s;
+  animation: hidePop 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+/*
+ * Animations
+ */
+@-webkit-keyframes showPop {
+
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7); }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); }
+  80% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95); }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+@keyframes showPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7); }
+  45% {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05); }
+  80% {
+    transform: scale(0.95);
+    -webkit-transform: scale(0.95); }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1); } }
+
+@-webkit-keyframes hidePop {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1); } }
+
+@keyframes hidePop {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(0.1);
+    -webkit-transform: scale(0.1);display: none; } }
+
+
+
+
+
+
+
+
+
+

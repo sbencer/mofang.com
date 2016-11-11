@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+.wbh{ padding-top: 323px; width: 100%; background: url("../../../images/mofang/wbh/tbg.jpg") no-repeat center top;}
+.wbh-nav{ height: 42px; line-height: 42px; background: #DDA11C;}
+.wbh-nav ul{ overflow: hidden;}
+.wbh-nav li{ float: left; display: inline; margin-left: 20px;}
+.wbh-nav li a{ color: #FFF; display: inline-block; padding:0 20px; font-size: 18px;}
+.wbh-nav li a:hover{ text-decoration: none; color: #FFF;}
+
+.l-box{float: left; display: inline; width: 350px; margin-right: 10px;}
+.slider-box{ height: 230px; width: 350px; overflow: hidden; position: relative; padding-bottom: 30px;}
+.slider-box-con{ overflow: hidden; background-repeat: no-repeat; background-position:  center center;}
+.slider-box-con li{ position: absolute;}
+.slider-box-pic{ width: 350px; height: 200px; display: block;}
+.slider-box-txt{ width: 350px; height: 30px; line-height: 30px; background: #E4E4E4;color: #573114; padding-left: 10px; font-weight: bold;}
+.zhinan h3{ height: 30px; padding-left: 5px; line-height: 30px; background: #E4E4E4; font-size: 16px; color: #573114;}
+.zhinan h3 span{ font-family:\5b8b\4f53,SimSun;}
+.zhinan ul{ border:1px solid #E4E4E4; border-top:none; background: #FCFFF4; padding: 10px 10px; overflow: hidden;_zoom: 1;}
+.zhinan li{ float: left; display: inline; width: 62px; text-align:center; margin: 0 10px;}
+.zhinan li img{ display: block;}
+.news-box{ width: 364px; border: 1px solid #E5E5E5;float: left; display: inline; position: relative;}
+.news-box b{ background: url("../../../images/mofang/wbh/news_icon.png") no-repeat; height: 38px; width: 38px; overflow: hidden; position: absolute; left: -3px; top: -3px;}
+.news-intro{ padding: 10px 20px 30px; height:67px; background: url("../../../images/mofang/wbh/intro_bg.png") no-repeat;}
+.news-intro h2{ font-size: 16px; color: #CC0000; text-align: center; margin-bottom: 10px;}
+.news-intro a{ color: #E88800;}
+.news-list{ padding: 13px 10px 10px;}
+.news-list ul{ overflow: hidden; background: #F2F2F2; padding: 0 5px 0; _zoom: 1; height:224px;}
+.news-list li{ overflow: hidden; line-height: 28px; font-size: 14px; padding-left: 10px; background: url("../../../images/mofang/wbh/p.png") no-repeat left center;}
+.news-list li span{ float: right; color: #999;}
+.about-wbhui{ width: 242px; border: 1px solid #E5E5E5;float: right; display: inline;}
+.about-wbhui h3{ height: 30px; padding-left: 5px; line-height: 30px; background: #E4E4E4; font-size: 16px; color: #573114;}
+.about-wbhui h3 span{ font-family:\5b8b\4f53,SimSun;}
+.about-wbhui p{ line-height: 23px; text-indent: 24px; padding: 13px 15px 12px; font-size: 14px;}
+.jianying h3{ background: #DEA11C; height: 35px; line-height: 35px; padding-left: 20px; font-size: 16px; color: #FFF;}
+.jianying-box{ overflow: hidden; padding-left: 22px;}
+.jianying-box li{ float: left; width: 160px; height: 143px; padding:5px 5px 0; border: 1px #DCDCDC solid; text-align: center; background: #F2F2F2; margin: 15px 7px 0 8px; _zoom: 1;}
+.jianying-box li img,.jianying-box li span{ display: block;}
+.jianying-box li span{ line-height: 23px;}
+.ft{ text-align: center; color: #CCCCCC; line-height: 24px; padding: 50px 0;}
+.ft-nav a{ color: #CCCCCC; display: inline-block;}
+.ft-nav a:hover{ color: #020202;}
+.ft-nav em{ display: inline-block; margin: 0 5px;}
+
+.number_slideshow_nav{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.number_slideshow_nav li{
+    margin-left: 6px;
+    position: relative;
+    float: left;
+}
+.number_slideshow_nav li a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.number_slideshow_nav li a:hover{ text-decoration: none;}
+.slider-box ul li p{
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+}
+
+.col-left{ width: 726px; display: inline; float: left;}
+.col-right{ width: 244px; display: inline; float: right;}
+.mBox{ width: 100%;}
+.mBox-hd h3{ background: #DEA11C; height: 35px; line-height: 35px; padding-left: 20px; font-size: 16px; color: #FFF;}
+.mBox-bd{ overflow: hidden;}
+.zhanhui .mBox-bd{ border: 1px #E4E4E4 solid; border-top:none; padding: 0 10px 0 20px;}
+.zh-item{ overflow: hidden; float: left; display: inline; width: 347px; border-top:1px #CCCCCC dashed; padding: 20px 0 0; margin-top: -1px; margin-bottom: 20px;}
+.zh-item dt{float: left; display: inline; height: 80px; width: 80px; margin-right: 10px;}
+.zh-item dd{ width: 195px;float: left; display: inline;}
+.zh-item dd h4{ font-size: 14px; margin-bottom: 5px;}
+.zh-item dd p{ color: #999;}
+.zh-item dd p.com-icon{ text-align: right; padding:5px 5px 0 0;}
+.zh-item dd p.com-icon span{ display: inline-block; padding:1px 0 1px 20px; background: url("../../../images/mofang/wbh/com_icon.png") no-repeat left center;}
+
+.hw-news .mBox-bd{ padding-left: 20px;}
+
+.article .article-pic,.article .article-title { display:table-cell; vertical-align:top; zoom:1; _float: left;}
+.article .article-pic{ float:left; width: 233px; height: 108px;}
+.article img { width: 233px; height: 108px;}
+.article-title { width:392px; padding:0 7px; overflow:hidden;}
+.article-title h4 { height:23px; overflow:hidden;line-height:20px;}
+.article-title h4 a { font-size:16px; color:#333;}
+.article-title h4 a:hover {color:#4d83ff;}
+.article-title span { font-size:12px; color:#999;}
+.article-title p { font-size:12px; color:#666;line-height:22px;}
+.article-title h3 a { font-size:12px; color:#5A81FD;line-height:22px; padding-right:10px; font-weight:normal;}
+.line { height:1px; border-bottom:1px dotted #e9e9e9;}
+.mt20{ margin-top: 20px;}
+.analysis_c p{ width:150px; font-size:14px; color:#333;}
+.analysis_c span{ height:41px; width:62px; overflow:hidden; background:#4d83ff; display:block; line-height:41px; text-align:center; font-size:18px; color:#ffffff; padding: 0 5px;}
+.float_r{ float: right; display: inline;}
+.float_l{ float: left; display: inline;}
+.xshuju .mBox-bd{ background: #F4F4F4; padding: 0 8px;}
+.analysis_c{ border-top:1px #CCCCCC dashed; margin-top: -1px; margin-bottom: 20px; padding-top: 21px;}
+.xzhuanlan .mBox-bd ul{ width: 233px; margin: 0 auto;}
+.xzhuanlan .mBox-bd li{ margin-top: 15px; position: relative; width: 233px; height: 108px; overflow: hidden;z-index: 1;}
+.xzhuanlan .mBox-bd li a{ display: block;}
+.xzhuanlan .mBox-bd li p{ height: 28px; width: 233px; line-height: 28px; font-size: 14px; color: #FFF; position: absolute; left: 0; bottom: 0; text-align: center; z-index: 999;}
+.xzhuanlan .mBox-bd li span{ display:block; height: 28px; width: 233px; background:#000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; filter:alpha(opacity=70); opacity:.7; position: absolute; left: 0; bottom: 0; z-index: 99;}
+.article{border-top:1px #CCCCCC dashed; margin-top: -1px; margin-bottom: 20px; padding-top: 21px;}

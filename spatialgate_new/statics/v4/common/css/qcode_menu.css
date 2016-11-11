@@ -1,0 +1,43 @@
+/* 二维码弹窗 */
+.popup {
+    position: fixed;
+    bottom: 0;
+    z-index: 1000000;
+}
+.popup_close {
+    width: 35px;
+    height: 33px;
+    position: absolute;
+    right: -35px;
+    top: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url(/statics/v4/common/img/popup/close.png);
+    display: none;
+}
+.popup_qr {
+    width: 73px;
+    height: 87px;
+    position: absolute;
+    right: 25px;
+    top: 0px;
+    cursor: pointer;
+}
+.popup_code {
+    width: 163px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    background-image: url(/statics/v4/common/img/popup/qr.png);
+    top: -201px;
+    left: -48px;
+    display: none;
+}
+.popup_bg {
+    width: 998px;
+    height: 100px;
+    margin-left: -10px;
+    background-repeat: no-repeat;
+    background-image: url(/statics/v4/common/img/popup/bg.png);
+}
+

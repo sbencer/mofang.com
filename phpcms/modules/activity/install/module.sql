@@ -1,0 +1,1 @@
+INSERT INTO `phpcms_module` (`module`, `name`, `url`, `iscore`, `version`, `description`, `setting`, `listorder`, `disabled`, `installdate`, `updatedate`) VALUES ('activity', '活动', 'activity/', 0, '1.0', '游戏或专区活动', '', 0, 0, '2014-09-29', '2014-09-29');

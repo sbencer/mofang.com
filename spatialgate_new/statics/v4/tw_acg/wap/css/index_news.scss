@@ -1,0 +1,10 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+.news .list_title h2{background-image:url(/statics/v4/tw_acg/wap/images/list_title_18.png);}
+.substance{margin:0 mfe-px2rem(30);}
+.substance li{ border-bottom:mfe-px2rem(3) #e8e8e8 dashed;}
+.substance h3{ margin-top:mfe-px2rem(30);font-size:mfe-px2rem(45); color:#333333; width:mfe-px2rem(920); height:mfe-px2rem(66); overflow:hidden;text-overflow: ellipsis;white-space:nowrap;}
+.list_content{ overflow:hidden; margin-bottom:mfe-px2rem(30); margin-top:mfe-px2rem(21);}
+.list_content img{ width:mfe-px2rem(350); height:mfe-px2rem(197);}
+.list_content p{ font-size:mfe-px2rem(42);width:mfe-px2rem(636);height:mfe-px2rem(196);overflow:hidden; line-height:mfe-px2rem(50); margin-left:mfe-px2rem(34); color:#999999;}

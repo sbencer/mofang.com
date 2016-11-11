@@ -1,0 +1,29 @@
+{*
+    base            : seajs 
+    mofang_base     : (phpcms)
+    mofang_new_base : (yii)
+*}
+
+{extends file='tw_mofang/hw_base_det.tpl'}
+
+{* 主体区域 *}
+{block name="bread"}
+{/block}
+{block name="main-content"}
+<div class="hw-main-content j_left">
+    <div class="hw-main-common w1000 mb10">
+        {* list top *}
+        {include file="tw_mofang/widget/article/top_list.tpl"}
+    </div>
+    <div class="article-list-con mb20 clearfix">
+        {* 游戏新闻 *}
+        {include file="tw_mofang/widget/article/game_new.tpl"}
+        {* new 推荐 *}
+        {include file="tw_mofang/widget/article/article_con_right.tpl"}
+    </div>
+</div>
+{/block}
+{block name="sidebar"}
+{*側邊欄*}
+    {include file="tw_mofang/widget/common/sidebar.tpl"}
+{/block}

@@ -1,0 +1,74 @@
+.game-pic-con{
+	padding:10px 0;
+	background-color: #fff;
+}
+.game-pic-li img{
+	height: 370px;
+	width:658px;
+	display: block;
+}
+.game-pic .bx-default-pager{
+	/* bottom: 10px; */
+	/* position: absolute; */
+	/* left: 50%; */
+	background: #fff\9;
+	_background: #fff;
+	background: rgba(225,225,225,.6);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+	filter: alpha(opacity=70);
+	filter: alpha(opacity=70);
+	z-index: 999;
+	width: 159px;
+	margin: auto;
+}
+.game-pic .bx-wrapper{
+	position: relative;
+}
+.game-pic .bx-pager-item{
+	overflow: hidden;
+	width:30px;
+	height: 6px;
+	background-color: #fff;
+	display: inline-block;
+	_display:inline;
+	margin:0 4px;
+	overflow: hidden;
+}
+.game-pic .bx-pager-item a{
+	display: block;
+	width:100%;
+	height:100%;
+	font-size: 0;
+}
+.game-pic .bx-pager-item a.active{
+	background-color: #EC981E;
+}
+.game-pic .bx-controls{
+	position: absolute;
+	left:0;
+	bottom: 10px;
+	width: 660px;
+	text-align: center;
+}
+.game-pic  .bx-controls-auto{
+	display: none;
+}
+.game-pic  .bx-prev, .game-pic  .bx-next{
+	width:35px;
+	height:70px;
+	display: block;
+	position: absolute;
+	background-size: 35px 70px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	top: -183px;
+	text-indent: -9999px;
+}
+.game-pic  .bx-prev{
+	left:0;
+	background-image: url(/statics/v4/tw_mofang/img/g_prev.png);
+}
+.game-pic  .bx-next{
+	right:0;
+	background-image: url(/statics/v4/tw_mofang/img/g_next.png);
+}

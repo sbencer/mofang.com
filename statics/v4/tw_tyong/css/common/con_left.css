@@ -1,0 +1,147 @@
+.con_nav{
+	margin: auto;
+	width: 1000px;
+	height: 70px;
+	line-height: 70px;
+	background: url(../../img/con_bg_03.jpg) no-repeat;
+}
+.con_nav ul{
+	width: 260px;
+	height: 100px;
+}
+.con_nav li{
+	float: left;
+	color: #fff;
+}
+.con_nav li a{
+	padding-left: 15px;
+	padding-right: 15px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+.left_cont{
+	width: 260px;
+	float: left;
+}
+
+.ic_bg{
+	height: 50px;
+	line-height: 50px;
+	background: url(../../img/icon_bg_03.png) no-repeat;
+	font-size: 16px;
+   padding-left: 90px;
+}
+.ic_bg span{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-right: 10px;
+	margin-top: 14px;
+	background: url(/statics/v4/tw_tyong/img/icon_trancl_03.png) no-repeat;
+	float: right;
+}
+.ic_bg span.open{
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+.ic_bg span.lin_add{
+	background: url(/statics/v4/tw_tyong/img/icon_tran_03.png) no-repeat;
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg); 	/* IE 9 */
+	-moz-transform:rotate(-90deg); 	/* Firefox */
+	-webkit-transform:rotate(-90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-90deg); 	/* Opera */
+}
+.ic_bg span.lin_jian{
+	background: url(/statics/v4/tw_tyong/img/icon_tran_03.png) no-repeat;
+}
+.ic_bg a{
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	padding-top: 3px;
+}
+.lin_bg{
+   padding: 3px;
+}
+.jiao-tab{
+	height: 30px;
+}
+
+.lin_bg .jiao-tab img{clear:both;}
+
+.lin_add, .lin_jian{
+	width: 20px;
+	height: 20px;
+	background: url(/statics/v4/tw_tyong/img/icon_add_03.png) no-repeat;
+	margin-left: 30px;
+	display: block;
+}
+.lin_jian{
+	background: url(/statics/v4/tw_tyong/img/icon_down_03.png) no-repeat;
+}
+.lin_add, .lin_jian{
+	float:left;
+	margin-right: 15px;
+}
+.lin_bg a{
+	display: block;
+	color: #666;
+	text-decoration: none;
+	font-size: 14px;
+	margin-bottom:-35px;;
+}
+.select-li li{
+	text-align: center;	
+}
+.select-li li a{
+	margin-bottom: 0;
+	padding-left: 0;
+	display: block;
+	text-align: left;
+	margin-left: 65px;
+	line-height: 30px;
+	
+}
+.select-li li img{
+	display: block;
+}
+.none_bg_diff{
+	height:30px;
+	background:url(http://sts0.mofang.com/statics/v4/tw_mofang/img/new_ac7c715.jpg) 14% 50% no-repeat;
+	font-size:14px
+}
+.none_bg{
+	height: 30px;
+}
+.none_bg a{
+	font-size: 14px;
+	color: #666;
+	padding-left: 70px;
+}
+
+.index_left_con{
+	margin: 15px 10px 0 40px;
+}
+.index_left_con li{
+	height: 30px;
+	line-height: 30px;
+}
+.index_left_con li span{
+	float: right;
+	display: block;
+}
+.index_left_con li a {
+	white-space: nowrap;
+	overflow: hidden; 
+	display: inline-block;
+	text-overflow: ellipsis;
+	float: left;
+	width: 165px;
+}

@@ -1,0 +1,27 @@
+@function mfe-px2rem($px) {
+    @return $px/40.5 + rem;
+}
+.sorts .list_title h2{background:url(/statics/v4/tw_acg/wap/images/icon_sort.png) no-repeat; background-size:mfe-px2rem(73) auto;}
+.sort_list {
+	overflow:hidden;
+}
+.sort_list li {
+	font-size: mfe-px2rem(44);
+	padding:mfe-px2rem(15) mfe-px2rem(29);
+	border-bottom: mfe-px2rem(3) #cccccc dashed;
+	letter-spacing: mfe-px2rem(3);
+	line-height:mfe-px2rem(56);
+	overflow: hidden;
+}
+.sort_list li:last-child{border:none;}
+.sort_list img.fl {
+	margin-right: mfe-px2rem(30);
+	width: mfe-px2rem(262);
+	height: mfe-px2rem(147);
+}
+.sort_list li p{width:mfe-px2rem(730); padding-top:mfe-px2rem(20); float:left;}
+.sort_list li:hover{
+	background-color: #6dc7f4;
+	color: #fff
+}
+.sort_list li:hover a ,.sort_list li:hover span{color:#fff;}

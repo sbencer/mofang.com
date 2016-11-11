@@ -1,0 +1,157 @@
+.classify_top {
+  background: url(/statics/v4/tw_acg/wap/images/classify_top_bg_02.jpg) no-repeat;
+  background-size: 19.53086rem 6.07407rem;
+  width: 19.53086rem;
+  height: 6.07407rem; }
+
+.land {
+  display: block; }
+
+.land img {
+  margin-top: 0.5679rem;
+  margin-left: 1.48148rem;
+  margin-right: 0.74074rem;
+  width: 4.93827rem;
+  height: 4.93827rem;
+  border-radius: 100%; }
+
+.land p {
+  line-height: 6.07407rem;
+  font-size: 1.08642rem;
+  color: #fff; }
+
+.land_after {
+  display: none; }
+
+.land_after img {
+  margin-top: 0.5679rem;
+  margin-left: 1.48148rem;
+  margin-right: 0.74074rem; }
+
+.land_after h2 {
+  font-size: 1.08642rem;
+  color: #fff; }
+
+.land_big {
+  margin-top: 1.7037rem; }
+
+.land_z {
+  background: url(/statics/v4/tw_acg/wap/images/land_after_img_06.png) no-repeat 0 center;
+  background-size: 1.03704rem 0.93827rem;
+  width: 1.03704rem;
+  height: 0.93827rem;
+  font-size: 0.93827rem;
+  color: #fff;
+  padding-left: 1.45679rem;
+  margin-right: 0.5679rem; }
+
+.land_x {
+  background: url(/statics/v4/tw_acg/wap/images/land_after_img_08.png) no-repeat 0 center;
+  background-size: 1.03704rem 0.93827rem;
+  width: 1.03704rem;
+  height: 0.93827rem;
+  font-size: 0.93827rem;
+  color: #fff;
+  padding-left: 1.45679rem; }
+
+.classify_text {
+  width: 19.53086rem; }
+
+.classify_text li {
+  background: #f6f6f6;
+  height: 2.96296rem;
+  line-height: 2.96296rem;
+  border-bottom: 0.07407rem #ccc dashed; }
+
+.classify_text li:hover {
+  background-color: #a3d6f0; }
+
+.classify_text li a {
+  display: block;
+  font-size: 1.08642rem;
+  color: #333333; }
+
+.classify_text li a i {
+  float: left;
+  width: 1.28395rem;
+  height: 2.96296rem;
+  margin-left: 1.4321rem;
+  overflow: hidden;
+  margin-right: 1.11111rem; }
+
+.classify_text li a:hover {
+  color: #fff; }
+
+.classify_text li a i.c1 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_01.png) center no-repeat;
+  background-size: 1.28395rem 1.03704rem; }
+
+.classify_text li i.c2 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_02.png) center no-repeat;
+  background-size: 1.28395rem 1.03704rem; }
+
+.classify_text li i.c3 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_03.png) center no-repeat;
+  background-size: 1.28395rem 1.06173rem; }
+
+.classify_text li i.c4 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_04.png) center no-repeat;
+  background-size: 1.28395rem 1.06173rem; }
+
+.classify_text li i.c5 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_05.png) center no-repeat;
+  background-size: 1.28395rem 1.23457rem; }
+
+.classify_text li i.c6 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_06.png) center no-repeat;
+  background-size: 1.28395rem 1.25926rem; }
+
+.classify_text li i.c7 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_07.png) center no-repeat;
+  background-size: 1.28395rem 1.06173rem; }
+
+.classify_text li i.c8 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_08.png) center no-repeat;
+  background-size: 1.28395rem 1.28395rem; }
+
+.classify_text li i.c9 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_09.png) center no-repeat;
+  background-size: 1.28395rem 1.30864rem; }
+
+.classify_text li i.c10 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_10.png) center no-repeat;
+  background-size: 1.28395rem 1.28395rem; }
+
+.classify_text li i.c11 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_11.png) center no-repeat;
+  background-size: 1.28395rem 1.25926rem; }
+
+.classify_text li i.c12 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_12.png) center no-repeat;
+  background-size: 1.28395rem 1.03704rem; }
+
+.classify_text li i.c13 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_13.png) center no-repeat;
+  background-size: 1.28395rem 1.23457rem; }
+
+.classify_text li i.c14 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_14.png) center no-repeat;
+  background-size: 1.28395rem 1.03704rem; }
+
+.classify_text li i.c15 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_15.png) center no-repeat;
+  background-size: 1.28395rem 1.28395rem; }
+
+.classify_text li i.c16 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_16.png) center no-repeat;
+  background-size: 1.28395rem 1.06173rem; }
+
+.classify_text li i.c17 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_17.png) center no-repeat;
+  background-size: 1.28395rem 1.16049rem; }
+
+.classify_text li i.c18 {
+  background: url(/statics/v4/tw_acg/wap/images/icon_18.png) center no-repeat;
+  background-size: 1.28395rem 1.03704rem; }
+
+/*# sourceMappingURL=classify.css.map */

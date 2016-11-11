@@ -1,0 +1,146 @@
+/*
+ * Mofang V4
+ *
+ */
+/* =Common
+-----------------------------------------------------------------------------*/
+/* Refactor Reset */
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+dl, menu, ol, ul, dd, p{
+    padding: 0;
+    margin: 0;
+}
+ol, ul{
+    list-style: none;
+}
+body{
+    font:12px/1.5 "Microsoft Yahei",Helvetica,Arial,sans-serif,"\5b8b\4f53";
+    color: #333;
+    background: #EEE;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    color:#FD9814;
+    text-decoration:underline;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*向左向右*/
+.mf-right{
+    float:right;
+}
+.mf-left{
+    float:left;
+}
+
+/*显示隐藏*/
+.mf-hide {
+    display:none;
+}
+.mf-show {
+    display:block;
+}
+.mf-invisible {
+    visibility:hidden;
+}
+.mf-affix {
+    position:fixed;
+    top:0;
+}
+
+/*省略号*/
+.mf-ell {
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;}
+
+/*内联块*/
+.mf-inb {
+    display:inline-block;
+    vertical-align:middle;
+    *display:inline;
+    *zoom:1;
+ }
+
+/*强制文本换行*/
+.mf-wrap {
+     word-wrap:break-word;
+     word-break:break-all;
+}
+
+
+/* =Layout
+-----------------------------------------------------------------------------*/
+
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+.mf-container{
+    width: 1000px;
+    margin: 0 auto;
+    background: #FFF;
+    position: relative;
+    z-index: 11;
+    padding: 0 0 40px;
+    box-shadow: 0 5px 10px rgba(153,153,153, 0.2);
+    min-height: 800px;
+}
+.mf-row{
+    padding: 0 20px;
+}
+.column-one{
+    display: inline;
+    width: 400px;
+    min-height: 10px;
+}
+.column-two{
+    display: inline;
+    width: 260px;
+    margin: 0 20px;
+    min-height: 10px;
+}
+.column-three{
+    display: inline;
+    width: 260px;
+    min-height: 10px;
+}
+.column-four{
+    display: inline;
+    width:680px;
+}
+.mf-mb20{
+    margin-bottom: 20px;
+}
+.mf-mb30 {
+    margin-bottom: 30px;
+}
+.news-wrap {
+    margin-top: -30px;
+}

@@ -1,0 +1,54 @@
+.common-con-nobrd .time-con{
+	width: 718px;
+  height: 200px;
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  overflow: hidden;
+}
+.table thead th{
+	padding: 15px 10px;
+	color: white;
+	font-size: 16px;
+	font-family: "繁体";
+  font-weight: bold;
+}
+.table tbody tr{
+	height: 50px;
+	line-height: 50px;
+}
+.table tbody tr th a{
+	height: 40px;
+  float: left;
+}
+.table tbody tr th a img{
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+.table tbody tr p{
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: 繁体;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 200px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4);
+}

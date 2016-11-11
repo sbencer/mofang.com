@@ -1,0 +1,24 @@
+.game-intro h3{
+	font-size:18px;
+	color:#333;
+	line-height: 20px;
+	padding: 20px 0 5px; 
+}
+.game-intro-txt{
+	margin-bottom: 25px;
+}
+.game-intro-txt p{
+	color:#666;
+	font-size: 14px;
+	line-height: 20px;
+}
+.slideup{
+	color:#278805;
+	margin-left: 624px;
+	display: block;
+	width: 50px;
+	/* float: right; */
+	cursor: hand;
+	padding-bottom: 7px;
+	cursor: pointer;
+}

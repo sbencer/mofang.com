@@ -1,0 +1,215 @@
+.help-page {
+ /* width: 320px;*/
+  margin: auto;
+  position: relative;
+  background: #E8E8E8;
+  padding-top: 40px;
+  padding: 40px 20px 0; 
+}
+.help-back{
+	height: 170px;
+	width: 100%;
+	border: 1px solid #F4F4F4;
+	border-radius:90px; 
+	background-color: #fff;
+	margin-bottom: 22px;
+	position: relative;
+}
+.help-border{
+	width: 140px;
+	margin: 10px 30px 0 10px;
+	float: left;
+	 border: 5px solid #58E3FF;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:80px;
+}
+.help-about{
+	font-size:2em;
+	color: #6292c3;
+}
+.help-name{
+	font-size: 2.625em;
+	margin-top: 44px;
+
+}
+.help-line{
+	background: url(../../../../images/mofang/api/luobo2/jiantou.png) no-repeat  right;
+	width: 14px;
+	height: 22px;
+	right: 21px;
+	top: 73px;
+	position: absolute;
+}
+.help-video-back{
+	background: url(../../../../images/mofang/api/luobo2/vide.png) no-repeat 47px center;
+	background-color: #5DB5FF;
+	width: 320px;
+	height:140px;
+	border-radius: 70px;
+	float: left;
+	text-align: center;
+	line-height: 140px;
+	color: #fff;
+	font-size: 2.25em;
+}
+.help-hart-back{
+	background: url(../../../../images/mofang/api/luobo2/shu.png) no-repeat 47px center;
+	background-color: #5DB5FF;
+	width: 320px;
+	height:140px;
+	border-radius: 70px;
+	float: right;
+	text-align: center;
+	line-height: 140px;
+	color: #fff;
+	font-size: 2.25em;
+}
+.help-video{
+	padding-bottom: 140px;
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+/* Smartphones (landscape) ----------- */
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+     .help-page{
+  	padding:40px 10px 10px;
+  } 
+  .help-back{
+  	height: 85px;
+  }
+  .help-border{
+  	width: 57px;
+  }
+  .help-name{
+  	margin-top: 15px;
+  }
+  .help-line{
+  	top:30px;
+  }
+  .help-video-back,.help-hart-back{
+  	background-position: 10px center;
+  	width: 130px;
+  	height: 60px;
+  	background-size: 20px;
+  	line-height: 60px;
+  	font-size: 2em;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Styles */
+.help-page{
+  	padding:40px 10px 10px;
+  } 
+  .help-back{
+  	height: 85px;
+  }
+  .help-border{
+  	width: 57px;
+  }
+  .help-name{
+  	margin-top: 15px;
+  }
+  .help-line{
+  	top:30px;
+  }
+  .help-video-back,.help-hart-back{
+  	background-position: 10px center;
+  	width: 140px;
+  	height: 60px;
+  	background-size: 20px;
+  	line-height: 60px;
+  	font-size: 2em;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 639px) {
+	.help-page{
+  	padding:40px 10px 10px;
+  } 
+  .help-back{
+  	height: 100px;
+  }
+  .help-border{
+  	width: 70px;
+  }
+  .help-name{
+  	margin-top: 15px;
+  }
+  .help-line{
+  	top:40px;
+  }
+  .help-video-back,.help-hart-back{
+  	background-position: 30px center;
+  	width: 200px;
+  	height: 80px;
+  	background-size: 30px;
+  	line-height: 80px;
+  	font-size: 2em;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 767px) { 
+.help-page{
+  	padding:40px 10px 10px;
+  } 
+  .help-back{
+  	height: 100px;
+  }
+  .help-border{
+  	width: 70px;
+  }
+  .help-name{
+  	margin-top: 15px;
+  }
+  .help-line{
+  	top:40px;
+  }
+  .help-video-back,.help-hart-back{
+  	background-position: 40px center;
+  	width: 228px;
+  	height: 80px;
+  	background-size: 30px;
+  	line-height: 80px;
+  	font-size: 2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)  {
+	.help-page{
+  	padding:40px 10px 10px;
+  } 
+  .help-back{
+  	height: 120px;
+  }
+  .help-border{
+  	width: 90px;
+  }
+  .help-name{
+  	margin-top: 15px;
+  }
+  .help-line{
+  	top:46px;
+  }
+  .help-video-back,.help-hart-back{
+  	background-position: 40px center;
+  	width: 228px;
+  	height: 80px;
+  	background-size: 30px;
+  	line-height: 80px;
+  	font-size: 2em;
+  }   
+}
+@media only screen and (min-width: 800px) and (max-width: 1024px) { 
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {    
+ 
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {    
+
+}

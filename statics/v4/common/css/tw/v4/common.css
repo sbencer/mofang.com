@@ -1,0 +1,13 @@
+/* 移动端通用 */
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+.background{
+    background-size: cover;
+}

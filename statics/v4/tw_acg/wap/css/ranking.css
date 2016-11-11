@@ -1,0 +1,102 @@
+.ranking .list_title h2 {
+  background-position: 0 -6.8642rem; }
+
+.ranking_text {
+  margin: 0 0.74074rem; }
+
+.ranking_text li {
+  padding: 0.69136rem 0;
+  border-bottom: 0.07407rem #e8e8e8 dashed; }
+
+.no1 {
+  width: 5.23457rem;
+  height: 1.97531rem;
+  border-radius: 0.98765rem;
+  background: #ff6600;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.97531rem;
+  font-size: 1.08642rem;
+  color: #fff;
+  margin-left: 0.8642rem; }
+
+.king_1 {
+  background: url(/statics/v4/tw_acg/wap/images/NO1_28.png) no-repeat;
+  width: 2.32099rem;
+  height: 1.87654rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.2963rem;
+  background-size: 2.32099rem 1.87654rem; }
+
+.king_text {
+  margin-left: 3.11111rem;
+  font-size: 1.08642rem;
+  color: #333333;
+  display: inline-block;
+  width: 12.34568rem;
+  height: 1.48148rem;
+  overflow: hidden; }
+
+.no2 {
+  width: 5.23457rem;
+  height: 1.97531rem;
+  border-radius: 0.98765rem;
+  background: #ff9000;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.97531rem;
+  font-size: 1.08642rem;
+  color: #fff;
+  margin-left: 0.8642rem; }
+
+.king_2 {
+  background: url(/statics/v4/tw_acg/wap/images/NO2_31.png) no-repeat;
+  width: 2.32099rem;
+  height: 1.87654rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.2963rem;
+  background-size: 2.32099rem 1.87654rem; }
+
+.no3 {
+  width: 5.23457rem;
+  height: 1.97531rem;
+  border-radius: 0.98765rem;
+  background: #fcc400;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.97531rem;
+  font-size: 1.08642rem;
+  color: #fff;
+  margin-left: 0.8642rem; }
+
+.king_3 {
+  background: url(/statics/v4/tw_acg/wap/images/NO3_33.png) no-repeat;
+  width: 2.32099rem;
+  height: 1.87654rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.2963rem;
+  background-size: 2.32099rem 1.87654rem; }
+
+.no4 {
+  width: 5.23457rem;
+  height: 1.97531rem;
+  border-radius: 0.98765rem;
+  background: #fffbbf;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.97531rem;
+  font-size: 1.08642rem;
+  color: #ff6600;
+  margin-left: 0.8642rem; }
+
+.king_4 {
+  width: 2.32099rem;
+  height: 1.87654rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.2963rem; }
+
+/*# sourceMappingURL=ranking.css.map */

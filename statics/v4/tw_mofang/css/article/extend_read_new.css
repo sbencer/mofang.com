@@ -1,0 +1,67 @@
+.extend-read-con a{
+	width:155px;
+	display: block;
+	overflow: hidden;
+	margin:0 5px;
+	position: relative;
+}
+.extend-read-con a img{
+	width:155px;
+	height: 88px;
+	display: block;
+}
+.extend-read-con a:hover p{
+	color:#FD9814;
+}
+.extend-read-con a p{
+	font-size: 14px;
+	color:#666;
+	width:100%;
+	overflow: hidden;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+}
+.extend-read-wrap .hw-common-con{
+	/* margin:0 -5px; */
+}
+.extend-read-con{
+	padding-bottom: 2px;
+	position: relative;
+	margin: 0 -5px;
+}
+.video-start-btn{
+	position: absolute;
+	display: block;
+	width:36px;
+	height:36px;
+	left:50%;
+	top:50%;
+	background: url(/statics/v4/tw_mofang/img/video.png) left top no-repeat;
+	z-index: 2;
+	/* margin:-18px 0 0 -18px; */
+	margin-left: -18px;
+	margin-top: -32px;
+}
+.video-mask{
+	display: block;
+	width:157px;
+	height: 88px;
+	left: 0;
+	top:0;
+	position: absolute;
+	z-index: 1;
+	background: #000\9;
+	_background: #000;
+	background: rgba(0,0,0,.6);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+	filter: alpha(opacity=70);
+	filter: alpha(opacity=70);
+}
+.article-detail-con-wrap a{
+	color: #261CDC;
+}
+.article-detail-con-wrap a:hover{
+	color: #FD9814;
+}
+

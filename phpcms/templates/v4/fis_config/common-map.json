@@ -1,0 +1,1628 @@
+{
+    "res": {
+        "404.tpl": {
+            "uri": "templates/v4/common/404.tpl",
+            "type": "tpl"
+        },
+        "base.tpl": {
+            "uri": "templates/v4/common/base.tpl",
+            "type": "tpl"
+        },
+        "comment_tyong.tpl": {
+            "uri": "templates/v4/common/comment_tyong.tpl",
+            "type": "tpl"
+        },
+        "common_layout.tpl": {
+            "uri": "templates/v4/common/common_layout.tpl",
+            "type": "tpl"
+        },
+        "doctype.tpl": {
+            "uri": "templates/v4/common/doctype.tpl",
+            "type": "tpl"
+        },
+        "footer.tpl": {
+            "uri": "templates/v4/common/footer.tpl",
+            "type": "tpl"
+        },
+        "global.tpl": {
+            "uri": "templates/v4/common/global.tpl",
+            "type": "tpl"
+        },
+        "h5_base.tpl": {
+            "uri": "templates/v4/common/h5_base.tpl",
+            "type": "tpl"
+        },
+        "header_main.tpl": {
+            "uri": "templates/v4/common/header_main.tpl",
+            "type": "tpl"
+        },
+        "hw/base.tpl": {
+            "uri": "templates/v4/common/hw/base.tpl",
+            "type": "tpl"
+        },
+        "hw/doctype.tpl": {
+            "uri": "templates/v4/common/hw/doctype.tpl",
+            "type": "tpl"
+        },
+        "hw/en/footer.tpl": {
+            "uri": "templates/v4/common/hw/en/footer.tpl",
+            "type": "tpl"
+        },
+        "hw/en/header.tpl": {
+            "uri": "templates/v4/common/hw/en/header.tpl",
+            "type": "tpl"
+        },
+        "hw/hw_mf_site_en.tpl": {
+            "uri": "templates/v4/common/hw/hw_mf_site_en.tpl",
+            "type": "tpl"
+        },
+        "hw/hw_mf_site_jp.tpl": {
+            "uri": "templates/v4/common/hw/hw_mf_site_jp.tpl",
+            "type": "tpl"
+        },
+        "hw/hw_mf_site_jp_.tpl": {
+            "uri": "templates/v4/common/hw/hw_mf_site_jp_.tpl",
+            "type": "tpl"
+        },
+        "hw/hw_mf_site_tw.tpl": {
+            "uri": "templates/v4/common/hw/hw_mf_site_tw.tpl",
+            "type": "tpl"
+        },
+        "hw/jiajia_api.tpl": {
+            "uri": "templates/v4/common/hw/jiajia_api.tpl",
+            "type": "tpl"
+        },
+        "hw/jp/footer.tpl": {
+            "uri": "templates/v4/common/hw/jp/footer.tpl",
+            "type": "tpl"
+        },
+        "hw/jp/header.tpl": {
+            "uri": "templates/v4/common/hw/jp/header.tpl",
+            "type": "tpl"
+        },
+        "hw/m_base.tpl": {
+            "uri": "templates/v4/common/hw/m_base.tpl",
+            "type": "tpl"
+        },
+        "hw/m_doctype.tpl": {
+            "uri": "templates/v4/common/hw/m_doctype.tpl",
+            "type": "tpl"
+        },
+        "hw/m_huodong.tpl": {
+            "uri": "templates/v4/common/hw/m_huodong.tpl",
+            "type": "tpl"
+        },
+        "hw/seajs_base.tpl": {
+            "uri": "templates/v4/common/hw/seajs_base.tpl",
+            "type": "tpl"
+        },
+        "hw/site.tpl": {
+            "uri": "templates/v4/common/hw/site.tpl",
+            "type": "tpl"
+        },
+        "hw/site_web.tpl": {
+            "uri": "templates/v4/common/hw/site_web.tpl",
+            "type": "tpl"
+        },
+        "hw/v1/footer.tpl": {
+            "uri": "templates/v4/common/hw/v1/footer.tpl",
+            "type": "tpl"
+        },
+        "hw/v1/footer_detail.tpl": {
+            "uri": "templates/v4/common/hw/v1/footer_detail.tpl",
+            "type": "tpl"
+        },
+        "hw/v1/header.tpl": {
+            "uri": "templates/v4/common/hw/v1/header.tpl",
+            "type": "tpl"
+        },
+        "hw/v1/header_before.tpl": {
+            "uri": "templates/v4/common/hw/v1/header_before.tpl",
+            "type": "tpl"
+        },
+        "hw/v1/m_footer.tpl": {
+            "uri": "templates/v4/common/hw/v1/m_footer.tpl",
+            "type": "tpl"
+        },
+        "hw/v1/m_header.tpl": {
+            "uri": "templates/v4/common/hw/v1/m_header.tpl",
+            "type": "tpl"
+        },
+        "hw/v3/header.tpl": {
+            "uri": "templates/v4/common/hw/v3/header.tpl",
+            "type": "tpl"
+        },
+        "hw/v3/hw_mf_site_tw.tpl": {
+            "uri": "templates/v4/common/hw/v3/hw_mf_site_tw.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/bg_ads.tpl": {
+            "uri": "templates/v4/common/hw/v6/bg_ads.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/doctype.tpl": {
+            "uri": "templates/v4/common/hw/v6/doctype.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/footer.tpl": {
+            "uri": "templates/v4/common/hw/v6/footer.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/header.tpl": {
+            "uri": "templates/v4/common/hw/v6/header.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/plug_fn/comment.tpl": {
+            "uri": "templates/v4/common/hw/v6/plug_fn/comment.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/plug_fn/pop_box.tpl": {
+            "uri": "templates/v4/common/hw/v6/plug_fn/pop_box.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/seajs_base.tpl": {
+            "uri": "templates/v4/common/hw/v6/seajs_base.tpl",
+            "type": "tpl"
+        },
+        "hw/v6/site.tpl": {
+            "uri": "templates/v4/common/hw/v6/site.tpl",
+            "type": "tpl"
+        },
+        "hw/wapv6/site.tpl": {
+            "uri": "templates/v4/common/hw/wapv6/site.tpl",
+            "type": "tpl"
+        },
+        "hw_mf_site.tpl": {
+            "uri": "templates/v4/common/hw_mf_site.tpl",
+            "type": "tpl"
+        },
+        "hw_mf_site_en.tpl": {
+            "uri": "templates/v4/common/hw_mf_site_en.tpl",
+            "type": "tpl"
+        },
+        "hw_mf_site_jp.tpl": {
+            "uri": "templates/v4/common/hw_mf_site_jp.tpl",
+            "type": "tpl"
+        },
+        "hw_mf_site_tw.tpl": {
+            "uri": "templates/v4/common/hw_mf_site_tw.tpl",
+            "type": "tpl"
+        },
+        "jp/base.tpl": {
+            "uri": "templates/v4/common/jp/base.tpl",
+            "type": "tpl"
+        },
+        "jp/hw_mf_site_jp.tpl": {
+            "uri": "templates/v4/common/jp/hw_mf_site_jp.tpl",
+            "type": "tpl"
+        },
+        "jp/mf_site_v2.tpl": {
+            "uri": "templates/v4/common/jp/mf_site_v2.tpl",
+            "type": "tpl"
+        },
+        "jp/site.tpl": {
+            "uri": "templates/v4/common/jp/site.tpl",
+            "type": "tpl"
+        },
+        "jp/v1/footer.tpl": {
+            "uri": "templates/v4/common/jp/v1/footer.tpl",
+            "type": "tpl"
+        },
+        "jp/v1/header.tpl": {
+            "uri": "templates/v4/common/jp/v1/header.tpl",
+            "type": "tpl"
+        },
+        "jp/v1/m_footer.tpl": {
+            "uri": "templates/v4/common/jp/v1/m_footer.tpl",
+            "type": "tpl"
+        },
+        "jp/v1/m_header.tpl": {
+            "uri": "templates/v4/common/jp/v1/m_header.tpl",
+            "type": "tpl"
+        },
+        "js_footer.tpl": {
+            "uri": "templates/v4/common/js_footer.tpl",
+            "type": "tpl"
+        },
+        "js_footer_simple.tpl": {
+            "uri": "templates/v4/common/js_footer_simple.tpl",
+            "type": "tpl"
+        },
+        "js_header.tpl": {
+            "uri": "templates/v4/common/js_header.tpl",
+            "type": "tpl"
+        },
+        "js_toolbar.tpl": {
+            "uri": "templates/v4/common/js_toolbar.tpl",
+            "type": "tpl"
+        },
+        "js_toolbar_default.tpl": {
+            "uri": "templates/v4/common/js_toolbar_default.tpl",
+            "type": "tpl"
+        },
+        "links.tpl": {
+            "uri": "templates/v4/common/links.tpl",
+            "type": "tpl"
+        },
+        "login.tpl": {
+            "uri": "templates/v4/common/login.tpl",
+            "type": "tpl"
+        },
+        "login_en.tpl": {
+            "uri": "templates/v4/common/login_en.tpl",
+            "type": "tpl"
+        },
+        "m_base.tpl": {
+            "uri": "templates/v4/common/m_base.tpl",
+            "type": "tpl"
+        },
+        "m_doctype.tpl": {
+            "uri": "templates/v4/common/m_doctype.tpl",
+            "type": "tpl"
+        },
+        "m_huodong.tpl": {
+            "uri": "templates/v4/common/m_huodong.tpl",
+            "type": "tpl"
+        },
+        "m_seajs_base.tpl": {
+            "uri": "templates/v4/common/m_seajs_base.tpl",
+            "type": "tpl"
+        },
+        "mf_base.tpl": {
+            "uri": "templates/v4/common/mf_base.tpl",
+            "type": "tpl"
+        },
+        "mf_site.tpl": {
+            "uri": "templates/v4/common/mf_site.tpl",
+            "type": "tpl"
+        },
+        "mfe_list.tpl": {
+            "uri": "templates/v4/common/mfe_list.tpl",
+            "type": "tpl"
+        },
+        "mobile_base.tpl": {
+            "uri": "templates/v4/common/mobile_base.tpl",
+            "type": "tpl"
+        },
+        "mofang_base.tpl": {
+            "uri": "templates/v4/common/mofang_base.tpl",
+            "type": "tpl"
+        },
+        "mofang_new_base.tpl": {
+            "uri": "templates/v4/common/mofang_new_base.tpl",
+            "type": "tpl"
+        },
+        "mofang_site.tpl": {
+            "uri": "templates/v4/common/mofang_site.tpl",
+            "type": "tpl"
+        },
+        "mofang_site_v4.tpl": {
+            "uri": "templates/v4/common/mofang_site_v4.tpl",
+            "type": "tpl"
+        },
+        "mofang_yii_base.tpl": {
+            "uri": "templates/v4/common/mofang_yii_base.tpl",
+            "type": "tpl"
+        },
+        "p.tpl": {
+            "uri": "templates/v4/common/p.tpl",
+            "type": "tpl"
+        },
+        "p/comment.tpl": {
+            "uri": "templates/v4/common/p/comment.tpl",
+            "type": "tpl"
+        },
+        "p/jiajia_api.tpl": {
+            "uri": "templates/v4/common/p/jiajia_api.tpl",
+            "type": "tpl"
+        },
+        "p/test.tpl": {
+            "uri": "templates/v4/common/p/test.tpl",
+            "type": "tpl"
+        },
+        "p/vote.tpl": {
+            "uri": "templates/v4/common/p/vote.tpl",
+            "type": "tpl"
+        },
+        "qcode_menu.tpl": {
+            "uri": "templates/v4/common/qcode_menu.tpl",
+            "type": "tpl"
+        },
+        "seajs_base.tpl": {
+            "uri": "templates/v4/common/seajs_base.tpl",
+            "type": "tpl"
+        },
+        "sub_footer.tpl": {
+            "uri": "templates/v4/common/sub_footer.tpl",
+            "type": "tpl"
+        },
+        "thai/base.tpl": {
+            "uri": "templates/v4/common/thai/base.tpl",
+            "type": "tpl"
+        },
+        "thai/mf_site_th.tpl": {
+            "uri": "templates/v4/common/thai/mf_site_th.tpl",
+            "type": "tpl"
+        },
+        "thai/site.tpl": {
+            "uri": "templates/v4/common/thai/site.tpl",
+            "type": "tpl"
+        },
+        "thai/v1/analyticstracking.tpl": {
+            "uri": "templates/v4/common/thai/v1/analyticstracking.tpl",
+            "type": "tpl"
+        },
+        "thai/v1/footer.tpl": {
+            "uri": "templates/v4/common/thai/v1/footer.tpl",
+            "type": "tpl"
+        },
+        "thai/v1/header.tpl": {
+            "uri": "templates/v4/common/thai/v1/header.tpl",
+            "type": "tpl"
+        },
+        "thai/v1/m_footer.tpl": {
+            "uri": "templates/v4/common/thai/v1/m_footer.tpl",
+            "type": "tpl"
+        },
+        "thai/v1/m_header.tpl": {
+            "uri": "templates/v4/common/thai/v1/m_header.tpl",
+            "type": "tpl"
+        },
+        "toolbar.tpl": {
+            "uri": "templates/v4/common/toolbar.tpl",
+            "type": "tpl"
+        },
+        "toolbar_v4.tpl": {
+            "uri": "templates/v4/common/toolbar_v4.tpl",
+            "type": "tpl"
+        },
+        "tw/footer.tpl": {
+            "uri": "templates/v4/common/tw/footer.tpl",
+            "type": "tpl"
+        },
+        "tw/header.tpl": {
+            "uri": "templates/v4/common/tw/header.tpl",
+            "type": "tpl"
+        },
+        "tw/header_before.tpl": {
+            "uri": "templates/v4/common/tw/header_before.tpl",
+            "type": "tpl"
+        },
+        "tw/hw_mf_site_tw.tpl": {
+            "uri": "templates/v4/common/tw/hw_mf_site_tw.tpl",
+            "type": "tpl"
+        },
+        "tw/v4/footer.tpl": {
+            "uri": "templates/v4/common/tw/v4/footer.tpl",
+            "type": "tpl"
+        },
+        "tw/v4/header.tpl": {
+            "uri": "templates/v4/common/tw/v4/header.tpl",
+            "type": "tpl"
+        },
+        "tw/v4/header_before.tpl": {
+            "uri": "templates/v4/common/tw/v4/header_before.tpl",
+            "type": "tpl"
+        },
+        "tw/v4/hw_mf_site_tw.tpl": {
+            "uri": "templates/v4/common/tw/v4/hw_mf_site_tw.tpl",
+            "type": "tpl"
+        },
+        "v4/footer.tpl": {
+            "uri": "templates/v4/common/v4/footer.tpl",
+            "type": "tpl"
+        },
+        "v4/site.tpl": {
+            "uri": "templates/v4/common/v4/site.tpl",
+            "type": "tpl"
+        },
+        "v4/toolbar.tpl": {
+            "uri": "templates/v4/common/v4/toolbar.tpl",
+            "type": "tpl"
+        },
+        "v5.5/bg_ads.tpl": {
+            "uri": "templates/v4/common/v5.5/bg_ads.tpl",
+            "type": "tpl"
+        },
+        "v5.5/doctype.tpl": {
+            "uri": "templates/v4/common/v5.5/doctype.tpl",
+            "type": "tpl"
+        },
+        "v5.5/footer.tpl": {
+            "uri": "templates/v4/common/v5.5/footer.tpl",
+            "type": "tpl"
+        },
+        "v5.5/header.tpl": {
+            "uri": "templates/v4/common/v5.5/header.tpl",
+            "type": "tpl"
+        },
+        "v5.5/plug_fn/comment.tpl": {
+            "uri": "templates/v4/common/v5.5/plug_fn/comment.tpl",
+            "type": "tpl"
+        },
+        "v5.5/plug_fn/pop_box.tpl": {
+            "uri": "templates/v4/common/v5.5/plug_fn/pop_box.tpl",
+            "type": "tpl"
+        },
+        "v5.5/seajs_base.tpl": {
+            "uri": "templates/v4/common/v5.5/seajs_base.tpl",
+            "type": "tpl"
+        },
+        "v5.5/site.tpl": {
+            "uri": "templates/v4/common/v5.5/site.tpl",
+            "type": "tpl"
+        },
+        "v5/footer.tpl": {
+            "uri": "templates/v4/common/v5/footer.tpl",
+            "type": "tpl"
+        },
+        "v5/header.tpl": {
+            "uri": "templates/v4/common/v5/header.tpl",
+            "type": "tpl"
+        },
+        "v5/js_doctype.tpl": {
+            "uri": "templates/v4/common/v5/js_doctype.tpl",
+            "type": "tpl"
+        },
+        "v5/js_footer.tpl": {
+            "uri": "templates/v4/common/v5/js_footer.tpl",
+            "type": "tpl"
+        },
+        "v5/js_header.tpl": {
+            "uri": "templates/v4/common/v5/js_header.tpl",
+            "type": "tpl"
+        },
+        "v5/login.tpl": {
+            "uri": "templates/v4/common/v5/login.tpl",
+            "type": "tpl"
+        },
+        "v5/site.tpl": {
+            "uri": "templates/v4/common/v5/site.tpl",
+            "type": "tpl"
+        },
+        "v5/widget-login.tpl": {
+            "uri": "templates/v4/common/v5/widget-login.tpl",
+            "type": "tpl"
+        },
+        "v6/bg_ads.tpl": {
+            "uri": "templates/v4/common/v6/bg_ads.tpl",
+            "type": "tpl"
+        },
+        "v6/doctype.tpl": {
+            "uri": "templates/v4/common/v6/doctype.tpl",
+            "type": "tpl"
+        },
+        "v6/footer.tpl": {
+            "uri": "templates/v4/common/v6/footer.tpl",
+            "type": "tpl"
+        },
+        "v6/header.tpl": {
+            "uri": "templates/v4/common/v6/header.tpl",
+            "type": "tpl"
+        },
+        "v6/js_doctype.tpl": {
+            "uri": "templates/v4/common/v6/js_doctype.tpl",
+            "type": "tpl"
+        },
+        "v6/js_footer.tpl": {
+            "uri": "templates/v4/common/v6/js_footer.tpl",
+            "type": "tpl"
+        },
+        "v6/js_header.tpl": {
+            "uri": "templates/v4/common/v6/js_header.tpl",
+            "type": "tpl"
+        },
+        "v6/plug_fn/comment.tpl": {
+            "uri": "templates/v4/common/v6/plug_fn/comment.tpl",
+            "type": "tpl"
+        },
+        "v6/plug_fn/pop_box.tpl": {
+            "uri": "templates/v4/common/v6/plug_fn/pop_box.tpl",
+            "type": "tpl"
+        },
+        "v6/seajs_base.tpl": {
+            "uri": "templates/v4/common/v6/seajs_base.tpl",
+            "type": "tpl"
+        },
+        "v6/site.tpl": {
+            "uri": "templates/v4/common/v6/site.tpl",
+            "type": "tpl"
+        },
+        "wap/common_site.tpl": {
+            "uri": "templates/v4/common/wap/common_site.tpl",
+            "type": "tpl"
+        },
+        "wap/doc.tpl": {
+            "uri": "templates/v4/common/wap/doc.tpl",
+            "type": "tpl"
+        },
+        "wap/footer.tpl": {
+            "uri": "templates/v4/common/wap/footer.tpl",
+            "type": "tpl"
+        },
+        "wap/header.tpl": {
+            "uri": "templates/v4/common/wap/header.tpl",
+            "type": "tpl"
+        },
+        "wap/site.tpl": {
+            "uri": "templates/v4/common/wap/site.tpl",
+            "type": "tpl"
+        },
+        "wap/yxb_site.tpl": {
+            "uri": "templates/v4/common/wap/yxb_site.tpl",
+            "type": "tpl"
+        },
+        "wapv6/doctype.tpl": {
+            "uri": "templates/v4/common/wapv6/doctype.tpl",
+            "type": "tpl"
+        },
+        "wapv6/footer.tpl": {
+            "uri": "templates/v4/common/wapv6/footer.tpl",
+            "type": "tpl"
+        },
+        "wapv6/h5_fullpage_site.tpl": {
+            "uri": "templates/v4/common/wapv6/h5_fullpage_site.tpl",
+            "type": "tpl"
+        },
+        "wapv6/header.tpl": {
+            "uri": "templates/v4/common/wapv6/header.tpl",
+            "type": "tpl"
+        },
+        "wapv6/header_show.tpl": {
+            "uri": "templates/v4/common/wapv6/header_show.tpl",
+            "type": "tpl"
+        },
+        "wapv6/huodong.tpl": {
+            "uri": "templates/v4/common/wapv6/huodong.tpl",
+            "type": "tpl"
+        },
+        "wapv6/left_menu.tpl": {
+            "uri": "templates/v4/common/wapv6/left_menu.tpl",
+            "type": "tpl"
+        },
+        "wapv6/plug_fn/mfyxb_api.tpl": {
+            "uri": "templates/v4/common/wapv6/plug_fn/mfyxb_api.tpl",
+            "type": "tpl"
+        },
+        "wapv6/plug_fn/movetop.tpl": {
+            "uri": "templates/v4/common/wapv6/plug_fn/movetop.tpl",
+            "type": "tpl"
+        },
+        "wapv6/plug_fn/share.tpl": {
+            "uri": "templates/v4/common/wapv6/plug_fn/share.tpl",
+            "type": "tpl"
+        },
+        "wapv6/site.tpl": {
+            "uri": "templates/v4/common/wapv6/site.tpl",
+            "type": "tpl"
+        },
+        "statics/css/404.css": {
+            "uri": "/statics/v4/common/css/404.css",
+            "type": "css"
+        },
+        "statics/css/browser_update.css": {
+            "uri": "/statics/v4/common/css/browser_update.css",
+            "type": "css"
+        },
+        "statics/css/common-ref.css": {
+            "uri": "/statics/v4/common/css/common-ref.css",
+            "type": "css"
+        },
+        "statics/css/common.css": {
+            "uri": "/statics/v4/common/css/common.css",
+            "type": "css"
+        },
+        "statics/css/cssbase.css": {
+            "uri": "/statics/v4/common/css/cssbase.css",
+            "type": "css"
+        },
+        "statics/css/cssfonts.css": {
+            "uri": "/statics/v4/common/css/cssfonts.css",
+            "type": "css"
+        },
+        "statics/css/cssnormalize.css": {
+            "uri": "/statics/v4/common/css/cssnormalize.css",
+            "type": "css"
+        },
+        "statics/css/cssreset.css": {
+            "uri": "/statics/v4/common/css/cssreset.css",
+            "type": "css"
+        },
+        "statics/css/header/common-v4.css": {
+            "uri": "/statics/v4/common/css/header/common-v4.css",
+            "type": "css"
+        },
+        "statics/css/header/header-wrap.css": {
+            "uri": "/statics/v4/common/css/header/header-wrap.css",
+            "type": "css"
+        },
+        "statics/css/header/login.css": {
+            "uri": "/statics/v4/common/css/header/login.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/common.css": {
+            "uri": "/statics/v4/common/css/hw/v1/common.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/floatLayer.css": {
+            "uri": "/statics/v4/common/css/hw/v1/floatLayer.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/footer.css": {
+            "uri": "/statics/v4/common/css/hw/v1/footer.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/header.css": {
+            "uri": "/statics/v4/common/css/hw/v1/header.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/header_before.css": {
+            "uri": "/statics/v4/common/css/hw/v1/header_before.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/reset.css": {
+            "uri": "/statics/v4/common/css/hw/v1/reset.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/site.css": {
+            "uri": "/statics/v4/common/css/hw/v1/site.css",
+            "type": "css"
+        },
+        "statics/css/hw/v1/site.scss": {
+            "uri": "/statics/v4/common/css/hw/v1/site.scss",
+            "type": "scss"
+        },
+        "statics/css/hw/v3/header.css": {
+            "uri": "/statics/v4/common/css/hw/v3/header.css",
+            "type": "css"
+        },
+        "statics/css/hw/v6/base.css": {
+            "uri": "/statics/v4/common/css/hw/v6/base.css",
+            "type": "css"
+        },
+        "statics/css/hw/v6/browser_update.css": {
+            "uri": "/statics/v4/common/css/hw/v6/browser_update.css",
+            "type": "css"
+        },
+        "statics/css/hw/v6/comment.css": {
+            "uri": "/statics/v4/common/css/hw/v6/comment.css",
+            "type": "css"
+        },
+        "statics/css/hw/v6/common.css": {
+            "uri": "/statics/v4/common/css/hw/v6/common.css",
+            "type": "css"
+        },
+        "statics/css/hw/v6/pop_box.css": {
+            "uri": "/statics/v4/common/css/hw/v6/pop_box.css",
+            "type": "css"
+        },
+        "statics/css/hw/wap/common.css": {
+            "uri": "/statics/v4/common/css/hw/wap/common.css",
+            "type": "css"
+        },
+        "statics/css/hw/wap/reset.css": {
+            "uri": "/statics/v4/common/css/hw/wap/reset.css",
+            "type": "css"
+        },
+        "statics/css/hw/wap/site.css": {
+            "uri": "/statics/v4/common/css/hw/wap/site.css",
+            "type": "css"
+        },
+        "statics/css/hw/wap/site.scss": {
+            "uri": "/statics/v4/common/css/hw/wap/site.scss",
+            "type": "scss"
+        },
+        "statics/css/hw/wapv6/base.css": {
+            "uri": "/statics/v4/common/css/hw/wapv6/base.css",
+            "type": "css"
+        },
+        "statics/css/hw/wapv6/common.css": {
+            "uri": "/statics/v4/common/css/hw/wapv6/common.css",
+            "type": "css"
+        },
+        "statics/css/hw/wapv6/common.scss": {
+            "uri": "/statics/v4/common/css/hw/wapv6/common.scss",
+            "type": "scss"
+        },
+        "statics/css/hw/wapv6/section_widget.css": {
+            "uri": "/statics/v4/common/css/hw/wapv6/section_widget.css",
+            "type": "css"
+        },
+        "statics/css/jp/v1/common.css": {
+            "uri": "/statics/v4/common/css/jp/v1/common.css",
+            "type": "css"
+        },
+        "statics/css/jp/v1/footer.css": {
+            "uri": "/statics/v4/common/css/jp/v1/footer.css",
+            "type": "css"
+        },
+        "statics/css/jp/v1/header.css": {
+            "uri": "/statics/v4/common/css/jp/v1/header.css",
+            "type": "css"
+        },
+        "statics/css/jp/v1/reset.css": {
+            "uri": "/statics/v4/common/css/jp/v1/reset.css",
+            "type": "css"
+        },
+        "statics/css/jp/v1/site.css": {
+            "uri": "/statics/v4/common/css/jp/v1/site.css",
+            "type": "css"
+        },
+        "statics/css/jp/v1/site.scss": {
+            "uri": "/statics/v4/common/css/jp/v1/site.scss",
+            "type": "scss"
+        },
+        "statics/css/jp/wap/common.css": {
+            "uri": "/statics/v4/common/css/jp/wap/common.css",
+            "type": "css"
+        },
+        "statics/css/jp/wap/reset.css": {
+            "uri": "/statics/v4/common/css/jp/wap/reset.css",
+            "type": "css"
+        },
+        "statics/css/jp/wap/site.css": {
+            "uri": "/statics/v4/common/css/jp/wap/site.css",
+            "type": "css"
+        },
+        "statics/css/jp/wap/site.scss": {
+            "uri": "/statics/v4/common/css/jp/wap/site.scss",
+            "type": "scss"
+        },
+        "statics/css/js/base.css": {
+            "uri": "/statics/v4/common/css/js/base.css",
+            "type": "css"
+        },
+        "statics/css/js/index.css": {
+            "uri": "/statics/v4/common/css/js/index.css",
+            "type": "css"
+        },
+        "statics/css/login.css": {
+            "uri": "/statics/v4/common/css/login.css",
+            "type": "css"
+        },
+        "statics/css/login_en.css": {
+            "uri": "/statics/v4/common/css/login_en.css",
+            "type": "css"
+        },
+        "statics/css/login_jp.css": {
+            "uri": "/statics/v4/common/css/login_jp.css",
+            "type": "css"
+        },
+        "statics/css/m_base.css": {
+            "uri": "/statics/v4/common/css/m_base.css",
+            "type": "css"
+        },
+        "statics/css/m_normalize.css": {
+            "uri": "/statics/v4/common/css/m_normalize.css",
+            "type": "css"
+        },
+        "statics/css/mofang_reset.css": {
+            "uri": "/statics/v4/common/css/mofang_reset.css",
+            "type": "css"
+        },
+        "statics/css/nav_v4.css": {
+            "uri": "/statics/v4/common/css/nav_v4.css",
+            "type": "css"
+        },
+        "statics/css/partition/darkblue/common.css": {
+            "uri": "/statics/v4/common/css/partition/darkblue/common.css",
+            "type": "css"
+        },
+        "statics/css/partition/darkblue/model.css": {
+            "uri": "/statics/v4/common/css/partition/darkblue/model.css",
+            "type": "css"
+        },
+        "statics/css/partition/whiteblue/common.css": {
+            "uri": "/statics/v4/common/css/partition/whiteblue/common.css",
+            "type": "css"
+        },
+        "statics/css/partition/whiteblue/model.css": {
+            "uri": "/statics/v4/common/css/partition/whiteblue/model.css",
+            "type": "css"
+        },
+        "statics/css/partition/whitegreen/common.css": {
+            "uri": "/statics/v4/common/css/partition/whitegreen/common.css",
+            "type": "css"
+        },
+        "statics/css/partition/whitegreen/model.css": {
+            "uri": "/statics/v4/common/css/partition/whitegreen/model.css",
+            "type": "css"
+        },
+        "statics/css/qcode_menu.css": {
+            "uri": "/statics/v4/common/css/qcode_menu.css",
+            "type": "css"
+        },
+        "statics/css/reset.css": {
+            "uri": "/statics/v4/common/css/reset.css",
+            "type": "css"
+        },
+        "statics/css/sub-footer.css": {
+            "uri": "/statics/v4/common/css/sub-footer.css",
+            "type": "css"
+        },
+        "statics/css/sub-header.css": {
+            "uri": "/statics/v4/common/css/sub-header.css",
+            "type": "css"
+        },
+        "statics/css/thai/login.css": {
+            "uri": "/statics/v4/common/css/thai/login.css",
+            "type": "css"
+        },
+        "statics/css/thai/v1/common.css": {
+            "uri": "/statics/v4/common/css/thai/v1/common.css",
+            "type": "css"
+        },
+        "statics/css/thai/v1/footer.css": {
+            "uri": "/statics/v4/common/css/thai/v1/footer.css",
+            "type": "css"
+        },
+        "statics/css/thai/v1/header.css": {
+            "uri": "/statics/v4/common/css/thai/v1/header.css",
+            "type": "css"
+        },
+        "statics/css/thai/v1/reset.css": {
+            "uri": "/statics/v4/common/css/thai/v1/reset.css",
+            "type": "css"
+        },
+        "statics/css/thai/v1/site.css": {
+            "uri": "/statics/v4/common/css/thai/v1/site.css",
+            "type": "css"
+        },
+        "statics/css/thai/v1/site.scss": {
+            "uri": "/statics/v4/common/css/thai/v1/site.scss",
+            "type": "scss"
+        },
+        "statics/css/thai/wap/common.css": {
+            "uri": "/statics/v4/common/css/thai/wap/common.css",
+            "type": "css"
+        },
+        "statics/css/thai/wap/reset.css": {
+            "uri": "/statics/v4/common/css/thai/wap/reset.css",
+            "type": "css"
+        },
+        "statics/css/thai/wap/site.css": {
+            "uri": "/statics/v4/common/css/thai/wap/site.css",
+            "type": "css"
+        },
+        "statics/css/thai/wap/site.scss": {
+            "uri": "/statics/v4/common/css/thai/wap/site.scss",
+            "type": "scss"
+        },
+        "statics/css/tw/v4/common.css": {
+            "uri": "/statics/v4/common/css/tw/v4/common.css",
+            "type": "css"
+        },
+        "statics/css/tw/v4/floatLayer.css": {
+            "uri": "/statics/v4/common/css/tw/v4/floatLayer.css",
+            "type": "css"
+        },
+        "statics/css/tw/v4/footer.css": {
+            "uri": "/statics/v4/common/css/tw/v4/footer.css",
+            "type": "css"
+        },
+        "statics/css/tw/v4/header.css": {
+            "uri": "/statics/v4/common/css/tw/v4/header.css",
+            "type": "css"
+        },
+        "statics/css/tw/v4/header_before.css": {
+            "uri": "/statics/v4/common/css/tw/v4/header_before.css",
+            "type": "css"
+        },
+        "statics/css/tw/v4/reset.css": {
+            "uri": "/statics/v4/common/css/tw/v4/reset.css",
+            "type": "css"
+        },
+        "statics/css/tw/v4/site.css": {
+            "uri": "/statics/v4/common/css/tw/v4/site.css",
+            "type": "css"
+        },
+        "statics/css/tw/v4/site.scss": {
+            "uri": "/statics/v4/common/css/tw/v4/site.scss",
+            "type": "scss"
+        },
+        "statics/css/v5.5/base.css": {
+            "uri": "/statics/v4/common/css/v5.5/base.css",
+            "type": "css"
+        },
+        "statics/css/v5.5/browser_update.css": {
+            "uri": "/statics/v4/common/css/v5.5/browser_update.css",
+            "type": "css"
+        },
+        "statics/css/v5.5/comment.css": {
+            "uri": "/statics/v4/common/css/v5.5/comment.css",
+            "type": "css"
+        },
+        "statics/css/v5.5/common.css": {
+            "uri": "/statics/v4/common/css/v5.5/common.css",
+            "type": "css"
+        },
+        "statics/css/v5.5/pop_box.css": {
+            "uri": "/statics/v4/common/css/v5.5/pop_box.css",
+            "type": "css"
+        },
+        "statics/css/v5/login.css": {
+            "uri": "/statics/v4/common/css/v5/login.css",
+            "type": "css"
+        },
+        "statics/css/v5/show-footer.css": {
+            "uri": "/statics/v4/common/css/v5/show-footer.css",
+            "type": "css"
+        },
+        "statics/css/v5/show-header.css": {
+            "uri": "/statics/v4/common/css/v5/show-header.css",
+            "type": "css"
+        },
+        "statics/css/v6/base.css": {
+            "uri": "/statics/v4/common/css/v6/base.css",
+            "type": "css"
+        },
+        "statics/css/v6/browser_update.css": {
+            "uri": "/statics/v4/common/css/v6/browser_update.css",
+            "type": "css"
+        },
+        "statics/css/v6/comment.css": {
+            "uri": "/statics/v4/common/css/v6/comment.css",
+            "type": "css"
+        },
+        "statics/css/v6/common.css": {
+            "uri": "/statics/v4/common/css/v6/common.css",
+            "type": "css"
+        },
+        "statics/css/v6/pop_box.css": {
+            "uri": "/statics/v4/common/css/v6/pop_box.css",
+            "type": "css"
+        },
+        "statics/css/wap/common.css": {
+            "uri": "/statics/v4/common/css/wap/common.css",
+            "type": "css"
+        },
+        "statics/css/wap/reset.css": {
+            "uri": "/statics/v4/common/css/wap/reset.css",
+            "type": "css"
+        },
+        "statics/css/wap/site.css": {
+            "uri": "/statics/v4/common/css/wap/site.css",
+            "type": "css"
+        },
+        "statics/css/wap/site.scss": {
+            "uri": "/statics/v4/common/css/wap/site.scss",
+            "type": "scss"
+        },
+        "statics/css/wapv6/base.css": {
+            "uri": "/statics/v4/common/css/wapv6/base.css",
+            "type": "css"
+        },
+        "statics/css/wapv6/common.css": {
+            "uri": "/statics/v4/common/css/wapv6/common.css",
+            "type": "css"
+        },
+        "statics/css/wapv6/common.scss": {
+            "uri": "/statics/v4/common/css/wapv6/common.scss",
+            "type": "scss"
+        },
+        "statics/css/wapv6/section_widget.css": {
+            "uri": "/statics/v4/common/css/wapv6/section_widget.css",
+            "type": "css"
+        },
+        "statics/css/zh_cn/login.css": {
+            "uri": "/statics/v4/common/css/zh_cn/login.css",
+            "type": "css"
+        },
+        "statics/js/MFbase.js": {
+            "uri": "/statics/v4/common/js/MFbase.js",
+            "type": "js"
+        },
+        "statics/js/ad.js": {
+            "uri": "/statics/v4/common/js/ad.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/base-config.js": {
+            "uri": "/statics/v4/common/js/base-config.js",
+            "type": "js"
+        },
+        "statics/js/head_hover.js": {
+            "uri": "/statics/v4/common/js/head_hover.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/header/mfshare.js": {
+            "uri": "/statics/v4/common/js/header/mfshare.js",
+            "type": "js"
+        },
+        "statics/js/header/search.js": {
+            "uri": "/statics/v4/common/js/header/search.js",
+            "type": "js"
+        },
+        "statics/js/header/stickmenu.js": {
+            "uri": "/statics/v4/common/js/header/stickmenu.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/hw/base-config.js": {
+            "uri": "/statics/v4/common/js/hw/base-config.js",
+            "type": "js"
+        },
+        "statics/js/hw/floatLayer.js": {
+            "uri": "/statics/v4/common/js/hw/floatLayer.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/hw/language.js": {
+            "uri": "/statics/v4/common/js/hw/language.js",
+            "type": "js"
+        },
+        "statics/js/hw/login.js": {
+            "uri": "/statics/v4/common/js/hw/login.js",
+            "type": "js",
+            "deps": [
+                "jquery/cookie",
+                "jquery",
+                "Transform",
+                "tpl"
+            ]
+        },
+        "statics/js/hw/login_check.js": {
+            "uri": "/statics/v4/common/js/hw/login_check.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf/login",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/hw/login_tip.js": {
+            "uri": "/statics/v4/common/js/hw/login_tip.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mfe",
+                "mf/login"
+            ]
+        },
+        "statics/js/hw/tpl.js": {
+            "uri": "/statics/v4/common/js/hw/tpl.js",
+            "type": "js",
+            "deps": [
+                "language"
+            ]
+        },
+        "statics/js/hw/v6/base-config.js": {
+            "uri": "/statics/v4/common/js/hw/v6/base-config.js",
+            "type": "js"
+        },
+        "statics/js/hw/v6/bg_ads.js": {
+            "uri": "/statics/v4/common/js/hw/v6/bg_ads.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/hw/v6/check_login.js": {
+            "uri": "/statics/v4/common/js/hw/v6/check_login.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/hw/v6/comment.js": {
+            "uri": "/statics/v4/common/js/hw/v6/comment.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf_face",
+                "check_login",
+                "jquery/jquery-pop",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/hw/v6/common.js": {
+            "uri": "/statics/v4/common/js/hw/v6/common.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/hw/v6/jobs.js": {
+            "uri": "/statics/v4/common/js/hw/v6/jobs.js",
+            "type": "js"
+        },
+        "statics/js/hw/v6/login_top.js": {
+            "uri": "/statics/v4/common/js/hw/v6/login_top.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "check_login"
+            ]
+        },
+        "statics/js/hw/v6/mf_face.js": {
+            "uri": "/statics/v4/common/js/hw/v6/mf_face.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/hw/v6/vote.js": {
+            "uri": "/statics/v4/common/js/hw/v6/vote.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-pop",
+                "jquery/cookie"
+            ]
+        },
+        "statics/js/hw/wapv6/common.js": {
+            "uri": "/statics/v4/common/js/hw/wapv6/common.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-pop",
+                "moveTop"
+            ]
+        },
+        "statics/js/hw/wapv6/login_left.js": {
+            "uri": "/statics/v4/common/js/hw/wapv6/login_left.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "check_login",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/hw/wapv6/wap-config.js": {
+            "uri": "/statics/v4/common/js/hw/wapv6/wap-config.js",
+            "type": "js"
+        },
+        "statics/js/hw_common.js": {
+            "uri": "/statics/v4/common/js/hw_common.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/ie/low.js": {
+            "uri": "/statics/v4/common/js/ie/low.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/jobs.js": {
+            "uri": "/statics/v4/common/js/jobs.js",
+            "type": "js"
+        },
+        "statics/js/jquery.min.js": {
+            "uri": "/statics/v4/common/js/jquery.min.js",
+            "type": "js"
+        },
+        "statics/js/jquery.sgallery.js": {
+            "uri": "/statics/v4/common/js/jquery.sgallery.js",
+            "type": "js"
+        },
+        "statics/js/language.js": {
+            "uri": "/statics/v4/common/js/language.js",
+            "type": "js"
+        },
+        "statics/js/loader/boot.js": {
+            "uri": "/statics/v4/common/js/loader/boot.js",
+            "type": "js"
+        },
+        "statics/js/loader/dd_belatedpng.js": {
+            "uri": "/statics/v4/common/js/loader/dd_belatedpng.js",
+            "type": "js"
+        },
+        "statics/js/loader/html5shiv-printshiv.js": {
+            "uri": "/statics/v4/common/js/loader/html5shiv-printshiv.js",
+            "type": "js"
+        },
+        "statics/js/loader/html5shiv.js": {
+            "uri": "/statics/v4/common/js/loader/html5shiv.js",
+            "type": "js"
+        },
+        "statics/js/loader/sea.js": {
+            "uri": "/statics/v4/common/js/loader/sea.js",
+            "type": "js"
+        },
+        "statics/js/loader/sea/combo.js": {
+            "uri": "/statics/v4/common/js/loader/sea/combo.js",
+            "type": "js"
+        },
+        "statics/js/loader/sea/flush.js": {
+            "uri": "/statics/v4/common/js/loader/sea/flush.js",
+            "type": "js"
+        },
+        "statics/js/loadmore.js": {
+            "uri": "/statics/v4/common/js/loadmore.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mfe/wapLoadMore"
+            ]
+        },
+        "statics/js/login.js": {
+            "uri": "/statics/v4/common/js/login.js",
+            "type": "js",
+            "deps": [
+                "jquery/cookie",
+                "jquery",
+                "Transform",
+                "tpl"
+            ]
+        },
+        "statics/js/login2.js": {
+            "uri": "/statics/v4/common/js/login2.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mfe"
+            ]
+        },
+        "statics/js/login_check.js": {
+            "uri": "/statics/v4/common/js/login_check.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf/login"
+            ]
+        },
+        "statics/js/login_check_en.js": {
+            "uri": "/statics/v4/common/js/login_check_en.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf/login_en",
+                "jquery/jq_cookie"
+            ]
+        },
+        "statics/js/login_check_jp.js": {
+            "uri": "/statics/v4/common/js/login_check_jp.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf/login_jp",
+                "jquery/jq_cookie"
+            ]
+        },
+        "statics/js/login_en.js": {
+            "uri": "/statics/v4/common/js/login_en.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/cookie"
+            ]
+        },
+        "statics/js/login_jp.js": {
+            "uri": "/statics/v4/common/js/login_jp.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/cookie"
+            ]
+        },
+        "statics/js/m/jiajia.js": {
+            "uri": "/statics/v4/common/js/m/jiajia.js",
+            "type": "js"
+        },
+        "statics/js/m/m-config.js": {
+            "uri": "/statics/v4/common/js/m/m-config.js",
+            "type": "js"
+        },
+        "statics/js/m/top.js": {
+            "uri": "/statics/v4/common/js/m/top.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/mfshare.js": {
+            "uri": "/statics/v4/common/js/mfshare.js",
+            "type": "js"
+        },
+        "statics/js/p/popup.js": {
+            "uri": "/statics/v4/common/js/p/popup.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/easing"
+            ]
+        },
+        "statics/js/p/vote.js": {
+            "uri": "/statics/v4/common/js/p/vote.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/cookie"
+            ]
+        },
+        "statics/js/q_code.js": {
+            "uri": "/statics/v4/common/js/q_code.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/top_json.js": {
+            "uri": "/statics/v4/common/js/top_json.js",
+            "type": "js",
+            "deps": [
+                "handlebars",
+                "jquery"
+            ]
+        },
+        "statics/js/tpl.js": {
+            "uri": "/statics/v4/common/js/tpl.js",
+            "type": "js",
+            "deps": [
+                "language"
+            ]
+        },
+        "statics/js/transform.js": {
+            "uri": "/statics/v4/common/js/transform.js",
+            "type": "js"
+        },
+        "statics/js/update_tip.js": {
+            "uri": "/statics/v4/common/js/update_tip.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v5.5/base-config.js": {
+            "uri": "/statics/v4/common/js/v5.5/base-config.js",
+            "type": "js"
+        },
+        "statics/js/v5.5/bg_ads.js": {
+            "uri": "/statics/v4/common/js/v5.5/bg_ads.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v5.5/check_login.js": {
+            "uri": "/statics/v4/common/js/v5.5/check_login.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v5.5/comment.js": {
+            "uri": "/statics/v4/common/js/v5.5/comment.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf_face",
+                "check_login",
+                "jquery/jquery-pop",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/v5.5/common.js": {
+            "uri": "/statics/v4/common/js/v5.5/common.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/v5.5/jobs.js": {
+            "uri": "/statics/v4/common/js/v5.5/jobs.js",
+            "type": "js"
+        },
+        "statics/js/v5.5/login_top.js": {
+            "uri": "/statics/v4/common/js/v5.5/login_top.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "check_login"
+            ]
+        },
+        "statics/js/v5.5/mf_face.js": {
+            "uri": "/statics/v4/common/js/v5.5/mf_face.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v5.5/vote.js": {
+            "uri": "/statics/v4/common/js/v5.5/vote.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-pop",
+                "jquery/cookie"
+            ]
+        },
+        "statics/js/v5/mfshare.js": {
+            "uri": "/statics/v4/common/js/v5/mfshare.js",
+            "type": "js"
+        },
+        "statics/js/v5/search.js": {
+            "uri": "/statics/v4/common/js/v5/search.js",
+            "type": "js"
+        },
+        "statics/js/v5/search_c.js": {
+            "uri": "/statics/v4/common/js/v5/search_c.js",
+            "type": "js"
+        },
+        "statics/js/v5/video_head.js": {
+            "uri": "/statics/v4/common/js/v5/video_head.js",
+            "type": "js"
+        },
+        "statics/js/v5/wap_search.js": {
+            "uri": "/statics/v4/common/js/v5/wap_search.js",
+            "type": "js"
+        },
+        "statics/js/v6/base-config.js": {
+            "uri": "/statics/v4/common/js/v6/base-config.js",
+            "type": "js"
+        },
+        "statics/js/v6/bg_ads.js": {
+            "uri": "/statics/v4/common/js/v6/bg_ads.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v6/check_login.js": {
+            "uri": "/statics/v4/common/js/v6/check_login.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v6/comment.js": {
+            "uri": "/statics/v4/common/js/v6/comment.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf_face",
+                "check_login",
+                "jquery/jquery-pop",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/v6/common.js": {
+            "uri": "/statics/v4/common/js/v6/common.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/v6/jobs.js": {
+            "uri": "/statics/v4/common/js/v6/jobs.js",
+            "type": "js"
+        },
+        "statics/js/v6/login_top.js": {
+            "uri": "/statics/v4/common/js/v6/login_top.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "check_login"
+            ]
+        },
+        "statics/js/v6/mf_face.js": {
+            "uri": "/statics/v4/common/js/v6/mf_face.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/v6/vote.js": {
+            "uri": "/statics/v4/common/js/v6/vote.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-pop",
+                "jquery/cookie"
+            ]
+        },
+        "statics/js/video-head.js": {
+            "uri": "/statics/v4/common/js/video-head.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/wap_login.js": {
+            "uri": "/statics/v4/common/js/wap_login.js",
+            "type": "js",
+            "deps": [
+                "jquery/cookie",
+                "jquery"
+            ]
+        },
+        "statics/js/wap_login_check.js": {
+            "uri": "/statics/v4/common/js/wap_login_check.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/query",
+                "jquery/easing",
+                "wap/login"
+            ]
+        },
+        "statics/js/wapv6/common.js": {
+            "uri": "/statics/v4/common/js/wapv6/common.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/jquery-pop",
+                "jquery/jquery-slider-down",
+                "moveTop"
+            ]
+        },
+        "statics/js/wapv6/jiajia.js": {
+            "uri": "/statics/v4/common/js/wapv6/jiajia.js",
+            "type": "js"
+        },
+        "statics/js/wapv6/login_left.js": {
+            "uri": "/statics/v4/common/js/wapv6/login_left.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "check_login",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/wapv6/wap-config.js": {
+            "uri": "/statics/v4/common/js/wapv6/wap-config.js",
+            "type": "js"
+        },
+        "statics/js/wechat.js": {
+            "uri": "/statics/v4/common/js/wechat.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/zh_cn/base-config.js": {
+            "uri": "/statics/v4/common/js/zh_cn/base-config.js",
+            "type": "js"
+        },
+        "statics/js/zh_cn/language.js": {
+            "uri": "/statics/v4/common/js/zh_cn/language.js",
+            "type": "js"
+        },
+        "statics/js/zh_cn/login.js": {
+            "uri": "/statics/v4/common/js/zh_cn/login.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/cookie",
+                "Transform",
+                "tpl"
+            ]
+        },
+        "statics/js/zh_cn/login_check.js": {
+            "uri": "/statics/v4/common/js/zh_cn/login_check.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "mf/login",
+                "jquery/jquery-reluserurl"
+            ]
+        },
+        "statics/js/zh_cn/tpl.js": {
+            "uri": "/statics/v4/common/js/zh_cn/tpl.js",
+            "type": "js",
+            "deps": [
+                "language"
+            ]
+        },
+        "widget/sina.tpl": {
+            "uri": "templates/v4/common/widget/sina.tpl",
+            "type": "tpl"
+        }
+    },
+    "pkg": {}
+}

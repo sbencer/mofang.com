@@ -1,0 +1,94 @@
+.evaluating{
+	overflow: hidden;
+}
+.evaluating_list{
+	padding-top: 9px;
+	margin-right: -10px;
+	overflow: hidden;
+}
+.evaluating_list li{
+	width: 320px;
+	float: left;
+	margin-right: 10px;
+	padding-bottom:10px;
+	_display:inline;
+	color: #999;
+	font-size: 16px;
+	font-family: "微軟正黑體";
+	overflow: hidden;
+}
+.evaluating_list li a.a_img{
+	width: 320px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.evaluating_list li img{
+	width: 320px;
+	height: 171px;
+	vertical-align: top;
+	overflow: hidden;
+}
+.evaluating_list li p{
+	padding:6px 0;
+	line-height: 20px;
+	overflow: hidden;
+}
+.evaluating_list li .type{
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	float: left;
+	margin-right: 3px;
+	_display:inline-block;
+}
+.evaluating_list li .type.orange{
+	background-color: #ff9000;
+}
+.evaluating_list li .type.green{
+	background-color: #58a200;
+}
+.evaluating_list li .type.blue{
+	background-color: #4190cd;
+}
+.evaluating_list li p.intro{
+	font-size: 14px;
+	padding-top: 0;
+}
+.evaluating_list li p.intro span{
+	color: #33a1db;
+}
+/*video*/
+.evaluating_list li a.a_img .player{
+	width: 100%; 
+	height: 171px;
+	background: url(/statics/v4/tw_mofang/img/v3/icon_player.png) center center no-repeat;
+	background-color:#fff;
+	background-color: rgba(255,255,255,.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

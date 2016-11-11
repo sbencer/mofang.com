@@ -1,0 +1,64 @@
+/*widget_index_part3*/
+.index-atlas{
+	margin-top: 15px;
+	overflow: hidden;
+	border: 1px solid #c1c1c1;
+	background-color: #fff;
+}
+.atlas-list-wrap{
+	padding: 22px 23px 26px 21px;
+}
+.atlas-list{
+	width: 573px;
+}
+.atlas-list ul{
+	width: 182px;
+}
+.atlas-list .atlas-list-left,.atlas-list .atlas-list-center{
+	margin-right: 12px;
+}
+.atlas-list ul li{
+	position: relative;
+	float: left;
+	margin-bottom: 12px;
+	overflow: hidden;
+}
+.atlas-list ul .altas-list-mini{
+	width: 89px;
+	height: 101px;
+}
+.atlas-list ul .altas-list-medium{
+	width: 183px;
+	height: 101px;
+}
+.atlas-list ul .altas-list-max{
+	width: 183px;
+	height: 179px;
+}
+.atlas-list ul .altas-list-special{
+	margin-right: 3px;
+}
+.atlas-list ul li .img-width{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	left: 0px;
+	top: 50%;
+	-webkit-transform: translate(0,-50%);
+	-moz-transform: translate(0,-50%);
+	-ms-transform: translate(0,-50%);
+	-o-transform: translate(0,-50%);
+	transform: translate(0,-50%);
+}
+.atlas-list ul li .img-height{
+	position: absolute;
+	height: 100%;
+	width: auto;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translate(-50%,0);
+	-moz-transform: translate(-50%,0);
+	-ms-transform: translate(-50%,0);
+	-o-transform: translate(-50%,0);
+	transform: translate(-50%,0);
+}

@@ -1,0 +1,46 @@
+.last-video-li{
+	width:290px;
+	margin-bottom: 10px;
+}
+.last-video-li a.last-video-top{
+	width:290px;
+	height:160px;
+}
+.last-video-li a.last-video-top img{
+	width:290px;
+	height:160px;
+	display: block;
+}
+.last-video-li p{
+	width:249px;
+	height:39px;
+	border: 1px solid #E1E1E1;
+	border-top: 0;
+	padding-left: 39px;
+	background-size: 29px;
+	background-image: url(/statics/v4/tw_mofang/img/video.png) ;
+	background-position:3px center;
+	background-repeat:  no-repeat;
+	background-color:  #F7F7F7;
+}
+.last-video-li p a{
+	background: #fff;
+	height:35px;
+	width:100%;
+	line-height: 18px;
+	color:#666;
+	font-size: 14px;
+	min-height: 35px;
+	display: block;
+	width:240px;
+	padding:2px 0 2px 9px;
+	overflow: hidden;
+	font-weight: bold;
+}
+.last-video-li p a:hover{
+	text-decoration: none;
+	color:#666;
+}
+.last-video-wrap{
+	padding-bottom: 10px;
+}

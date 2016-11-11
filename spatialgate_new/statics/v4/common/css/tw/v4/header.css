@@ -1,0 +1,225 @@
+/** header **/
+html,body{
+	height: 100%;
+}
+.page{
+	min-width: 1200px;
+    position: relative;
+    min-height: 100%;
+    background-color: #f4f4f4;
+}
+.w1200{
+	width: 1200px;
+	margin:auto;
+}
+.hw-mf-logo .logo{
+	margin-top: 23px;
+	position: relative;
+}
+.hw-mf-logo .logo img{
+	position: relative;
+	width: 180px;
+	height: 59px;
+	display: block;
+	margin-right: 36px;
+}
+.hw-mf-logo .logo:after{
+	position: absolute;
+	content: "";
+	height: 59px;
+	width: 1px;
+	right: 15px;
+	top: 0px;
+	background: #bfbebe;
+}
+.hw-mf-logo .slogan{
+	width: 278px;
+	height: 90px;
+	margin-top: 6px;
+}
+.hw-header{
+	font-family: "微軟正黑體"!important;
+	background-color: #fff;
+}
+.hw-mf-logo{
+	margin-right: 46px;
+}
+.hw-search{
+	/*padding-top:32px;*/
+	padding-top: 5px;
+}
+.nav-lanmu{
+	padding-top: 21px;
+	font-size: 0;
+}
+.nav-lanmu a{
+	display: inline-block;
+	margin: 0 23px 0 22px;
+	color:#212121;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+.nav-lanmu a img{
+	display: block;
+	width:36px;
+	height:36px;
+	margin-bottom: 5px;
+}
+.nav-lanmu a:hover{
+	text-decoration: none;
+	color:#f3981e;
+}
+.login-comm{
+	width:24px;
+	height: 24px;
+	margin-top: 4px;
+	display: inline-block;
+}
+.hw-login-no a{
+	width:45px;
+	font-size: 14px;
+	color:#666;
+	font-weight: bold;
+	text-align:center;
+	padding-right:9px;
+}
+.login-comm img{
+	display: block;
+	width:23px;
+	height:23px;
+}
+.third-login-wrap{
+	padding-left:4px;
+	overflow: hidden;
+}
+.header-right{
+	padding-top: 11px;
+}
+.header-wrap{
+	border:0!important;
+	padding:0 10px!important;
+}
+.search-wrap{
+	font-size: 0;
+}
+.search-wrap input[type=text]{
+    height: 28px;
+    line-height: 38px;
+    padding: 5px 0 5px 8px;
+    width: 278px;
+    font-size: 14px;
+    color: #999;
+    vertical-align: middle;
+    border: none;
+}
+.hw-login-had a#logined{
+	max-width: 41px;
+	overflow: hidden;
+}
+.hw-login-had a{
+	display: inline-block;
+	_display:inline;
+	margin:0 5px;
+	height:30px;
+	line-height: 28px;
+	vertical-align: middle;
+}
+.logined{
+	color:#f3981e;
+	font-size: 14px;
+}
+.logined img{
+	display: block;
+	float:left;
+	width:24px;
+	height:24px;
+	margin-right: 8px;
+	border-radius: 50%;
+}
+.logout{
+	color:#666;
+	font-size: 14px;
+}
+.search-wrap form{
+	font-size: 0;
+    border: 1px solid #e3e3e3;
+}
+.search-wrap input[type=submit]{
+    background: url(/statics/v4/common/img/tw/v4/icon_search.png) center center no-repeat;
+    font-size: 0;
+    width: 46px;
+    height: 38px;
+    border: 0;
+    border-left: 1px solid #e3e3e3;
+    cursor: pointer;
+    vertical-align: middle;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+　　color:#999;
+	font-size: 14px;
+	font-family: "微軟正黑體";
+}
+.mf-global span{
+	color:#666;
+	font-size: 14px;
+	font-weight:bold;
+	padding-left: 22px;
+	margin-right: 7px;
+	background: url(/statics/v4/common/img/tw/v4/icon_language.png) left center no-repeat;
+}
+.mf-list{
+	margin-top: 3px;
+    float: right;
+    position: relative;
+    z-index: 999;
+    height: 23px;
+    margin-right: 41px;
+}
+.mf-list a{
+	display: block;
+	width:67px;
+	background-color: #e1e1e1;
+	line-height: 23px;
+	text-indent: 7px;
+	font-size: 12px;
+}
+.mf-list a.mf-tw{
+	background-repeat: no-repeat;
+	background-size: 7px 6px;
+	background-position: 57px 8px;
+	background-image: url(http://sts0.mofang.com/statics/v4/common/img/hw/v1/jiao_d_adcc5ec.png);
+}
+.hw-login-user{
+	margin-top: 3px;
+	line-height: 22px;
+}
+.mf-list-con{
+	display: none;
+}
+.mf-list a:hover{
+	background-color: #E1E1E1;
+}
+.mf-global{
+	position: relative;
+	line-height: 30px;
+	margin-left:10px;
+}
+.out-con{
+	padding-bottom: 131px;
+}

@@ -1,0 +1,53 @@
+#calendar {
+  padding: 0 0.74074rem;
+  background-color: #ebf8ff;
+  overflow: hidden; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#calendar td, #calendar th {
+  width: 2.46914rem;
+  height: 2.22222rem;
+  padding-right: 1.28395rem;
+  text-align: center;
+  vertical-align: middle;
+  color: #666;
+  font-size: 0.88889rem;
+  font-weight: normal; }
+
+#calendar th:nth-child(7n), #calendar td:nth-child(7n) {
+  padding-right: 0; }
+
+#calendar th {
+  border-bottom: 0.04938rem solid #6dc7f4;
+  height: 2.54321rem; }
+
+#calendar td {
+  cursor: pointer; }
+
+#calendar td span {
+  width: 1.7284rem;
+  height: 1.7284rem;
+  display: inline-block;
+  line-height: 1.7284rem;
+  vertical-align: middle;
+  overflow: hidden; }
+
+#calendar td.today span {
+  background-color: #81c3e4;
+  color: #fff;
+  border-radius: 100%; }
+
+.other-month {
+  background: #eee; }
+
+.calendar .list_title h2 {
+  background-position: 0 -10.19753rem; }
+
+.remind {
+  background: url(/statics/v4/tw_acg/wap/images/icon_remind.png) right 0.14815rem no-repeat;
+  background-size: 0.39506rem auto; }
+
+/*# sourceMappingURL=calendar.css.map */

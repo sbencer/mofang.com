@@ -1,0 +1,28 @@
+.hotsearch .list_title h2 {
+  background-position: 0 -13.5426rem; }
+
+.hotsearch {
+  position: relative;
+  overflow: hidden; }
+
+.logo {
+  background: url(/statics/v4/tw_acg/wap/images/icon.png) no-repeat; }
+
+.search_content ul {
+  margin: 0rem 0.74074rem;
+  font-size: 1.08642rem;
+  letter-spacing: 0.12346rem; }
+
+.search_content li {
+  border-bottom: 0.07407rem #e8e8e8 dashed;
+  height: 2.61728rem;
+  line-height: 2.61728rem; }
+
+.search_content li a {
+  background: url(/statics/v4/tw_acg/wap/images/orange_round_03.png) 4% 50% no-repeat;
+  padding-left: 2.69136rem;
+  background-size: 0.625rem 0.625rem; }
+
+/*# sourceMappingURL=hot_search.css.map */
+
+/*# sourceMappingURL=hot_search.css.map */

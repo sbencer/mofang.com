@@ -1,0 +1,330 @@
+{
+    "res": {
+        "detail.tpl": {
+            "uri": "templates/v4/tw_tyong/detail.tpl",
+            "type": "tpl"
+        },
+        "index.tpl": {
+            "uri": "templates/v4/tw_tyong/index.tpl",
+            "type": "tpl"
+        },
+        "list.tpl": {
+            "uri": "templates/v4/tw_tyong/list.tpl",
+            "type": "tpl"
+        },
+        "list_cardl.tpl": {
+            "uri": "templates/v4/tw_tyong/list_cardl.tpl",
+            "type": "tpl"
+        },
+        "list_cardp.tpl": {
+            "uri": "templates/v4/tw_tyong/list_cardp.tpl",
+            "type": "tpl"
+        },
+        "list_video.tpl": {
+            "uri": "templates/v4/tw_tyong/list_video.tpl",
+            "type": "tpl"
+        },
+        "search.tpl": {
+            "uri": "templates/v4/tw_tyong/search.tpl",
+            "type": "tpl"
+        },
+        "show_card.tpl": {
+            "uri": "templates/v4/tw_tyong/show_card.tpl",
+            "type": "tpl"
+        },
+        "show_video.tpl": {
+            "uri": "templates/v4/tw_tyong/show_video.tpl",
+            "type": "tpl"
+        },
+        "ty_base.tpl": {
+            "uri": "templates/v4/tw_tyong/ty_base.tpl",
+            "type": "tpl"
+        },
+        "ty_base_none.tpl": {
+            "uri": "templates/v4/tw_tyong/ty_base_none.tpl",
+            "type": "tpl"
+        },
+        "statics/css/active_con.css": {
+            "uri": "/statics/v4/tw_tyong/css/active_con.css",
+            "type": "css"
+        },
+        "statics/css/active_time.css": {
+            "uri": "/statics/v4/tw_tyong/css/active_time.css",
+            "type": "css"
+        },
+        "statics/css/article_new.css": {
+            "uri": "/statics/v4/tw_tyong/css/article_new.css",
+            "type": "css"
+        },
+        "statics/css/bg_color/bg_blue.css": {
+            "uri": "/statics/v4/tw_tyong/css/bg_color/bg_blue.css",
+            "type": "css"
+        },
+        "statics/css/bg_color/bg_brown.css": {
+            "uri": "/statics/v4/tw_tyong/css/bg_color/bg_brown.css",
+            "type": "css"
+        },
+        "statics/css/bg_color/bg_green.css": {
+            "uri": "/statics/v4/tw_tyong/css/bg_color/bg_green.css",
+            "type": "css"
+        },
+        "statics/css/bg_color/bg_peach.css": {
+            "uri": "/statics/v4/tw_tyong/css/bg_color/bg_peach.css",
+            "type": "css"
+        },
+        "statics/css/bg_color/bg_purple.css": {
+            "uri": "/statics/v4/tw_tyong/css/bg_color/bg_purple.css",
+            "type": "css"
+        },
+        "statics/css/bg_color/bg_red.css": {
+            "uri": "/statics/v4/tw_tyong/css/bg_color/bg_red.css",
+            "type": "css"
+        },
+        "statics/css/card_attr.css": {
+            "uri": "/statics/v4/tw_tyong/css/card_attr.css",
+            "type": "css"
+        },
+        "statics/css/card_detail.css": {
+            "uri": "/statics/v4/tw_tyong/css/card_detail.css",
+            "type": "css"
+        },
+        "statics/css/carouse.css": {
+            "uri": "/statics/v4/tw_tyong/css/carouse.css",
+            "type": "css"
+        },
+        "statics/css/common/bread.css": {
+            "uri": "/statics/v4/tw_tyong/css/common/bread.css",
+            "type": "css"
+        },
+        "statics/css/common/con_left.css": {
+            "uri": "/statics/v4/tw_tyong/css/common/con_left.css",
+            "type": "css"
+        },
+        "statics/css/common/footer.css": {
+            "uri": "/statics/v4/tw_tyong/css/common/footer.css",
+            "type": "css"
+        },
+        "statics/css/common/header.css": {
+            "uri": "/statics/v4/tw_tyong/css/common/header.css",
+            "type": "css"
+        },
+        "statics/css/con_right.css": {
+            "uri": "/statics/v4/tw_tyong/css/con_right.css",
+            "type": "css"
+        },
+        "statics/css/detail_con.css": {
+            "uri": "/statics/v4/tw_tyong/css/detail_con.css",
+            "type": "css"
+        },
+        "statics/css/floatLayer.css": {
+            "uri": "/statics/v4/tw_tyong/css/floatLayer.css",
+            "type": "css"
+        },
+        "statics/css/footer.css": {
+            "uri": "/statics/v4/tw_tyong/css/footer.css",
+            "type": "css"
+        },
+        "statics/css/game_load.css": {
+            "uri": "/statics/v4/tw_tyong/css/game_load.css",
+            "type": "css"
+        },
+        "statics/css/index.css": {
+            "uri": "/statics/v4/tw_tyong/css/index.css",
+            "type": "css"
+        },
+        "statics/css/search.css": {
+            "uri": "/statics/v4/tw_tyong/css/search.css",
+            "type": "css"
+        },
+        "statics/css/slider.css": {
+            "uri": "/statics/v4/tw_tyong/css/slider.css",
+            "type": "css"
+        },
+        "statics/css/video_zhuan.css": {
+            "uri": "/statics/v4/tw_tyong/css/video_zhuan.css",
+            "type": "css"
+        },
+        "statics/css/zq_video.css": {
+            "uri": "/statics/v4/tw_tyong/css/zq_video.css",
+            "type": "css"
+        },
+        "statics/js/card.js": {
+            "uri": "/statics/v4/tw_tyong/js/card.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/common.js": {
+            "uri": "/statics/v4/tw_tyong/js/common.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/filter.js": {
+            "uri": "/statics/v4/tw_tyong/js/filter.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/floatLayer.js": {
+            "uri": "/statics/v4/tw_tyong/js/floatLayer.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/index.js": {
+            "uri": "/statics/v4/tw_tyong/js/index.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/tabs",
+                "jquery/bxslider",
+                "jquery/nicescroll"
+            ]
+        },
+        "statics/js/lazyBg.js": {
+            "uri": "/statics/v4/tw_tyong/js/lazyBg.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "statics/js/marquee.js": {
+            "uri": "/statics/v4/tw_tyong/js/marquee.js",
+            "type": "js"
+        },
+        "statics/js/slider.js": {
+            "uri": "/statics/v4/tw_tyong/js/slider.js",
+            "type": "js",
+            "deps": [
+                "jquery",
+                "jquery/flexslider"
+            ]
+        },
+        "widget/active_time.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/active_time.tpl",
+            "type": "tpl"
+        },
+        "widget/article_bbs.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/article_bbs.tpl",
+            "type": "tpl"
+        },
+        "widget/article_new.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/article_new.tpl",
+            "type": "tpl"
+        },
+        "widget/card/card_detail.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/card/card_detail.tpl",
+            "type": "tpl"
+        },
+        "widget/card/card_filter_form.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/card/card_filter_form.tpl",
+            "type": "tpl"
+        },
+        "widget/card/card_index.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/card/card_index.tpl",
+            "type": "tpl"
+        },
+        "widget/card/card_list.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/card/card_list.tpl",
+            "type": "tpl"
+        },
+        "widget/carouse.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/carouse.tpl",
+            "type": "tpl"
+        },
+        "widget/common/bread.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/common/bread.tpl",
+            "type": "tpl"
+        },
+        "widget/common/footer.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/common/footer.tpl",
+            "type": "tpl"
+        },
+        "widget/common/game_load.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/common/game_load.tpl",
+            "type": "tpl"
+        },
+        "widget/common/header.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/common/header.tpl",
+            "type": "tpl"
+        },
+        "widget/common/wiki.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/common/wiki.tpl",
+            "type": "tpl"
+        },
+        "widget/con_right.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/con_right.tpl",
+            "type": "tpl"
+        },
+        "widget/con_right_detail.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/con_right_detail.tpl",
+            "type": "tpl"
+        },
+        "widget/con_right_list.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/con_right_list.tpl",
+            "type": "tpl"
+        },
+        "widget/con_right_search.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/con_right_search.tpl",
+            "type": "tpl"
+        },
+        "widget/custom_new.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/custom_new.tpl",
+            "type": "tpl"
+        },
+        "widget/detail_con.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/detail_con.tpl",
+            "type": "tpl"
+        },
+        "widget/floatLayer.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/floatLayer.tpl",
+            "type": "tpl"
+        },
+        "widget/game_list.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/game_list.tpl",
+            "type": "tpl"
+        },
+        "widget/header.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/header.tpl",
+            "type": "tpl"
+        },
+        "widget/list.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/list.tpl",
+            "type": "tpl"
+        },
+        "widget/search.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/search.tpl",
+            "type": "tpl"
+        },
+        "widget/video/live.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/video/live.tpl",
+            "type": "tpl"
+        },
+        "widget/video/slider.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/video/slider.tpl",
+            "type": "tpl"
+        },
+        "widget/video/video_column3.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/video/video_column3.tpl",
+            "type": "tpl"
+        },
+        "widget/video/video_column32.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/video/video_column32.tpl",
+            "type": "tpl"
+        },
+        "widget/video/video_column3_big.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/video/video_column3_big.tpl",
+            "type": "tpl"
+        },
+        "widget/video/video_column4.tpl": {
+            "uri": "templates/v4/tw_tyong/widget/video/video_column4.tpl",
+            "type": "tpl"
+        }
+    },
+    "pkg": {}
+}

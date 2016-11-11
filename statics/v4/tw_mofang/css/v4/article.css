@@ -1,0 +1,178 @@
+.arc-wrap{
+
+}
+
+.arc-crumbs{
+	padding: 0 19px;
+	font-size: 20px;
+	color: #656565;
+	height: 48px;
+	line-height: 48px;
+}
+.arc-crumbs a{
+	font-size: 16px;
+	margin: 0 3px;
+}
+.arc-con{
+	padding-bottom: 140px;
+}
+.arc-info-extend{
+	width: 800px;
+}
+.arc-info{
+	padding: 20px;
+}
+.arc-info dl{
+	border-bottom: 1px solid #c1c1c1;
+}
+.arc-info dt{
+	width: 100%;
+	font-size: 20px;
+	line-height: 30px;
+	color: #0d234c;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.arc-info dd{
+	margin-bottom: 15px;
+	color: #757575;
+	font-size: 14px;
+}
+.arc-info .arc-link{
+	color: #30a4dc;
+	margin-right: 12px;
+}
+.arc-info .arc-link:hover{
+	color: #ffa203;
+}
+.arc-keywords{
+	font-size: 14px;
+	height: 45px;
+	line-height: 45px;
+}
+.arc-info-detail{
+	padding: 0 37px;
+}
+.arc-info-detail .arc-detail-zan{
+	display: block;
+	width: 450px;
+    height: 20px;
+    margin: 20px 0;
+    font-size: 12px;
+    color: #000;
+}
+.arc-info-detail .arc-detail-words{
+	line-height: 26px;
+	color: #464646;
+	font-size: 18px;
+}
+.arc-detail-words p{
+	text-indent: 2rem;
+	margin-bottom: 20px;
+}
+.arc-detail-words p img{
+	display: block;
+	margin: 10px auto;
+
+}
+.arc-detail-words strong{
+	font-weight: normal;
+	padding-left: 16px;
+	display: block;
+	text-align: center;
+}
+.arc-detail-words strong i{
+	display: inline-block;
+	width: 13px;
+	height: 12px;
+	margin-right: 3px;
+	background: url(/statics/v4/tw_mofang/img/v4/arc_detail_title.png) left center no-repeat;
+}
+.arc-detail-words h2{
+	color: #1b3d7b;
+	margin-bottom: 5px;
+}
+.arc-arc-extend{
+
+}
+.arc-arc-extend .arc-extend-wrap{
+	padding: 15px;
+	overflow: hidden;
+}
+.arc-extend-wrap .arc-extend-article{
+	margin: 0 -20px 20px 0;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #ddd;
+}
+.arc-extend-wrap .arc-extend-article li{
+	float: left;
+	width: 183px;
+	font-size: 14px;
+	color: #464646;
+	margin-right: 12px;
+}
+.arc-extend-article li img{
+	width: 181px;
+	height: 125px;
+	border: 1px solid #c1c1c1;
+	margin-bottom: 5px;
+}
+.arc-extend-article li p{
+	line-height: 17px;
+}
+.arc-extend-wrap .arc-extend-other{
+	font-size: 14px;
+	line-height: 20px;
+}
+.arc-extend-wrap .arc-extend-other li{
+	padding-left: 18px;
+	background: url(/statics/v4/tw_mofang/img/v4/arcticle_list_icon.png) 2px center no-repeat;
+}
+.arc-extend-wrap .arc-extend-other a{
+	color: #379fe8;
+}
+.author-extend-wrap{
+	padding: 25px;
+}
+.arc-author-extend dl dt{
+	float: left;
+	width: 86px;
+	height: 86px;
+	overflow: hidden;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+.arc-author-extend dl dt img{
+	width: 86px;
+	height: 86px;
+}
+.arc-author-extend dl dd{
+	float: left;
+	margin-left: 26px;
+	font-size: 14px;
+}
+.arc-author-extend .author-extend-title{
+	display: block;
+	font-size: 16px;
+	color: #464646;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+.arc-author-extend dl .author-extend-desc{
+	width: 240px;
+}
+.arc-author-extend dl .author-extend-more{
+	width: 368px;
+}
+.author-extend-more li{
+	line-height: 24px;
+}
+.arc-comment{
+	padding: 22px;
+}
+.arc-related{
+	width: 388px;
+}

@@ -1,0 +1,177 @@
+{
+    "res": {
+        "360.tpl": {
+            "uri": "templates/v4/tyong/360.tpl",
+            "type": "tpl"
+        },
+        "base.tpl": {
+            "uri": "templates/v4/tyong/base.tpl",
+            "type": "tpl"
+        },
+        "content.tpl": {
+            "uri": "templates/v4/tyong/content.tpl",
+            "type": "tpl"
+        },
+        "index.tpl": {
+            "uri": "templates/v4/tyong/index.tpl",
+            "type": "tpl"
+        },
+        "kapai.tpl": {
+            "uri": "templates/v4/tyong/kapai.tpl",
+            "type": "tpl"
+        },
+        "kapai_cont.tpl": {
+            "uri": "templates/v4/tyong/kapai_cont.tpl",
+            "type": "tpl"
+        },
+        "list.tpl": {
+            "uri": "templates/v4/tyong/list.tpl",
+            "type": "tpl"
+        },
+        "neiqian.tpl": {
+            "uri": "templates/v4/tyong/neiqian.tpl",
+            "type": "tpl"
+        },
+        "search.tpl": {
+            "uri": "templates/v4/tyong/search.tpl",
+            "type": "tpl"
+        },
+        "statics/css/darkblue/common.css": {
+            "uri": "/statics/v4/tyong/css/darkblue/common.css",
+            "type": "css"
+        },
+        "statics/css/darkblue/model.css": {
+            "uri": "/statics/v4/tyong/css/darkblue/model.css",
+            "type": "css"
+        },
+        "statics/css/darkblue/ref_sidebar.css": {
+            "uri": "/statics/v4/tyong/css/darkblue/ref_sidebar.css",
+            "type": "css"
+        },
+        "statics/css/darkblue123/model.css": {
+            "uri": "/statics/v4/tyong/css/darkblue123/model.css",
+            "type": "css"
+        },
+        "statics/css/index.css": {
+            "uri": "/statics/v4/tyong/css/index.css",
+            "type": "css"
+        },
+        "statics/css/kapai.css": {
+            "uri": "/statics/v4/tyong/css/kapai.css",
+            "type": "css"
+        },
+        "statics/css/relaxed.css": {
+            "uri": "/statics/v4/tyong/css/relaxed.css",
+            "type": "css"
+        },
+        "statics/css/whiteblue/common.css": {
+            "uri": "/statics/v4/tyong/css/whiteblue/common.css",
+            "type": "css"
+        },
+        "statics/css/whiteblue/model.css": {
+            "uri": "/statics/v4/tyong/css/whiteblue/model.css",
+            "type": "css"
+        },
+        "statics/css/whiteblue/ref_sidebar.css": {
+            "uri": "/statics/v4/tyong/css/whiteblue/ref_sidebar.css",
+            "type": "css"
+        },
+        "statics/css/whiteblue123/model.css": {
+            "uri": "/statics/v4/tyong/css/whiteblue123/model.css",
+            "type": "css"
+        },
+        "statics/css/whitegreen/common.css": {
+            "uri": "/statics/v4/tyong/css/whitegreen/common.css",
+            "type": "css"
+        },
+        "statics/css/whitegreen/model.css": {
+            "uri": "/statics/v4/tyong/css/whitegreen/model.css",
+            "type": "css"
+        },
+        "statics/css/whitegreen/ref_sidebar.css": {
+            "uri": "/statics/v4/tyong/css/whitegreen/ref_sidebar.css",
+            "type": "css"
+        },
+        "statics/css/whitegreen123/model.css": {
+            "uri": "/statics/v4/tyong/css/whitegreen123/model.css",
+            "type": "css"
+        },
+        "statics/js/content.js": {
+            "uri": "/statics/v4/tyong/js/content.js",
+            "type": "js"
+        },
+        "statics/js/index.js": {
+            "uri": "/statics/v4/tyong/js/index.js",
+            "type": "js"
+        },
+        "statics/js/list.js": {
+            "uri": "/statics/v4/tyong/js/list.js",
+            "type": "js"
+        },
+        "statics/js/search.js": {
+            "uri": "/statics/v4/tyong/js/search.js",
+            "type": "js"
+        },
+        "statics/js/tyong.js": {
+            "uri": "/statics/v4/tyong/js/tyong.js",
+            "type": "js"
+        },
+        "widget/bdown.tpl": {
+            "uri": "templates/v4/tyong/widget/bdown.tpl",
+            "type": "tpl"
+        },
+        "widget/hot_news.tpl": {
+            "uri": "templates/v4/tyong/widget/hot_news.tpl",
+            "type": "tpl"
+        },
+        "widget/hot_pic.tpl": {
+            "uri": "templates/v4/tyong/widget/hot_pic.tpl",
+            "type": "tpl"
+        },
+        "widget/hot_video.tpl": {
+            "uri": "templates/v4/tyong/widget/hot_video.tpl",
+            "type": "tpl"
+        },
+        "widget/ldown.tpl": {
+            "uri": "templates/v4/tyong/widget/ldown.tpl",
+            "type": "tpl"
+        },
+        "widget/lunbo.tpl": {
+            "uri": "templates/v4/tyong/widget/lunbo.tpl",
+            "type": "tpl"
+        },
+        "widget/newgls_guide.tpl": {
+            "uri": "templates/v4/tyong/widget/newgls_guide.tpl",
+            "type": "tpl"
+        },
+        "widget/news.tpl": {
+            "uri": "templates/v4/tyong/widget/news.tpl",
+            "type": "tpl"
+        },
+        "widget/pvp.tpl": {
+            "uri": "templates/v4/tyong/widget/pvp.tpl",
+            "type": "tpl"
+        },
+        "widget/relaxed.tpl": {
+            "uri": "templates/v4/tyong/widget/relaxed.tpl",
+            "type": "tpl"
+        },
+        "widget/team.tpl": {
+            "uri": "templates/v4/tyong/widget/team.tpl",
+            "type": "tpl"
+        },
+        "widget/tuji.tpl": {
+            "uri": "templates/v4/tyong/widget/tuji.tpl",
+            "type": "tpl"
+        },
+        "widget/tujian_topic.tpl": {
+            "uri": "templates/v4/tyong/widget/tujian_topic.tpl",
+            "type": "tpl"
+        },
+        "widget/video.tpl": {
+            "uri": "templates/v4/tyong/widget/video.tpl",
+            "type": "tpl"
+        }
+    },
+    "pkg": {}
+}

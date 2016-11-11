@@ -1,0 +1,280 @@
+/* hot game */
+.hot-game-top span{
+	height:42px;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	line-height: 42px;
+	margin-bottom: 10px;
+	cursor: hand;
+	font-weight: bold;
+	cursor: pointer;
+	background: #E8E8E8;
+	color:#666;
+	font-size: 16px;
+	border-left: 6px solid #EC9820;
+	width:94px;
+}
+.hot-game-top span.curr{
+	width:100px;
+	border-left: none;
+	background: #EC9820;
+	color:#fff;
+}
+.hot-game-top{
+	padding-right: 5px;
+}
+.game-class-right a{
+	display: block;
+	width:72px;
+	overflow: hidden;
+	margin:0 13px 0 12px;
+}
+.hot-game-wrap{
+	padding-bottom: 10px;
+}
+.game-class-right a img{
+	width:72px;
+	height:72px;
+	display: block;
+	border-radius: 10px;
+	margin-bottom: 7px;
+}
+.game-class-right a span{
+	display: block;
+	width:100%;
+	overflow: hidden;
+	font-size: 14px;
+	height: 20px;
+	text-align: center;
+}
+.game-recommend-title{
+	background: #49A1DA;
+	color:#fff;
+	font-size: 18px;
+	text-align: center;
+	width:160px;
+	padding-top: 70px;
+	height: 93px;
+	content: '\e80d';
+}
+.game-recommend-title span{
+	font-size: 18px;
+	color:#fff;
+	display: block;
+}
+.game-recommend-title a{
+	color:#fff;
+	font-size: 12px;
+	margin-left: -29px;
+}
+.game-recommend-title a em{
+	font-style: normal;
+	font-family: "SimSun";
+}
+.w480{
+	width:480px;
+}
+.w480 img{
+	width:480px;
+	display: block;
+}
+.w480 a{
+	width:480px;
+}
+.game-recommend ul{
+    margin:0 -5px;
+}
+.w480 .mask-bd{
+    width:470px;
+}
+.w320 .mask-bd{
+    width:310px;
+}
+.age-tag{
+    display:block;
+    width:27px;
+    height:29px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.age0{
+    background:url(/statics/v4/tw_mofang/img/0_b.jpg) left top no-repeat;
+}
+.age12{
+    background:url(/statics/v4/tw_mofang/img/12_b.jpg) left top no-repeat;
+}
+.age6{
+    background:url(/statics/v4/tw_mofang/img/6_b.jpg) left top no-repeat;
+}
+.age15{
+    background:url(/statics/v4/tw_mofang/img/15_b.jpg) left top no-repeat;
+}
+.age18{
+    background:url(/statics/v4/tw_mofang/img/18_b.jpg) left top no-repeat;
+}
+.game-recommend .mask-bd{
+    display:block;
+    position:absolute;
+    overflow:hidden;
+    padding:0 5px;
+    left:0;
+    bottom:0;
+    height:40px;
+    padding-top:40px;
+    color:#e7e7e7;;
+    font-size:14px;
+    line-height:40px;
+    background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgba(0,0,0,.95)));
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.95) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+.game-recommend li{
+    float:left;
+    margin:0 5px 10px;
+}
+.game-recommend-li a{
+	height:163px;
+	display: block;
+	position: relative;
+}
+.purple a:hover .mask-bd{
+	width:483px;
+	height:157px;
+	display: block;
+	border: 3px solid #5834aa;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 9;
+}
+.red a:hover .mask-bd{
+	width:483px;
+	height:157px;
+	display: block;
+	border: 3px solid #d72b58;
+	position: absolute;
+	left:0;
+	top:0;
+	height:157px;
+	width:321px;
+	z-index: 9;
+}
+.yellow a:hover .mask-bd{
+	width:483px;
+	height:157px;
+	display: block;
+	border: 3px solid #ffba00;
+	position: absolute;
+	left:0;
+	top:0;
+	height:157px;
+	width:322px;
+	z-index: 9;
+}
+.blue a:hover .mask-bd{
+	display: block;
+	border: 3px solid #318ED6;
+	position: absolute;
+	left:0;
+	top:0;
+	height:157px;
+	width:320px;
+	z-index: 9;
+}
+.orange a:hover .mask-bd{
+	display: block;
+	border: 3px solid #ef781e;
+	position: absolute;
+	left:0;
+	top:0;
+	height:157px;
+	width:320px;
+	z-index: 9;
+}
+.game-recommend-li a .game-recom-wd{
+	position: absolute;
+}
+.game-recommend-li a img{
+	height:163px;
+}
+.game-recommend-li .game-recom-wd{
+	position: absolute;
+	width: 143px;
+	height:98px;
+	padding: 65px 10px 0;
+	top:0;
+	right:0;
+}
+.game-recommend ul{
+	font-size: 0;
+}
+.game-recommend .purple .game-recom-wd{
+	background: url(/statics/v4/tw_mofang/img/purple.png) left top no-repeat;
+}
+.game-recom-wd h5{
+	font-size: 16px;
+	color:#fff;
+	margin-bottom: 4px;
+}
+.game-recom-wd span{
+	font-size: 12px;
+	color: #FFF;
+	display: block;
+	max-height: 51px;
+	overflow: hidden;
+}
+.w320 a {
+	width:320px;
+	display: block;
+}
+.w320 a img{
+	width:320px;
+}
+.w320  a img{
+	width:320px;
+}
+.w320 a {
+	width:320px;
+	display: block;
+}
+.red .game-recom-wd{
+	background: url(/statics/v4/tw_mofang/img/red.png) left top no-repeat;
+}
+.blue .game-recom-wd{
+	left:0;
+	background: url(/statics/v4/tw_mofang/img/blue.png) left top no-repeat;
+}
+.orange .game-recom-wd{
+	left:0;
+	background: url(/statics/v4/tw_mofang/img/orange.png) left top no-repeat;
+}
+.yellow .game-recom-wd{
+	left:0;
+	background: url(/statics/v4/tw_mofang/img/yellow.png) left top no-repeat;
+}
+.game-recommend .yellow a:hover .game-recom-wd{
+	left:0;
+	background: url(/statics/v4/tw_mofang/img/yellow_h.png) left top no-repeat;
+}
+.game-recommend .orange a:hover .game-recom-wd{
+	left:0;
+	background: url(/statics/v4/tw_mofang/img/orange_h.png) left top no-repeat;
+}
+.game-recommend .blue a:hover .game-recom-wd{
+	left:0;
+	background: url(/statics/v4/tw_mofang/img/blue_h.png) left top no-repeat;
+}
+.game-recommend .red a:hover .game-recom-wd{
+	right:0;
+	background: url(/statics/v4/tw_mofang/img/red_h.png) left top no-repeat;
+}
+.game-recommend .purple a:hover .game-recom-wd{
+	right:0;
+	background: url(/statics/v4/tw_mofang/img/purple_h.png) left top no-repeat;
+}

@@ -1,0 +1,78 @@
+.recom_con{
+	background-color: #f6f6f6;
+	padding:0 10px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.title_text{
+	line-height: 36px;
+	overflow: hidden;
+}
+.title_text h3{
+	padding-left: 32px;
+	background:url(/statics/v4/tw_acg/img/icon_sort.png) left 8px no-repeat;
+}
+.title_text h3.icon_novel{
+	background-position:left -27px;
+}
+.title_text h3.icon_cartoon{
+	background-position:left -65px;
+}
+.title_text h3.icon_game{
+	background-position:left -103px;
+}
+.title_text h3.icon_mmd{
+	background-position:left -144px;
+}
+.title_text a.fr{
+	color: #999;
+}
+.recom_list{
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 3px;
+}
+.recom_list:last-child{
+	padding-bottom: 11px;
+	border:none;
+}
+.recom_list ul{
+	margin-right: -10px;
+}
+.recom_list ul li{
+	width: 169px;
+	height: 131px;
+	background-color: #fff;
+	float: left;
+	margin-right: 10px;
+	display: inline-block;
+	overflow: hidden;
+}
+.recom_list ul li img{
+	width: 169px;
+	height: 95px;
+	overflow: hidden;
+	display: block;
+}
+.recom_list ul li a span{
+	display: block;
+	line-height: 16px;
+	padding:2px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
